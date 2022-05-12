@@ -28,8 +28,12 @@ const Header = () => {
             window.removeEventListener('scroll', stickyHeader);
           }
         }, [ ])
+        let position =getStickyHeader?"fixed":"absolute" ;
+        if (navOpen ){
+          position="fixed";
+        }
   return (
-    <header style={{position:getStickyHeader?"fixed":"absolute" }}  className={( getStickyHeader?" header_sticky ":'' ) +( navOpen?"header_open":"")}  >
+    <header style={{position:position }}  className={( getStickyHeader?" header_sticky ":'' ) +( navOpen?"header_open":"")}  >
       <div class="wrapper">
         <div class="header_flex">
           <a href="/" class="header_logo">
@@ -83,7 +87,8 @@ const Header = () => {
             </li>
           </ul>
           <a href="tel:+375293822550" class="header_phone">+375 29 382 25 50</a>
-          <div onClick={()=>  {setNavOpen(!navOpen)}}  class="header_burger">
+          <div onClick={()=>  {   
+            setNavOpen(!navOpen)}}  class="header_burger">
             <span></span>
             <span></span>
             <span></span>
