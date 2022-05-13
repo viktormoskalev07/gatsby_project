@@ -6,6 +6,7 @@ import Fancybox from "../../../components/fancybox.js";
 import { ImgComparisonSlider } from '@img-comparison-slider/react';
 import BreadcrumbsInterier from "../../../components/breadcrumbs-interier.js";
 import { AnchorLink } from "gatsby-plugin-anchor-links"
+import { YouTobe } from "../../../subitems/youToobe"
 
 const interierProtos = () => {
   return (
@@ -17,7 +18,12 @@ const interierProtos = () => {
             <h1 class="project_title">Дизайн интерьера офисов &laquo;Протос&raquo;, 200м<sup>2</sup></h1>
           </div>
           <div class="project_main_photo">
-            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/_FHzDPN9lU8?start=6" title="Дизайн интерьера офисов «Протос» (200м2)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <YouTobe
+              param={"start=6"}
+              title={"Дизайн интерьера офисов «Протос» (200м2)"}
+              embed={'_FHzDPN9lU8'}>
+              <StaticImage src={'../../../images/portfolio/protos_interior/07_protos_interior.jpg'}  />
+            </YouTobe>
           </div>
         </div>
         <div class="content_body">

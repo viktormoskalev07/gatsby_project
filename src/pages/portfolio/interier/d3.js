@@ -5,7 +5,8 @@ import Fancybox from "../../../components/fancybox.js";
 import { ImgComparisonSlider } from '@img-comparison-slider/react';
 import BreadcrumbsInterier from "../../../components/breadcrumbs-interier.js";
 import { AnchorLink } from "gatsby-plugin-anchor-links"
-
+import { YouTobe } from "../../../subitems/youToobe"
+import  thumbnail  from  "../../../images/portfolio/d3/01_d3.jpg"
 const d3 = () => {
   return (
     <Layout>
@@ -16,7 +17,14 @@ const d3 = () => {
             <h1 class="project_title">Дизайн квартиры в&nbsp;жилом комплексе &laquo;D3&raquo;, 120&nbsp;м<sup>2</sup></h1>
           </div>
           <div class="project_main_photo">
-            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/fv9YJ7cNTjI?start=6" title="Дизайн квартиры в ЖК D3 в Минске (120м2)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <YouTobe
+              param={"start=6"}
+              image={thumbnail}
+              title={"Дизайн квартиры в ЖК D3 в Минске (120м2)"}
+              embed={'fv9YJ7cNTjI'}>
+              <StaticImage src={'../../../images/portfolio/d3/01_d3.jpg'}  />
+            </YouTobe>
           </div>
         </div>
         <div class="content_body">

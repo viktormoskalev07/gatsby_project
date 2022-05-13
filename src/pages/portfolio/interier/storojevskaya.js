@@ -5,6 +5,7 @@ import Fancybox from "../../../components/fancybox.js";
 import { ImgComparisonSlider } from '@img-comparison-slider/react';
 import BreadcrumbsInterier from "../../../components/breadcrumbs-interier.js";
 import { AnchorLink } from "gatsby-plugin-anchor-links"
+import { YouTobe } from "../../../subitems/youToobe"
 
 const storojevskaya = () => {
   return (
@@ -16,7 +17,12 @@ const storojevskaya = () => {
             <h1 class="project_title">Дизайн интерьера квартиры на&nbsp;ул.Сторожовская, 130м<sup>2</sup></h1>
           </div>
           <div class="project_main_photo">
-            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/6GB79vo1bZA?start=8" title="Дизайн интерьера квартиры на ул.Сторожовская (130м2)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <YouTobe
+              param={   'start=8'   }
+              title={"Дизайн интерьера квартиры на ул.Сторожовская (130м2)"}
+              embed={'6GB79vo1bZA'}>
+              <StaticImage src={'../../../images/portfolio/storojevskaya/27_storojevskaya.jpg'}  />
+            </YouTobe>
           </div>
         </div>
         <div class="content_body">

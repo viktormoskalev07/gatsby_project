@@ -21,7 +21,9 @@ import advantage_5 from "../images/icons/advantage_5.svg"
 import advantage_5_mob from "../images/icons/advantage_5_mob.svg"
 import advantage_6 from "../images/icons/advantage_6.svg"
 import advantage_6_mob from "../images/icons/advantage_6_mob.svg"
-import { HeroSlider } from "../subitems/heroSlider"
+import { HeroSlider } from "../subitems/hompage/heroSlider"
+import { Faq } from "../subitems/faq"
+import { Advantages } from "../subitems/hompage/advantages"
 
 export default function Home() {
   return (
@@ -98,71 +100,7 @@ export default function Home() {
         </div> 
         <div class="wrapper">
           <div class="right_content">
-            <section class="advantage">
-              <h2 class="advantage_title" id="advantage_title">Наши преимущества</h2>
-              <div class="advantage_items">
-                <div class="advantage_item">
-                  <div class="advantage_item_images">
-                    <img src={advantage_1} alt="" class="advantage_item_images_desk" />
-                    <img src={advantage_1_mob} alt="" class="advantage_item_images_mob" />
-                  </div>
-                  <div class="advantage_item_text">
-                    <h3 class="advantage_item_title">Индивидуальный подход</h3>
-                    <p class="advantage_item_p">Всегда находим компромисс между вашими потребностями и&nbsp;нашими творческими амбициями. Умеем слушать, говорить и&nbsp;делать.</p>
-                  </div>
-                </div>
-                <div class="advantage_item">
-                  <div class="advantage_item_images">
-                    <img src={advantage_2} alt="" class="advantage_item_images_desk" />
-                    <img src={advantage_2_mob} alt="" class="advantage_item_images_mob" />
-                  </div>
-                  <div class="advantage_item_text">
-                    <h3 class="advantage_item_title">Реализованные проекты</h3>
-                    <p class="advantage_item_p">В&nbsp;нашем портфолио более 100 реализованных проектов, от&nbsp;интерьеров квартир и&nbsp;домов до&nbsp;архитектуры зданий и&nbsp;объектов реконструкции.</p>
-                  </div>
-                </div>
-              </div>
-              <button class="advantage_button">Показать все</button>
-              <div class="advantage_items advantage_items_mob">
-                <div class="advantage_item">
-                  <div class="advantage_item_images">
-                    <img src={advantage_3} alt="" class="advantage_item_images_desk" />
-                    <img src={advantage_3_mob} alt="" class="advantage_item_images_mob" />
-                  </div>
-                  <div class="advantage_item_text">
-                    <h3 class="advantage_item_title">15&nbsp;лет практики и&nbsp;опыта</h3>
-                    <p class="advantage_item_p">Мы&nbsp;не&nbsp;будем ставить эксперименты на&nbsp;ваших объектах и&nbsp;проверять как работает&nbsp;то, что в&nbsp;теории должно работать. Предложим вам такие решения, за&nbsp;которые не&nbsp;придется краснеть.</p>
-                  </div>
-                </div><div class="advantage_item">
-                  <div class="advantage_item_images">
-                    <img src={advantage_4} alt="" class="advantage_item_images_desk" />
-                    <img src={advantage_4_mob} alt="" class="advantage_item_images_mob" />
-                  </div>
-                  <div class="advantage_item_text">
-                    <h3 class="advantage_item_title">Удобная документация</h3>
-                    <p class="advantage_item_p">Наши чертежи&nbsp;— подробные и&nbsp;понятные. На&nbsp;них отображена вся информация, необходимая для строительства, эстетично и&nbsp;доходчиво.</p>
-                  </div>
-                </div><div class="advantage_item">
-                  <div class="advantage_item_images">
-                    <img src={advantage_5} alt="" class="advantage_item_images_desk" />
-                    <img src={advantage_5_mob} alt="" class="advantage_item_images_mob" />
-                  </div>
-                  <div class="advantage_item_text">
-                    <h3 class="advantage_item_title">Авторский надзор</h3>
-                    <p class="advantage_item_p">Позволяет реализовать все задуманное под нашим контролем качественно и&nbsp;в&nbsp;срок. Мы&nbsp;привыкли доводить свои проекты до&nbsp;конца.</p>
-                  </div>
-                </div><div class="advantage_item">
-                  <div class="advantage_item_images">
-                    <img src={advantage_6} alt="" class="advantage_item_images_desk" />
-                    <img src={advantage_6_mob} alt="" class="advantage_item_images_mob" />
-                  </div>
-                  <div class="advantage_item_text">
-                    <h3 class="advantage_item_title">Реалистичная визуализация</h3>
-                    <p class="advantage_item_p">Делаем фото-реалистичную 3D-визуализацию для каждого проекта. Даем возможность детально рассмотреть свой будущий дом или квартиру прежде, чем приступим к&nbsp;реализации.</p>
-                  </div>
-                </div>
-              </div>
-            </section>
+              <Advantages />
             <section>
               <h2 class="main_portfolio_title" id="portfolio_title">Новые работы</h2>
               <div class="content_text">
@@ -316,30 +254,8 @@ export default function Home() {
             <section>
               <div class="faq" id="faq_title">
                 <h3 class="faq_title">Вопрос / ответ</h3>
-                <div class="faq_item">
-                  <div class="faq_item_block">
-                    <h4>За&nbsp;что обычно вас ценят клиенты?</h4>
-                  </div>
-                  <div class="faq_item_block_hidden">
-                    <p>Нас ценят за&nbsp;комплексный подход. Мы&nbsp;коммуникабельны, умеем слушать и&nbsp;слышать клиента, при этом нам не&nbsp;надо объяснять что и&nbsp;как нужно делать&nbsp;&mdash; мы&nbsp;сами все расскажем и&nbsp;покажем. У&nbsp;нас никогда не&nbsp;бывает дефицита креативных идей для заказчика, и&nbsp;это будут такие идеи&nbsp;&mdash; которые мы&nbsp;точно сможем реализовать.</p>
-                  </div>
-                </div>
-                <div class="faq_item">
-                  <div class="faq_item_block">
-                    <h4>Сколько стоит сделать интерьер как на&nbsp;картинках?</h4>
-                  </div>
-                  <div class="faq_item_block_hidden">
-                    <p>Можно точно рассчитать стоимость проекта, строительных работ и&nbsp;черновых материалов. Дальше появляется вариативность, по&nbsp;аналогии с&nbsp;выбором авто: у&nbsp;всех автомобилей будет по&nbsp;одному двигателю и&nbsp;по&nbsp;четыре колеса, но&nbsp;ехать и&nbsp;выглядеть они будут по-разному. Так и&nbsp;с&nbsp;интерьерами. Скажем, плитка для отделки стен может стоить 15$ за&nbsp;м<sup>2</sup>, а&nbsp;может и&nbsp;150$, причем на&nbsp;картинках разница между ними не&nbsp;будет слишком разительной, но&nbsp;живьем&nbsp;&mdash; вы&nbsp;ее&nbsp;100% почувствуете. Подобная история будет повторяться по&nbsp;многим составным компонентам интерьера. Одни клиенты не&nbsp;готовы к&nbsp;компромиссам, и&nbsp;хотят получить лучший вариант из&nbsp;возможных, другие&nbsp;&mdash; придерживаются принципа разумной достаточности. Если правило &laquo;средней температуры по&nbsp;больнице&raquo; применить к&nbsp;интерьерам, то&nbsp;можно получить ориентировочную стоимость квадратного метра готового интерьера &laquo;как на&nbsp;картинках&raquo; в&nbsp;среднем: 1000$ за&nbsp;м<sup>2</sup>.</p>
-                  </div>
-                </div>
-                <div class="faq_item">
-                  <div class="faq_item_block">
-                    <h4>Занимаетесь&nbsp;ли вы&nbsp;продажей готовых проектов?</h4>
-                  </div>
-                  <div class="faq_item_block_hidden">
-                    <p>Нет. Мы&nbsp;занимаемся только индивидуальными проектами.</p>
-                  </div>
-                </div>
+
+              <Faq/>
               </div>
             </section>
           </div>

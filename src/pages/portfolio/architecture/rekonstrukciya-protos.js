@@ -6,6 +6,7 @@ import Fancybox from "../../../components/fancybox.js";
 import { ImgComparisonSlider } from '@img-comparison-slider/react';
 import BreadcrumbsArch from "../../../components/breadcrumbs-arch.js";
 import { AnchorLink } from "gatsby-plugin-anchor-links"
+import { YouTobe } from "../../../subitems/youToobe"
 
 const rekonstrukciyaProtos = () => {
   return (
@@ -25,6 +26,10 @@ const rekonstrukciyaProtos = () => {
                   </a>
                 </div> */}
           <div class="project_main_photo">
+            <YouTobe
+              image={"https://www.i-project.by/portfolio_newsite/korolya/01_korolya.webp"}
+              title={"Интерьер квартиры на ул.Короля в Минске"}
+              embed={'EcVhCUcLoV0'}/>
             <iframe width="100%" height="100%" src="https://www.youtube.com/embed/d4MFvx0II4s?start=7" title="Реконструкция офисного здания группы компаний «Протос» (200м2)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>

@@ -5,6 +5,8 @@ import { StaticImage } from "gatsby-plugin-image"
 import Fancybox from "../../../components/fancybox.js";
 import BreadcrumbsInterier from "../../../components/breadcrumbs-interier.js";
 import { AnchorLink } from "gatsby-plugin-anchor-links"
+import { YouTobe } from "../../../subitems/youToobe"
+
 
 const korolya = () => {
   return (
@@ -16,8 +18,13 @@ const korolya = () => {
             <h1 class="project_title">Интерьер квартиры на&nbsp;ул.Короля в&nbsp;Минске, 145&nbsp;м<sup>2</sup></h1>
           </div>
           <div class="project_main_photo">
-            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/EcVhCUcLoV0" title="Интерьер квартиры на ул.Короля в Минске" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
+            <YouTobe
+              param={   'start=1'   }
+              title={"Интерьер квартиры на ул.Короля в Минске"}
+              embed={'EcVhCUcLoV0'}>
+              <StaticImage src={'../../../images/portfolio/d3/00_kaskad.jpg'}  />
+            </YouTobe>
+           </div>
         </div>
         <div class="content_body">
           <div class="content_body_absolute">

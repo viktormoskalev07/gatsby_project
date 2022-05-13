@@ -4,6 +4,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import Fancybox from "../../../components/fancybox.js";
 import BreadcrumbsInterier from "../../../components/breadcrumbs-interier.js";
 import { AnchorLink } from "gatsby-plugin-anchor-links"
+import { YouTobe } from "../../../subitems/youToobe"
 
 const fine = () => {
   return (
@@ -15,7 +16,11 @@ const fine = () => {
             <h1 class="project_title">Хорошее настроение. Дизайн квартиры в&nbsp;Минске, 140м<sup>2</sup></h1>
           </div>
           <div class="project_main_photo">
-            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/TbQZLyJnJ34?start=3" title="Хорошее настроение. Дизайн квартиры в Минске (140м2)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <YouTobe
+              title={"Хорошее настроение. Дизайн квартиры в Минске (140м2)"}
+              embed={'TbQZLyJnJ34'}>
+              <StaticImage src={'../../../images/portfolio/fine/02_fine.jpg'}  />
+            </YouTobe>
           </div>
         </div>
         <div class="content_body">

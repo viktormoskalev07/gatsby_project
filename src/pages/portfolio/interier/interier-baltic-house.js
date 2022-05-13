@@ -6,6 +6,7 @@ import Fancybox from "../../../components/fancybox.js";
 import { ImgComparisonSlider } from '@img-comparison-slider/react';
 import BreadcrumbsInterier from "../../../components/breadcrumbs-interier.js";
 import { AnchorLink } from "gatsby-plugin-anchor-links"
+import { YouTobe } from "../../../subitems/youToobe"
 
 const interierBalticHouse = () => {
   return (
@@ -17,7 +18,12 @@ const interierBalticHouse = () => {
             <h1 class="project_title">Дом с&nbsp;балтийским характером. Интерьер, 500&nbsp;м<sup>2</sup></h1>
           </div>
           <div class="project_main_photo">
-            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/qT_tsEeFD-s?start=8" title="Дом с&nbsp;балтийским характером. Интерьер (500м2)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <YouTobe
+              param={"start=8"}
+              title={"Дом с&nbsp;балтийским характером. Интерьер (500м2)"}
+              embed={'qT_tsEeFD-s'}>
+              <StaticImage src={'../../../images/portfolio/baltic_house/interior/08_baltic_home_interior.jpg'}  />
+            </YouTobe>
           </div>
         </div>
         <div class="content_body">
