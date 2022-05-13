@@ -14,7 +14,7 @@ const HeaderBlack = () => {
                 return
             }
             const pageYOffset = window.pageYOffset; 
-            if (pscroll>pageYOffset||pageYOffset<100){
+            if (pscroll>pageYOffset&&pageYOffset>100){
               setStickyHeader(true)          
               document.body.classList.add('is_sticky')
             }else { 
@@ -29,7 +29,7 @@ const HeaderBlack = () => {
           }
         }, [ ])
 
-        let position =getStickyHeader?"fixed":"absolute" ;
+        let position =getStickyHeader?"sticky":"relative" ;
         if (navOpen ){
           position="fixed";
         }

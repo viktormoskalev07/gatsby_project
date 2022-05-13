@@ -21,6 +21,7 @@ import advantage_5 from "../images/icons/advantage_5.svg"
 import advantage_5_mob from "../images/icons/advantage_5_mob.svg"
 import advantage_6 from "../images/icons/advantage_6.svg"
 import advantage_6_mob from "../images/icons/advantage_6_mob.svg"
+import { HeroSlider } from "../subitems/heroSlider"
 
 export default function Home() {
   return (
@@ -32,7 +33,8 @@ export default function Home() {
         <video src={IndexVideoMobile} autoPlay={true} muted={true} loop={true} playsinline={true} type="video/mp4" className="main_video_mobile" width="100%" height="100%"></video>
         <div class="wrapper">
           <div class="services_video_text">
-            <p class="services_video_title main_video_title"><span>Дизайн</span><br/>интерьера</p>
+            <HeroSlider/>
+
           </div>
         </div>
       </div>

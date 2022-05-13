@@ -14,7 +14,7 @@ const Header = () => {
                 return
             }
             const pageYOffset = window.pageYOffset; 
-            if (pscroll>pageYOffset||pageYOffset<100){
+            if (pscroll>pageYOffset&&pageYOffset>100){
               setStickyHeader(true)          
               document.body.classList.add('is_sticky')
             }else { 

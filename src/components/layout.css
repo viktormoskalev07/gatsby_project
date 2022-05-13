@@ -220,11 +220,11 @@ header {
   top: 0;
   right: 0;
   left: 0;
-  z-index: 1;
+  z-index: 100;
   background-color: rgba(0, 0, 0, 0.5);
 }
 header.header_black {
-  position: relative;
+  /* position: relative; */
   background-color: #232323;
 }
 .header_flex {
@@ -257,11 +257,11 @@ header.header_black {
   padding: 1vw 2vw 1vw 1.3vw;
   color: #E5E5E5;
   position: relative;
-  transition: all .5s ease;
+  transition: color .5s ease;
 }
 .header_nav_link:hover {
   color: #E94A34;
-  transition: all .5s ease;
+  transition: color .5s ease;
 }
 .header_nav_services {
   cursor: default;
@@ -299,7 +299,6 @@ header.header_black {
   font-weight: 500;
   padding: 1vw 0 1vw 1.8vw;
   color: #FFFFFF;
-  transition: all .5s ease;
 }
 .header_burger,
 .header_mobile {
@@ -352,7 +351,9 @@ header.header_black {
   transition: all .5s ease;
 }
 body.is_sticky header {
+  position: fixed;
   background-color: #232323;
+  transition: 0.2s ease-in-out;
 }
 body.is_sticky .header_nav_active:before {
   top: 1.2vw;
@@ -771,7 +772,7 @@ main {
 .articles_page_title {
   font-size: 3.5vw;
   line-height: 4.4vw;
-  margin-top: 3.6vw;
+  margin-top: 7.7vw;
   margin-bottom: 2.1vw;
   /* letter-spacing: 1px; */
 }
@@ -1333,7 +1334,7 @@ main {
 .contacts_title {
   font-size: 3.5vw;
   line-height: 4.4vw;
-  margin-top: 3.6vw;
+  margin-top: 7.7vw;
   margin-bottom: 2.1vw;
 }
 .contacts {
@@ -1357,7 +1358,7 @@ main {
 }
 .contacts_line {
   border-top: 2px solid #2D2D2D;
-} 
+}
 .contacts_appeal {
   font-size: 1.8vw;
   line-height: 2.5vw;
@@ -1626,7 +1627,7 @@ main {
 .portfolio_title {
   font-size: 3.5vw;
   line-height: 4.4vw;
-  margin-top: 3.6vw;
+  margin-top: 7.7vw;
   margin-bottom: 2.1vw;
   /* letter-spacing: 1px; */
 }
@@ -2310,19 +2311,19 @@ main {
   padding: 1.2vw 3.2vw;
   color: #E94A34;
   border: 2px solid #E94A34;
-  transition: all 0.5s ease; 
+  transition: all 0.5s ease;
 }
 .process_block_link:hover {
   color: #ff7562;
   border: 2px solid #ff7562;
-  transition: all 0.5s ease; 
+  transition: all 0.5s ease;
 }
 
 
 .pagevideo_title {
   font-size: 3.5vw;
   line-height: 4.4vw;
-  margin-top: 3.6vw;
+  margin-top: 7.7vw;
   margin-bottom: 2.1vw;
 }
 .pagevideo_grid {
@@ -2649,7 +2650,7 @@ main {
     font-size: 18px;
     line-height: 40px;
   }
-  
+
 
   .project_title {
     font-size: 76px;
@@ -2793,9 +2794,9 @@ main {
     margin-top: 12.5px;
   }
 
-  
 
-  
+
+
 
 
 
@@ -2814,7 +2815,7 @@ main {
   .my-masonry-grid_column {
     padding-left: 10px; /* gutter size */
   }
-  
+
   /* Style your items */
   .my-masonry-grid_column > div { /* change div to reference your elements you put in <Masonry> */
     margin-bottom: 10px;
@@ -2902,7 +2903,7 @@ main {
     margin-bottom: 63px;
     grid-gap: 10px;
   }
-  
+
   .partner_project_line {
     margin-bottom: 58px;
   }
@@ -2992,7 +2993,7 @@ main {
     font-size: 31px;
     line-height: 38px;
   }
-  
+
   .contacts_social_item {
     padding-left: 68px;
   }
@@ -3021,7 +3022,7 @@ main {
     letter-spacing: 1.26px;
     padding: 90px 0;
   }
-  
+
   .services_block {
     grid-gap: 25px;
     /* margin-top: 140px; */
@@ -3470,7 +3471,7 @@ main {
     max-width: 900px;
   }
 
-  
+
   .process_gallery {
     padding-bottom: 54px;
   }
@@ -3629,7 +3630,7 @@ main {
 
 
 
-  
+
   .services_block {
     grid-template-columns: repeat(2,auto);
     grid-template-rows: repeat(2,auto);
@@ -3734,7 +3735,7 @@ main {
     width: 18.7vw;
   }
 
-  
+
   .rewards {
     grid-template-columns: 1fr 1fr;
     grid-gap: 2.8vw;
@@ -3991,13 +3992,13 @@ main {
     transform: translateY(-10vw); */
   }
   header.header_sticky {
-    background-color: #232323;
-    position: fixed;
-    visibility: visible;
-    opacity: 1;
-    -webkit-transform: translateY(0vw);
+    /* background-color: #232323;
+    position: fixed; */
+    /* visibility: visible;
+    opacity: 1; */
+    /* -webkit-transform: translateY(0vw);
     -ms-transform: translateY(0vw);
-    transform: translateY(0vw);
+    transform: translateY(0vw); */
     transition: 0.2s ease-in-out;
   }
 
@@ -4384,9 +4385,9 @@ main {
   .article_images_narrow_with_text_item p {
     display: none;
   }
-  
 
-  
+
+
   .contacts_title {
     font-size: 9.2vw;
     line-height: 11.6vw;
@@ -4407,7 +4408,7 @@ main {
     margin-top: 0;
   }
   .contacts_appeal {
-    border: 2px solid #EAEAEA; 
+    border: 2px solid #EAEAEA;
     font-size: 4.3vw;
     line-height: 6.7vw;
     width: 100%;
@@ -4421,7 +4422,7 @@ main {
     display: block;
   }
   .contacts_info {
-    
+
     width: 100%;
   }
   .contacts_info_item {
