@@ -139,6 +139,21 @@ const Header = () => {
               <Link to="/uslugi/komplektaciya-obekta/" className="header_mobile_nav_link" activeClassName="header_mobile_active">Комплектация объекта</Link>
             </li>
           </ul>
+          <div className="header_mobile_line"></div>
+          <ul class="header_mobile_list_3">
+            <li>
+              <Link to="/video/" className="header_mobile_nav_link" activeClassName="header_mobile_nav_active">Видео</Link>
+            </li>
+            <li>
+              <Link to="/articles/" className="header_mobile_nav_link" activeClassName="header_mobile_active">Статьи</Link>
+            </li>
+            <li>
+              <Link to="/about/" className="header_mobile_nav_link" activeClassName="header_mobile_active">О нас</Link>
+            </li>
+            <li>
+              <Link to="/contacts/" className="header_mobile_nav_link" activeClassName="header_mobile_active">Контакты</Link>
+            </li>
+          </ul>
         </div>
       </div>
     </header>

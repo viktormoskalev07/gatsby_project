@@ -7,6 +7,7 @@ import BreadcrumbsInterier from "../../../components/breadcrumbs-interier.js";
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 import { YouTobe } from "../../../subitems/youToobe"
 import  thumbnail  from  "../../../images/portfolio/d3/01_d3.jpg"
+
 const d3 = () => {
   return (
     <Layout>
@@ -17,11 +18,10 @@ const d3 = () => {
             <h1 class="project_title">Дизайн квартиры в&nbsp;жилом комплексе &laquo;D3&raquo;, 120&nbsp;м<sup>2</sup></h1>
           </div>
           <div class="project_main_photo">
-
             <YouTobe
               param={"start=6"}
               image={thumbnail}
-              title={"Дизайн квартиры в ЖК D3 в Минске (120м2)"}
+              title={"Дизайн квартиры в ЖК D3 в Минске"}
               embed={'fv9YJ7cNTjI'}>
               <StaticImage src={'../../../images/portfolio/d3/01_d3.jpg'}  />
             </YouTobe>

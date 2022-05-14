@@ -43,8 +43,7 @@ export const Advantages = () => {
           </div>
         </div>
       </div>
-      <button onClick={()=>setOpen(!open)} className="advantage_button">{ open?   'Скрыть ':'Показать все'}</button>
-      <div className={"advantage_items" + (open? '   ' :" advantage_items_mob" )  }>
+      <div className={"advantage_items advantage_items_sp" + (open? '   ' :" advantage_items_mob" )  }>
         <div className="advantage_item">
           <div className="advantage_item_images">
             <img src={advantage_3} alt="" className="advantage_item_images_desk" />
@@ -92,6 +91,7 @@ export const Advantages = () => {
           </div>
         </div>
       </div>
+      <button onClick={()=>setOpen(!open)} className="advantage_button">{ open?   'Скрыть ':'Показать все'}</button>
     </section>
   )
 }

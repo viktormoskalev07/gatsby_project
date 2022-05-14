@@ -5,6 +5,8 @@ import { StaticImage } from "gatsby-plugin-image"
 import Fancybox from "../../../components/fancybox.js";
 import BreadcrumbsArch from "../../../components/breadcrumbs-arch.js";
 import { AnchorLink } from "gatsby-plugin-anchor-links"
+import { YouTobe } from "../../../subitems/youToobe"
+import  thumbnail  from  "../../../images/portfolio/baltic_house/exterior/01_baltic_home_exterior.jpg"
 
 const exterierBalticHouse = () => {
   return (
@@ -16,7 +18,13 @@ const exterierBalticHouse = () => {
             <h1 class="project_title">Дом с&nbsp;балтийским характером. Экстерьер, 500&nbsp;м<sup>2</sup></h1>
           </div>
           <div class="project_main_photo">
-            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/qT_tsEeFD-s" title="Дом с&nbsp;балтийским характером. Интерьер (500м2)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <YouTobe
+              param={'start=8'}
+              image={thumbnail}
+              title={"Дом с балтийским характером. Экстерьер"}
+              embed={'gXVnpRAr5p4'}>
+              <StaticImage src={'../../../images/portfolio/baltic_house/exterior/01_baltic_home_exterior.jpg'} />
+            </YouTobe>
           </div>
         </div>
         <div class="content_body">

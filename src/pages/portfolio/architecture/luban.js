@@ -5,18 +5,8 @@ import Fancybox from "../../../components/fancybox.js";
 import { ImgComparisonSlider } from '@img-comparison-slider/react';
 import BreadcrumbsArch from "../../../components/breadcrumbs-arch.js";
 import { AnchorLink } from "gatsby-plugin-anchor-links"
-
-// import ReactDOM from 'react-dom';
-
-// const name = 'Вася Пупкин';
-// const element = <h1>Привет, {name}</h1>;
-
-// ReactDOM.render(
-//   element,
-//   document.getElementById('root')
-// );
-
-
+import { YouTobe } from "../../../subitems/youToobe"
+import  thumbnail  from  "../../../images/portfolio/luban/01_luban.jpg"
 
 const luban = () => {
   return (
@@ -30,7 +20,7 @@ const luban = () => {
           {/* <div class="project_main_photo">
             <iframe width="100%" height="100%" src="https://www.youtube.com/embed/BTDlAUgy9dY" title="Дом для жизни. Архитектура (400м2)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div> */}
-          <div class="project_main_photo">
+          {/* <div class="project_main_photo">
             <div class="pageportfolio_video">
               <div class="pageportfolio_block pageportfolio_block1">
                 <div class="pageportfolio_video_button">
@@ -39,6 +29,15 @@ const luban = () => {
               </div>
               <iframe title="Дом для жизни. Архитектура (400м2)" class="pageportfolio_iframe pageportfolio_iframe_1" width="100%" height="auto" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             </div>
+          </div> */}
+          <div class="project_main_photo">
+            <YouTobe
+              param={"start=1"}
+              image={thumbnail}
+              title={"Дом для жизни. Архитектура"}
+              embed={'BTDlAUgy9dY'}>
+              <StaticImage src={'../../../images/portfolio/luban/01_luban.jpg'}  />
+            </YouTobe>
           </div>
         </div>
         <div class="content_body">

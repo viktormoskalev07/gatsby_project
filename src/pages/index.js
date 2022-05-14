@@ -9,18 +9,6 @@ import 'simplebar/dist/simplebar.min.css';
 
 import IndexVideo from "../video/index.mp4"
 import IndexVideoMobile from "../video/index_mob.mp4"
-import advantage_1 from "../images/icons/advantage_1.svg"
-import advantage_1_mob from "../images/icons/advantage_1_mob.svg"
-import advantage_2 from "../images/icons/advantage_2.svg"
-import advantage_2_mob from "../images/icons/advantage_2_mob.svg"
-import advantage_3 from "../images/icons/advantage_3.svg"
-import advantage_3_mob from "../images/icons/advantage_3_mob.svg"
-import advantage_4 from "../images/icons/advantage_4.svg"
-import advantage_4_mob from "../images/icons/advantage_4_mob.svg"
-import advantage_5 from "../images/icons/advantage_5.svg"
-import advantage_5_mob from "../images/icons/advantage_5_mob.svg"
-import advantage_6 from "../images/icons/advantage_6.svg"
-import advantage_6_mob from "../images/icons/advantage_6_mob.svg"
 import { HeroSlider } from "../subitems/hompage/heroSlider"
 import { Faq } from "../subitems/faq"
 import { Advantages } from "../subitems/hompage/advantages"
@@ -36,7 +24,6 @@ export default function Home() {
         <div class="wrapper">
           <div class="services_video_text">
             <HeroSlider/>
-
           </div>
         </div>
       </div>
@@ -65,6 +52,7 @@ export default function Home() {
               <h2 class="services_block_arc_title">Архитектурное проектирование</h2>
             </Link>
             <Link to="/uslugi/stroitelstvo-i-rekonstrukciya" className="services_block_item services_block_rep">
+              <StaticImage className="services_block_rep_img" src="../images/services_repair.png" alt="" />
               <h2 class="services_block_rep_title">Строительство и&nbsp;реконструкция</h2>
             </Link>
           </div>
@@ -77,7 +65,7 @@ export default function Home() {
               <h2 class="services_block_com_title">Комплектация объектов</h2>
               <p class="services_block_com_text">Комплектуем объект, формируемый в&nbsp;результате реализации дизайн проекта или архитектурного проекта, всеми необходимыми материалами.</p>
             </Link>
-            <Link to="#" className="services_block_item services_block_agr">
+            <Link to="/uslugi/soglasovanie" className="services_block_item services_block_agr">
               <h2 class="services_block_agr_title">Согласование проекта</h2>
               <p class="services_block_agr_text">Мы&nbsp;разрабатываем свои проекты в&nbsp;соответствии со&nbsp;строительными нормами и&nbsp;правилами Республики Беларусь.</p>
             </Link>
@@ -100,7 +88,7 @@ export default function Home() {
         </div> 
         <div class="wrapper">
           <div class="right_content">
-              <Advantages />
+            <Advantages />
             <section>
               <h2 class="main_portfolio_title" id="portfolio_title">Новые работы</h2>
               <div class="content_text">
@@ -216,7 +204,7 @@ export default function Home() {
             </section>
             <section class="main_principle_scroll">
               <h2 class="main_principle_title" id="principle_title">Наши принципы</h2>
-              <SimpleBar forceVisible="y" autoHide={false}>
+                <SimpleBar forceVisible="y" autoHide={false}>
                   <div class="main_principle">
                     <div class="main_principle_item">
                       <h3 class="main_principle_item_title">Прочность. Польза. Красота.</h3>
@@ -254,8 +242,7 @@ export default function Home() {
             <section>
               <div class="faq" id="faq_title">
                 <h3 class="faq_title">Вопрос / ответ</h3>
-
-              <Faq/>
+                <Faq/>
               </div>
             </section>
           </div>

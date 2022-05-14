@@ -11,11 +11,9 @@ export const YouTobe = ( {image ,embed  , title , param =""  ,children  }) => {
   const hide = play ? {display:'none'}:{};
   return (
     <div className={styles}>
-
-         <button style ={hide} onClick={start}>
-              play
-           <span> </span>
-         </button>
+        <button className="pageportfolio_video_button" style ={hide} onClick={start}>
+          <div className="pageportfolio_video_button_symbol"></div>
+        </button>
         <div style={hide} className={'figure'}>
           {children}
         </div>

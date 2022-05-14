@@ -4,6 +4,8 @@ import { StaticImage } from "gatsby-plugin-image"
 import Fancybox from "../../../components/fancybox.js";
 import BreadcrumbsInterier from "../../../components/breadcrumbs-interier.js";
 import { AnchorLink } from "gatsby-plugin-anchor-links"
+import { YouTobe } from "../../../subitems/youToobe"
+import  thumbnail  from  "../../../images/portfolio/panfilova/03_panfilova.jpg"
 
 const mirrors = () => {
   return (
@@ -14,13 +16,22 @@ const mirrors = () => {
             <BreadcrumbsInterier />
             <h1 class="project_title">Игра с&nbsp;отражениями. Дизайн квартиры в&nbsp;Минске, 100м<sup>2</sup></h1>
           </div>
-          <div class="project_main_photo">
+          {/* <div class="project_main_photo">
             <a
               href="https://www.i-project.by/portfolio_newsite/mirrors/11_mirrors.webp"
               data-fancybox="gallery"
             >
               <StaticImage src="../../../images/portfolio/mirrors/11_mirrors.jpg" alt="" />
             </a>
+          </div> */}
+          <div class="project_main_photo">
+            <YouTobe
+              param={'start=8'}
+              image={thumbnail}
+              title={"Игра с отражениями. Дизайн квартиры в Минске"}
+              embed={'ki7KwSmPG0g'}>
+              <StaticImage src={'../../../images/portfolio/mirrors/03_mirrors.jpg'}  />
+            </YouTobe>
           </div>
         </div>
         <div class="content_body">

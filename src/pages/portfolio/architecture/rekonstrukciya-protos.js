@@ -7,6 +7,7 @@ import { ImgComparisonSlider } from '@img-comparison-slider/react';
 import BreadcrumbsArch from "../../../components/breadcrumbs-arch.js";
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 import { YouTobe } from "../../../subitems/youToobe"
+import  thumbnail  from  "../../../images/portfolio/protos_reconstraction/01_protos_reconstraction.jpg"
 
 const rekonstrukciyaProtos = () => {
   return (
@@ -17,20 +18,14 @@ const rekonstrukciyaProtos = () => {
             <BreadcrumbsArch />
             <h1 class="project_title">Реконструкция офисного здания группы компаний «Протос», 200&nbsp;м<sup>2</sup></h1>
           </div>
-          {/* <div class="content_images_one">
-                  <a
-                    href="https://www.i-project.by/portfolio_newsite/protos_reconstraction/01_protos_reconstraction.webp"
-                    data-fancybox="gallery"
-                  >
-                    <StaticImage src="../../../images/portfolio/protos_reconstraction/01_protos_reconstraction.jpg" alt="" />
-                  </a>
-                </div> */}
           <div class="project_main_photo">
             <YouTobe
-              image={"https://www.i-project.by/portfolio_newsite/korolya/01_korolya.webp"}
-              title={"Интерьер квартиры на ул.Короля в Минске"}
-              embed={'EcVhCUcLoV0'}/>
-            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/d4MFvx0II4s?start=7" title="Реконструкция офисного здания группы компаний «Протос» (200м2)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              param={"start=6"}
+              image={thumbnail}
+              title={"Реконструкция офисного здания группы компаний «Протос»"}
+              embed={'d4MFvx0II4s'}>
+              <StaticImage src={'../../../images/portfolio/protos_reconstraction/01_protos_reconstraction.jpg'}  />
+            </YouTobe>
           </div>
         </div>
         <div class="content_body">

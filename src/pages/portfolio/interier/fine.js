@@ -5,6 +5,7 @@ import Fancybox from "../../../components/fancybox.js";
 import BreadcrumbsInterier from "../../../components/breadcrumbs-interier.js";
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 import { YouTobe } from "../../../subitems/youToobe"
+import  thumbnail  from  "../../../images/portfolio/fine/01_fine.jpg"
 
 const fine = () => {
   return (
@@ -17,9 +18,10 @@ const fine = () => {
           </div>
           <div class="project_main_photo">
             <YouTobe
-              title={"Хорошее настроение. Дизайн квартиры в Минске (140м2)"}
+              image={thumbnail}
+              title={"Хорошее настроение. Дизайн квартиры в Минске"}
               embed={'TbQZLyJnJ34'}>
-              <StaticImage src={'../../../images/portfolio/fine/02_fine.jpg'}  />
+              <StaticImage src={'../../../images/portfolio/fine/01_fine.jpg'}  />
             </YouTobe>
           </div>
         </div>

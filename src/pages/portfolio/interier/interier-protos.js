@@ -7,6 +7,7 @@ import { ImgComparisonSlider } from '@img-comparison-slider/react';
 import BreadcrumbsInterier from "../../../components/breadcrumbs-interier.js";
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 import { YouTobe } from "../../../subitems/youToobe"
+import  thumbnail  from  "../../../images/portfolio/protos_interior/01_protos_interior.jpg"
 
 const interierProtos = () => {
   return (
@@ -20,9 +21,10 @@ const interierProtos = () => {
           <div class="project_main_photo">
             <YouTobe
               param={"start=6"}
-              title={"Дизайн интерьера офисов «Протос» (200м2)"}
+              image={thumbnail}
+              title={"Дизайн интерьера офисов «Протос»"}
               embed={'_FHzDPN9lU8'}>
-              <StaticImage src={'../../../images/portfolio/protos_interior/07_protos_interior.jpg'}  />
+              <StaticImage src={'../../../images/portfolio/protos_interior/01_protos_interior.jpg'}  />
             </YouTobe>
           </div>
         </div>

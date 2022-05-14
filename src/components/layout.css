@@ -188,6 +188,14 @@ span {
     opacity: 1;
   }
 }
+@keyframes fadeInHeader {
+  0% {
+    transform: translateY(-100px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
 .link {
   display: inline-block;
   color: #e94a34;
@@ -353,27 +361,7 @@ header.header_black {
 body.is_sticky header {
   position: fixed;
   background-color: #232323;
-  transition: 0.2s ease-in-out;
-}
-body.is_sticky .header_nav_active:before {
-  top: 1.2vw;
-  left: 0.1vw;
-}
-body.is_sticky .logo_img {
-  width: 7vw;
-}
-body.is_sticky .header_nav_link,
-body.is_sticky .header_phone {
-  font-size: 1.18vw;
-  padding: 0.54vw 1.5vw 0.54vw 1vw;
-}
-body.is_sticky .header_nav_services:after {
-  top: 1vw;
-  right: 0.5vw;
-}
-body.is_sticky .submenu {
-  top: 2.7vw;
-  left: 0;
+  animation: fadeInHeader 0.5s;
 }
 main {
   min-height: calc(100vh - 18.23vw);
@@ -576,6 +564,7 @@ main {
   position: absolute;
   background-image: url(../images/breadcrumbs_arrow.svg);
   background-repeat: no-repeat;
+  background-size: cover;
   width: 1.1vw;
   height: 0.7vw;
   top: 0.5vw;
@@ -772,7 +761,7 @@ main {
 .articles_page_title {
   font-size: 3.5vw;
   line-height: 4.4vw;
-  margin-top: 7.7vw;
+  margin-top: 3.6vw;
   margin-bottom: 2.1vw;
   /* letter-spacing: 1px; */
 }
@@ -1298,14 +1287,13 @@ main {
 .services_video_title span {
   font-size: 4.5vw;
   line-height: 4.7vw;
-  font-weight: 400;
+  font-weight: 600;
   color: #FFFFFF;
   margin-bottom: 1.2vw;
   text-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
 }
-.services_video_title span {
-  /* font-family: Geometria, Arial, sans-serif; */
-  font-weight: 600;
+.services_video_title span.subText {
+  font-weight: 400;
 }
 .main_video {
   position: relative;
@@ -1334,7 +1322,7 @@ main {
 .contacts_title {
   font-size: 3.5vw;
   line-height: 4.4vw;
-  margin-top: 7.7vw;
+  margin-top: 3.6vw;
   margin-bottom: 2.1vw;
 }
 .contacts {
@@ -1561,11 +1549,26 @@ main {
   grid-row: 2/3;
   grid-column: 2/3;
   padding: 3.1vw 2.4vw 3.5vw 3.5vw;
-  background-image: url(../images/services_repair.png);
-  background-repeat: no-repeat;
-  background-position: center bottom;
-  background-size: contain;
   min-height: 38vw;
+  overflow: hidden;
+}
+.gatsby-image-wrapper.services_block_rep_img {
+  position: absolute;
+}
+.services_block_rep_img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: -70px;
+  z-index: 0;
+  transform: scale(1);
+  transition: all 0.5s ease-out;
+}
+.services_block_rep:hover .services_block_rep_img {
+  left: 0;
+  transform: scale(1.15);
+  transition: all 0.5s ease-out;
 }
 .services_block_arc {
   grid-row: 2/3;
@@ -1576,6 +1579,11 @@ main {
   background-position: center;
   background-size: cover;
   min-height: 38vw;
+  transition: all 0.7s ease-out;
+}
+.services_block_arc:hover {
+  background-position: right bottom;
+  transition: all 0.7s ease-out;
 }
 .services_block_sup,
 .services_block_com,
@@ -1585,6 +1593,7 @@ main {
   background-position: center bottom;
   background-size: contain;
   min-height: 37vw;
+  transition: all 0.3s ease-out;
 }
 .services_block_sup {
   background-image: url(../images/services_support.png);
@@ -1596,9 +1605,16 @@ main {
   background-image: url(../images/services_agreement.png);
   background-size: 26vw;
 }
+.services_block_sup:hover,
+.services_block_com:hover,
+.services_block_agr:hover {
+  background-position: center bottom -5vw;
+  transition: all 0.3s ease-out;
+}
 .services_block_rep_title {
   text-align: right;
   margin-left: auto;
+  position: relative;
 }
 .services_block_rep_title,
 .services_block_arc_title {
@@ -1627,7 +1643,7 @@ main {
 .portfolio_title {
   font-size: 3.5vw;
   line-height: 4.4vw;
-  margin-top: 7.7vw;
+  margin-top: 3.6vw;
   margin-bottom: 2.1vw;
   /* letter-spacing: 1px; */
 }
@@ -1786,7 +1802,7 @@ main {
   grid-auto-columns: 1fr;
   grid-gap: 1.5vw;
 }
-.advantage_items_mob {
+.advantage_items_sp {
   margin-top: 1.5vw;
 }
 .advantage_item {
@@ -2040,20 +2056,24 @@ main {
   justify-content: center;
   align-items: center;
 }
-.pageportfolio_block1 {
+/* .pageportfolio_block1 {
   background-image: url(https://www.i-project.by/wp-content/uploads/2021/10/01_luban.jpg);
   min-height: 47.5vw;
-}
+} */
 .pageportfolio_video_button {
   position: relative;
   cursor: pointer;
   background: rgba(0,0,0,.5);
-  transition: all 0.5s ease;
   display: flex;
   align-items: center;
   width: 14vw;
   height: 9vw;
   border-radius: 11px;
+  transition: all 0.5s ease;
+}
+.pageportfolio_video_button:hover {
+  background: rgba(12, 10, 10, 0.76);
+  transition: all 0.5s ease;
 }
 .pageportfolio_video_button_symbol {
   position: absolute;
@@ -2323,7 +2343,7 @@ main {
 .pagevideo_title {
   font-size: 3.5vw;
   line-height: 4.4vw;
-  margin-top: 7.7vw;
+  margin-top: 3.6vw;
   margin-bottom: 2.1vw;
 }
 .pagevideo_grid {
@@ -2603,25 +2623,6 @@ main {
   .submenu_li_a {
     font-size: 22.5px;
     line-height: 47px;
-  }
-  body.is_sticky .header_nav_active:before {
-    top: 22px;
-    left: 2px;
-  }
-  body.is_sticky .logo_img {
-    width: 126px;
-  }
-  body.is_sticky .header_nav_link,
-  body.is_sticky .header_phone {
-    font-size: 21px;
-    padding: 9.7px 27px 9.7px 18px;
-  }
-  body.is_sticky .header_nav_services:after {
-    top: 18px;
-    right: 9px;
-  }
-  body.is_sticky .submenu {
-    top: 49px;
   }
 
 
@@ -3090,6 +3091,11 @@ main {
     font-size: 22.5px;
     line-height: 32px;
   }
+  .services_block_sup:hover,
+  .services_block_com:hover,
+  .services_block_agr:hover {
+    background-position: center bottom -90px;
+  }
 
 
 
@@ -3160,7 +3166,7 @@ main {
   .advantage_items {
     grid-gap: 27px;
   }
-  .advantage_items_mob {
+  .advantage_items_sp {
     margin-top: 27px;
   }
   .advantage_item {
@@ -3291,9 +3297,9 @@ main {
   .pageportfolio_block {
     min-height: 30.7vw;
   }
-  .pageportfolio_block1 {
+  /* .pageportfolio_block1 {
     min-height: 47.5vw;
-  }
+  } */
   .pageportfolio_video_button {
     width: 252px;
     height: 162px;
@@ -3707,6 +3713,11 @@ main {
     width: 610px;
     background-size: 305px;
   }
+  .services_block_sup:hover,
+  .services_block_com:hover,
+  .services_block_agr:hover {
+    background-position: center right -70px;
+  }
   .services_block_rep_title,
   .services_block_arc_title {
     font-size: 48px;
@@ -3881,7 +3892,7 @@ main {
     height: 4.1vw;
     position: absolute;
     right: 0;
-    top: 50%;
+    top: 44%;
     transform: translate(0,-50%);
     cursor: pointer;
   }
@@ -3921,6 +3932,10 @@ main {
     flex-direction: column;
     list-style: none;
   }
+  .header_mobile_list_3 {
+    display: flex;
+    list-style: none;
+  }
   .header_mobile_nav {
     font-size: 5.8vw;
     line-height: 9.4vw;
@@ -3939,7 +3954,8 @@ main {
   .header_mobile_list_1 li {
     margin-right: 7.2vw;
   }
-  .header_mobile_list_1 li:last-child {
+  .header_mobile_list_1 li:last-child,
+  .header_mobile_list_3 li:last-child {
     margin-right: 0;
   }
   .header_mobile_list_2 li {
@@ -3947,6 +3963,9 @@ main {
   }
   .header_mobile_list_2 li:last-child {
     margin-bottom: 0;
+  }
+  .header_mobile_list_3 li {
+    margin-right: 5.4vw;
   }
   .header_mobile_line {
     width: 100%;
@@ -3959,7 +3978,7 @@ main {
   }
   header.header_open {
     background-color: #232323;
-    height: 100%;
+    height: 100vh;
   }
   header.header_open .header_burger span {
     background-color: #F45B45;
@@ -4107,6 +4126,9 @@ main {
   .breadcrumbs_li a {
     font-size: 3.9vw;
     line-height: 5vw;
+  }
+  .breadcrumbs_li a:hover {
+    color: #616161;
   }
   .article .breadcrumbs_li.dark a {
     color: #222222;
@@ -4626,6 +4648,23 @@ main {
     line-height: 8.1vw;
     color: #FFFFFF;
   }
+  .services_block_rep {
+    grid-row: auto;
+    grid-column: auto;
+    padding: 5.1vw 6.8vw;
+    background-image: url(../images/services_repair_mob.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vw;
+  }
+  .services_block_rep_img {
+    left: 0;
+    transform: scale(1);
+  }
+  .services_block_rep:hover .services_block_rep_img {
+    right: 0;
+    transform: scale(1);
+  }
   .services_block_arc {
     grid-row: auto;
     grid-column: auto;
@@ -4633,13 +4672,8 @@ main {
     background-image: url(../images/services_arcitecture_mob.jpg);
     min-height: 73vw;
   }
-  .services_block_rep {
-    grid-row: auto;
-    grid-column: auto;
-    padding: 5.1vw 6.8vw;
-    background-image: url(../images/services_repair_mob.jpg);
-    background-size: cover;
-    min-height: 70vw;
+  .services_block_arc:hover {
+    background-position: left bottom;
   }
   .services_block_sup,
   .services_block_com,
@@ -4647,6 +4681,11 @@ main {
     padding: 7.8vw 6.8vw;
     min-height: auto;
     background-image: none;
+  }
+  .services_block_sup:hover,
+  .services_block_com:hover,
+  .services_block_agr:hover {
+    background-position: center bottom;
   }
   .services_block_rep_title,
   .services_block_arc_title {
@@ -4829,8 +4868,14 @@ main {
   .advantage_items_mob {
     display: none;
   }
+  .advantage_items_sp {
+    margin-top: 5.3vw;
+  }
   .advantage_item {
     padding: 6.5vw 4.7vw 6vw 5.8vw;
+  }
+  .advantage_items_sp .advantage_item {
+    animation: opacity 0.5s;
   }
   .advantage_item_images {
     width: 30%;

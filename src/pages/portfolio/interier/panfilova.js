@@ -6,6 +6,7 @@ import { ImgComparisonSlider } from '@img-comparison-slider/react';
 import BreadcrumbsInterier from "../../../components/breadcrumbs-interier.js";
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 import { YouTobe } from "../../../subitems/youToobe"
+import  thumbnail  from  "../../../images/portfolio/panfilova/07_panfilova.jpg"
 
 const panfilova = () => {
   return (
@@ -17,12 +18,12 @@ const panfilova = () => {
             <h1 class="project_title">Двушка на&nbsp;Панфилова. Дизайн квартиры в&nbsp;Минске, 85м<sup>2</sup></h1>
           </div>
           <div class="project_main_photo">
-
             <YouTobe
-              param={   'start=6'   }
-              title={"Двушка на Панфилова. Дизайн квартиры в&nbsp;Минске (85м2)"}
+              param={'start=6'}
+              image={thumbnail}
+              title={"Двушка на Панфилова. Дизайн квартиры в Минске"}
               embed={'GRFSiz-Or50'}>
-              <StaticImage src={'../../../images/portfolio/panfilova/04_panfilova.jpg'}  />
+              <StaticImage src={'../../../images/portfolio/panfilova/07_panfilova.jpg'}  />
             </YouTobe>
           </div>
         </div>

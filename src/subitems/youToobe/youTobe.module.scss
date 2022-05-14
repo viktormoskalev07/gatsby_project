@@ -40,28 +40,8 @@
         right: $button;
         font-size: 0;
         position: absolute;
-        cursor: pointer;
-        background: rgba(0,0,0,.5);
-        transition: all 0.3s ease;
         display: flex;
         align-items: center;
-        &:hover{
-          background: rgba(12, 10, 10, 0.76);
-        }
-
-        border-radius: 11px;
-        span{
-          border-top: 10px solid transparent;
-          border-left: 16px solid #fff;
-          border-bottom: 10px solid transparent;
-          position: absolute;
-          top: 50%;
-          left: 52%;
-          margin-right: -50%;
-          transform: translate(-50%,-50%);
-          width: 0;
-          height: 0;
-        }
       }
     }
 
