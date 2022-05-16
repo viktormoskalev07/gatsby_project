@@ -1296,6 +1296,7 @@ main {
   font-weight: 400;
 }
 .main_video {
+  overflow: hidden;
   position: relative;
   background-color: #000000;
 }

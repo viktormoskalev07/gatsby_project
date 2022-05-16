@@ -7,6 +7,13 @@ import logoMobile from "../images/iproject_logo_mobile.svg"
 const HeaderBlack = () => {
   const [navOpen , setNavOpen ]= React.useState(false);
   const [getStickyHeader , setStickyHeader] = React.useState(true);
+  if(navOpen){
+    document.body.style.overflow="hidden";
+    document.body.style.height="100vh";
+  } else{
+    document.body.style.height="auto";
+    document.body.style.overflow="auto"
+  }
   React.useEffect(() => {
           let pscroll = 0
           const stickyHeader = ()=>{

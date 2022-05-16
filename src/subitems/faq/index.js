@@ -16,6 +16,9 @@ export const Faq = () => {
     },    {
       title:'Занимаетесь&nbsp;ли вы&nbsp;продажей готовых проектов?',
       text:'Нет. Мы&nbsp;занимаемся только индивидуальными проектами.'
+    },  {
+      title:' <p>  test </p> <p>  two line </p>',
+      text:' <p>  test </p> <p>  two line </p>'
     },
   ]
   return (

@@ -1,5 +1,5 @@
 import * as React from "react"
-import { animationClass  , beforeAnimation , wrap} from "./heroSlider.module.scss"
+import { animationClass  , beforeAnimation   } from "./heroSlider.module.scss"
 import { useEffect, useState } from "react"
 const config =  [
   {
@@ -52,10 +52,10 @@ export const HeroSlider = () => {
   },[ ])
 
   return (
-    <div className={wrap}>
+ 
       <Line topText={text.top} bottomText={text.bottom}  />
 
-    </div>
+  
 
   )
 }
