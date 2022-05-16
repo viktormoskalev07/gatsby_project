@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Layout from "../../components/layout"
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 import { StaticImage } from "gatsby-plugin-image"
@@ -9,7 +9,16 @@ import { Faq } from "../../subitems/faq/flat"
 import mainVideo from "../../video/design_interiera.mp4"
 import mainVideoMobile from "../../video/design_interiera_mob.mp4"
 
-const designInteriera = () => {
+const DesignInteriera = () => {
+  const [openTop , setOpenTop] = useState(false);
+  const [openBottom , setOpenBottom] = useState(false);
+  const toggleTop =()=>{
+    setOpenTop(!openTop)
+  }
+  const toggleBottom =()=>{
+    
+    setOpenBottom(!openBottom)
+  }
   return (
     <Layout>
       <div class="services_video">
@@ -73,13 +82,13 @@ const designInteriera = () => {
                 <div class="services_include_item">
                   <h3 class="services_include_item_smtitle">Документация</h3>
                   <div class="services_include_text">
-                    <ul class="services_include_item_list">
+                    <ul class={"services_include_item_list  " + ( openTop?" open" : "")} >
                       <li>1. Планировочная концепция (несколько вариантов)</li>
                       <li>2. Обмерочные чертежи (планы)</li>
                       <li>3. Планы с&nbsp;обозначением демонтируемых элементов стен, перегородок</li>
                       <li>4. Планы с&nbsp;обозначением возводимых элементов стен, перегородок</li>
                       <li>5. Планы с&nbsp;расстановкой мебели и&nbsp;привязками сантехнического оборудования</li>
-                      <div class="services_include_list_hidden">
+                      <div class={"services_include_list_hidden" + ( openTop?" open" : "")}>
                         <li>6. Планы с&nbsp;обозначением напольных покрытий</li>
                         <li>7. Схема подогрева полов</li>
                         <li>8. Планы подвесных потолков</li>
@@ -95,9 +104,9 @@ const designInteriera = () => {
                         <li>18. Узлы, фрагменты (укрупненные с&nbsp;размерами)</li>
                         <p class="services_include_item_list_p">Общий объем: 30–50 листов А3, А4</p>
                       </div>
-                      <button class="services_include_button">Показать все</button>
+                      <button onClick={toggleTop}  class="services_include_button">{openTop? 'Показать все' : 'Свернуть все'}</button>
                     </ul>
-                    <div class="services_include_mob_button">Список документов</div>
+                    <div  onClick={toggleTop}   class="services_include_mob_button">Список документов</div>
                     <div class="services_include_img_mob_block">
                       <h3 class="services_include_item_smtitle_mob">Документация</h3>
                       <StaticImage class="services_include_img_mob" src="../../images/services/services_include_flat_1.png" alt="" />
@@ -116,13 +125,13 @@ const designInteriera = () => {
                 <div class="services_include_item">
                   <h3 class="services_include_item_smtitle">Фотореалистичная 3D-визуализация</h3>
                   <div class="services_include_text">
-                    <ul class="services_include_item_list">
+                    <ul class={"services_include_item_list " + (openBottom ? " open": "")}>
                       <p class="services_include_item_list_sp">Прежде, чем приступить к&nbsp;этому этапу, просматриваем вместе примеры удачных интерьеров и(или) архитектурных объектов, разработанных как внутри нашей студии, так и&nbsp;в&nbsp;мире в&nbsp;целом. Собираем кейс понравившихся работ&nbsp;&mdash; отмечаем, что именно в&nbsp;них Вас привлекает или отталкивает. Определяемся со&nbsp;стилистическими и&nbsp;цветовыми предпочтениями.</p>
                       <li>&mdash;&nbsp;Обычно 3-5 ракурсов на&nbsp;одно помещение</li>
                       <li>&mdash;&nbsp;Совмещенная зона кухни-столовой-гостиной: 7-10 ракурсов</li>
                       <li>&mdash;&nbsp;Количество помещений, для которых требуется визуализация, уточняется индивидуально для каждого проекта, но, как минимум, необходимо визуализировать основные помещения: прихожая, гостиная, кухня, столовая, спальня.</li>
                     </ul>
-                    <div class="services_include_mob_button">Список документов</div>
+                    <div  onClick={toggleBottom}  class="services_include_mob_button">Список документов</div>
                     <div class="services_include_img_mob_block">
                       <h3 class="services_include_item_smtitle_mob">Фотореалистичная<br />3D-визуализация</h3>
                       <StaticImage class="services_include_img_mob" src="../../images/services/services_include_flat_2.png" alt="" />
@@ -220,7 +229,7 @@ const designInteriera = () => {
   )
 }
 
-export default designInteriera
+export default DesignInteriera
 
 const breakpointColumnsObj = {
   default: 3,
