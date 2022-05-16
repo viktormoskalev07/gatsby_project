@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 // import PropTypes from "prop-types"
 import { Link } from "gatsby"
 import logo from "../images/iproject_logo.svg"
@@ -7,14 +7,17 @@ import logoMobile from "../images/iproject_logo_mobile.svg"
 const HeaderBlack = () => {
   const [navOpen , setNavOpen ]= React.useState(false);
   const [getStickyHeader , setStickyHeader] = React.useState(true);
-  if(navOpen){
-    document.body.style.overflow="hidden";
-    document.body.style.height="100vh";
-  } else{
-    document.body.style.height="auto";
-    document.body.style.overflow=""
-  }
-  React.useEffect(() => {
+  useEffect(()=>{
+      if(navOpen){
+        document.body.style.overflow="hidden";
+        document.body.style.height="100vh";
+      } else{
+        document.body.style.height="auto";
+        document.body.style.overflow=""
+      }
+  }, [navOpen])
+
+   useEffect(() => {
           let pscroll = 0
           const stickyHeader = ()=>{
             if(typeof window ==undefined){
