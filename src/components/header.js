@@ -11,7 +11,7 @@ const Header = () => {
     document.body.style.height="100vh";
   } else{
     document.body.style.height="auto";
-    document.body.style.overflow="auto"
+    document.body.style.overflow=""
   }
   const [getStickyHeader , setStickyHeader] = React.useState(true);
   React.useEffect(() => {
