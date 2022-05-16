@@ -4,6 +4,7 @@ import { AnchorLink } from "gatsby-plugin-anchor-links"
 import { StaticImage } from "gatsby-plugin-image"
 import { Link } from "gatsby"
 import Masonry from 'react-masonry-css'
+import { Faq } from "../../subitems/faq/flat"
 
 import mainVideo from "../../video/design_interiera.mp4"
 import mainVideoMobile from "../../video/design_interiera_mob.mp4"
@@ -18,7 +19,7 @@ const designInteriera = () => {
         <video src={mainVideoMobile} autoPlay={true} muted={true} loop={true} playsinline={true} type="video/mp4" className="services_video_mobile" width="100%" height="100%"></video>
         <div class="wrapper">
           <div class="services_video_text">
-            <h1 class="services_video_title">Дизайн-проект квартиры</h1>
+            <h1 class="services_video_title">Дизайн проект квартиры</h1>
             <p class="services_video_p">Создадим не&nbsp;просто красивый интерьер, но&nbsp;удобное для жизни пространство, в&nbsp;котором вы&nbsp;сможете чувствовать себя комфортно в&nbsp;любое время.</p>
           </div>
         </div>
@@ -28,7 +29,7 @@ const designInteriera = () => {
           <div class="left_sidebar">
             <ul>
               <li><AnchorLink to="/uslugi/dizajn-interera/#anchor_1" title="Планировка квартиры" /></li>
-              {/* <li><AnchorLink to="/uslugi/dizajn-interera/#anchor_2" title="Что входит в&nbsp;проект" /></li> */}
+              <li><AnchorLink to="/uslugi/dizajn-interera/#anchor_2" title="Что входит в&nbsp;проект" /></li>
               {/* <li><AnchorLink to="/uslugi/dizajn-interera/#anchor_3" title="Cтоимость" /></li> */}
               {/* <li><AnchorLink to="/uslugi/dizajn-interera/#anchor_4" title="Проектирование и&nbsp;строительство" /></li> */}
               <li><AnchorLink to="/uslugi/dizajn-interera/#anchor_5" title="Портфолио" /></li>
@@ -60,7 +61,6 @@ const designInteriera = () => {
                 {/* <div class="services_diff_text">
                   <p class="services_diff_p"></p>
                 </div> */}
-
               </div>
             </div> 
           </div> 
@@ -80,25 +80,27 @@ const designInteriera = () => {
                       <li>4. Планы с&nbsp;обозначением возводимых элементов стен, перегородок</li>
                       <li>5. Планы с&nbsp;расстановкой мебели и&nbsp;привязками сантехнического оборудования</li>
                       <div class="services_include_list_hidden">
-                        <li class="services_include_li">Планы с&nbsp;обозначением напольных покрытий</li>
-                        <li class="services_include_li">Схема подогрева полов</li>
-                        <li class="services_include_li">Планы подвесных потолков</li>
-                        <li class="services_include_li">Схема установки кондиционеров</li>
-                        <li class="services_include_li">Сечения подвесных потолков</li>
-                        <li class="services_include_li">Планы установки светильников и&nbsp;выключателей</li>
-                        <li class="services_include_li">Спецификация светильников и&nbsp;выключателей</li>
-                        <li class="services_include_li">Планы установки розеток</li>
-                        <li class="services_include_li">Спецификация розеток</li>
-                        <li class="services_include_li">Ведомость внутренней отделки помещений</li>
-                        <li class="services_include_li">Разрезы и(или) развертки по&nbsp;всем стенам с&nbsp;нанесением основных размеров</li>
-                        <li class="services_include_li">Разрезы и(или) развертки по&nbsp;всем стенам в&nbsp;цвете</li>
-                        <li class="services_include_li">Узлы, фрагменты (укрупненные с&nbsp;размерами)</li>
-                        <p class="services_include_li">Общий объем: 30–50 листов А3, А4</p>
+                        <li>6. Планы с&nbsp;обозначением напольных покрытий</li>
+                        <li>7. Схема подогрева полов</li>
+                        <li>8. Планы подвесных потолков</li>
+                        <li>9. Схема установки кондиционеров</li>
+                        <li>10. Сечения подвесных потолков</li>
+                        <li>11. Планы установки светильников и&nbsp;выключателей</li>
+                        <li>12. Спецификация светильников и&nbsp;выключателей</li>
+                        <li>13. Планы установки розеток</li>
+                        <li>14. Спецификация розеток</li>
+                        <li>15. Ведомость внутренней отделки помещений</li>
+                        <li>16. Разрезы и(или) развертки по&nbsp;всем стенам с&nbsp;нанесением основных размеров</li>
+                        <li>17. Разрезы и(или) развертки по&nbsp;всем стенам в&nbsp;цвете</li>
+                        <li>18. Узлы, фрагменты (укрупненные с&nbsp;размерами)</li>
+                        <p class="services_include_item_list_p">Общий объем: 30–50 листов А3, А4</p>
                       </div>
-                      <div class="services_include_button">Показать все</div>
+                      <button class="services_include_button">Показать все</button>
                     </ul>
-                    <div class="services_diff_img_mob_block">
-                      <StaticImage class="services_diff_flat_img_mob" src="../../images/services/services_include_flat_1.png" alt="" />
+                    <div class="services_include_mob_button">Список документов</div>
+                    <div class="services_include_img_mob_block">
+                      <h3 class="services_include_item_smtitle_mob">Документация</h3>
+                      <StaticImage class="services_include_img_mob" src="../../images/services/services_include_flat_1.png" alt="" />
                     </div>
                   </div>
                 </div>
@@ -115,16 +117,33 @@ const designInteriera = () => {
                   <h3 class="services_include_item_smtitle">Фотореалистичная 3D-визуализация</h3>
                   <div class="services_include_text">
                     <ul class="services_include_item_list">
+                      <p class="services_include_item_list_sp">Прежде, чем приступить к&nbsp;этому этапу, просматриваем вместе примеры удачных интерьеров и(или) архитектурных объектов, разработанных как внутри нашей студии, так и&nbsp;в&nbsp;мире в&nbsp;целом. Собираем кейс понравившихся работ&nbsp;&mdash; отмечаем, что именно в&nbsp;них Вас привлекает или отталкивает. Определяемся со&nbsp;стилистическими и&nbsp;цветовыми предпочтениями.</p>
                       <li>&mdash;&nbsp;Обычно 3-5 ракурсов на&nbsp;одно помещение</li>
                       <li>&mdash;&nbsp;Совмещенная зона кухни-столовой-гостиной: 7-10 ракурсов</li>
                       <li>&mdash;&nbsp;Количество помещений, для которых требуется визуализация, уточняется индивидуально для каждого проекта, но, как минимум, необходимо визуализировать основные помещения: прихожая, гостиная, кухня, столовая, спальня.</li>
                     </ul>
-                    <div class="services_diff_img_mob_block">
-                      <StaticImage class="services_diff_flat_img_mob" src="../../images/services/services_include_flat_2.png" alt="" />
+                    <div class="services_include_mob_button">Список документов</div>
+                    <div class="services_include_img_mob_block">
+                      <h3 class="services_include_item_smtitle_mob">Фотореалистичная<br />3D-визуализация</h3>
+                      <StaticImage class="services_include_img_mob" src="../../images/services/services_include_flat_2.png" alt="" />
                     </div>
                   </div>
                 </div>
               </div>
+            </div>
+          </div> 
+        </div>
+        {/* <section class="services_proekt">
+          <div class="wrapper">
+            <div class="right_content">
+              <div class="services_proekt_block">
+              </div>
+            </div> 
+          </div> 
+        </section> */}
+        <div class="wrapper">
+          <div class="right_content">
+            <div class="content_images">
               <section>
                 <h2 class="main_portfolio_title" id="anchor_5">Наши работы</h2>
                 <Masonry
@@ -134,96 +153,64 @@ const designInteriera = () => {
                   <Link to="/portfolio/interier/korolya/" className="portfolio_grid_link">
                     <StaticImage src="../../images/portfolio/korolya/00_korolya.jpg" alt="" />
                     <div class="portfolio_grid_block">
-                      <h2 className="portfolio_grid_block_title">Интерьер квартиры на&nbsp;ул.Короля в&nbsp;Минске, 145м<sup>2</sup></h2>
+                      <h3 className="portfolio_grid_block_title">Интерьер квартиры на&nbsp;ул.Короля в&nbsp;Минске, 145м<sup>2</sup></h3>
                       <p className="portfolio_grid_block_realize">Реализовано</p>
                     </div>
                   </Link>
                   <Link to="/portfolio/interier/apart-for-life" className="portfolio_grid_link">
                     <StaticImage src="../../images/portfolio/apart_for_life/00_apart_for_life.jpg" alt="" />
                     <div class="portfolio_grid_block">
-                      <h2 className="portfolio_grid_block_title">Квартира для жизни. Дизайн интерьера в&nbsp;Минске, 110м<sup>2</sup></h2>
+                      <h3 className="portfolio_grid_block_title">Квартира для жизни. Дизайн интерьера в&nbsp;Минске, 110м<sup>2</sup></h3>
                       <p className="portfolio_grid_block_realize">Реализовано</p>
                     </div>
                   </Link>
                   <Link to="/portfolio/interier/d3/" className="portfolio_grid_link">
                     <StaticImage src="../../images/portfolio/d3/00_d3.jpg" alt="" />
                     <div class="portfolio_grid_block">
-                      <h2 className="portfolio_grid_block_title">Дизайн квартиры в&nbsp;жилом комплексе &laquo;D3&raquo;, 120м<sup>2</sup></h2>
+                      <h3 className="portfolio_grid_block_title">Дизайн квартиры в&nbsp;жилом комплексе &laquo;D3&raquo;, 120м<sup>2</sup></h3>
                       <p className="portfolio_grid_block_realize">Реализовано</p>
                     </div>
                   </Link>
                   <Link to="/portfolio/interier/color/" className="portfolio_grid_link">
                     <StaticImage src="../../images/portfolio/color/00_color.jpg" alt="" />
                     <div class="portfolio_grid_block">
-                      <h2 className="portfolio_grid_block_title">Энергия цвета. Интерьер квартиры в&nbsp;Минске, 120м<sup>2</sup></h2>
+                      <h3 className="portfolio_grid_block_title">Энергия цвета. Интерьер квартиры в&nbsp;Минске, 120м<sup>2</sup></h3>
                     </div>
                   </Link>
                   <Link to="/portfolio/interier/sochi/" className="portfolio_grid_link">
                     <StaticImage src="../../images/portfolio/sochi/00_sochi.jpg" alt="" />
                     <div class="portfolio_grid_block">
-                      <h2 className="portfolio_grid_block_title">Дизайн интерьера в&nbsp;апарт-комплексе &laquo;Матисс&raquo; в&nbsp;г.Сочи, 45м<sup>2</sup></h2>
+                      <h3 className="portfolio_grid_block_title">Дизайн интерьера в&nbsp;апарт-комплексе &laquo;Матисс&raquo; в&nbsp;г.Сочи, 45м<sup>2</sup></h3>
                     </div>
                   </Link>
                   <Link to="/portfolio/interier/panfilova" className="portfolio_grid_link">
                     <StaticImage src="../../images/portfolio/panfilova/00_panfilova.jpg" alt="" />
                     <div class="portfolio_grid_block">
-                      <h2 className="portfolio_grid_block_title">Двушка на&nbsp;Панфилова. Дизайн квартиры в&nbsp;Минске, 85м<sup>2</sup></h2>
+                      <h3 className="portfolio_grid_block_title">Двушка на&nbsp;Панфилова. Дизайн квартиры в&nbsp;Минске, 85м<sup>2</sup></h3>
                       <p className="portfolio_grid_block_realize">Реализовано</p>
                     </div>
                   </Link>
                 </Masonry>
               </section>
+              {/* <section class="services__add">
+                <div class="services__add_item services__add_support">
+                  <div class="services__add_item_block">
+                    <h2 class="services__add_item_title">Авторское сопровождение</h2>
+                    <div class="services__add_item_text">
+                      <p>Выстраиваем схему выполнения проектных предложений и&nbsp;контролируем выполнение работ подрядчиков. Таким образом исключаем возможность возникновения ошибок или недочетов на&nbsp;смежных участках работ.</p>
+                      <p class="services__add_item_text_hidden">Мы&nbsp;не&nbsp;бросаем свою работу на&nbsp;половине пути и&nbsp;сопровождаем проекты до&nbsp;их&nbsp;полной реализации.</p>
+                    </div>
+                    <Link to="/uslugi/avtorskoe-soprovozhdenie/" className="services__add_item_link">Подробнее</Link>
+                  </div>
+                  <div class="services__add_support_block_img">
+                    <StaticImage className="services__add_support_img" src="../../images/services/services_add_support.jpg" alt="" />
+                  </div>
+                </div>
+              </section> */}
+
               <div class="faq" id="anchor_9">
                 <h3 class="faq_title">Вопрос / ответ</h3>
-                <div class="faq_item">
-                  <div class="faq_item_block">
-                    <h4>Для чего нужен дизайн проект?</h4>
-                  </div>
-                  <div class="faq_item_block_hidden">
-                    <p>Словосочетание дизайн проект состоит из&nbsp;двух составляющих его слов/понятий&nbsp;&mdash; дизайн и&nbsp;проект. Дизайн интерьера нужен для того&nbsp;же, для чего в&nbsp;принципе нужен любой дизайн,&nbsp;&mdash; для удобства и&nbsp;красоты, а&nbsp;проект необходим, т.к. удобство нужно продумать, а&nbsp;красоту придумать. Для этого нужно понимать как работают законы эргономики, композиции и&nbsp;цвета, ориентироваться в&nbsp;планировочных нормах и&nbsp;конструктивных особенностях, инженерных сетях и&nbsp;коммуникациях, свойствах материалов и&nbsp;специфике самого разного оборудования.</p>
-                    <p>В&nbsp;дизайн проект входят все документы, которые позволяют построить новый интерьер в&nbsp;вашей квартире. Это дает возможность рассчитать стоимость всех работ и&nbsp;предусмотреть все возможные проблемы на&nbsp;этапе проектирования.</p>
-                  </div>
-                </div>
-                <div class="faq_item">
-                  <div class="faq_item_block">
-                    <h4>Сколько времени вы&nbsp;делаете дизайн-проект квартиры?</h4>
-                  </div>
-                  <div class="faq_item_block_hidden">
-                    <p>В среднем около 60 дней.</p>
-                  </div>
-                </div>
-                <div class="faq_item">
-                  <div class="faq_item_block">
-                    <h4>Будет&nbsp;ли учтен бюджет при разработке дизайн проекта?</h4>
-                  </div>
-                  <div class="faq_item_block_hidden">
-                    <p>Мы&nbsp;можем точно рассчитать все затраты на&nbsp;строительные работы и&nbsp;черновые материалы. Затраты&nbsp;же на&nbsp;чистовые материалы, мебель и&nbsp;оборудование удобнее подсчитывать в&nbsp;процессе комплектации, и&nbsp;эта услуга у&nbsp;нас совмещена с&nbsp;услугой авторского сопровождения.</p>
-                  </div>
-                </div>
-                <div class="faq_item">
-                  <div class="faq_item_block">
-                    <h4>В&nbsp;каком стиле дизайна вы&nbsp;работаете?</h4>
-                  </div>
-                  <div class="faq_item_block_hidden">
-                    <p>Мы&nbsp;работаем во&nbsp;всех стилистических направлениях без ограничений.</p>
-                  </div>
-                </div>
-                <div class="faq_item">
-                  <div class="faq_item_block">
-                    <h4>Как оплачивается дизайн-проект?</h4>
-                  </div>
-                  <div class="faq_item_block_hidden">
-                    <p>Дизайн-проект оплачивается в&nbsp;4&nbsp;этапа по&nbsp;25% от&nbsp;стоимости, наличными или переводом на&nbsp;расчетный счет.</p>
-                  </div>
-                </div>
-                <div class="faq_item">
-                  <div class="faq_item_block">
-                    <h4>Сколько времени понадобится на&nbsp;ремонт квартиры?</h4>
-                  </div>
-                  <div class="faq_item_block_hidden">
-                    <p>От&nbsp;6-ти до&nbsp;12-ти месяцев. Важно также понимать, что речь идет о&nbsp;создании уникального интерьера по&nbsp;индивидуальному проекту, не&nbsp;путать с&nbsp;так называемым &laquo;евроремонтом&raquo;.</p>
-                  </div>
-                </div>
+                <Faq/>
               </div>
             </div>
           </div>     

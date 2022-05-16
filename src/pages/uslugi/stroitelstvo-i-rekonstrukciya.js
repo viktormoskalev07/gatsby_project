@@ -4,6 +4,7 @@ import { AnchorLink } from "gatsby-plugin-anchor-links"
 import { StaticImage } from "gatsby-plugin-image"
 import { Link } from "gatsby"
 import Masonry from 'react-masonry-css'
+import { Faq } from "../../subitems/faq/stroyka"
 
 import mainVideo from "../../video/reconstruction.mp4"
 import mainVideoMobile from "../../video/reconstruction_mob.mp4"
@@ -27,7 +28,7 @@ const stroitelstvo = () => {
         <div class="content_body_absolute">
           <div class="left_sidebar">
             <ul>
-              <li><AnchorLink to="/uslugi/stroitelstvo-i-rekonstrukciya/#anchor_1" title="Что входит в&nbsp;проект" /></li>
+              {/* <li><AnchorLink to="/uslugi/stroitelstvo-i-rekonstrukciya/#anchor_1" title="Что входит в&nbsp;проект" /></li> */}
               {/* <li><AnchorLink to="/uslugi/stroitelstvo-i-rekonstrukciya/#anchor_3" title="Cтоимость" /></li> */}
               {/* <li><AnchorLink to="/uslugi/stroitelstvo-i-rekonstrukciya/#anchor_4" title="Проектирование и&nbsp;строительство" /></li> */}
               <li><AnchorLink to="/uslugi/stroitelstvo-i-rekonstrukciya/#anchor_5" title="Портфолио" /></li>
@@ -49,63 +50,63 @@ const stroitelstvo = () => {
                   <Link to="/portfolio/interier/korolya/" className="portfolio_grid_link">
                     <StaticImage src="../../images/portfolio/korolya/00_korolya.jpg" alt="" />
                     <div class="portfolio_grid_block">
-                      <h2 className="portfolio_grid_block_title">Интерьер квартиры на&nbsp;ул.Короля в&nbsp;Минске, 145м<sup>2</sup></h2>
+                      <h3 className="portfolio_grid_block_title">Интерьер квартиры на&nbsp;ул.Короля в&nbsp;Минске, 145м<sup>2</sup></h3>
                       <p className="portfolio_grid_block_realize">Реализовано</p>
                     </div>
                   </Link>
                   <Link to="/portfolio/architecture/luban/" className="portfolio_grid_link">
                     <StaticImage src="../../images/portfolio/luban/00_luban.jpg" alt="" />
                     <div class="portfolio_grid_block">
-                      <h2 className="portfolio_grid_block_title">Дом для жизни. Архитектура, 400м<sup>2</sup></h2>
+                      <h3 className="portfolio_grid_block_title">Дом для жизни. Архитектура, 400м<sup>2</sup></h3>
                       <p className="portfolio_grid_block_realize">Реализовано</p>
                     </div>
                   </Link>
                   <Link to="/portfolio/interier/interier-protos/" className="portfolio_grid_link">
                     <StaticImage src="../../images/portfolio/protos_interior/00_protos_interior.jpg" alt="" />
                     <div class="portfolio_grid_block">
-                      <h2 className="portfolio_grid_block_title">Дизайн интерьера офисов &laquo;Протос&raquo;, 200м<sup>2</sup></h2>
+                      <h3 className="portfolio_grid_block_title">Дизайн интерьера офисов &laquo;Протос&raquo;, 200м<sup>2</sup></h3>
                       <p className="portfolio_grid_block_realize">Реализовано</p>
                     </div>
                   </Link>
                   <Link to="/portfolio/architecture/rekonstrukciya-protos/" className="portfolio_grid_link">
                     <StaticImage src="../../images/portfolio/protos_reconstraction/00_protos_reconstraction.jpg" alt="" />
                     <div class="portfolio_grid_block">
-                      <h2 className="portfolio_grid_block_title">Реконструкция офисов группы компаний &laquo;Протос&raquo;, 200м<sup>2</sup></h2>
+                      <h3 className="portfolio_grid_block_title">Реконструкция офисов группы компаний &laquo;Протос&raquo;, 200м<sup>2</sup></h3>
                       <p className="portfolio_grid_block_realize">Реализовано</p>
                     </div>
                   </Link>
                   <Link to="/portfolio/architecture/exterier-baltic-house/" className="portfolio_grid_link">
                     <StaticImage src="../../images/portfolio/baltic_house/exterior/00_baltic_home_exterior.jpg" alt="" />
                     <div class="portfolio_grid_block">
-                      <h2 className="portfolio_grid_block_title">Дом с&nbsp;балтийским характером. Экстерьер, 500&nbsp;м<sup>2</sup></h2>
+                      <h3 className="portfolio_grid_block_title">Дом с&nbsp;балтийским характером. Экстерьер, 500&nbsp;м<sup>2</sup></h3>
                       <p className="portfolio_grid_block_realize">Реализовано</p>
                     </div>
                   </Link>
                   <Link to="/portfolio/interier/interier-baltic-house/" className="portfolio_grid_link">
                     <StaticImage src="../../images/portfolio/baltic_house/interior/00_baltic_home_interior.jpg" alt="" />
                     <div class="portfolio_grid_block">
-                      <h2 className="portfolio_grid_block_title">Дом с&nbsp;балтийским характером. Интерьер, 500м<sup>2</sup></h2>
+                      <h3 className="portfolio_grid_block_title">Дом с&nbsp;балтийским характером. Интерьер, 500м<sup>2</sup></h3>
                       <p className="portfolio_grid_block_realize">Реализовано</p>
                     </div>
                   </Link>
                   <Link to="/portfolio/interier/panfilova" className="portfolio_grid_link">
                     <StaticImage src="../../images/portfolio/panfilova/00_panfilova.jpg" alt="" />
                     <div class="portfolio_grid_block">
-                      <h2 className="portfolio_grid_block_title">Двушка на&nbsp;Панфилова. Дизайн квартиры в&nbsp;Минске, 85м<sup>2</sup></h2>
+                      <h3 className="portfolio_grid_block_title">Двушка на&nbsp;Панфилова. Дизайн квартиры в&nbsp;Минске, 85м<sup>2</sup></h3>
                       <p className="portfolio_grid_block_realize">Реализовано</p>
                     </div>
                   </Link>
                   <Link to="/portfolio/interier/d3/" className="portfolio_grid_link">
                     <StaticImage src="../../images/portfolio/d3/00_d3.jpg" alt="" />
                     <div class="portfolio_grid_block">
-                      <h2 className="portfolio_grid_block_title">Дизайн квартиры в&nbsp;жилом комплексе &laquo;D3&raquo;, 120м<sup>2</sup></h2>
+                      <h3 className="portfolio_grid_block_title">Дизайн квартиры в&nbsp;жилом комплексе &laquo;D3&raquo;, 120м<sup>2</sup></h3>
                       <p className="portfolio_grid_block_realize">Реализовано</p>
                     </div>
                   </Link>
                   <Link to="/portfolio/interier/storojevskaya" className="portfolio_grid_link">
                     <StaticImage src="../../images/portfolio/storojevskaya/00_storojevskaya.jpg" alt="" />
                     <div class="portfolio_grid_block">
-                      <h2 className="portfolio_grid_block_title">Дизайн интерьера квартиры на&nbsp;ул.Сторожовская, 130м<sup>2</sup></h2>
+                      <h3 className="portfolio_grid_block_title">Дизайн интерьера квартиры на&nbsp;ул.Сторожовская, 130м<sup>2</sup></h3>
                       <p className="portfolio_grid_block_realize">Реализовано</p>
                     </div>
                   </Link>
@@ -113,22 +114,7 @@ const stroitelstvo = () => {
               </section>
               <div class="faq" id="anchor_8">
                 <h3 class="faq_title">Вопрос / ответ</h3>
-                <div class="faq_item">
-                  <div class="faq_item_block">
-                    <h4>Сколько времени вы&nbsp;делаете ремонт в&nbsp;квартире? В&nbsp;доме?</h4>
-                  </div>
-                  <div class="faq_item_block_hidden">
-                    <p>Чаще всего, если мы&nbsp;имеем дело с&nbsp;дизайном интерьера&nbsp;&mdash; приходится говорить не&nbsp;просто о&nbsp;ремонте, а&nbsp;о&nbsp;реконструкции, которой мы&nbsp;занимаемся совместно с&nbsp;нашими партнерами, высококлассными строителями. Для того чтобы воплотить в&nbsp;жизнь хороший интерьер (не&nbsp;путать с&nbsp;&laquo;евроремонтом&raquo;), обычно уходит от&nbsp;6&nbsp;до&nbsp;12&nbsp;месяцев.</p>
-                  </div>
-                </div>
-                <div class="faq_item">
-                  <div class="faq_item_block">
-                    <h4>Можно&nbsp;ли заказать в&nbsp;вашей студии ремонт или услуги по&nbsp;строительству без дизайн-проекта или архитектурного проекта?</h4>
-                  </div>
-                  <div class="faq_item_block_hidden">
-                    <p>Нет. Нам не&nbsp;интересен ремонт ради ремонта, нам интересно создавать уникальные объекты интерьера и&nbsp;архитектуры.</p>
-                  </div>
-                </div>
+                <Faq/>
               </div>
             </div>
           </div>     

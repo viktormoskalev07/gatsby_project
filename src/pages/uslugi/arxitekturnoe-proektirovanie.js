@@ -101,40 +101,40 @@ const arxitekturnoe = () => {
                   <Link to="/portfolio/architecture/luban/" className="portfolio_grid_link">
                     <StaticImage src="../../images/portfolio/luban/00_luban.jpg" alt="" />
                     <div class="portfolio_grid_block">
-                      <h2 className="portfolio_grid_block_title">Дом для жизни. Архитектура, 400м<sup>2</sup></h2>
+                      <h3 className="portfolio_grid_block_title">Дом для жизни. Архитектура, 400м<sup>2</sup></h3>
                       <p className="portfolio_grid_block_realize">Реализовано</p>
                     </div>
                   </Link>
                   <Link to="/portfolio/interier/interier-baltic-house/" className="portfolio_grid_link">
                     <StaticImage src="../../images/portfolio/baltic_house/interior/00_baltic_home_interior.jpg" alt="" />
                     <div class="portfolio_grid_block">
-                      <h2 className="portfolio_grid_block_title">Дом с&nbsp;балтийским характером. Интерьер, 500м<sup>2</sup></h2>
+                      <h3 className="portfolio_grid_block_title">Дом с&nbsp;балтийским характером. Интерьер, 500м<sup>2</sup></h3>
                       <p className="portfolio_grid_block_realize">Реализовано</p>
                     </div>
                   </Link>
                   <Link to="/portfolio/architecture/rekonstrukciya-protos/" className="portfolio_grid_link">
                     <StaticImage src="../../images/portfolio/protos_reconstraction/00_protos_reconstraction.jpg" alt="" />
                     <div class="portfolio_grid_block">
-                      <h2 className="portfolio_grid_block_title">Реконструкция офисов группы компаний &laquo;Протос&raquo;, 200м<sup>2</sup></h2>
+                      <h3 className="portfolio_grid_block_title">Реконструкция офисов группы компаний &laquo;Протос&raquo;, 200м<sup>2</sup></h3>
                       <p className="portfolio_grid_block_realize">Реализовано</p>
                     </div>
                   </Link>
                   <Link to="/portfolio/architecture/dom-u-more" className="portfolio_grid_link">
                     <StaticImage src="../../images/portfolio/dom_u_more/00_dom_u_more.jpg" alt="" />
                     <div class="portfolio_grid_block">
-                      <h2 className="portfolio_grid_block_title">Дом у&nbsp;моря. Архитектурное решение + Интерьер, 1000м<sup>2</sup></h2>
+                      <h3 className="portfolio_grid_block_title">Дом у&nbsp;моря. Архитектурное решение + Интерьер, 1000м<sup>2</sup></h3>
                     </div>
                   </Link>
                   <Link to="/portfolio/architecture/shale" className="portfolio_grid_link">
                     <StaticImage src="../../images/portfolio/shale/00_shale.jpg" alt="" />
                     <div class="portfolio_grid_block">
-                      <h2 className="portfolio_grid_block_title">Современное шале. Архитектура дома, 300м<sup>2</sup></h2>
+                      <h3 className="portfolio_grid_block_title">Современное шале. Архитектура дома, 300м<sup>2</sup></h3>
                     </div>
                   </Link>
                   <Link to="/portfolio/architecture/sosni" className="portfolio_grid_link">
                     <StaticImage src="../../images/portfolio/sosni/00_sosni.jpg" alt="" />
                     <div class="portfolio_grid_block">
-                      <h2 className="portfolio_grid_block_title">Дом в&nbsp;сосновом бору. Архитектура, 750м<sup>2</sup></h2>
+                      <h3 className="portfolio_grid_block_title">Дом в&nbsp;сосновом бору. Архитектура, 750м<sup>2</sup></h3>
                     </div>
                   </Link>
                 </Masonry>

@@ -1,24 +1,23 @@
- 
 .beforeAnimation{
-   transform:translateX(20vw);
-    opacity: 0;
-    transition : 0s;
-  :global {
-    .subText{
-       display: block;
-      transform:translateX(10vw);
-    }
-  }
+  transform:translateX(20vw);
+   opacity: 0;
+   transition : 0s;
+ :global {
+   .subText{
+      display: block;
+     transform:translateX(10vw);
+   }
+ }
 }
 
 .animationClass{
-    transition :1.5s;
-    opacity: 1;
- transform:translateX(0);
-    :global {
-        .subText{
-          transition :2s;
-          transform:translateX(0);
-        }
-    }
+   transition :1.5s;
+   opacity: 1;
+transform:translateX(0);
+   :global {
+       .subText{
+         transition :2s;
+         transform:translateX(0);
+       }
+   }
 }

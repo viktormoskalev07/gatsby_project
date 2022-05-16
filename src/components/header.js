@@ -52,13 +52,13 @@ const Header = () => {
               <p className="header_nav_link header_nav_services" activeClassName="header_nav_active">Услуги</p>
               <ul class="submenu">
                 <li class="submenu_li">
-                  <Link to="/uslugi/dizajn-interera/" className="submenu_li_a">Дизайн-проект квартиры</Link>
+                  <Link to="/uslugi/dizajn-interera/" className="submenu_li_a">Дизайн проект квартиры</Link>
                 </li>
                 <li class="submenu_li">
-                  <Link to="/uslugi/dizajn-interera-domov/" className="submenu_li_a">Дизайн-проект дома</Link>
+                  <Link to="/uslugi/dizajn-interera-domov/" className="submenu_li_a">Дизайн проект дома</Link>
                 </li>
                 <li class="submenu_li">
-                  <Link to="/uslugi/dizajn-interera-ofisov/" className="submenu_li_a">Дизайн-проект офиса</Link>
+                  <Link to="/uslugi/dizajn-interera-ofisov/" className="submenu_li_a">Дизайн проект офиса</Link>
                 </li>
                 <li class="submenu_li">
                   <Link to="/uslugi/arxitekturnoe-proektirovanie/" className="submenu_li_a">Архитектурное проектирование</Link>
@@ -122,16 +122,16 @@ const Header = () => {
           <p className="header_mobile_nav">Услуги</p>
           <ul class="header_mobile_list_2">
             <li>
-              <Link to="/uslugi/dizajn-interera/" className="header_mobile_nav_link" activeClassName="header_mobile_active">Дизайн интерьера квартир</Link>
+              <Link to="/uslugi/dizajn-interera/" className="header_mobile_nav_link" activeClassName="header_mobile_active">Дизайн проект квартир</Link>
             </li>
             <li>
-              <Link to="/uslugi/dizajn-interera-domov/" className="header_mobile_nav_link" activeClassName="header_mobile_active">Дизайн интерьера домов</Link>
+              <Link to="/uslugi/dizajn-interera-domov/" className="header_mobile_nav_link" activeClassName="header_mobile_active">Дизайн проект домов</Link>
+            </li>
+            <li>
+              <Link to="/uslugi/dizajn-interera-ofisov/" className="header_mobile_nav_link" activeClassName="header_mobile_active">Дизайн проект офисов</Link>
             </li>
             <li>
               <Link to="/uslugi/arxitekturnoe-proektirovanie/" className="header_mobile_nav_link" activeClassName="header_mobile_active">Архитектурное проектирование</Link>
-            </li>
-            <li>
-              <Link to="/uslugi/dizajn-interera-ofisov/" className="header_mobile_nav_link" activeClassName="header_mobile_active">Дизайн офисов</Link>
             </li>
             <li>
               <Link to="/uslugi/stroitelstvo-i-rekonstrukciya/" className="header_mobile_nav_link" activeClassName="header_mobile_active">Строительство и реконструкция</Link>
