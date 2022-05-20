@@ -8,6 +8,8 @@ import { Faq } from "../../subitems/faq/flat"
 
 import mainVideo from "../../video/design_interiera.mp4"
 import mainVideoMobile from "../../video/design_interiera_mob.mp4"
+import secondVideo from "../../video/preview_flat.mp4"
+
 
 const DesignInteriera = () => {
   const [openTop , setOpenTop] = useState(false);
@@ -163,6 +165,32 @@ const DesignInteriera = () => {
             </div> 
           </div> 
         </section> */}
+        <div class="presentation">
+          <div class="video_block_presentation">
+            <button class="video_block_presentation_button" onclick="toogleVideo();">
+              <div class="video_block_presentation_button_play"></div>
+              <div class="video_block_presentation_button_pause"></div>
+            </button>
+            <button class="video_block_presentation_button_next" onclick="ShowAllVideo();">
+              <div class="video_block_presentation_button_show_all">
+                <p class="video_block_presentation_button_show_all_text">Посмотреть <span>все видео</span></p>
+                <div class="video_block_presentation_button_show_all_symbol"></div>
+              </div>
+            </button>
+          </div>
+          <video class="video_presentation" width="100%" height="100%" muted="" type="video/mp4">
+            <source src={secondVideo} type="video/mp4" />
+          </video>
+          <iframe class="video_presentation_youtube" id="video1" width="100%" height="auto" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="presentation_mobile">
+          <div class="presentation_mobile_block">
+            <div class="presentation_mobile_button">
+              <div class="video_block_presentation_button_symbol"></div>
+            </div>
+          </div>
+          <iframe class="video_youtube_iframe" width="100%" height="auto" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
         <div class="wrapper">
           <div class="right_content">
             <section>
