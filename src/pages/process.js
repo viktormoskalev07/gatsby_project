@@ -15,12 +15,11 @@ const process = () => {
     <Layout>
       <section>
         <div class="process_video">
+          <div class="process_video_here"></div>
           <video autoPlay={true} muted={true} loop={true} type="video/mp4" width="100%" height="100%" className="process_video_desktop video">
             <source src={ProcessVideo} type="video/mp4" />
           </video>
-          <video src={ProcessVideoMobile} autoPlay={true} muted={true} loop={true} playsinline={true} type="video/mp4" className="process_video_mobile" width="100%" height="100%">
-            <source src={ProcessVideoMobile} type="video/mp4" />
-          </video>
+          <video src={ProcessVideoMobile} autoPlay={true} muted={true} loop={true} playsinline={true} type="video/mp4" className="process_video_mobile" width="100%" height="100%"></video>
           <div class="wrapper">
             <div class="process_video_text">
               <h1 class="process_video_title">Как строится работа в&nbsp;I‑PROJECT</h1>

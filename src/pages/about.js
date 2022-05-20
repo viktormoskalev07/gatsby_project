@@ -11,11 +11,13 @@ import AboutVideoMobile from "../video/about_mob.mp4"
 const About = () => {
   return (
     <Layout>
-      <video autoPlay={true} muted={true} loop={true} type="video/mp4" width="100%" height="100%" className="studio_video video">
-        <source src={AboutVideo} type="video/mp4" />
-      </video>
-      <video src={AboutVideoMobile} autoPlay={true} muted={true} loop={true} playsinline={true} type="video/mp4" className="studio_video_mobile" width="100%" height="100%"></video>
-      
+      <div class="about_video">
+        <div class="about_video_here"></div>
+        <video autoPlay={true} muted={true} loop={true} type="video/mp4" width="100%" height="100%" className="studio_video video">
+          <source src={AboutVideo} type="video/mp4" />
+        </video>
+        <video src={AboutVideoMobile} autoPlay={true} muted={true} loop={true} playsinline={true} type="video/mp4" className="studio_video_mobile" width="100%" height="100%"></video>
+      </div>
       <section class="studio_page">
         <div class="content_body">
           <div class="content_body_absolute">
@@ -72,42 +74,42 @@ const About = () => {
           </div>
         </div>
         <div class="wrapper">
-            <div class="rewards studio_rewards">
-              <div class="reward_item">
-                <StaticImage src="../images/rewards/reward_3.jpg" alt="" class="reward_image"/>
-                <p class="reward_text">Первое место на&nbsp;XX&nbsp;Республиканском конкурсе на&nbsp;лучший &laquo;Проект&raquo;, &laquo;Постройку&raquo;, &laquo;Публикацию&raquo;, в&nbsp;рамках XIV Национального фестиваля архитектуры, в&nbsp;разделе &laquo;Постройка&raquo;, в&nbsp;номинации &laquo;Интерьеры зданий и&nbsp;сооружений&raquo;. За&nbsp;реализацию проекта &laquo;<Link to="/portfolio/interier-baltic-house" className="link">Дом с&nbsp;Балтийским характером</Link>&raquo;.</p>
-              </div>
-              <div class="reward_item rewards_white">
-                <StaticImage src="../images/rewards/reward_4.jpg" alt="" class="reward_image"/>
-                <p class="reward_text">1&nbsp;место на&nbsp;Республиканском триеннале дизайнеров частного интерьера &laquo;Профессиональный интерьер&raquo; за&nbsp;2014, 2015, 2016&nbsp;гг. Конкурс проводится при поддержке Министерства архитектуры и&nbsp;строительства и&nbsp;посольства Италии в&nbsp;Республике Беларусь. Работы оценивало авторитетное международное жюри из&nbsp;7&nbsp;стран: Беларуси, Германии, Испании, Италии, Латвии, Литвы, России.</p>
-              </div>
-              <div class="reward_item rewards_white">
-                <StaticImage src="../images/rewards/reward_5.jpg" alt="" class="reward_image"/>
-                <p class="reward_text">1&nbsp;место на&nbsp;Международном архитектурном биеннале &laquo;Леонардо&nbsp;&mdash; 2019&raquo;. В&nbsp;конкурсе участвовало более 300 работ из&nbsp;28&nbsp;стран за&nbsp;2016, 2017, 2018, 2019гг. Работы оценивало международное жюри: известные архитекторы из&nbsp;США, Австрии, Нидерландов, России и&nbsp;Беларуси.</p>
-              </div>
-              <div class="reward_item">
-                <StaticImage src="../images/rewards/reward_2.jpg" alt="" class="reward_image"/>
-                <p class="reward_text">Первое место на&nbsp;XX&nbsp;Республиканском конкурсе на&nbsp;лучший &laquo;Проект&raquo;, &laquo;Постройку&raquo;, &laquo;Публикацию&raquo;, в&nbsp;рамках XIV Национального фестиваля архитектуры, в&nbsp;разделе &laquo;Постройка&raquo;, в&nbsp;номинации &laquo;Реконструкция зданий и&nbsp;сооружений&raquo;. За&nbsp;реализацию проекта &laquo;<Link to="/portfolio/rekonstrukciya-protos" className="link">Реконструкция административного офисного здания группы компаний ПРОТОС</Link>&raquo;.</p>
-              </div>
-              <div class="reward_item reward_protos">
-                <StaticImage src="../images/rewards/reward_1.jpg" alt="" class="reward_image"/>
-                <p class="reward_text">Второе место на&nbsp;XX&nbsp;Республиканском конкурсе на&nbsp;лучший &laquo;Проект&raquo;, &laquo;Постройку&raquo;, &laquo;Публикацию&raquo;, в&nbsp;рамках XIV Национального фестиваля архитектуры, в&nbsp;разделе &laquo;Постройка&raquo;, в&nbsp;номинации &laquo;Интерьеры зданий и&nbsp;сооружений&raquo;. За&nbsp;реализацию проекта &laquo;<Link to="/portfolio/interier-protos" className="link">Интерьер офиса группы компаний ПРОТОС</Link>&raquo;.</p>
-              </div>
-              <div class="reward_item rewards_white">
-                <StaticImage src="../images/rewards/reward_6.jpg" alt="" class="reward_image"/>
-                <p class="reward_text">Первое место в&nbsp;конкурсе интерьерного дизайна и&nbsp;декора Premio Decor Design 2012. В&nbsp;конкурсе участвовало более 100 работ белорусских дизайнеров. Конкурс проводился под патронажем посольства Италии в&nbsp;Республике Беларусь.</p>
-              </div>
+          <div class="rewards studio_rewards">
+            <div class="reward_item">
+              <StaticImage src="../images/rewards/reward_3.jpg" alt="" class="reward_image"/>
+              <p class="reward_text">Первое место на&nbsp;XX&nbsp;Республиканском конкурсе на&nbsp;лучший &laquo;Проект&raquo;, &laquo;Постройку&raquo;, &laquo;Публикацию&raquo;, в&nbsp;рамках XIV Национального фестиваля архитектуры, в&nbsp;разделе &laquo;Постройка&raquo;, в&nbsp;номинации &laquo;Интерьеры зданий и&nbsp;сооружений&raquo;. За&nbsp;реализацию проекта &laquo;<Link to="/portfolio/interier-baltic-house" className="link">Дом с&nbsp;Балтийским характером</Link>&raquo;.</p>
             </div>
-            <div class="studio_diplomas_more">
-              <StaticImage src="../images/rewards/reward_7.jpg" alt="Диплом 1 места" class="studio_diplomas_img_more" />
-              <StaticImage src="../images/rewards/reward_8.jpg" alt="Диплом 1 места" class="studio_diplomas_img_more" />
-              <StaticImage src="../images/rewards/reward_9.jpg" alt="Диплом 1 места" class="studio_diplomas_img_more" />
-              <StaticImage src="../images/rewards/reward_10.jpg" alt="Диплом 1 места" class="studio_diplomas_img_more" />
-              <StaticImage src="../images/rewards/reward_11.jpg" alt="Диплом 1 места" class="studio_diplomas_img_more" />
-              <StaticImage src="../images/rewards/reward_12.jpg" alt="Диплом 1 места" class="studio_diplomas_img_more" />
+            <div class="reward_item rewards_white">
+              <StaticImage src="../images/rewards/reward_4.jpg" alt="" class="reward_image"/>
+              <p class="reward_text">1&nbsp;место на&nbsp;Республиканском триеннале дизайнеров частного интерьера &laquo;Профессиональный интерьер&raquo; за&nbsp;2014, 2015, 2016&nbsp;гг. Конкурс проводится при поддержке Министерства архитектуры и&nbsp;строительства и&nbsp;посольства Италии в&nbsp;Республике Беларусь. Работы оценивало авторитетное международное жюри из&nbsp;7&nbsp;стран: Беларуси, Германии, Испании, Италии, Латвии, Литвы, России.</p>
+            </div>
+            <div class="reward_item rewards_white">
+              <StaticImage src="../images/rewards/reward_5.jpg" alt="" class="reward_image"/>
+              <p class="reward_text">1&nbsp;место на&nbsp;Международном архитектурном биеннале &laquo;Леонардо&nbsp;&mdash; 2019&raquo;. В&nbsp;конкурсе участвовало более 300 работ из&nbsp;28&nbsp;стран за&nbsp;2016, 2017, 2018, 2019гг. Работы оценивало международное жюри: известные архитекторы из&nbsp;США, Австрии, Нидерландов, России и&nbsp;Беларуси.</p>
+            </div>
+            <div class="reward_item">
+              <StaticImage src="../images/rewards/reward_2.jpg" alt="" class="reward_image"/>
+              <p class="reward_text">Первое место на&nbsp;XX&nbsp;Республиканском конкурсе на&nbsp;лучший &laquo;Проект&raquo;, &laquo;Постройку&raquo;, &laquo;Публикацию&raquo;, в&nbsp;рамках XIV Национального фестиваля архитектуры, в&nbsp;разделе &laquo;Постройка&raquo;, в&nbsp;номинации &laquo;Реконструкция зданий и&nbsp;сооружений&raquo;. За&nbsp;реализацию проекта &laquo;<Link to="/portfolio/rekonstrukciya-protos" className="link">Реконструкция административного офисного здания группы компаний ПРОТОС</Link>&raquo;.</p>
+            </div>
+            <div class="reward_item reward_protos">
+              <StaticImage src="../images/rewards/reward_1.jpg" alt="" class="reward_image"/>
+              <p class="reward_text">Второе место на&nbsp;XX&nbsp;Республиканском конкурсе на&nbsp;лучший &laquo;Проект&raquo;, &laquo;Постройку&raquo;, &laquo;Публикацию&raquo;, в&nbsp;рамках XIV Национального фестиваля архитектуры, в&nbsp;разделе &laquo;Постройка&raquo;, в&nbsp;номинации &laquo;Интерьеры зданий и&nbsp;сооружений&raquo;. За&nbsp;реализацию проекта &laquo;<Link to="/portfolio/interier-protos" className="link">Интерьер офиса группы компаний ПРОТОС</Link>&raquo;.</p>
+            </div>
+            <div class="reward_item rewards_white">
+              <StaticImage src="../images/rewards/reward_6.jpg" alt="" class="reward_image"/>
+              <p class="reward_text">Первое место в&nbsp;конкурсе интерьерного дизайна и&nbsp;декора Premio Decor Design 2012. В&nbsp;конкурсе участвовало более 100 работ белорусских дизайнеров. Конкурс проводился под патронажем посольства Италии в&nbsp;Республике Беларусь.</p>
             </div>
           </div>
-        <StaticImage class="studio_kollazh" alt="Коллаж для страницы О студии i-project" src="../images/studio_kollazh.jpg" />
+          <div class="studio_diplomas_more">
+            <StaticImage src="../images/rewards/reward_7.jpg" alt="Диплом 1 места" class="studio_diplomas_img_more" />
+            <StaticImage src="../images/rewards/reward_8.jpg" alt="Диплом 1 места" class="studio_diplomas_img_more" />
+            <StaticImage src="../images/rewards/reward_9.jpg" alt="Диплом 1 места" class="studio_diplomas_img_more" />
+            <StaticImage src="../images/rewards/reward_10.jpg" alt="Диплом 1 места" class="studio_diplomas_img_more" />
+            <StaticImage src="../images/rewards/reward_11.jpg" alt="Диплом 1 места" class="studio_diplomas_img_more" />
+            <StaticImage src="../images/rewards/reward_12.jpg" alt="Диплом 1 места" class="studio_diplomas_img_more" />
+          </div>
+        </div>
+        <StaticImage class="studio_kollazh" alt="Коллаж для страницы О студии i-project" src="../images/studio_kollazh.png" />
       </section>
     </Layout>
   )

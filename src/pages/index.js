@@ -17,6 +17,7 @@ export default function Home() {
   return (
     <Layout>
       <div class="main_video">
+        <div class="main_video_here"></div>
         <video autoPlay={true} muted={true} loop={true} type="video/mp4" width="100%" height="100%" className="main_video_desktop">
           <source src={IndexVideo} type="video/mp4" />
         </video>
@@ -29,7 +30,7 @@ export default function Home() {
       </div>
       <div class="wrapper">
         <h1 class="main_title_h2">Студия дизайна интерьера и&nbsp;архитектуры I-PROJECT</h1>
-        <div class="services_block">
+        <div class="services_block" id="ancher_1">
           <div class="services_block_grid">
             <Link to="/portfolio" className="services_block_int_mob">
               <p class="services_block_int_mob_title">Дизайн интерьера</p>
@@ -76,6 +77,7 @@ export default function Home() {
         <div class="content_body_absolute">
           <div class="left_sidebar">
             <ul>
+              <li><AnchorLink to="/#ancher_1" title="Наши компетенции" /></li>
               <li><AnchorLink to="/#advantage_title" title="Наши преимущества" /></li>
               <li><AnchorLink to="/#portfolio_title" title="Новые работы" /></li>
               <li><AnchorLink to="/#process_title" title="Как мы&nbsp;работаем" /></li>
@@ -92,7 +94,6 @@ export default function Home() {
             <section>
               <h2 class="main_portfolio_title" id="portfolio_title">Новые работы</h2>
               <div class="content_text">
-                <p class="content_p">Студия дизайна и&nbsp;архитектуры I-PROJECT оказывает полный цикл услуг по&nbsp;дизайну интерьера, архитектуре и&nbsp;строительству. Сопровождаем наших клиентов от&nbsp;проектирования интерьера до&nbsp;комплектации построенного объекта, представляя их&nbsp;интересы на&nbsp;каждом этапе.</p>
                 <p class="content_p">В&nbsp;нашем <Link to="/portfolio/" className="link">портфолио</Link> большое количество реализованных объектов, которые получились именно благодаря комплексному подходу.</p>
               </div>
               <Masonry
@@ -125,13 +126,13 @@ export default function Home() {
                     <h3 className="portfolio_grid_block_title">Дизайн интерьера обычного дома, 250м<sup>2</sup></h3>
                   </div>
                 </Link>
-                <Link to="/portfolio/interier/zelenyi/" className="portfolio_grid_link">
+                <Link to="/portfolio/interier/zelenyi/" className="portfolio_grid_link portfolio_grid_link_hide">
                   <StaticImage src="../images/portfolio/zelenyi/00_zelenyi.jpg" alt="" />
                   <div class="portfolio_grid_block">
                     <h3 className="portfolio_grid_block_title">50 оттенков зеленого. Интерьер дома, 250м<sup>2</sup></h3>
                   </div>
                 </Link>
-                <Link to="/portfolio/architecture/dom-na-holme/" className="portfolio_grid_link">
+                <Link to="/portfolio/architecture/dom-na-holme/" className="portfolio_grid_link portfolio_grid_link_hide">
                   <StaticImage src="../images/portfolio/dom_na_holme/01_dom_na_holme.jpg" alt="" />
                   <div class="portfolio_grid_block">
                     <h2 className="portfolio_grid_block_title">Дом на&nbsp;холме, 450м<sup>2</sup></h2>

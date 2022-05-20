@@ -8,6 +8,7 @@ const soglasovanie = () => {
   return (
     <Layout>
       <div class="services_video">
+        <div class="services_video_here"></div>
         <video autoPlay={true} muted={true} loop={true} type="video/mp4" class="video" width="100%" height="100%" className="services_video_desktop">
           <source src={mainVideo} type="video/mp4" />
         </video>

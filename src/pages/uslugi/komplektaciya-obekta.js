@@ -12,6 +12,7 @@ const komplektaciyaObekta = () => {
   return (
     <Layout>
       <div class="services_video">
+        <div class="services_video_here"></div>
         <video autoPlay={true} muted={true} loop={true} type="video/mp4" class="video" width="100%" height="100%" className="services_video_desktop">
           <source src={mainVideo} type="video/mp4" />
         </video>
@@ -32,8 +33,8 @@ const komplektaciyaObekta = () => {
               {/* <li><AnchorLink to="/uslugi/komplektaciya-obekta/#anchor_4" title="Проектирование и&nbsp;строительство" /></li> */}
               <li><AnchorLink to="/uslugi/komplektaciya-obekta/#anchor_5" title="Портфолио" /></li>
               <li><AnchorLink to="/uslugi/komplektaciya-obekta/#anchor_6" title="Как строится работа" /></li>
-              <li><AnchorLink to="/uslugi/komplektaciya-obekta/#anchor_7" title="Авторское сопровождение" /></li>
-              <li><AnchorLink to="/uslugi/komplektaciya-obekta/#anchor_8" title="Комплектация объекта" /></li>
+              {/* <li><AnchorLink to="/uslugi/komplektaciya-obekta/#anchor_7" title="Авторское сопровождение" /></li>
+              <li><AnchorLink to="/uslugi/komplektaciya-obekta/#anchor_8" title="Комплектация объекта" /></li> */}
             </ul>
           </div>
         </div>
@@ -74,14 +75,14 @@ const komplektaciyaObekta = () => {
                       <p className="portfolio_grid_block_realize">Реализовано</p>
                     </div>
                   </Link>
-                  <Link to="/portfolio/interier/panfilova" className="portfolio_grid_link">
+                  <Link to="/portfolio/interier/panfilova" className="portfolio_grid_link portfolio_grid_link_hide">
                     <StaticImage src="../../images/portfolio/panfilova/00_panfilova.jpg" alt="" />
                     <div class="portfolio_grid_block">
                       <h3 className="portfolio_grid_block_title">Двушка на&nbsp;Панфилова. Дизайн квартиры в&nbsp;Минске, 85м<sup>2</sup></h3>
                       <p className="portfolio_grid_block_realize">Реализовано</p>
                     </div>
                   </Link>
-                  <Link to="/portfolio/interier/storojevskaya" className="portfolio_grid_link">
+                  <Link to="/portfolio/interier/storojevskaya" className="portfolio_grid_link portfolio_grid_link_hide">
                     <StaticImage src="../../images/portfolio/storojevskaya/00_storojevskaya.jpg" alt="" />
                     <div class="portfolio_grid_block">
                       <h3 className="portfolio_grid_block_title">Дизайн интерьера квартиры на&nbsp;ул.Сторожовская, 130м<sup>2</sup></h3>
