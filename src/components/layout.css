@@ -953,6 +953,8 @@ main {
   margin-bottom: 0;
   position: relative;
   padding-left: 2.1vw;
+  align-self: flex-start;
+  margin-top: 3vw;
 }
 .article_view_number:before {
   content: "";

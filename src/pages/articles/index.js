@@ -14,6 +14,7 @@ const Articles = () => {
           columnClassName="my-masonry-grid_column">
           <Link to="/articles/plan-apart" className="articles_page_item articles_page_item12">
             <h2 className="articles_page_item_title_medium articles_page_item_title_black">Планировка квартиры. Основные правила</h2>
+            <p className="articles_page_item_view_number articles_page_item_view_number_grey1">3536</p>
           </Link>
           <Link to="/articles/obschaya-zona" className="articles_page_item articles_page_item11">
             <h2 className="articles_page_item_title_medium articles_page_item_title_white">Дизайн интерьера гостиной, кухни, столовой</h2>

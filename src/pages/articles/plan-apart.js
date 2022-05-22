@@ -16,6 +16,7 @@ const planApart = () => {
           <div class="wrapper">
             <div class="article_title">
               <h1 class="article_title_h1">Планировка квартиры. Основные правила</h1>
+              <p class="article_view_number article_view_number_white">25</p>
             </div>
           </div>
         </div>
@@ -194,6 +195,7 @@ const planApart = () => {
             columnClassName="my-masonry-grid_column">
             <Link to="/articles/hranenie" className="articles_page_item articles_page_item6">
               <h4 className="articles_page_item_title_medium articles_page_item_title_black">Как организовать хранение вещей в&nbsp;доме и&nbsp;квартире</h4>
+              <p className="articles_page_item_view_number articles_page_item_view_number_grey1">3536</p>
             </Link>
             <Link to="/articles/spalnya" className="articles_page_item articles_page_item5">
               <h4 className="articles_page_item_title_small articles_page_item_title_white">Спальня мечты: секреты идеального дизайна</h4>
