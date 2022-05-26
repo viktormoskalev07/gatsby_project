@@ -6,8 +6,10 @@ import Fancybox from "../../components/fancybox.js";
 import Masonry from 'react-masonry-css'
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 import BreadcrumbsArticles from "../../components/breadcrumbs-articles.js";
+import { PageViewCounter } from "../../subitems/pageViewsCounter/pageViewCounter"
 
-const planApart = () => {
+const planApart = ({location }) => {
+
   return (
     <Layout>
       <section class="article">
@@ -16,7 +18,7 @@ const planApart = () => {
           <div class="wrapper">
             <div class="article_title">
               <h1 class="article_title_h1">Планировка квартиры. Основные правила</h1>
-              <p class="article_view_number article_view_number_white">25</p>
+              <p class="article_view_number article_view_number_white"> <PageViewCounter defaultNumber={44} slug={location.pathname}/></p>
             </div>
           </div>
         </div>
