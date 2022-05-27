@@ -13,6 +13,8 @@ import { Advantages } from "../subitems/hompage/advantages"
 import { Video } from "../subitems/hompage/video"
 import IndexVideoMobile from "../video/index_mob.mp4"
 import IndexVideo from "../video/index.mp4"
+import Seo from "../components/seo"
+import { ServiceBlock } from "../subitems/hompage/service-block"
 
 
 
@@ -25,6 +27,15 @@ export default function Home() {
 
   return (
     <Layout>
+
+
+      <Seo  title={"нестандартный тайтл "} description={"нестандартный дескрипшен"}
+            location={"https://www.i-project.by/portfolio/interery"}
+            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
+      {/*location это помоему  ссылка которая появится если поделится в твиттере
+       image это имага которая будет превьюхой когда поделишься статьей в твиттере */}
+
+
       <div className="main_video">
         <div className="main_video_here"/>
         <Video  mobileSrc={IndexVideoMobile} desktopSrc={IndexVideo} />
@@ -63,20 +74,10 @@ export default function Home() {
               <h2 className="services_block_rep_title">Строительство и&nbsp;реконструкция</h2>
             </Link>
           </div>
-          <div className="services_block_flex">
-            <Link to="/uslugi/avtorskoe-soprovozhdenie" className="services_block_item services_block_sup">
-              <h2 className="services_block_sup_title">Авторское сопровождение</h2>
-              <p className="services_block_sup_text">Осуществляем контроль за&nbsp;строительством, соблюдением сроков и&nbsp;полному соответствию дизайн проекту.</p>
-            </Link>
-            <Link to="/uslugi/komplektaciya-obekta" className="services_block_item services_block_com">
-              <h2 className="services_block_com_title">Комплектация объектов</h2>
-              <p className="services_block_com_text">Комплектуем объект, формируемый в&nbsp;результате реализации дизайн проекта или архитектурного проекта, всеми необходимыми материалами.</p>
-            </Link>
-            <Link to="/uslugi/soglasovanie" className="services_block_item services_block_agr">
-              <h2 className="services_block_agr_title">Согласование проекта</h2>
-              <p className="services_block_agr_text">Мы&nbsp;разрабатываем свои проекты в&nbsp;соответствии со&nbsp;строительными нормами и&nbsp;правилами Республики Беларусь.</p>
-            </Link>
-          </div>
+
+          <ServiceBlock/>
+
+
         </div>
       </div>
       <div className="content_body">

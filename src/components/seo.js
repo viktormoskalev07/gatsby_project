@@ -1,89 +1,40 @@
-/**
- * SEO component that queries for data with
- *  Gatsby's useStaticQuery React hook
- *
- * See: https://www.gatsbyjs.com/docs/use-static-query/
- */
+import React from 'react';
+import { Helmet } from 'react-helmet';
 
-import * as React from "react"
-import PropTypes from "prop-types"
-import { Helmet } from "react-helmet"
-import { useStaticQuery, graphql } from "gatsby"
 
-function Seo({ description, lang, meta, title }) {
-  const { site } = useStaticQuery(
-    graphql`
-      query {
-        site {
-          siteMetadata {
-            title
-            description
-            author
-          }
-        }
-      }
-    `
-  )
 
-  const metaDescription = description || site.siteMetadata.description
-  const defaultTitle = site.siteMetadata?.title
+const Seo = ({title, description,   image, location}) => {
 
-  return (
-    <Helmet
-      htmlAttributes={{
-        lang,
-      }}
-      title={title}
-      titleTemplate={defaultTitle ? `%s | ${defaultTitle}` : null}
-      meta={[
-        {
-          name: `description`,
-          content: metaDescription,
-        },
-        {
-          property: `og:title`,
-          content: title,
-        },
-        {
-          property: `og:description`,
-          content: metaDescription,
-        },
-        {
-          property: `og:type`,
-          content: `website`,
-        },
-        {
-          name: `twitter:card`,
-          content: `summary`,
-        },
-        {
-          name: `twitter:creator`,
-          content: site.siteMetadata?.author || ``,
-        },
-        {
-          name: `twitter:title`,
-          content: title,
-        },
-        {
-          name: `twitter:description`,
-          content: metaDescription,
-        },
-      ].concat(meta)}
-    />
+           title=         title||" Дизайн интерьера квартир, домов и офисов в Минске"
+           description=   description||" Студия дизайна и архитектуры i-project.by разрабатывает индивидуальный дизайн интерьера ✦ более 15 лет опыта ✦ портфолио более 100 проектов ✦ под ключ"
+           image=         image||" https://i-project.by/wp-content/uploads/2020/10/main_services_1.png "
+           location=      location||"https://www.i-project.by/"
+
+
+  return(
+    <Helmet>
+      <html lang="en"/>
+      <title>{title}</title>
+      <meta name="description" content={description} />
+      <meta charSet="utf-8" />
+
+      {location && <meta property="og:url" content={location } />}
+      <meta property="og:image" content={image } />
+      <meta property="og:title" content={title}  />
+      <meta property='og:type' content="website"/>
+      <meta property="og:site_name" content={title} />
+      <meta property="og:description" content={description}/>
+
+      <meta itemprop="name" content={title} />
+      {location && <meta itemprop="url" content={location } />}
+      <meta itemprop="description" content={description} />
+
+      <meta name="twitter:title" content={title}/>
+      {location && <meta name="twitter:url" content={location }/>}
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:description" content={description}/>
+      <meta name="twitter:image" content={image }/>
+    </Helmet>
   )
 }
-
-Seo.defaultProps = {
-  lang: `en`,
-  meta: [],
-  description: ``,
-}
-
-Seo.propTypes = {
-  description: PropTypes.string,
-  lang: PropTypes.string,
-  meta: PropTypes.arrayOf(PropTypes.object),
-  title: PropTypes.string.isRequired,
-}
-
-export default Seo
+export default Seo;
