@@ -5,18 +5,19 @@ import { StaticImage } from "gatsby-plugin-image"
 import { Link } from "gatsby"
 import Masonry from 'react-masonry-css'
 
+import { Video } from "../../subitems/hompage/video"
 import mainVideo from "../../video/complectation.mp4"
 import mainVideoMobile from "../../video/complectation_mob.mp4"
+import Seo from "../../components/seo"
 
 const komplektaciyaObekta = () => {
   return (
     <Layout>
+      <Seo  title={"Комплектация проекта материалами | I-PROJECT"} description={"Мы берем на себя организацию всех мероприятий, связанных с закупкой и доставкой всех необходимых материалов ✦ Закупка материалов ✦ Согласование поставок."}
+            location={"https://www.i-project.by/uslugi/dizajn-interera"}
+            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
       <div class="services_video">
-        <div class="services_video_here"></div>
-        <video autoPlay={true} muted={true} loop={true} type="video/mp4" class="video" width="100%" height="100%" className="services_video_desktop">
-          <source src={mainVideo} type="video/mp4" />
-        </video>
-        <video src={mainVideoMobile} autoPlay={true} muted={true} loop={true} playsinline={true} type="video/mp4" className="services_video_mobile" width="100%" height="100%"></video>
+        <Video  mobileSrc={mainVideoMobile} desktopSrc={mainVideo} />
         <div class="wrapper">
           <div class="services_video_text">
             <h1 class="services_video_title">Комплектация объекта</h1>
@@ -28,21 +29,46 @@ const komplektaciyaObekta = () => {
         <div class="content_body_absolute">
           <div class="left_sidebar">
             <ul>
-              {/* <li><AnchorLink to="/uslugi/komplektaciya-obekta/#anchor_1" title="Что входит в&nbsp;проект" /></li> */}
-              {/* <li><AnchorLink to="/uslugi/komplektaciya-obekta/#anchor_3" title="Cтоимость" /></li> */}
-              {/* <li><AnchorLink to="/uslugi/komplektaciya-obekta/#anchor_4" title="Проектирование и&nbsp;строительство" /></li> */}
-              <li><AnchorLink to="/uslugi/komplektaciya-obekta/#anchor_5" title="Портфолио" /></li>
-              <li><AnchorLink to="/uslugi/komplektaciya-obekta/#anchor_6" title="Как строится работа" /></li>
-              {/* <li><AnchorLink to="/uslugi/komplektaciya-obekta/#anchor_7" title="Авторское сопровождение" /></li>
-              <li><AnchorLink to="/uslugi/komplektaciya-obekta/#anchor_8" title="Комплектация объекта" /></li> */}
+              <li><AnchorLink to="/uslugi/komplektaciya-obekta/#anchor_1" title="Что такое комплектация" /></li>
+              <li><AnchorLink to="/uslugi/komplektaciya-obekta/#anchor_2" title="Этап проектирования" /></li>
+              <li><AnchorLink to="/uslugi/komplektaciya-obekta/#anchor_3" title="Этап строительства" /></li>
+              <li><AnchorLink to="/uslugi/komplektaciya-obekta/#anchor_4" title="Что входит в&nbsp;услугу" /></li>
+              <li><AnchorLink to="/uslugi/komplektaciya-obekta/#anchor_5" title="Стоимость" /></li>
+              <li><AnchorLink to="/uslugi/komplektaciya-obekta/#anchor_6" title="Портфолио" /></li>
             </ul>
           </div>
         </div>
         <div class="wrapper">
           <div class="right_content">
             <div class="content_images">
+              <div class="wrapper_article">
+                <div class="content_text" id="anchor_1">
+                  <p class="content_p">Под авторским сопровождением понимается контроль всех процессов, связанных со&nbsp;строительством и(или) реконструкцией; увязка проектных решений, разрабатываемых подрядчиками с&nbsp;архитектурным проектом или дизайн проектом.</p>
+                  <h2 class="content_h2" id="anchor_2">Этап проектирования</h2>
+                  <p class="content_p">Услуга помогает максимально близко познакомиться с&nbsp;наполнением будущего интерьера, оценить качество мебели и&nbsp;элементов отделки. Совместные поездки по&nbsp;салонам позволят увидеть многие из&nbsp;элементов интерьера или архитектуры в&nbsp;живую, ощутить тактильное восприятие, ознакомиться с&nbsp;новыми технологиями. Так нашему клиенту будет проще сделать правильный выбор и&nbsp;сэкономить время.</p>
+                  <h2 class="content_h2" id="anchor_3">Этап строительства</h2>
+                  <p class="content_p">На&nbsp;этапе строительных работ комплектация позволяет снять с&nbsp;клиента большое количество вопросов, связанных с&nbsp;закупкой материалов и&nbsp;согласованием их&nbsp;поставок. Мы&nbsp;представляем интересы клиента на&nbsp;всех этапах. Комплектация тесно связана с&nbsp;авторским сопровождением и&nbsp;органично дополняет его.</p>
+                </div>
+                <div class="services_include_item services_include_item_control" id="anchor_4">
+                  <h3 class="services_include_item_smtitle">Что входит в&nbsp;услугу</h3>
+                  <ul class="services_include_item_list">
+                    <li>1. Запланированные посещения салонов с&nbsp;презентациями.</li>
+                    <li>2. Консультация по&nbsp;материалам отделки, предметам мебели и&nbsp;устройствам. Подготовка коммерческих предложений.</li>
+                    <li>3. Согласование сроков поставки материалов со&nbsp;строителями.</li>
+                    <li>4. Контроль за&nbsp;подрядчиками на&nbsp;смежных участках работы.</li>
+                    <li>5. Представление интересов клиента на&nbsp;всех этапах работ.</li>
+                    <li>Комплектация объекта материалами, мебелью, оборудованием.</li>
+                  </ul>
+                </div>
+                <section id="anchor_5">
+                  <div className="services_add_price">
+                    <p className="services_add_price_text">Стоимость оказания услуг авторского сопровождения обычно составляет&nbsp;50% от&nbsp;стоимости проектных работ.</p>
+                  </div>
+                </section>
+              </div>
+
               <section>
-                <h2 class="main_portfolio_title" id="anchor_5">Наши работы</h2>
+                <h2 class="main_portfolio_title" id="anchor_6">Наши работы</h2>
                 <Masonry
                   breakpointCols={breakpointColumnsObj}
                   className="portfolio_grid"

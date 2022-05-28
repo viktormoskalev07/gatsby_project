@@ -15,6 +15,8 @@ import IndexVideoMobile from "../video/index_mob.mp4"
 import IndexVideo from "../video/index.mp4"
 import Seo from "../components/seo"
 import { ServiceBlock } from "../subitems/hompage/service-block"
+import secondVideo from "../video/preview_index.mp4"
+import { Presentation } from "../subitems/posts/presentation"
 
 
 
@@ -37,7 +39,6 @@ export default function Home() {
 
 
       <div className="main_video">
-        <div className="main_video_here"/>
         <Video  mobileSrc={IndexVideoMobile} desktopSrc={IndexVideo} />
         <div className="wrapper">
           <div className="services_video_text">
@@ -157,6 +158,7 @@ export default function Home() {
             </section>
           </div>
         </div>
+        <Presentation shortVideo={secondVideo} stopImg={'../../images/services/preview_index_end.jpg'} youTubeSrc={'https://www.youtube.com/embed/JYz64ADPdt4?start=15&rel=0&autoplay=1'}/>
         <div className="process_bcg">
           <div className="wrapper">
             <div className="right_content">

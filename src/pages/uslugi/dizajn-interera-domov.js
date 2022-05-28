@@ -6,8 +6,10 @@ import { Link } from "gatsby"
 import Masonry from 'react-masonry-css'
 import { Faq } from "../../subitems/faq/house"
 
+import { Video } from "../../subitems/hompage/video"
 import mainVideo from "../../video/design_interiera_house.mp4"
 import mainVideoMobile from "../../video/design_interiera_house_mob.mp4"
+import Seo from "../../components/seo"
 
 const DesignInterieraDomov = () => {
   const [openTop , setOpenTop] = useState(false);
@@ -28,12 +30,11 @@ const DesignInterieraDomov = () => {
   }
   return (
     <Layout>
+      <Seo  title={"Дизайн проект частного дома в Минске | I-PROJECT"} description={"Проектируем и реконструируем частные дома, загородные дома и коттеджи любой сложности. Реализованные объекты ✦ Реконструкция фасада ✦ Опыт более 15 лет."}
+            location={"https://www.i-project.by/uslugi/dizajn-interera-domov"}
+            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
       <div class="services_video">
-        <div class="services_video_here"></div>
-        <video autoPlay={true} muted={true} loop={true} type="video/mp4" class="video" width="100%" height="100%" className="services_video_desktop">
-          <source src={mainVideo} type="video/mp4" />
-        </video>
-        <video src={mainVideoMobile} autoPlay={true} muted={true} loop={true} playsinline={true} type="video/mp4" className="services_video_mobile" width="100%" height="100%"></video>
+        <Video  mobileSrc={mainVideoMobile} desktopSrc={mainVideo} />
         <div class="wrapper">
           <div class="services_video_text">
             <h1 class="services_video_title">Дизайн проект частного дома</h1>

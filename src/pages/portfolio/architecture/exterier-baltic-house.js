@@ -137,7 +137,7 @@ const exterierBalticHouse = () => {
                 <div class="rewards">
                   <div class="reward_item">
                     <StaticImage src="../../../images//rewards/reward_3.jpg" alt="" class="reward_image"/>
-                    <p class="reward_text">Первое место на&nbsp;XX&nbsp;Республиканском конкурсе на&nbsp;лучший &laquo;Проект&raquo;, &laquo;Постройку&raquo;, &laquo;Публикацию&raquo;, в&nbsp;рамках XIV Национального фестиваля архитектуры, в&nbsp;разделе &laquo;Постройка&raquo;, в&nbsp;номинации &laquo;Интерьеры зданий и&nbsp;сооружений&raquo;. За&nbsp;реализацию проекта &laquo;<Link to="/portfolio/interier-baltic-house" className="link">Дом с&nbsp;Балтийским характером</Link>&raquo;.</p>
+                    <p class="reward_text">Первое место на&nbsp;XX&nbsp;Республиканском конкурсе на&nbsp;лучший &laquo;Проект&raquo;, &laquo;Постройку&raquo;, &laquo;Публикацию&raquo;, в&nbsp;рамках XIV Национального фестиваля архитектуры, в&nbsp;разделе &laquo;Постройка&raquo;, в&nbsp;номинации &laquo;Интерьеры зданий и&nbsp;сооружений&raquo;. За&nbsp;реализацию проекта &laquo;<Link to="/portfolio/interier/interier-baltic-house" className="link">Дом с&nbsp;Балтийским характером</Link>&raquo;.</p>
                   </div>
                 </div>
               </div>
@@ -209,10 +209,10 @@ const exterierBalticHouse = () => {
                     <div class="partner_project_line"></div>
                     <div class="partner_project_text">
                       <p>Интерьер дома</p>
-                      <Link to="/portfolio/interier-baltic-house" className="partner_project_link">Подробнее</Link>
+                      <Link to="/portfolio/interier/interier-baltic-house" className="partner_project_link">Подробнее</Link>
                     </div>
                   </div>
-                  <Link to="/portfolio/exterier-baltic-house" className="partner_project_link_mob">Подробнее</Link>
+                  <Link to="/portfolio/interier/interier-baltic-house" className="partner_project_link_mob">Подробнее</Link>
                 </div>
               </div>
             </div>

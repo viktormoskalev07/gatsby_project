@@ -6,8 +6,12 @@ import { Link } from "gatsby"
 import Masonry from 'react-masonry-css'
 import { Faq } from "../../subitems/faq/office"
 
+import { Video } from "../../subitems/hompage/video"
 import mainVideo from "../../video/design_interiera_office.mp4"
 import mainVideoMobile from "../../video/design_interiera_office_mob.mp4"
+import secondVideo from "../../video/preview_office.mp4"
+import { Presentation } from "../../subitems/posts/presentation"
+import Seo from "../../components/seo"
 
 const DesignInterieraOfisov = () => {
   const [openTop , setOpenTop] = useState(false);
@@ -28,12 +32,11 @@ const DesignInterieraOfisov = () => {
   }
   return (
     <Layout>
+      <Seo  title={"Дизайн проект офиса в Минске | I-PROJECT"} description={"Проектируем дизайн интерьера офиса, подчеркиваем корпоративный стиль, соблюдаем требования пожарной безопасности и экологическим нормам ✦ Авторское сопровождение ✦ Опыт более 15 лет."}
+            location={"https://www.i-project.by/uslugi/dizajn-interera-ofisov"}
+            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
       <div class="services_video">
-        <div class="services_video_here"></div>
-        <video autoPlay={true} muted={true} loop={true} type="video/mp4" class="video" width="100%" height="100%" className="services_video_desktop">
-          <source src={mainVideo} type="video/mp4" />
-        </video>
-        <video src={mainVideoMobile} autoPlay={true} muted={true} loop={true} playsinline={true} type="video/mp4" className="services_video_mobile" width="100%" height="100%"></video>
+        <Video  mobileSrc={mainVideoMobile} desktopSrc={mainVideo} />
         <div class="wrapper">
           <div class="services_video_text">
             <h1 class="services_video_title">Дизайн проект офиса</h1>
@@ -154,6 +157,11 @@ const DesignInterieraOfisov = () => {
                 </div>
               </div>
             </div>
+          </div> 
+        </div> 
+        <Presentation shortVideo={secondVideo} stopImg={'../../images/services/preview_office_end.jpg'} youTubeSrc={'https://www.youtube.com/embed/_FHzDPN9lU8?start=15&rel=0&autoplay=1'}/>
+        <div class="wrapper">
+          <div class="right_content">
             <section>
               <h2 class="main_portfolio_title" id="anchor_5">Наши работы</h2>
               <Masonry
