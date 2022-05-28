@@ -3,12 +3,13 @@ import Layout from "../../../components/layout-black"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import Masonry from 'react-masonry-css'
-import { AnimatedLine } from '../animatedLine'
+import { AnimatedLine } from '../../../subitems/portfolio/animatedLine'
+ 
 
 const portfolioArchitecture = () => {
   return (
     <Layout>
-      <div class="wrapper">
+      <div class="wrapper"> 
         <h1 class="portfolio_title">Портфолио</h1>
         <AnimatedLine />
         <ul class="portfolio_category">

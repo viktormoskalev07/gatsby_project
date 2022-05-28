@@ -3,7 +3,8 @@ import Layout from "../../components/layout-black"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import Masonry from 'react-masonry-css'
-import { AnimatedLine } from './animatedLine'
+import { AnimatedLine } from '../../subitems/portfolio/animatedLine'
+ 
 
 const portfolioHouse = () => {
   return (
