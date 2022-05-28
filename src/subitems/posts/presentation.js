@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from "react"
 import { useInView } from 'react-intersection-observer';
 
 export const Presentation = ({stopImg , youTubeSrc , shortVideo }) => {
-  const { ref, inView  } = useInView({
+  const { ref:scrollTargetRef, inView  } = useInView({
     triggerOnce: true,
   });
 
@@ -41,9 +41,9 @@ export const Presentation = ({stopImg , youTubeSrc , shortVideo }) => {
   },[inView])
   return (
     <>
-      <div ref={ref} className="presentation">
+      <div  className="presentation">
         <div style={ videoEnd?{backgroundImage:` url("${stopImg}")` ,...hide}:hide} className="video_block_presentation">
-          <button  style={videoEnd?{display:"none"}:{}} onClick={toggleVideo} className="video_block_presentation_button"  >
+          <button ref={scrollTargetRef} style={videoEnd?{display:"none"}:{}} onClick={toggleVideo} className="video_block_presentation_button"  >
             <span style={{display:"block"}}   className={"video_block_presentation_button_"+( isPlaying?"pause":"play")}/>
           </button>
           <button  style={ videoEnd?{opacity:1 , display:'flex'}:{}}  className="video_block_presentation_button_next" onClick={showAllVideo}>

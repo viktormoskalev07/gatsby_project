@@ -5,7 +5,7 @@ import { useInView } from "react-intersection-observer"
 export const ServiceBlock = ( ) => {
   const { ref, inView  } = useInView({
     triggerOnce: true,
-    rootMargin:'-100px'
+ 
   });
 
   return (
