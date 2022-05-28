@@ -10,7 +10,7 @@ const portfolioArchitecture = () => {
     <Layout>
       <div class="wrapper">
         <h1 class="portfolio_title">Портфолио</h1>
-        <AnimatedLine />
+        <AnimatedLine/>
         <ul class="portfolio_category">
           <li class="portfolio_category_li">
             <Link to="/portfolio/" className="portfolio_category_link">Все проекты</Link>

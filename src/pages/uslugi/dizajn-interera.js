@@ -6,11 +6,13 @@ import { Link } from "gatsby"
 import Masonry from 'react-masonry-css'
 import { Faq } from "../../subitems/faq/flat"
 
+import { Video } from "../../subitems/hompage/video"
 import mainVideo from "../../video/design_interiera.mp4"
 import mainVideoMobile from "../../video/design_interiera_mob.mp4"
 import secondVideo from "../../video/preview_flat.mp4"
 import { Presentation } from "../../subitems/posts/presentation"
 import Seo from "../../components/seo"
+
 
 
 const DesignInteriera = () => {
@@ -32,17 +34,11 @@ const DesignInteriera = () => {
   }
   return (
     <Layout>
-
-      <Seo  title={"дизайн интерьера"} description={"дизайн интерьера в минске"}
-            location={"https://www.i-project.by/portfolio/interery"}
+      <Seo  title={"Дизайн проект квартиры в Минске | I-PROJECT"} description={"Проектируем дизайн интерьера, подготавливаем документы для строителей, контроль за подрядчиками и строителями ✦ Реализованные объекты ✦ Более 200 работ"}
+            location={"https://www.i-project.by/uslugi/dizajn-interera"}
             image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
-
       <div class="services_video">
-        <div class="services_video_here"></div>
-        <video autoPlay={true} muted={true} loop={true} type="video/mp4" class="video" width="100%" height="100%" className="services_video_desktop">
-          <source src={mainVideo} type="video/mp4" />
-        </video>
-        <video src={mainVideoMobile} autoPlay={true} muted={true} loop={true} playsinline={true} type="video/mp4" className="services_video_mobile" width="100%" height="100%"></video>
+        <Video  mobileSrc={mainVideoMobile} desktopSrc={mainVideo} />
         <div class="wrapper">
           <div class="services_video_text">
             <h1 class="services_video_title">Дизайн проект квартиры</h1>
@@ -123,7 +119,7 @@ const DesignInteriera = () => {
                       <li>18. Узлы, фрагменты (укрупненные с&nbsp;размерами)</li>
                       <p class="services_include_item_list_p">Общий объем: 30–50 листов А3, А4</p>
                     </div>
-                    <button onClick={toggleTop}  class="services_include_button">{openTop? 'Свернуть все' : 'Показать все'}</button>
+                    <button onClick={toggleTop} class="services_include_button">{openTop? 'Свернуть все' : 'Показать все'}</button>
                   </ul>
                   <button onClick={toggleTop} class={"services_include_mob_button" + ( openTop?" open" : "")}>
                     <p>Список документов</p>
@@ -172,7 +168,7 @@ const DesignInteriera = () => {
             </div> 
           </div> 
         </section> */}
-            <Presentation shortVideo={secondVideo} stopImg={'https://i-project.by/wp-content/uploads/2020/10/preview_flat_end.jpg'} youTubeSrc={'https://www.youtube.com/embed/LffJJGN9ong?start=13&autoplay=1'}/>
+        <Presentation shortVideo={secondVideo} stopImg={'../../images/services/preview_flat_end.jpg'} youTubeSrc={'https://www.youtube.com/embed/LffJJGN9ong?start=13&autoplay=1'}/>
         <div class="wrapper">
           <div class="right_content">
             <section>

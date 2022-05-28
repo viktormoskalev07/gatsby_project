@@ -5,18 +5,19 @@ import { Link } from "gatsby"
 // import videodesktop from "https://i-project.by/wp-content/uploads/2021/09/about.mp4"
 // import videomobile from "https://i-project.by/wp-content/uploads/2021/09/about_mobile.mp4"
 
+import { Video } from "../subitems/hompage/video"
 import AboutVideo from "../video/about.mp4"
 import AboutVideoMobile from "../video/about_mob.mp4"
+import Seo from "../components/seo"
 
 const About = () => {
   return (
     <Layout>
+      <Seo  title={"О студии архитектуры и интерьера | I-PROJECT"} description={"i-project.by: cтудия архитектуры и интерьера Александра Игнатьева ✦ Опыт > 15 лет. ✦ Индивидуальный подход к каждому ✦ Команда профессионалов"}
+            location={"https://www.i-project.by/about"}
+            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
       <div class="about_video">
-        <div class="about_video_here"></div>
-        <video autoPlay={true} muted={true} loop={true} type="video/mp4" width="100%" height="100%" className="studio_video video">
-          <source src={AboutVideo} type="video/mp4" />
-        </video>
-        <video src={AboutVideoMobile} autoPlay={true} muted={true} loop={true} playsinline={true} type="video/mp4" className="studio_video_mobile" width="100%" height="100%"></video>
+        <Video  mobileSrc={AboutVideoMobile} desktopSrc={AboutVideo} />
       </div>
       <section class="studio_page">
         <div class="content_body">
@@ -77,7 +78,7 @@ const About = () => {
           <div class="rewards studio_rewards">
             <div class="reward_item">
               <StaticImage src="../images/rewards/reward_3.jpg" alt="" class="reward_image"/>
-              <p class="reward_text">Первое место на&nbsp;XX&nbsp;Республиканском конкурсе на&nbsp;лучший &laquo;Проект&raquo;, &laquo;Постройку&raquo;, &laquo;Публикацию&raquo;, в&nbsp;рамках XIV Национального фестиваля архитектуры, в&nbsp;разделе &laquo;Постройка&raquo;, в&nbsp;номинации &laquo;Интерьеры зданий и&nbsp;сооружений&raquo;. За&nbsp;реализацию проекта &laquo;<Link to="/portfolio/interier-baltic-house" className="link">Дом с&nbsp;Балтийским характером</Link>&raquo;.</p>
+              <p class="reward_text">Первое место на&nbsp;XX&nbsp;Республиканском конкурсе на&nbsp;лучший &laquo;Проект&raquo;, &laquo;Постройку&raquo;, &laquo;Публикацию&raquo;, в&nbsp;рамках XIV Национального фестиваля архитектуры, в&nbsp;разделе &laquo;Постройка&raquo;, в&nbsp;номинации &laquo;Интерьеры зданий и&nbsp;сооружений&raquo;. За&nbsp;реализацию проекта &laquo;<Link to="/portfolio/interier/interier-baltic-house" className="link">Дом с&nbsp;Балтийским характером</Link>&raquo;.</p>
             </div>
             <div class="reward_item rewards_white">
               <StaticImage src="../images/rewards/reward_4.jpg" alt="" class="reward_image"/>
@@ -89,11 +90,11 @@ const About = () => {
             </div>
             <div class="reward_item">
               <StaticImage src="../images/rewards/reward_2.jpg" alt="" class="reward_image"/>
-              <p class="reward_text">Первое место на&nbsp;XX&nbsp;Республиканском конкурсе на&nbsp;лучший &laquo;Проект&raquo;, &laquo;Постройку&raquo;, &laquo;Публикацию&raquo;, в&nbsp;рамках XIV Национального фестиваля архитектуры, в&nbsp;разделе &laquo;Постройка&raquo;, в&nbsp;номинации &laquo;Реконструкция зданий и&nbsp;сооружений&raquo;. За&nbsp;реализацию проекта &laquo;<Link to="/portfolio/rekonstrukciya-protos" className="link">Реконструкция административного офисного здания группы компаний ПРОТОС</Link>&raquo;.</p>
+              <p class="reward_text">Первое место на&nbsp;XX&nbsp;Республиканском конкурсе на&nbsp;лучший &laquo;Проект&raquo;, &laquo;Постройку&raquo;, &laquo;Публикацию&raquo;, в&nbsp;рамках XIV Национального фестиваля архитектуры, в&nbsp;разделе &laquo;Постройка&raquo;, в&nbsp;номинации &laquo;Реконструкция зданий и&nbsp;сооружений&raquo;. За&nbsp;реализацию проекта &laquo;<Link to="/portfolio/architecture/rekonstrukciya-protos" className="link">Реконструкция административного офисного здания группы компаний ПРОТОС</Link>&raquo;.</p>
             </div>
             <div class="reward_item reward_protos">
               <StaticImage src="../images/rewards/reward_1.jpg" alt="" class="reward_image"/>
-              <p class="reward_text">Второе место на&nbsp;XX&nbsp;Республиканском конкурсе на&nbsp;лучший &laquo;Проект&raquo;, &laquo;Постройку&raquo;, &laquo;Публикацию&raquo;, в&nbsp;рамках XIV Национального фестиваля архитектуры, в&nbsp;разделе &laquo;Постройка&raquo;, в&nbsp;номинации &laquo;Интерьеры зданий и&nbsp;сооружений&raquo;. За&nbsp;реализацию проекта &laquo;<Link to="/portfolio/interier-protos" className="link">Интерьер офиса группы компаний ПРОТОС</Link>&raquo;.</p>
+              <p class="reward_text">Второе место на&nbsp;XX&nbsp;Республиканском конкурсе на&nbsp;лучший &laquo;Проект&raquo;, &laquo;Постройку&raquo;, &laquo;Публикацию&raquo;, в&nbsp;рамках XIV Национального фестиваля архитектуры, в&nbsp;разделе &laquo;Постройка&raquo;, в&nbsp;номинации &laquo;Интерьеры зданий и&nbsp;сооружений&raquo;. За&nbsp;реализацию проекта &laquo;<Link to="/portfolio/interier/interier-protos" className="link">Интерьер офиса группы компаний ПРОТОС</Link>&raquo;.</p>
             </div>
             <div class="reward_item rewards_white">
               <StaticImage src="../images/rewards/reward_6.jpg" alt="" class="reward_image"/>

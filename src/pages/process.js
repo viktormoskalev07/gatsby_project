@@ -7,19 +7,20 @@ import Fancybox from "../components/fancybox.js";
 import SimpleBar from 'simplebar-react';
 import 'simplebar/dist/simplebar.min.css';
 
+import { Video } from "../subitems/hompage/video"
 import ProcessVideo from "../video/design_interiera.mp4"
 import ProcessVideoMobile from "../video/design_interiera_mob.mp4"
+import Seo from "../components/seo"
 
 const process = () => {
   return (
     <Layout>
+      <Seo  title={"Как работают над проектом в дизайн-студии | I-PROJECT"} description={"На примере квартиры показываем все 7 этапов: от проектирования до реализации."}
+            location={"https://www.i-project.by/process"}
+            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
       <section>
         <div class="process_video">
-          <div class="process_video_here"></div>
-          <video autoPlay={true} muted={true} loop={true} type="video/mp4" width="100%" height="100%" className="process_video_desktop video">
-            <source src={ProcessVideo} type="video/mp4" />
-          </video>
-          <video src={ProcessVideoMobile} autoPlay={true} muted={true} loop={true} playsinline={true} type="video/mp4" className="process_video_mobile" width="100%" height="100%"></video>
+          <Video  mobileSrc={ProcessVideoMobile} desktopSrc={ProcessVideo} />
           <div class="wrapper">
             <div class="process_video_text">
               <h1 class="process_video_title">Как строится работа в&nbsp;I‑PROJECT</h1>

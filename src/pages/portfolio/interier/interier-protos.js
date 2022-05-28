@@ -71,7 +71,7 @@ const interierProtos = () => {
                 </a>
                 <div class="content_task">
                   <span class="content_task_span">Описание</span>
-                  <p class="content_task_p">Для существующего объекта мы разработали не только интерьерное, но и <Link to="/portfolio/rekonstrukciya-protos/" className="link">архитектурное решение</Link>.</p>
+                  <p class="content_task_p">Для существующего объекта мы разработали не только интерьерное, но и <Link to="/portfolio/architecture/rekonstrukciya-protos" className="link">архитектурное решение</Link>.</p>
                 </div>
               </div>
               <div class="content_images">
@@ -184,10 +184,10 @@ const interierProtos = () => {
                     <div class="partner_project_line"></div>
                     <div class="partner_project_text">
                       <p>Экстерьер офиса</p>
-                      <Link to="/portfolio/rekonstrukciya-protos" className="partner_project_link">Подробнее</Link>
+                      <Link to="/portfolio/architecture/rekonstrukciya-protos" className="partner_project_link">Подробнее</Link>
                     </div>
                   </div>
-                  <Link to="/portfolio/exterier-baltic-house" className="partner_project_link_mob">Подробнее</Link>
+                  <Link to="/portfolio/architecture/rekonstrukciya-protos" className="partner_project_link_mob">Подробнее</Link>
                 </div>
               </div>
             </div>
@@ -304,7 +304,7 @@ const interierProtos = () => {
                   </div>
                   <div class="reward_item">
                     <StaticImage src="../../../images/rewards/reward_2.jpg" alt="" class="reward_image"/>
-                    <p class="reward_text">Первое место на&nbsp;XX&nbsp;Республиканском конкурсе на&nbsp;лучший &laquo;Проект&raquo;, &laquo;Постройку&raquo;, &laquo;Публикацию&raquo;, в&nbsp;рамках XIV Национального фестиваля архитектуры, в&nbsp;разделе &laquo;Постройка&raquo;, в&nbsp;номинации &laquo;Реконструкция зданий и&nbsp;сооружений&raquo;. За&nbsp;реализацию проекта &laquo;<Link to="/portfolio/rekonstrukciya-protos" className="link">Реконструкция административного офисного здания группы компаний ПРОТОС</Link>&raquo;.</p>
+                    <p class="reward_text">Первое место на&nbsp;XX&nbsp;Республиканском конкурсе на&nbsp;лучший &laquo;Проект&raquo;, &laquo;Постройку&raquo;, &laquo;Публикацию&raquo;, в&nbsp;рамках XIV Национального фестиваля архитектуры, в&nbsp;разделе &laquo;Постройка&raquo;, в&nbsp;номинации &laquo;Реконструкция зданий и&nbsp;сооружений&raquo;. За&nbsp;реализацию проекта &laquo;<Link to="/portfolio/architecture/rekonstrukciya-protos" className="link">Реконструкция административного офисного здания группы компаний ПРОТОС</Link>&raquo;.</p>
                   </div>
                 </div>
               </div>

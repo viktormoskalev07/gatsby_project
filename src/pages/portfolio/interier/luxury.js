@@ -67,7 +67,7 @@ const luxury = () => {
                 </a>
                 <div class="content_task">
                   <span class="content_task_span">Описание</span>
-                  <p class="content_task_p">Дизайн интерьера дома, архитектуру которого тоже придумывали&nbsp;мы. Также мы&nbsp;разработали <Link to="/portfolio/luban/" className="link">архитектурное решение.</Link></p>
+                  <p class="content_task_p">Дизайн интерьера дома, архитектуру которого тоже придумывали&nbsp;мы. Также мы&nbsp;разработали <Link to="/portfolio/architecture/luban" className="link">архитектурное решение.</Link></p>
                 </div>
               </div>
               <div class="content_images">
@@ -120,10 +120,10 @@ const luxury = () => {
                     <div class="partner_project_line"></div>
                     <div class="partner_project_text">
                       <p>Экстерьер дома</p>
-                      <Link to="/portfolio/luban" className="partner_project_link">Подробнее</Link>
+                      <Link to="/portfolio/architecture/luban" className="partner_project_link">Подробнее</Link>
                     </div>
                   </div>
-                  <Link to="/portfolio/exterier-baltic-house" className="partner_project_link_mob">Подробнее</Link>
+                  <Link to="/portfolio/architecture/luban" className="partner_project_link_mob">Подробнее</Link>
                 </div>
               </div>
             </div>
