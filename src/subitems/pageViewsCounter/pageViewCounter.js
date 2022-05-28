@@ -3,37 +3,52 @@ import { useEffect, useState } from "react"
 
 
 
-const API ='http://backend.i-project.by/pageCounter.php?page='
 
 
-export const PageViewCounter = ({slug , defaultNumber}) => {
+export const PageViewCounter = ({    defaultNumber}) => {
 
     const [number , setNumber] = useState(defaultNumber);
     const [hide , setHide] = useState(true);
-    const fieldName = slug.replace(/\//g , '_');
-
+    // const fieldName = slug.replace(/\//g , '_');
+    const fieldName = window.location.pathname.replace(/\//g , '_')
+  console.log(process.env.SET_COUNTER_POST)
       useEffect(  ()=>{
-        const request = async (slug)=>{
+        const requestAndUp = async ()=>{
           let number = 0
           try{
-            const data=  await fetch(API+slug);
+            const data=  await fetch(process.env.SET_COUNTER_POST +fieldName);
             number =  await data.json();
-          } catch {
-
-          }
+          } catch {   }
           setNumber(number)
-
+          setHide(false)
         }
+        const getCounter =  async ()=>{
+          let number = 0
+          try{
+            const data=  await fetch(process.env.GET_COUNTER);
+            number =  await data.json();
+          } catch {  }
+          console.log(number)
+          // setNumber(number)
+          // setHide(false)
+        }
+        
         const alreadyCounted=   window.localStorage.getItem(fieldName);
         if(!alreadyCounted) {
+          window.localStorage.setItem(fieldName , 'true');
+          const noCheating =  window.localStorage.getItem(fieldName);
+          if(noCheating){
+            requestAndUp()
+          }
 
-          request()
+        } else {
+          getCounter()
         }
 
       }, [])
 
   return (
-           <span style={hide?{opacity:0}:{}}>
+           <span style={hide?{opacity:0}:{color:'inherit'}}>
                 {number}
            </span>
 

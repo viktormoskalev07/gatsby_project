@@ -23,8 +23,11 @@ export const Video = ( {mobileSrc , desktopSrc})=>{
       }
     }
   } 
-  useEffect(()=>{ 
-    resize()
+  useEffect(()=>{
+    setTimeout(()=>{
+      resize()
+    }, 1)
+
     window.addEventListener('resize' ,resize)
     return ()=> window.removeEventListener('resize' ,resize)
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -32,7 +35,7 @@ export const Video = ( {mobileSrc , desktopSrc})=>{
 
 
     const videoClass = videoSrc===mobileSrc? "main_video_mobile" :" ";
-    const videoTemplate = `<video loading="lazy" src=${videoSrc} class=${videoClass}  loop  muted  playsinline  autoplay  width="100%" height="100%"></video>`
+    const videoTemplate = `<video   src=${videoSrc} class=${videoClass}  loop  muted  playsinline  autoplay  width="100%" height="100%"></video>`
 
   return <div dangerouslySetInnerHTML={{__html:videoTemplate}} />
 }
