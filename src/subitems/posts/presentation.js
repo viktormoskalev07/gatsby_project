@@ -1,5 +1,5 @@
 import * as React from "react"
-import secondVideo from "../../video/preview_flat.mp4"
+ 
 import { useEffect, useRef, useState } from "react"
 import { useInView } from 'react-intersection-observer';
 
@@ -54,7 +54,7 @@ export const Presentation = ({stopImg , youTubeSrc , shortVideo }) => {
           </button>
         </div>
         <video style={hide} onEnded={videoEnded} ref={videoRef} className="video_presentation" width="100%" height="100%" muted={true} type="video/mp4">
-          <source src={secondVideo} type="video/mp4" />
+          <source src={shortVideo} type="video/mp4" />
         </video>
         <iframe style={youTubeStart?{display:"block"}:{}} src={newYoutubeSrc} className="video_presentation_youtube" id="video1" width="100%" height="auto" frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

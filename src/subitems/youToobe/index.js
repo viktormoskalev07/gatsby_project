@@ -2,7 +2,7 @@ import * as React from "react"
 import { styles } from "./youTobe.module.scss"
 import { useState } from "react"
 
-export const YouTobe = ( {image ,embed  , title , param =""  ,children  }) => {
+export const YouTobe = ( {  embed  , title , param =""  ,children  }) => {
   const newSrc ="https://www.youtube.com/embed/"+ embed +'?rel=0&autoplay=1&'+param
   const [play , setPlay]= useState(false)
   const start =()=>{
