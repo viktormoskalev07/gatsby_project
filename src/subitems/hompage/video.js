@@ -6,13 +6,16 @@ import { useEffect,   useState } from "react"
 
 export const Video = ( {mobileSrc , desktopSrc})=>{
 
-  let defaultVideo = mobileSrc;
-  if(typeof window !="undefined") {
-    if (window.matchMedia("(min-width: 768px)").matches) {
-      defaultVideo = desktopSrc;
+  let defaultVideo = ()=>{
+    if(typeof window !="undefined") {
+      if (window.matchMedia("(min-width: 768px)").matches) {
+         return desktopSrc
+      }
     }
-  }
-  const [ videoSrc, setVideoSrc ] = useState(defaultVideo)
+    return mobileSrc
+  } ;
+
+  const [ videoSrc, setVideoSrc ] = useState(defaultVideo())
 
   const resize = ()=>{
     if(typeof window !="undefined"){
