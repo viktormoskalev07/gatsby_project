@@ -10,9 +10,10 @@ export const PageViewCounter = ({    defaultNumber}) => {
     const [number , setNumber] = useState(defaultNumber);
     const [hide , setHide] = useState(true);
     // const fieldName = slug.replace(/\//g , '_');
-    const fieldName = window.location.pathname.replace(/\//g , '_')
-  console.log(process.env.SET_COUNTER_POST)
+
+ 
       useEffect(  ()=>{
+        const fieldName = window.location.pathname.replace(/\//g , '_')
         const requestAndUp = async ()=>{
           let number = 0
           try{
