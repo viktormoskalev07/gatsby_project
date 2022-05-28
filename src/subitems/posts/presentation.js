@@ -10,7 +10,7 @@ export const Presentation = ({stopImg , youTubeSrc , shortVideo }) => {
 
 
   const [isPlaying , setIsPlaying] = useState(false);
-  const [videoEnd , setVideoEnd] = useState(false)
+  const [videoEnd , setVideoEnd] = useState(false);
   const [youTubeStart , setYouTubeStart] = useState(false);
   const newYoutubeSrc = youTubeStart?youTubeSrc:'data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==';
 
@@ -46,9 +46,9 @@ export const Presentation = ({stopImg , youTubeSrc , shortVideo }) => {
           <button  style={videoEnd?{display:"none"}:{}} onClick={toggleVideo} className="video_block_presentation_button"  >
             <span style={{display:"block"}}   className={"video_block_presentation_button_"+( isPlaying?"pause":"play")}/>
           </button>
-          <button  style={ videoEnd?{opacity:1 , display:'block'}:{}}  className="video_block_presentation_button_next" onClick={showAllVideo}>
+          <button  style={ videoEnd?{opacity:1 , display:'flex'}:{}}  className="video_block_presentation_button_next" onClick={showAllVideo}>
             <div className="video_block_presentation_button_show_all">
-              <p className="video_block_presentation_button_show_all_text">Посмотреть <span style={{color:"white"}}>все видео</span></p>
+              <p className="video_block_presentation_button_show_all_text">Посмотреть <span>все видео</span></p>
               <div className="video_block_presentation_button_show_all_symbol"/>
             </div>
           </button>

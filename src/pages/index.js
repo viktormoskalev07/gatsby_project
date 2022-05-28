@@ -45,8 +45,12 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="wrapper">
+      <div className="main_title_bcg">
+        <div className="wrapper">
         <h1 className="main_title_h2">Студия дизайна интерьера и&nbsp;архитектуры I-PROJECT</h1>
+        </div>
+      </div>
+      <div className="wrapper">
         <div className="services_block" id="ancher_1">
           <div className="services_block_grid">
             <Link to="/portfolio" className="services_block_int_mob">

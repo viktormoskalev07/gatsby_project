@@ -10,6 +10,7 @@ import mainVideo from "../../video/design_interiera.mp4"
 import mainVideoMobile from "../../video/design_interiera_mob.mp4"
 import secondVideo from "../../video/preview_flat.mp4"
 import { Presentation } from "../../subitems/posts/presentation"
+import Seo from "../../components/seo"
 
 
 const DesignInteriera = () => {
@@ -31,6 +32,11 @@ const DesignInteriera = () => {
   }
   return (
     <Layout>
+
+      <Seo  title={"дизайн интерьера"} description={"дизайн интерьера в минске"}
+            location={"https://www.i-project.by/portfolio/interery"}
+            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
+
       <div class="services_video">
         <div class="services_video_here"></div>
         <video autoPlay={true} muted={true} loop={true} type="video/mp4" class="video" width="100%" height="100%" className="services_video_desktop">
