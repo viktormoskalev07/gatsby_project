@@ -30,8 +30,9 @@ export const Video = ( {mobileSrc , desktopSrc})=>{
   },[])
 
 
-    const videoClass = videoSrc===mobileSrc? "main_video_mobile" :" ";
-    const videoTemplate = `<video   src=${videoSrc} class=${videoClass}  loop  muted  playsinline  autoplay  width="100%" height="100%"></video>`
+    const videoClass = videoSrc===mobileSrc? "main_video_mobile" :"main_video  ";
+    const videoTemplate = `<video   src=${videoSrc} class=${videoClass}  
+loop="true"  muted  playsinline  autoplay  width="100%" height="100%"></video>`
 
   return <div style={{minHeight:'55vw'}} dangerouslySetInnerHTML={{__html:videoTemplate}} />
 }
