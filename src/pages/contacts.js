@@ -5,6 +5,7 @@ import youtubeIcon from "../images/contacts_youtube.svg"
 import instagramIcon from "../images/contacts_instagram.svg"
 import facebookIcon from "../images/contacts_facebook.svg"
 import Seo from "../components/seo"
+import { AnimatedLine } from '../subitems/portfolio/animatedLine'
 
 const Contacts = () => {
   return (
@@ -16,7 +17,8 @@ const Contacts = () => {
         <h1 class="contacts_title">Контакты</h1>
         <div class="contacts">
           <div class="contacts_full_flex">
-            <div class="contacts_flex contacts_line">
+            <AnimatedLine />
+            <div class="contacts_flex">
               <p class="contacts_appeal"><span>Уважаемые клиенты!</span><br/> Вы&nbsp;можете запланировать встречу и&nbsp;получить консультацию по&nbsp;всем вопросам дизайна интерьера или строительства вашего дома.</p>
               <div class="contacts_info">
                 <div class="contacts_info_item">

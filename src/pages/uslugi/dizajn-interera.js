@@ -174,7 +174,7 @@ const DesignInteriera = () => {
             <section>
               <h2 class="main_portfolio_title" id="anchor_5">Наши работы</h2>
               <Masonry
-                breakpointCols={breakpointColumnsObj}
+                breakpointCols={breakpointColumnsPortfolio}
                 className="portfolio_grid"
                 columnClassName="my-masonry-grid_column">
                 <Link to="/portfolio/interier/korolya/" className="portfolio_grid_link">
@@ -216,6 +216,10 @@ const DesignInteriera = () => {
                     <h3 className="portfolio_grid_block_title">Двушка на&nbsp;Панфилова. Дизайн квартиры в&nbsp;Минске, 85м<sup>2</sup></h3>
                     <p className="portfolio_grid_block_realize">Реализовано</p>
                   </div>
+                </Link>
+                <></>
+                <Link to="/portfolio/" className="portfolio_grid_link_all">
+                  <p className="portfolio_grid_link_all_p">Все проекты</p>
                 </Link>
               </Masonry>
             </section>
@@ -314,7 +318,7 @@ const DesignInteriera = () => {
 
 export default DesignInteriera
 
-const breakpointColumnsObj = {
+const breakpointColumnsPortfolio = {
   default: 3,
   768: 1,
   

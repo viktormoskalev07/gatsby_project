@@ -5,10 +5,14 @@ import Fancybox from "../../../components/fancybox.js";
 import { ImgComparisonSlider } from '@img-comparison-slider/react';
 import BreadcrumbsInterier from "../../../components/breadcrumbs-interier.js";
 import { AnchorLink } from "gatsby-plugin-anchor-links"
+import Seo from "../../../components/seo"
 
 const compact = () => {
   return (
     <Layout>
+      <Seo  title={"Дизайн интерьера офиса COMPACT 50 м2, фото | I-PROJECT"} description={"Студия дизайна и архитектуры Александра Игнатьева, разработала современный интерьер офиса. Нам удалось найти место для 3-х помещений и 5-ти функциональных зон."}
+            location={"https://www.i-project.by/portfolio/interier/compact"}
+            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
       <Fancybox>
         <div class="wrapper">
           <div class="project">

@@ -24,20 +24,11 @@ import { Presentation } from "../subitems/posts/presentation"
 
 
 export default function Home() {
-
-
-
   return (
     <Layout>
-
-
-      <Seo  title={"нестандартный тайтл "} description={"нестандартный дескрипшен"}
+      <Seo  title={"Дизайн интерьера квартир, домов и офисов в Минске"} description={"Студия дизайна и архитектуры I-PROJECT разрабатывает индивидуальный дизайн интерьера ✦ более 15 лет опыта ✦ портфолио более 100 проектов ✦ под ключ"}
             location={"https://www.i-project.by/portfolio/interery"}
             image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
-      {/*location это помоему  ссылка которая появится если поделится в твиттере
-       image это имага которая будет превьюхой когда поделишься статьей в твиттере */}
-
-
       <div className="main_video">
         <Video  mobileSrc={IndexVideoMobile} desktopSrc={IndexVideo} />
         <div className="wrapper">
@@ -109,7 +100,7 @@ export default function Home() {
                 <p className="content_p">В&nbsp;нашем <Link to="/portfolio/" className="link">портфолио</Link> большое количество реализованных объектов, которые получились именно благодаря комплексному подходу.</p>
               </div>
               <Masonry
-                breakpointCols={breakpointColumnsObj}
+                breakpointCols={breakpointColumnsPortfolio}
                 className="portfolio_grid main_portfolio"
                 columnClassName="my-masonry-grid_column">
                 <Link to="/portfolio/architecture/luban/" className="portfolio_grid_link">
@@ -132,25 +123,18 @@ export default function Home() {
                     <p className="portfolio_grid_block_realize">Реализовано</p>
                   </div>
                 </Link>
-                <Link to="/portfolio/interier/simple-house/" className="portfolio_grid_link">
-                  <StaticImage src="../images/portfolio/simple_house/00_simple_house.jpg" alt="" />
-                  <div className="portfolio_grid_block">
-                    <h3 className="portfolio_grid_block_title">Дизайн интерьера обычного дома, 250м<sup>2</sup></h3>
-                  </div>
-                </Link>
-                <Link to="/portfolio/interier/zelenyi/" className="portfolio_grid_link portfolio_grid_link_hide">
-                  <StaticImage src="../images/portfolio/zelenyi/00_zelenyi.jpg" alt="" />
-                  <div className="portfolio_grid_block">
-                    <h3 className="portfolio_grid_block_title">50 оттенков зеленого. Интерьер дома, 250м<sup>2</sup></h3>
-                  </div>
-                </Link>
                 <Link to="/portfolio/architecture/dom-na-holme/" className="portfolio_grid_link portfolio_grid_link_hide">
                   <StaticImage src="../images/portfolio/dom_na_holme/01_dom_na_holme.jpg" alt="" />
                   <div className="portfolio_grid_block">
                     <h2 className="portfolio_grid_block_title">Дом на&nbsp;холме, 450м<sup>2</sup></h2>
                   </div>
                 </Link>
-                <></>
+                <Link to="/portfolio/interier/simple-house/" className="portfolio_grid_link">
+                  <StaticImage src="../images/portfolio/simple_house/00_simple_house.jpg" alt="" />
+                  <div className="portfolio_grid_block">
+                    <h3 className="portfolio_grid_block_title">Дизайн интерьера обычного дома, 250м<sup>2</sup></h3>
+                  </div>
+                </Link>
                 <Link to="/portfolio/" className="portfolio_grid_link_all">
                   <p className="portfolio_grid_link_all_p">Все проекты</p>
                 </Link>
@@ -193,7 +177,7 @@ export default function Home() {
             <section>
               <h2 className="main_articles_title" id="articles_title">Последние статьи</h2>
               <Masonry
-                breakpointCols={breakpointColumnsObj}
+                breakpointCols={breakpointColumnsArticles}
                 className="articles_page"
                 columnClassName="my-masonry-grid_column">
                 <Link to="/articles/beliy-interier" className="articles_page_item articles_page_item7">
@@ -266,7 +250,13 @@ export default function Home() {
   )
 }
 
-const breakpointColumnsObj = {
+const breakpointColumnsPortfolio = {
+  default: 3,
+  // 1800: 2,
+  768: 1,
+  
+};
+const breakpointColumnsArticles = {
   default: 3,
   768: 1,
   

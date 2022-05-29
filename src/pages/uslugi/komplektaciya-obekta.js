@@ -25,7 +25,7 @@ const komplektaciyaObekta = () => {
           </div>
         </div>
       </div>
-      <div class="content_body services_body">
+      <div class="content_body">
         <div class="content_body_absolute">
           <div class="left_sidebar">
             <ul>
@@ -115,6 +115,9 @@ const komplektaciyaObekta = () => {
                       <p className="portfolio_grid_block_realize">Реализовано</p>
                     </div>
                   </Link>
+                  <Link to="/portfolio/" className="portfolio_grid_link_all">
+                        <p className="portfolio_grid_link_all_p">Все проекты</p>
+                      </Link>
                 </Masonry>
               </section>
             </div>

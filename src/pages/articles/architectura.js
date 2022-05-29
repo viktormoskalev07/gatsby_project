@@ -6,10 +6,14 @@ import Fancybox from "../../components/fancybox.js";
 import Masonry from 'react-masonry-css'
 import { AnchorLink } from "gatsby-plugin-anchor-links";
 import BreadcrumbsArticles from "../../components/breadcrumbs-articles.js";
+import Seo from "../../components/seo"
 
 const architectura = () => {
   return (
     <Layout>
+      <Seo  title={"Архитектура частного дома | I-PROJECT"} description={"Попробуем разобраться на что нужно обратить внимание в архитектуре частного дома."}
+            location={"https://www.i-project.by/articles/architectura"}
+            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
       <section class="article">
         <BreadcrumbsArticles />
         <div class="article_bcg article_bcg4">

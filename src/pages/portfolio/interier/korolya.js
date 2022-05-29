@@ -7,10 +7,14 @@ import BreadcrumbsInterier from "../../../components/breadcrumbs-interier.js";
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 import { YouTobe } from "../../../subitems/youToobe"
 import  thumbnail  from  "../../../images/portfolio/korolya/01_korolya.jpg"
+import Seo from "../../../components/seo"
 
 const korolya = () => {
   return (
     <Layout>
+      <Seo  title={"Интерьер квартиры на ул.Короля 145 м2, фото | I-PROJECT"} description={"Основная идея проекта: сделать интерьер, который будет отражать внутренний мир заказчика Цветовая гамма: смелое сочетание сложных цветов, в основном — приглушенных."}
+            location={"https://www.i-project.by/portfolio/interier/korolya"}
+            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
       <Fancybox>
         <div class="wrapper">
           <div class="project">

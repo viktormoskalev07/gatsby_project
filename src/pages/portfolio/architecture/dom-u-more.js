@@ -4,10 +4,14 @@ import { StaticImage } from "gatsby-plugin-image"
 import Fancybox from "../../../components/fancybox.js";
 import BreadcrumbsArch from "../../../components/breadcrumbs-arch.js";
 import { AnchorLink } from "gatsby-plugin-anchor-links"
+import Seo from "../../../components/seo"
 
 const domMore = () => {
   return (
     <Layout>
+      <Seo  title={"Дом у Моря. Архитектурное решение и интерьер, фото | I-PROJECT"} description={"Первое место на Международном биеннале «Леонардо 2019». В конкурсе принимали участие работы из 28 стран за 2016,2017,2018, 2019гг."}
+            location={"https://www.i-project.by/portfolio/architecture/dom-u-more"}
+            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
       <Fancybox>
         <div class="wrapper">
           <div class="project">

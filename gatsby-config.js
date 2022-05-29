@@ -67,6 +67,16 @@ module.exports = {
       options: {
         offset: -50
       }
+    },
+    {
+      resolve: `gatsby-plugin-yandex-metrika`,
+      options: {
+        trackingId: 71004781,
+        webvisor: true,
+        trackHash: true,
+        afterBody: true,
+        defer: false,
+      },
     }
   ],
 }

@@ -5,10 +5,14 @@ import { StaticImage } from "gatsby-plugin-image"
 import Fancybox from "../../../components/fancybox.js";
 import BreadcrumbsInterier from "../../../components/breadcrumbs-interier.js";
 import { AnchorLink } from "gatsby-plugin-anchor-links"
+import Seo from "../../../components/seo"
 
 const luxury = () => {
   return (
     <Layout>
+      <Seo  title={"LUXURY HOUSE. Интерьер дома под Минском 400 м2 | I-PROJECT"} description={"Дизайн интерьера дома, архитектуру которого тоже придумывали мы. Также мы разработали архитектурное решение."}
+            location={"https://www.i-project.by/portfolio/interier/luxury"}
+            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
       <Fancybox>
         <div class="wrapper">
           <div class="project">

@@ -4,10 +4,15 @@ import { StaticImage } from "gatsby-plugin-image"
 import Fancybox from "../../../components/fancybox.js";
 import BreadcrumbsInterier from "../../../components/breadcrumbs-interier.js";
 import { AnchorLink } from "gatsby-plugin-anchor-links"
+import Seo from "../../../components/seo"
+
 
 const houseMinsk = () => {
   return (
     <Layout>
+      <Seo  title={"Дизайн интерьера дома под Минском 250 м2 | I-PROJECT"} description={"Студия дизайна и архитектуры Александра Игнатьева, разработала современный интерьер с элементами классики для молодой семьи."}
+            location={"https://www.i-project.by/portfolio/interier/house-minsk"}
+            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
       <Fancybox>
         <div class="wrapper">
           <div class="project">

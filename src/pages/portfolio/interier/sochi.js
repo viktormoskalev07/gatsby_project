@@ -4,10 +4,14 @@ import { StaticImage } from "gatsby-plugin-image"
 import Fancybox from "../../../components/fancybox.js";
 import BreadcrumbsInterier from "../../../components/breadcrumbs-interier.js";
 import { AnchorLink } from "gatsby-plugin-anchor-links"
+import Seo from "../../../components/seo"
 
 const sochi = () => {
   return (
     <Layout>
+      <Seo  title={"Дизайн интерьера в апарт-комплексе Сочи 45м2 | I-PROJECT"} description={"В интерьере нашлось место и для спальни, и для гостиной, и для небольшой кухни-столовой. Интерьер получился немного сказочным, с легким ретро-флером, но без нафталина."}
+            location={"https://www.i-project.by/portfolio/interier/sochi"}
+            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
       <Fancybox>
         <div class="wrapper">
           <div class="project">

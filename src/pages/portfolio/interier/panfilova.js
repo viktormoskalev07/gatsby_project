@@ -7,10 +7,14 @@ import BreadcrumbsInterier from "../../../components/breadcrumbs-interier.js";
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 import { YouTobe } from "../../../subitems/youToobe"
 import  thumbnail  from  "../../../images/portfolio/panfilova/07_panfilova.jpg"
+import Seo from "../../../components/seo"
 
 const panfilova = () => {
   return (
     <Layout>
+      <Seo  title={"Дизайн квартиры в Минске 85 м2 | I-PROJECT"} description={"Студия дизайна и архитектуры Александра Игнатьева, разработала современный интерьер небольшой квартиры для 1-го-2-х человек."}
+            location={"https://www.i-project.by/portfolio/interier/panfilova"}
+            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
       <Fancybox>
         <div class="wrapper">
           <div class="project">

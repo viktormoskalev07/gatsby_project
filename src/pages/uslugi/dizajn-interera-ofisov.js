@@ -165,14 +165,13 @@ const DesignInterieraOfisov = () => {
             <section>
               <h2 class="main_portfolio_title" id="anchor_5">Наши работы</h2>
               <Masonry
-                breakpointCols={breakpointColumnsObj}
+                breakpointCols={breakpointColumnsPortfolio}
                 className="portfolio_grid"
                 columnClassName="my-masonry-grid_column">
-                <Link to="/portfolio/architecture/rekonstrukciya-protos/" className="portfolio_grid_link">
-                  <StaticImage src="../../images/portfolio/protos_reconstraction/00_protos_reconstraction.jpg" alt="" />
+                <Link to="/portfolio/interier/baikonur" className="portfolio_grid_link">
+                  <StaticImage src="../../images/portfolio/baikonur/00_baikonur.jpg" alt="" />
                   <div class="portfolio_grid_block">
-                    <h3 className="portfolio_grid_block_title">Реконструкция офисов группы компаний &laquo;Протос&raquo;, 200м<sup>2</sup></h3>
-                    <p className="portfolio_grid_block_realize">Реализовано</p>
+                    <h3 className="portfolio_grid_block_title">Дизайн офисов в&nbsp;составе ЖК&nbsp;Байконур в&nbsp;г.Москва, 120м<sup>2</sup></h3>
                   </div>
                 </Link>
                 <Link to="/portfolio/interier/interier-protos/" className="portfolio_grid_link">
@@ -182,11 +181,14 @@ const DesignInterieraOfisov = () => {
                     <p className="portfolio_grid_block_realize">Реализовано</p>
                   </div>
                 </Link>
-                <Link to="/portfolio/interier/baikonur" className="portfolio_grid_link">
-                  <StaticImage src="../../images/portfolio/baikonur/00_baikonur.jpg" alt="" />
+                <Link to="/portfolio/interier/compact" className="portfolio_grid_link">
+                  <StaticImage src="../../images/portfolio/compact/00_compact.jpg" alt="" />
                   <div class="portfolio_grid_block">
-                    <h3 className="portfolio_grid_block_title">Дизайн офисов в&nbsp;составе ЖК&nbsp;Байконур в&nbsp;г.Москва, 120м<sup>2</sup></h3>
+                    <h2 className="portfolio_grid_block_title">Дизайн интерьера офиса Compact, 50м<sup>2</sup></h2>
                   </div>
+                </Link>
+                <Link to="/portfolio/" className="portfolio_grid_link_all">
+                  <p className="portfolio_grid_link_all_p">Все проекты</p>
                 </Link>
               </Masonry>
             </section>
@@ -285,7 +287,7 @@ const DesignInterieraOfisov = () => {
 
 export default DesignInterieraOfisov
 
-const breakpointColumnsObj = {
+const breakpointColumnsPortfolio = {
   default: 3,
   768: 1,
   

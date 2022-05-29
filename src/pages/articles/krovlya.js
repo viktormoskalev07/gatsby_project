@@ -6,10 +6,14 @@ import Fancybox from "../../components/fancybox.js";
 import Masonry from 'react-masonry-css'
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 import BreadcrumbsArticles from "../../components/breadcrumbs-articles.js";
+import Seo from "../../components/seo"
 
 const krovlya = () => {
   return (
     <Layout>
+      <Seo  title={"Плоская и скатная кровля: за и против | I-PROJECT"} description={"Вместе с дизайнерами попробуем выяснить все плюсы и минусы скатной, плоской и эксплуатируемой кровли."}
+            location={"https://www.i-project.by/articles/krovlya"}
+            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
       <section class="article">
         <BreadcrumbsArticles />
         <div class="article_bcg article_bcg2">

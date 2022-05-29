@@ -4,10 +4,14 @@ import { StaticImage } from "gatsby-plugin-image"
 import Fancybox from "../../../components/fancybox.js";
 import BreadcrumbsInterier from "../../../components/breadcrumbs-interier.js";
 import { AnchorLink } from "gatsby-plugin-anchor-links"
+import Seo from "../../../components/seo"
 
 const akvamarin = () => {
   return (
     <Layout>
+      <Seo  title={"Дизайн интерьера квартиры 140 м2, фотографии | I-PROJECT"} description={"Здания комплекса примечательны тем, что не имеют двух параллельных стен — все они либо закругляются, либо расходятся лучами от центра."}
+            location={"https://www.i-project.by/portfolio/interier/akvamarin"}
+            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
       <Fancybox>
         <div class="wrapper">
           <div class="project">

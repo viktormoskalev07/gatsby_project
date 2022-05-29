@@ -3,10 +3,14 @@ import Layout from "../../../components/layout-black"
 import { StaticImage } from "gatsby-plugin-image"
 import Fancybox from "../../../components/fancybox.js";
 import BreadcrumbsInterier from "../../../components/breadcrumbs-interier.js";
+import Seo from "../../../components/seo"
 
 const rekonstrukciyaDom = () => {
   return (
     <Layout>
+      <Seo  title={"Реконструкция жилого дома в Минске 300 м2 | I-PROJECT"} description={"Фото работы: Реконструкция жилого дома в Минске. 300м2 | I-PROJECT Индивидуальный подход Опыт >15 лет"}
+            location={"https://www.i-project.by/portfolio/interier/rekonstrukciya-dom"}
+            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
       <Fancybox>
         <div class="wrapper">
           <div class="project">

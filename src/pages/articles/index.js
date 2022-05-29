@@ -2,10 +2,14 @@ import React from 'react'
 import Layout from "../../components/layout-black"
 import { Link } from "gatsby"
 import Masonry from 'react-masonry-css'
+import Seo from "../../components/seo"
 
 const Articles = () => {
   return (
     <Layout>
+      <Seo  title={"Полезные статьи по дизайну интерьера | I-PROJECT"} description={"Мы собрали советы и рекомендации по дизайну интерьера и архитектуре от студии дизайна I-PROJECT"}
+            location={"https://www.i-project.by/articles"}
+            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
       <div className="wrapper">
         <h1 className="articles_page_title">Статьи и&nbsp;новости</h1>
         <Masonry
@@ -14,7 +18,7 @@ const Articles = () => {
           columnClassName="my-masonry-grid_column">
           <Link to="/articles/plan-apart" className="articles_page_item articles_page_item12">
             <h2 className="articles_page_item_title_medium articles_page_item_title_black">Планировка квартиры. Основные правила</h2>
-            <p className="articles_page_item_view_number articles_page_item_view_number_grey1">3536</p>
+            {/* <p className="articles_page_item_view_number articles_page_item_view_number_grey1">3536</p> */}
           </Link>
           <Link to="/articles/obschaya-zona" className="articles_page_item articles_page_item11">
             <h2 className="articles_page_item_title_medium articles_page_item_title_white">Дизайн интерьера гостиной, кухни, столовой</h2>

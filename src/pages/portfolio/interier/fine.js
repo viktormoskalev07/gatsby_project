@@ -6,10 +6,14 @@ import BreadcrumbsInterier from "../../../components/breadcrumbs-interier.js";
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 import { YouTobe } from "../../../subitems/youToobe"
 import  thumbnail  from  "../../../images/portfolio/fine/01_fine.jpg"
+import Seo from "../../../components/seo"
 
 const fine = () => {
   return (
     <Layout>
+      <Seo  title={"Дизайн интерьера квартиры 140 м2, фотографии | I-PROJECT"} description={"Разработали современный интерьер квартиры для молодой семьи. Представлены оригинальные фото и видео."}
+            location={"https://www.i-project.by/portfolio/interier/fine"}
+            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
       <Fancybox>
         <div class="wrapper">
           <div class="project">

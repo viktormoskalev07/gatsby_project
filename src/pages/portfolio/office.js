@@ -4,13 +4,17 @@ import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import Masonry from 'react-masonry-css'
 import { AnimatedLine } from '../../subitems/portfolio/animatedLine'
+import Seo from "../../components/seo"
 
 const PortfolioOffice = () => {
   return (
     <Layout>
+      <Seo  title={"Портфолио интерьеров офисов | I-PROJECT"} description={"Реализованные интерьеры коммерческой недвижимости, офисов, реальные фотографии ✦ Опыт более 15 лет"}
+            location={"https://www.i-project.by/portfolio/office"}
+            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
       <div class="wrapper">
         <h1 class="portfolio_title">Портфолио</h1>
-        <AnimatedLine/>
+        <AnimatedLine />
         <ul class="portfolio_category">
           <li class="portfolio_category_li">
             <Link to="/portfolio/" className="portfolio_category_link">Все проекты</Link>

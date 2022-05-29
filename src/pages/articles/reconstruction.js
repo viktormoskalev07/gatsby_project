@@ -7,10 +7,14 @@ import Masonry from 'react-masonry-css'
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 import BreadcrumbsArticles from "../../components/breadcrumbs-articles.js";
 import { ImgComparisonSlider } from '@img-comparison-slider/react';
+import Seo from "../../components/seo"
 
 const reconstruction = () => {
   return (
     <Layout>
+      <Seo  title={"Современная реконструкция зданий. Основные моменты | I-PROJECT"} description={"Выделим 3 варианта реконструкции дома, сравним плюсы и минусы. Примеры реализации дома и офиса в минской и могилевской области."}
+            location={"https://www.i-project.by/articles/reconstruction"}
+            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
       <section class="article">
         <BreadcrumbsArticles />
         <div class="article_bcg article_bcg9">

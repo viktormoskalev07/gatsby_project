@@ -7,10 +7,14 @@ import BreadcrumbsInterier from "../../../components/breadcrumbs-interier.js";
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 import { YouTobe } from "../../../subitems/youToobe"
 import  thumbnail  from  "../../../images/portfolio/storojevskaya/03_storojevskaya.jpg"
+import Seo from "../../../components/seo"
 
 const storojevskaya = () => {
   return (
     <Layout>
+      <Seo  title={"Дизайн интерьера квартиры 130 м2, фото | I-PROJECT"} description={"Фото интерьера на ул. Сторожевская. Интерьер получил первое место на Республиканском конкурсе дизайнеров частного интерьера «Профессиональный интерьер» в 2016."}
+            location={"https://www.i-project.by/portfolio/interier/storojevskaya"}
+            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
       <Fancybox>
         <div class="wrapper">
           <div class="project">

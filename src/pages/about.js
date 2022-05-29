@@ -8,6 +8,7 @@ import { Link } from "gatsby"
 import { Video } from "../subitems/hompage/video"
 import AboutVideo from "../video/about.mp4"
 import AboutVideoMobile from "../video/about_mob.mp4"
+import { AnimatedLine } from '../subitems/portfolio/animatedLine'
 import Seo from "../components/seo"
 
 const About = () => {
@@ -16,7 +17,7 @@ const About = () => {
       <Seo  title={"О студии архитектуры и интерьера | I-PROJECT"} description={"i-project.by: cтудия архитектуры и интерьера Александра Игнатьева ✦ Опыт > 15 лет. ✦ Индивидуальный подход к каждому ✦ Команда профессионалов"}
             location={"https://www.i-project.by/about"}
             image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
-      <div class="about_video">
+      <div className="about_video">
         <Video  mobileSrc={AboutVideoMobile} desktopSrc={AboutVideo} />
       </div>
       <section class="studio_page">
@@ -30,7 +31,8 @@ const About = () => {
             <div class="right_content">
               <div class="studio_title">
                 <h1 class="studio_h1">О&nbsp;студии</h1>
-                <div class="studio_line"></div>
+                {/* <div class="studio_line"></div> */}
+                <AnimatedLine />
                 <p class="studio_mtext">I-PROJECT&nbsp;&mdash; Студия дизайна и&nbsp;архитектуры Александра Игнатьева. Занимаемся архитектурным проектированием и&nbsp;дизайном интерьера с&nbsp;последующим сопровождением.</p>
               </div>
               <div class="studio_items">
@@ -49,7 +51,7 @@ const About = () => {
                     <p class="studio_item_right_quote">&mdash;&nbsp;&laquo;Я&nbsp;всегда стремлюсь выстроить доверительные&nbsp;и, не&nbsp;побоюсь этого слова, дружеские отношения с&nbsp;заказчиком. В&nbsp;наших обоюдных интересах&nbsp;&mdash; вместе пройти весь увлекательный путь, от&nbsp;первых концептуальных идей, через детальный проект, который можно в&nbsp;подробностях прощупать на&nbsp;бумаге&nbsp;&mdash; к&nbsp;реальному, фактическому результату. Давайте постараемся получить максимальное творческое удовлетворение на&nbsp;этом пути!&raquo;</p>
                     <p class="studio_item_right_p">Игнатьев Александр&nbsp;&mdash; архитектор, дизайнер, основатель студии i-project.</p>
                   </div>
-                  <StaticImage src="https://i-project.by/wp-content/uploads/2021/01/studio_aleksandr.png" alt="Архитектор, дизайнер, основатель студии i-project Александр Игнатьев" class="studio_item_right_img" />
+                  <StaticImage src="../images/studio_alexander_iproject.png" alt="Архитектор, дизайнер, основатель студии i-project Александр Игнатьев" class="studio_item_right_img" />
                 </div>
                 <div class="studio_item">
                   <div class="studio_item_block">

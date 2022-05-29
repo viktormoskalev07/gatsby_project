@@ -7,29 +7,20 @@ import BreadcrumbsArch from "../../../components/breadcrumbs-arch.js";
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 import { YouTobe } from "../../../subitems/youToobe"
 import  thumbnail  from  "../../../images/portfolio/luban/01_luban.jpg"
+import Seo from "../../../components/seo"
 
 const luban = () => {
   return (
     <Layout>
+      <Seo  title={"Дом для жизни. Архитектура 400 м2, фото | I-PROJECT"} description={"Выполнили реконструкцию фасада и реализовали мероприятия по благоустройству территории. Представлены оригинальные фото и видео."}
+            location={"https://www.i-project.by/portfolio/architecture/luban"}
+            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
       <Fancybox>
         <div class="wrapper">
           <div class="project">
             <BreadcrumbsArch />
             <h1 class="project_title">Дом для жизни. Архитектура, 400&nbsp;м<sup>2</sup></h1>
           </div>
-          {/* <div class="project_main_photo">
-            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/BTDlAUgy9dY" title="Дом для жизни. Архитектура (400м2)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div> */}
-          {/* <div class="project_main_photo">
-            <div class="pageportfolio_video">
-              <div class="pageportfolio_block pageportfolio_block1">
-                <div class="pageportfolio_video_button">
-                  <div class="pageportfolio_video_button_symbol"></div>
-                </div>
-              </div>
-              <iframe title="Дом для жизни. Архитектура (400м2)" class="pageportfolio_iframe pageportfolio_iframe_1" width="100%" height="auto" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-            </div>
-          </div> */}
           <div class="project_main_photo">
             <YouTobe
               param={"start=1"}

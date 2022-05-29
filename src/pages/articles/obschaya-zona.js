@@ -6,10 +6,14 @@ import Fancybox from "../../components/fancybox.js";
 import Masonry from 'react-masonry-css'
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 import BreadcrumbsArticles from "../../components/breadcrumbs-articles.js";
+import Seo from "../../components/seo"
 
 const obschayaZona = () => {
   return (
     <Layout>
+      <Seo  title={"Дизайн интерьера гостиной, кухни, столовой | I-PROJECT"} description={"Основные правила совмещения гостиной, кухни, столовой, только практические советы."}
+            location={"https://www.i-project.by/articles/obschaya-zona"}
+            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
       <section class="article">
         <BreadcrumbsArticles />
         <div class="article_bcg article_bcg11">

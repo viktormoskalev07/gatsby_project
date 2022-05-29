@@ -5,10 +5,14 @@ import { StaticImage } from "gatsby-plugin-image"
 import Fancybox from "../../components/fancybox.js";
 import Masonry from 'react-masonry-css'
 import { AnchorLink } from "gatsby-plugin-anchor-links"
+import Seo from "../../components/seo"
 
 const hranenie = () => {
   return (
     <Layout>
+      <Seo  title={"Как организовать хранение вещей в квартире | I-PROJECT"} description={"Разбираемся как хранить вещи в доме. Практические советы по размещению мест для хранения в квартире"}
+            location={"https://www.i-project.by/articles/hranenie"}
+            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
       <section class="article">
         <div class="breadcrumbs">
           <ul class="breadcrumbs_list">

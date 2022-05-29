@@ -3,10 +3,14 @@ import Layout from "../../../components/layout-black"
 import { StaticImage } from "gatsby-plugin-image"
 import Fancybox from "../../../components/fancybox.js";
 import BreadcrumbsInterier from "../../../components/breadcrumbs-interier.js";
+import Seo from "../../../components/seo"
 
 const filimonova = () => {
   return (
     <Layout>
+      <Seo  title={"Дизайн интерьера квартиры 140 м2, ЖК «Аквамарин»  | I-PROJECT"} description={"Фотографии интерьера современной квартиры после перепланировки в Минске."}
+            location={"https://www.i-project.by/portfolio/interier/filimonova"}
+            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
       <Fancybox>
         <div class="wrapper">
           <div class="project">

@@ -6,10 +6,14 @@ import Fancybox from "../../components/fancybox.js";
 import Masonry from 'react-masonry-css'
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 import BreadcrumbsArticles from "../../components/breadcrumbs-articles.js";
+import Seo from "../../components/seo"
 
 const lighting = () => {
   return (
     <Layout>
+      <Seo  title={"Освещение в интерьере: рекомендации по подбору | I-PROJECT"} description={"Разделяем 3 вида источника света по назначению: дизайнерский, навигационный и рассеянный свет. Разбираемся где их использовать."}
+            location={"https://www.i-project.by/articles/lighting"}
+            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
       <section class="article">
         <BreadcrumbsArticles />
         <div class="article_bcg article_bcg10">

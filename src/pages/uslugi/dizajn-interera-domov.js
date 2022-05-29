@@ -156,15 +156,13 @@ const DesignInterieraDomov = () => {
               <StaticImage src="../../images/rewards/reward_gira_mob.png" alt="Приложение gira" class="services_cert_img2" />
             </div>
           </div> */}
-          
-          
         </section>
         <div class="wrapper">
           <div class="right_content">
             <section>
               <h2 class="main_portfolio_title" id="anchor_5">Наши работы</h2>
               <Masonry
-                breakpointCols={breakpointColumnsObj}
+                breakpointCols={breakpointColumnsPortfolio}
                 className="portfolio_grid"
                 columnClassName="my-masonry-grid_column">
                 <Link to="/portfolio/architecture/dom-u-more" className="portfolio_grid_link">
@@ -203,6 +201,21 @@ const DesignInterieraDomov = () => {
                   <div class="portfolio_grid_block">
                     <h3 className="portfolio_grid_block_title">50 оттенков зеленого. Интерьер дома, 250м<sup>2</sup></h3>
                   </div>
+                </Link>
+                <Link to="/portfolio/interier/simple-house/" className="portfolio_grid_link portfolio_grid_link_hide">
+                  <StaticImage src="../../images/portfolio/simple_house/00_simple_house.jpg" alt="" />
+                  <div className="portfolio_grid_block">
+                    <h3 className="portfolio_grid_block_title">Дизайн интерьера обычного дома, 250м<sup>2</sup></h3>
+                  </div>
+                </Link>
+                <Link to="/portfolio/interier/sunny" className="portfolio_grid_link portfolio_grid_link_hide">
+                  <StaticImage src="../../images/portfolio/sunny/00_sunny.jpg" alt="" />
+                  <div class="portfolio_grid_block">
+                    <h2 className="portfolio_grid_block_title">Таунхаус в&nbsp;Солнечном. Дизайн интерьера, 300м<sup>2</sup></h2>
+                  </div>
+                </Link>
+                <Link to="/portfolio/" className="portfolio_grid_link_all">
+                  <p className="portfolio_grid_link_all_p">Все проекты</p>
                 </Link>
               </Masonry>
             </section>
@@ -301,7 +314,7 @@ const DesignInterieraDomov = () => {
 
 export default DesignInterieraDomov
 
-const breakpointColumnsObj = {
+const breakpointColumnsPortfolio = {
   default: 3,
   768: 1,
   

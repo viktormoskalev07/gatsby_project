@@ -132,7 +132,7 @@ const Arxitekturnoe = () => {
             <section>
               <h2 class="main_portfolio_title" id="anchor_5">Наши работы</h2>
               <Masonry
-                breakpointCols={breakpointColumnsObj}
+                breakpointCols={breakpointColumnsPortfolio}
                 className="portfolio_grid"
                 columnClassName="my-masonry-grid_column">
                 <Link to="/portfolio/architecture/luban/" className="portfolio_grid_link">
@@ -173,6 +173,15 @@ const Arxitekturnoe = () => {
                   <div class="portfolio_grid_block">
                     <h3 className="portfolio_grid_block_title">Дом в&nbsp;сосновом бору. Архитектура, 750м<sup>2</sup></h3>
                   </div>
+                </Link>
+                <Link to="/portfolio/architecture/dom-na-holme/" className="portfolio_grid_link portfolio_grid_link_hide">
+                  <StaticImage src="../../images/portfolio/dom_na_holme/01_dom_na_holme.jpg" alt="" />
+                  <div class="portfolio_grid_block">
+                    <h2 className="portfolio_grid_block_title">Дом на&nbsp;холме, 450м<sup>2</sup></h2>
+                  </div>
+                </Link>
+                <Link to="/portfolio/" className="portfolio_grid_link_all">
+                  <p className="portfolio_grid_link_all_p">Все проекты</p>
                 </Link>
               </Masonry>
             </section>
@@ -273,7 +282,7 @@ const Arxitekturnoe = () => {
 
 export default Arxitekturnoe
 
-const breakpointColumnsObj = {
+const breakpointColumnsPortfolio = {
   default: 3,
   768: 1,
   

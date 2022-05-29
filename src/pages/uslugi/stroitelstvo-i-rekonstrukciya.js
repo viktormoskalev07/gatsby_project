@@ -135,6 +135,9 @@ const stroitelstvo = () => {
                     <p className="portfolio_grid_block_realize">Реализовано</p>
                   </div>
                 </Link>
+                <Link to="/portfolio/" className="portfolio_grid_link_all">
+                        <p className="portfolio_grid_link_all_p">Все проекты</p>
+                      </Link>
               </Masonry>
             </section>
             <div class="faq" id="anchor_8">

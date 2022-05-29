@@ -7,10 +7,14 @@ import BreadcrumbsInterier from "../../../components/breadcrumbs-interier.js";
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 import { YouTobe } from "../../../subitems/youToobe"
 import  thumbnail  from  "../../../images/portfolio/d3/01_d3.jpg"
+import Seo from "../../../components/seo"
 
 const d3 = () => {
   return (
     <Layout>
+      <Seo  title={"Дизайн интерьера квартиры в ЖК D3 120 м2 | I-PROJECT"} description={"В интерьере есть барная стойка, большой стол и угловой диван. Преобладают оттенки пряного меда, дерева, корицы, светлого коралла."}
+            location={"https://www.i-project.by/portfolio/interier/d3"}
+            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
       <Fancybox>
         <div class="wrapper">
           <div class="project">

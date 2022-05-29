@@ -8,10 +8,14 @@ import BreadcrumbsInterier from "../../../components/breadcrumbs-interier.js";
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 import { YouTobe } from "../../../subitems/youToobe"
 import  thumbnail  from  "../../../images/portfolio/protos_interior/01_protos_interior.jpg"
+import Seo from "../../../components/seo"
 
 const interierProtos = () => {
   return (
     <Layout>
+      <Seo  title={"Дизайн интерьера офисов «Протос» 200 м2 | I-PROJECT"} description={"Разработали не только интерьерное, но и архитектурное решение. Представлены оригинальные фото и видео."}
+            location={"https://www.i-project.by/portfolio/interier/interier-protos"}
+            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
       <Fancybox>
         <div class="wrapper">
           <div class="project">
@@ -71,7 +75,7 @@ const interierProtos = () => {
                 </a>
                 <div class="content_task">
                   <span class="content_task_span">Описание</span>
-                  <p class="content_task_p">Для существующего объекта мы разработали не только интерьерное, но и <Link to="/portfolio/architecture/rekonstrukciya-protos" className="link">архитектурное решение</Link>.</p>
+                  <p class="content_task_p">Разработать <Link to="/portfolio/architecture/rekonstrukciya-protos" className="link">архитектурное</Link> и&nbsp;интерьерное решение, задействовав остов существующего здания, в&nbsp;соответствии с&nbsp;новыми потребностями и&nbsp;духом времени.</p>
                 </div>
               </div>
               <div class="content_images">

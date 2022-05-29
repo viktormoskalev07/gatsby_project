@@ -4,10 +4,14 @@ import { StaticImage } from "gatsby-plugin-image"
 import Fancybox from "../../../components/fancybox.js";
 import BreadcrumbsArch from "../../../components/breadcrumbs-arch.js";
 import { AnchorLink } from "gatsby-plugin-anchor-links"
+import Seo from "../../../components/seo"
 
 const podmoskovyeArch = () => {
   return (
     <Layout>
+      <Seo  title={"Дизайн интерьера дома в Подмосковье 300 м2 | I-PROJECT"} description={"Задача: Сделать современный жилой дом, используя традиционные решения, но с индивидуальной планировочной структурой."}
+            location={"https://www.i-project.by/portfolio/architecture/podmoskovye-architecture"}
+            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
       <Fancybox>
         <div class="wrapper">
           <div class="project">

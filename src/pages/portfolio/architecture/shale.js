@@ -4,10 +4,14 @@ import { StaticImage } from "gatsby-plugin-image"
 import Fancybox from "../../../components/fancybox.js";
 import BreadcrumbsArch from "../../../components/breadcrumbs-arch.js";
 import { AnchorLink } from "gatsby-plugin-anchor-links"
+import Seo from "../../../components/seo"
 
 const shale = () => {
   return (
     <Layout>
+      <Seo  title={"Современное шале. Архитектура дома 300 м2 | I-PROJECT"} description={"Студия дизайна и архитектуры Александра Игнатьева, разработала современный дом, похожий на фахверковое шале, но в монолите."}
+            location={"https://www.i-project.by/portfolio/architecture/shale"}
+            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
       <Fancybox>
         <div class="wrapper">
           <div class="project">

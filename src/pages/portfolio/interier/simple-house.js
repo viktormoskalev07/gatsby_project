@@ -5,10 +5,14 @@ import { StaticImage } from "gatsby-plugin-image"
 import Fancybox from "../../../components/fancybox.js";
 import BreadcrumbsInterier from "../../../components/breadcrumbs-interier.js";
 import { AnchorLink } from "gatsby-plugin-anchor-links"
+import Seo from "../../../components/seo"
 
 const simpleHouse = () => {
   return (
     <Layout>
+      <Seo  title={"Обычный дом 250 м2, фото | I-PROJECT"} description={"Студия дизайна и архитектуры Александра Игнатьева спроектировала обычный дом в Минской области."}
+            location={"https://www.i-project.by/portfolio/interier/simple-house"}
+            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
       <Fancybox options={{ infinite: false }}>
         <div class="wrapper">
           <div class="project">

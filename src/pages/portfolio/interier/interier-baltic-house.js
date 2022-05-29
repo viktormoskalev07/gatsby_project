@@ -8,10 +8,14 @@ import BreadcrumbsInterier from "../../../components/breadcrumbs-interier.js";
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 import { YouTobe } from "../../../subitems/youToobe"
 import  thumbnail  from  "../../../images/portfolio/baltic_house/interior/01_baltic_home_interior.jpg"
+import Seo from "../../../components/seo"
 
 const interierBalticHouse = () => {
   return (
     <Layout>
+      <Seo  title={"Интерьер дома с Балтийским характером 500м2, фото | I-PROJECT"} description={"В интерьере присутствует большой световой оконный колодец в крыше, бассейн на втором этаже. Дом построен по последним стандартам энергосбережения и экологичности."}
+            location={"https://www.i-project.by/portfolio/interier/interier-baltic-house"}
+            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
       <Fancybox>
         <div class="wrapper">
           <div class="project">

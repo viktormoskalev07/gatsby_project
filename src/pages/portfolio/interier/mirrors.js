@@ -6,10 +6,14 @@ import BreadcrumbsInterier from "../../../components/breadcrumbs-interier.js";
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 import { YouTobe } from "../../../subitems/youToobe"
 import  thumbnail  from  "../../../images/portfolio/panfilova/03_panfilova.jpg"
+import Seo from "../../../components/seo"
 
 const mirrors = () => {
   return (
     <Layout>
+      <Seo  title={"Дизайн интерьера квартиры 100 м2, фотографии | I-PROJECT"} description={"Компактное пространство интерьера визуально расширяется при помощи эффектных отражений. Оригинальные фото реализованного объекта."}
+            location={"https://www.i-project.by/portfolio/interier/mirrors"}
+            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
       <Fancybox>
         <div class="wrapper">
           <div class="project">

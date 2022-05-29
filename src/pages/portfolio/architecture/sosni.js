@@ -4,10 +4,14 @@ import { StaticImage } from "gatsby-plugin-image"
 import Fancybox from "../../../components/fancybox.js";
 import BreadcrumbsArch from "../../../components/breadcrumbs-arch.js";
 import { AnchorLink } from "gatsby-plugin-anchor-links"
+import Seo from "../../../components/seo"
 
 const sosni = () => {
   return (
     <Layout>
+      <Seo  title={"Архитектура дома в сосновом бору 750 м2 | I-PROJECT"} description={"Разработали современную архитектуру для дома в сосновом бору."}
+            location={"https://www.i-project.by/portfolio/architecture/sosni"}
+            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
       <Fancybox>
         <div class="wrapper">
           <div class="project">

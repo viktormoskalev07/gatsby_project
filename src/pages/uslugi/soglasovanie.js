@@ -46,8 +46,6 @@ const soglasovanie = () => {
                     <p class="content_p">Процедура согласования&nbsp;&mdash; это проверка и&nbsp;одобрение государственными надзорными органами всех проектных решений, используемых в&nbsp;будущем строительстве, в&nbsp;соответствии с&nbsp;обязательными требованиями со&nbsp;стороны законодательства. Другими словами, согласование&nbsp;&mdash; это подтверждение того, что объект, который вы&nbsp;собираетесь строить, будет безопасным, устойчивым и&nbsp;подходить для жизни, работы или другой выбранной для осуществления в&nbsp;нем деятельности.</p>
                     <h2 class="content_h2" id="link_2">Условия для согласования проекта: где искать</h2>
                     <p class="content_p">Проект, который вы&nbsp;собираетесь реализовать, должен соответствовать строительным нормам и&nbsp;правилам (СНБ), техническому кодексу установившейся практики (ТКП), и&nbsp;всем требованиям, обозначенным в&nbsp;исходно-разрешительной документации.</p>
-
-                    <p class="content_p"></p>
                   </div>
                   <div class="services_include_item services_include_item_control">
                     <h3 class="services_include_item_smtitle">Условия и&nbsp;требования, которые должны быть соблюдены, излагаются также в&nbsp;ряде документов:</h3>
@@ -58,55 +56,64 @@ const soglasovanie = () => {
                     </ul>
                     <p class="content_p">В&nbsp;случае, если какие-то из&nbsp;требований не&nbsp;соблюдаются, проектная документация не&nbsp;будет согласована&nbsp;и, как следствие, строительство по&nbsp;проекту будет невозможно.</p>
                   </div>
-
                   <section>
-              <h2 class="main_portfolio_title" id="anchor_5">Наши работы</h2>
-              <Masonry
-                breakpointCols={breakpointColumnsObj}
-                className="portfolio_grid"
-                columnClassName="my-masonry-grid_column">
-                <Link to="/portfolio/interier/korolya/" className="portfolio_grid_link">
-                  <StaticImage src="../../images/portfolio/korolya/00_korolya.jpg" alt="" />
-                  <div class="portfolio_grid_block">
-                    <h3 className="portfolio_grid_block_title">Интерьер квартиры на&nbsp;ул.Короля в&nbsp;Минске, 145м<sup>2</sup></h3>
-                    <p className="portfolio_grid_block_realize">Реализовано</p>
-                  </div>
-                </Link>
-                <Link to="/portfolio/interier/apart-for-life" className="portfolio_grid_link">
-                  <StaticImage src="../../images/portfolio/apart_for_life/00_apart_for_life.jpg" alt="" />
-                  <div class="portfolio_grid_block">
-                    <h3 className="portfolio_grid_block_title">Квартира для жизни. Дизайн интерьера в&nbsp;Минске, 110м<sup>2</sup></h3>
-                    <p className="portfolio_grid_block_realize">Реализовано</p>
-                  </div>
-                </Link>
-                <Link to="/portfolio/interier/d3/" className="portfolio_grid_link">
-                  <StaticImage src="../../images/portfolio/d3/00_d3.jpg" alt="" />
-                  <div class="portfolio_grid_block">
-                    <h3 className="portfolio_grid_block_title">Дизайн квартиры в&nbsp;жилом комплексе &laquo;D3&raquo;, 120м<sup>2</sup></h3>
-                    <p className="portfolio_grid_block_realize">Реализовано</p>
-                  </div>
-                </Link>
-                <Link to="/portfolio/interier/color/" className="portfolio_grid_link">
-                  <StaticImage src="../../images/portfolio/color/00_color.jpg" alt="" />
-                  <div class="portfolio_grid_block">
-                    <h3 className="portfolio_grid_block_title">Энергия цвета. Интерьер квартиры в&nbsp;Минске, 120м<sup>2</sup></h3>
-                  </div>
-                </Link>
-                <Link to="/portfolio/interier/sochi/" className="portfolio_grid_link portfolio_grid_link_hide">
-                  <StaticImage src="../../images/portfolio/sochi/00_sochi.jpg" alt="" />
-                  <div class="portfolio_grid_block">
-                    <h3 className="portfolio_grid_block_title">Дизайн интерьера в&nbsp;апарт-комплексе &laquo;Матисс&raquo; в&nbsp;г.Сочи, 45м<sup>2</sup></h3>
-                  </div>
-                </Link>
-                <Link to="/portfolio/interier/panfilova" className="portfolio_grid_link portfolio_grid_link_hide">
-                  <StaticImage src="../../images/portfolio/panfilova/00_panfilova.jpg" alt="" />
-                  <div class="portfolio_grid_block">
-                    <h3 className="portfolio_grid_block_title">Двушка на&nbsp;Панфилова. Дизайн квартиры в&nbsp;Минске, 85м<sup>2</sup></h3>
-                    <p className="portfolio_grid_block_realize">Реализовано</p>
-                  </div>
-                </Link>
-              </Masonry>
-            </section>
+                    <h2 class="main_portfolio_title" id="anchor_5">Наши работы</h2>
+                    <Masonry
+                      breakpointCols={breakpointColumnsObj}
+                      className="portfolio_grid"
+                      columnClassName="my-masonry-grid_column">
+                      <Link to="/portfolio/interier/korolya/" className="portfolio_grid_link">
+                        <StaticImage src="../../images/portfolio/korolya/00_korolya.jpg" alt="" />
+                        <div class="portfolio_grid_block">
+                          <h3 className="portfolio_grid_block_title">Интерьер квартиры на&nbsp;ул.Короля в&nbsp;Минске, 145м<sup>2</sup></h3>
+                          <p className="portfolio_grid_block_realize">Реализовано</p>
+                        </div>
+                      </Link>
+                      <Link to="/portfolio/interier/apart-for-life" className="portfolio_grid_link">
+                        <StaticImage src="../../images/portfolio/apart_for_life/00_apart_for_life.jpg" alt="" />
+                        <div class="portfolio_grid_block">
+                          <h3 className="portfolio_grid_block_title">Квартира для жизни. Дизайн интерьера в&nbsp;Минске, 110м<sup>2</sup></h3>
+                          <p className="portfolio_grid_block_realize">Реализовано</p>
+                        </div>
+                      </Link>
+                      <Link to="/portfolio/interier/d3/" className="portfolio_grid_link">
+                        <StaticImage src="../../images/portfolio/d3/00_d3.jpg" alt="" />
+                        <div class="portfolio_grid_block">
+                          <h3 className="portfolio_grid_block_title">Дизайн квартиры в&nbsp;жилом комплексе &laquo;D3&raquo;, 120м<sup>2</sup></h3>
+                          <p className="portfolio_grid_block_realize">Реализовано</p>
+                        </div>
+                      </Link>
+                      <Link to="/portfolio/interier/color/" className="portfolio_grid_link">
+                        <StaticImage src="../../images/portfolio/color/00_color.jpg" alt="" />
+                        <div class="portfolio_grid_block">
+                          <h3 className="portfolio_grid_block_title">Энергия цвета. Интерьер квартиры в&nbsp;Минске, 120м<sup>2</sup></h3>
+                        </div>
+                      </Link>
+                      <Link to="/portfolio/interier/sochi/" className="portfolio_grid_link portfolio_grid_link_hide">
+                        <StaticImage src="../../images/portfolio/sochi/00_sochi.jpg" alt="" />
+                        <div class="portfolio_grid_block">
+                          <h3 className="portfolio_grid_block_title">Дизайн интерьера в&nbsp;апарт-комплексе &laquo;Матисс&raquo; в&nbsp;г.Сочи, 45м<sup>2</sup></h3>
+                        </div>
+                      </Link>
+                      <Link to="/portfolio/interier/panfilova" className="portfolio_grid_link portfolio_grid_link_hide">
+                        <StaticImage src="../../images/portfolio/panfilova/00_panfilova.jpg" alt="" />
+                        <div class="portfolio_grid_block">
+                          <h3 className="portfolio_grid_block_title">Двушка на&nbsp;Панфилова. Дизайн квартиры в&nbsp;Минске, 85м<sup>2</sup></h3>
+                          <p className="portfolio_grid_block_realize">Реализовано</p>
+                        </div>
+                      </Link>
+                      <Link to="/portfolio/interier/fine" className="portfolio_grid_link portfolio_grid_link_hide">
+                        <StaticImage src="../../images/portfolio/fine/00_fine.jpg" alt="" />
+                        <div class="portfolio_grid_block">
+                          <h2 className="portfolio_grid_block_title">Хорошее настроение. Дизайн квартиры в&nbsp;Минске, 140м<sup>2</sup></h2>
+                          <p className="portfolio_grid_block_realize">Реализовано</p>
+                        </div>
+                      </Link>
+                      <Link to="/portfolio/" className="portfolio_grid_link_all">
+                        <p className="portfolio_grid_link_all_p">Все проекты</p>
+                      </Link>
+                    </Masonry>
+                  </section>
                   <div class="content_text">
                     <h2 class="content_h2" id="link_3">Процесс согласования проекта</h2>
                     <p class="content_p">Согласование проекта&nbsp;&mdash; довольно трудоемкий процесс, требующий немало времени, в&nbsp;зависимости от&nbsp;особенностей объекта, вида и&nbsp;масштаба проектных решений. Так, только на&nbsp;первую часть процедуры согласования может потребоваться от&nbsp;нескольких недель до&nbsp;нескольких месяцев, далее сроки согласования будут зависеть от&nbsp;скорости ведения строительных работ, т.к. надзорным органам (технадзор) потребуется воочию убедиться в&nbsp;соответствии строительных решений проектным.</p>

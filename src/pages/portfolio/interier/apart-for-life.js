@@ -4,10 +4,14 @@ import { StaticImage } from "gatsby-plugin-image"
 import Fancybox from "../../../components/fancybox.js";
 import BreadcrumbsInterier from "../../../components/breadcrumbs-interier.js";
 import { AnchorLink } from "gatsby-plugin-anchor-links"
+import Seo from "../../../components/seo"
 
 const apartForLife = () => {
   return (
     <Layout>
+      <Seo  title={"Дизайн интерьера в Минске 110 м2 | I-PROJECT"} description={"Из трехкомнатной квартиры с непростой планировкой мы сделали полноценную четырехкомнатную, при этом нашлось место для увеличения санузлов и устройства гардеробной."}
+            location={"https://www.i-project.by/portfolio/interier/apart-for-life"}
+            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
       <Fancybox>
         <div class="wrapper">
           <div class="project">

@@ -6,10 +6,14 @@ import Fancybox from "../../components/fancybox.js";
 import Masonry from 'react-masonry-css'
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 import BreadcrumbsArticles from "../../components/breadcrumbs-articles.js";
+import Seo from "../../components/seo"
 
 const beliyInterier = () => {
   return (
     <Layout>
+      <Seo  title={"Белый цвет в интерьере. Преимущества | I-PROJECT"} description={"Разберем 3 основные функции которые выполняет белый интерьер и с какими цветами его можно сочетать."}
+            location={"https://www.i-project.by/articles/beliy-interier"}
+            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
       <section class="article">
         <BreadcrumbsArticles />
         <div class="article_bcg article_bcg7">

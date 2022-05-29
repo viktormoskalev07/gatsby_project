@@ -7,10 +7,14 @@ import BreadcrumbsArch from "../../../components/breadcrumbs-arch.js";
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 import { YouTobe } from "../../../subitems/youToobe"
 import  thumbnail  from  "../../../images/portfolio/baltic_house/exterior/01_baltic_home_exterior.jpg"
+import Seo from "../../../components/seo"
 
 const exterierBalticHouse = () => {
   return (
     <Layout>
+      <Seo  title={"Экстерьер дома с Балтийским характером 500 м2 | I-PROJECT"} description={"Выполнили реконструкцию фасада и реализовали мероприятия по благоустройству территории. Представлены оригинальные фото и видео."}
+            location={"https://www.i-project.by/portfolio/architecture/exterier-baltic-house"}
+            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
       <Fancybox>
         <div class="wrapper">
           <div class="project">

@@ -6,10 +6,14 @@ import Fancybox from "../../components/fancybox.js";
 import Masonry from 'react-masonry-css'
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 import BreadcrumbsArticles from "../../components/breadcrumbs-articles.js";
+import Seo from "../../components/seo"
 
 const spalnya = () => {
   return (
     <Layout>
+      <Seo  title={"Секреты идеального дизайна спальни | I-PROJECT"} description={"Попробуем разобрать в основных аспектах дизайна спальни. Практические рекомендации как сделать спальню мечты."}
+            location={"https://www.i-project.by/articles/spalnya"}
+            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
       <section class="article">
         <BreadcrumbsArticles />
         <div class="article_bcg article_bcg5">

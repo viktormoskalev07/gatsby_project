@@ -85,7 +85,7 @@ const avtorskoeSoprovozhdenie = () => {
               <section>
                 <h2 className="main_portfolio_title" id="anchor_4">Наши работы</h2>
                 <Masonry
-                  breakpointCols={breakpointColumnsObj}
+                  breakpointCols={breakpointColumnsPortfolio}
                   className="portfolio_grid"
                   columnClassName="my-masonry-grid_column">
                   <Link to="/portfolio/interier/interier-baltic-house/" className="portfolio_grid_link">
@@ -130,6 +130,9 @@ const avtorskoeSoprovozhdenie = () => {
                       <p className="portfolio_grid_block_realize">Реализовано</p>
                     </div>
                   </Link>
+                  <Link to="/portfolio/" className="portfolio_grid_link_all">
+                  <p className="portfolio_grid_link_all_p">Все проекты</p>
+                </Link>
                 </Masonry>
               </section>
             </div>
@@ -142,7 +145,7 @@ const avtorskoeSoprovozhdenie = () => {
 
 export default avtorskoeSoprovozhdenie
 
-const breakpointColumnsObj = {
+const breakpointColumnsPortfolio = {
   default: 3,
   768: 1,
   

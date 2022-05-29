@@ -4,10 +4,14 @@ import { StaticImage } from "gatsby-plugin-image"
 import Fancybox from "../../../components/fancybox.js";
 import BreadcrumbsInterier from "../../../components/breadcrumbs-interier.js";
 import { AnchorLink } from "gatsby-plugin-anchor-links"
+import Seo from "../../../components/seo"
 
 const color = () => {
   return (
     <Layout>
+      <Seo  title={"Интерьер квартиры в Минске 120 м2, фото | I-PROJECT"} description={"Энергия Цвета. Интерьер без случайных элементов, сочетает в себе традиционные шкафы-колонны со встроенной техникой и яркие стеновые панели с комодом."}
+            location={"https://www.i-project.by/portfolio/interier/color"}
+            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
       <Fancybox>
         <div class="wrapper">
           <div class="project">

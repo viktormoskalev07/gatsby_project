@@ -8,10 +8,14 @@ import BreadcrumbsArch from "../../../components/breadcrumbs-arch.js";
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 import { YouTobe } from "../../../subitems/youToobe"
 import  thumbnail  from  "../../../images/portfolio/protos_reconstraction/01_protos_reconstraction.jpg"
+import Seo from "../../../components/seo"
 
 const rekonstrukciyaProtos = () => {
   return (
     <Layout>
+      <Seo  title={"Реконструкция офисного здания «Протос» 200 м2 | I-PROJECT"} description={"Выполнили архитектурное и интерьерное решение, задействовав основу существующего здания, в соответствии с новыми потребностями и духом времени."}
+            location={"https://www.i-project.by/portfolio/architecture/rekonstrukciya-protos"}
+            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
       <Fancybox>
         <div class="wrapper">
           <div class="project">
@@ -70,7 +74,8 @@ const rekonstrukciyaProtos = () => {
                 </a>
                 <div class="content_task">
                   <span class="content_task_span">Задача</span>
-                  <p class="content_task_p">Разработать архитектурное и&nbsp;интерьерное решение, задействовав остов существующего здания, в&nbsp;соответствии с&nbsp;новыми потребностями и&nbsp;духом времени. Дано: Одноэтажное строение казарменного типа, родом из&nbsp;90-х, с&nbsp;высокой степенью морального и&nbsp;физического износа.</p>
+                  <p class="content_task_p">Разработать архитектурное и&nbsp;<Link to="/portfolio/interier/interier-protos" className="link">интерьерное</Link> решение , задействовав остов существующего здания, в&nbsp;соответствии с&nbsp;новыми потребностями и&nbsp;духом времени.</p>
+                  <p class="content_task_p">Пристроить к&nbsp;зданию новые объемы с&nbsp;помещениями таким образом, чтобы не&nbsp;повредить корневую систему векового дуба&nbsp;&mdash; главной природной достопримечательности на&nbsp;территории предприятия, и&nbsp;сохранить вид на&nbsp;него из&nbsp;всех существующих окон, выходящих на&nbsp;соответствующую сторону.</p>
                 </div>
               </div>
               <div class="content_images">
