@@ -1,37 +1,43 @@
 import * as React from "react"
 import { useEffect, useState } from "react"
+import {  API_DEV , API_PROD } from "../../../API"
+import { useStaticCounter } from "../../hooks/useStaticCounter"
 
 
 
 
 
-export const PageViewCounter = ({    defaultNumber}) => {
+export const PageViewCounter = ({    location}) => {
+  let path = location.pathname
+ if(path[path.length-1] ==="/"){
+   path=path.substring(0, path.length - 1)
+ }
+  const fieldName = path.replace(/\//g , '_')
 
-    const [number , setNumber] = useState(defaultNumber);
+    const [number , setNumber] = useState(useStaticCounter(fieldName));
     const [hide , setHide] = useState(true);
-    // const fieldName = slug.replace(/\//g , '_');
 
- 
+    const API =process.env.NODE_ENV==="development"?API_DEV: API_PROD
+
       useEffect(  ()=>{
-        const fieldName = window.location.pathname.replace(/\//g , '_')
         const requestAndUp = async ()=>{
-          let number = 0
+          let number = 1
           try{
-            const data=  await fetch(process.env.SET_COUNTER_POST +fieldName);
+            const data=  await fetch( API.set(fieldName));
             number =  await data.json();
-          } catch {   }
+          } catch {  }
           setNumber(number)
           setHide(false)
         }
         const getCounter =  async ()=>{
           let number = 0
           try{
-            const data=  await fetch(process.env.GET_COUNTER);
+            const data=  await fetch(API.get(fieldName));
             number =  await data.json();
           } catch {  }
-          console.log(number)
-          // setNumber(number)
-          // setHide(false)
+
+          setNumber(number)
+          setHide(false)
         }
         
         const alreadyCounted=   window.localStorage.getItem(fieldName);
@@ -45,7 +51,7 @@ export const PageViewCounter = ({    defaultNumber}) => {
         } else {
           getCounter()
         }
-
+        // eslint-disable-next-line react-hooks/exhaustive-deps
       }, [])
 
   return (

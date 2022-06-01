@@ -22,7 +22,7 @@ const planApart = ({location }) => {
           <div class="wrapper">
             <div class="article_title">
               <h1 class="article_title_h1">Планировка квартиры. Основные правила</h1>
-              {/* <p class="article_view_number article_view_number_white"> <PageViewCounter defaultNumber={44}  /></p> */}
+               <p class="article_view_number article_view_number_white"> <PageViewCounter  location={location}  /></p>
             </div>
           </div>
         </div>
