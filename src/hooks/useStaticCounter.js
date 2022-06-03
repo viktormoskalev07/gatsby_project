@@ -11,7 +11,7 @@ export const  useStaticCounter=(field)=>{
     }
   `)
   if(!field){
-    console.error('no slug on page counter')
+    console.error('no slug on page counter' , field)
     return 1;
   }
   const text = data?.pageCounter?.data;

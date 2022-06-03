@@ -7,8 +7,9 @@ import Masonry from 'react-masonry-css'
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 import BreadcrumbsArticles from "../../components/breadcrumbs-articles.js";
 import Seo from "../../components/seo"
+import { PageViewCounter } from "../../subitems/pageViewsCounter/pageViewCounter"
 
-const obschayaZona = () => {
+const obschayaZona = ( {location}) => {
   return (
     <Layout>
       <Seo  title={"Дизайн интерьера гостиной, кухни, столовой | I-PROJECT"} description={"Основные правила совмещения гостиной, кухни, столовой, только практические советы."}
@@ -20,6 +21,7 @@ const obschayaZona = () => {
           <div class="wrapper">
             <div class="article_title">
               <h1 class="article_title_h1">Дизайн интерьера гостиной, кухни, столовой</h1>
+              <p className="article_view_number article_view_number_white"><PageViewCounter location={location} /></p>
             </div>
           </div>
         </div>

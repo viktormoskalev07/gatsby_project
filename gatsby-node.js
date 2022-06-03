@@ -16,7 +16,6 @@ exports.sourceNodes = async ({ actions,  createNodeId,createContentDigest  ,getC
 
 
   const field = await fetchData();
-  console.log(field)
   const fieldData = {
     id:  createNodeId(`PageCounter`),
     data:JSON.stringify( field.data) ,

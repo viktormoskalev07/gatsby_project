@@ -58,7 +58,5 @@ export const PageViewCounter = ({    location}) => {
            <span style={hide?{opacity:0}:{color:'inherit'}}>
                 {number}
            </span>
-
-
   )
 }

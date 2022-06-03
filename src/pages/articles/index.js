@@ -3,6 +3,7 @@ import Layout from "../../components/layout-black"
 import { Link } from "gatsby"
 import Masonry from 'react-masonry-css'
 import Seo from "../../components/seo"
+import { GetPageView } from "../../subitems/pageViewsCounter/getPageView"
 
 const Articles = () => {
   return (
@@ -18,13 +19,15 @@ const Articles = () => {
           columnClassName="my-masonry-grid_column">
           <Link to="/articles/plan-apart" className="articles_page_item articles_page_item12">
             <h2 className="articles_page_item_title_medium articles_page_item_title_black">Планировка квартиры. Основные правила</h2>
-            {/* <p className="articles_page_item_view_number articles_page_item_view_number_grey1">3536</p> */}
+             <p className="articles_page_item_view_number articles_page_item_view_number_grey1"> <GetPageView slug={'/articles/plan-apart/'}/> </p>
           </Link>
           <Link to="/articles/obschaya-zona" className="articles_page_item articles_page_item11">
             <h2 className="articles_page_item_title_medium articles_page_item_title_white">Дизайн интерьера гостиной, кухни, столовой</h2>
+            <p className="articles_page_item_view_number articles_page_item_view_number_grey1"> <GetPageView slug={'/articles/obschaya-zona'}/> </p>
           </Link>
           <Link to="/articles/lighting" className="articles_page_item articles_page_item10">
             <h2 className="articles_page_item_title_medium articles_page_item_title_white">Освещение в&nbsp;интерьере: рекомендации по&nbsp;подбору</h2>
+            <p className="articles_page_item_view_number articles_page_item_view_number_grey1"> <GetPageView slug={'/articles/lighting'}/> </p>
           </Link>
           <Link to="/articles/plan-house" className="articles_page_item articles_page_item8">
             <h2 className="articles_page_item_title_medium articles_page_item_title_white">Планировка дома: основные правила</h2>
