@@ -10,8 +10,8 @@ const moskvina = () => {
   return (
     <Layout>
       <Seo  title={"Дизайн интерьера квартиры 180 м2, фотографии | I-PROJECT"} description={"Студия дизайна и архитектуры Александра Игнатьева, разработала современный интерьер квартиры который разместился на мансардном этаже."}
-            location={"https://www.i-project.by/portfolio/interier/moskvina"}
-            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
+            location={"https://i-project.by/portfolio/interier/moskvina"}
+            image={"https://i-project.by/portfolio_newsite/moskvina/01_moskvina.webp"}/>
       <Fancybox>
         <div class="wrapper">
           <div class="project">
@@ -20,7 +20,7 @@ const moskvina = () => {
           </div>
           <div class="project_main_photo">
             <a
-              href="https://www.i-project.by/portfolio_newsite/moskvina/01_moskvina.webp"
+              href="https://i-project.by/portfolio_newsite/moskvina/01_moskvina.webp"
               data-fancybox="gallery"
             >
               <StaticImage src="../../../images/portfolio/moskvina/01_moskvina.jpg" alt="" />
@@ -52,19 +52,19 @@ const moskvina = () => {
               </div>
               <div class="content_task_block" id="anchor_1">
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/moskvina/16_moskvina.webp"
+                  href="https://i-project.by/portfolio_newsite/moskvina/16_moskvina.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/moskvina/16_moskvina.jpg" alt="" />
                 </a>
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/moskvina/10_moskvina.webp"
+                  href="https://i-project.by/portfolio_newsite/moskvina/10_moskvina.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/moskvina/10_moskvina.jpg" alt="" />
                 </a>
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/moskvina/13_moskvina.webp"
+                  href="https://i-project.by/portfolio_newsite/moskvina/13_moskvina.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/moskvina/13_moskvina.jpg" alt="" />
@@ -79,13 +79,13 @@ const moskvina = () => {
                 <h2 class="content_h2" id="anchor_2">Планировка квартиры</h2>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/moskvina/23_moskvina.webp"
+                    href="https://i-project.by/portfolio_newsite/moskvina/23_moskvina.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/moskvina/23_moskvina.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/moskvina/24_moskvina.webp"
+                    href="https://i-project.by/portfolio_newsite/moskvina/24_moskvina.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/moskvina/24_moskvina.jpg" alt="" />
@@ -99,7 +99,7 @@ const moskvina = () => {
               <div class="content_images">
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/moskvina/02_moskvina.webp"
+                    href="https://i-project.by/portfolio_newsite/moskvina/02_moskvina.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/moskvina/02_moskvina.jpg" alt="" />
@@ -107,13 +107,13 @@ const moskvina = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/moskvina/03_moskvina.webp"
+                    href="https://i-project.by/portfolio_newsite/moskvina/03_moskvina.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/moskvina/03_moskvina.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/moskvina/05_moskvina.webp"
+                    href="https://i-project.by/portfolio_newsite/moskvina/05_moskvina.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/moskvina/05_moskvina.jpg" alt="" />
@@ -121,13 +121,13 @@ const moskvina = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/moskvina/14_moskvina.webp"
+                    href="https://i-project.by/portfolio_newsite/moskvina/14_moskvina.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/moskvina/14_moskvina.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/moskvina/06_moskvina.webp"
+                    href="https://i-project.by/portfolio_newsite/moskvina/06_moskvina.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/moskvina/06_moskvina.jpg" alt="" />
@@ -142,13 +142,13 @@ const moskvina = () => {
               <div class="content_images">
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/moskvina/15_moskvina.webp"
+                    href="https://i-project.by/portfolio_newsite/moskvina/15_moskvina.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/moskvina/15_moskvina.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/moskvina/16_moskvina.webp"
+                    href="https://i-project.by/portfolio_newsite/moskvina/16_moskvina.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/moskvina/16_moskvina.jpg" alt="" />
@@ -162,7 +162,7 @@ const moskvina = () => {
               <div class="content_images">
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/moskvina/18_moskvina.webp"
+                    href="https://i-project.by/portfolio_newsite/moskvina/18_moskvina.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/moskvina/18_moskvina.jpg" alt="" />
@@ -173,7 +173,7 @@ const moskvina = () => {
                 <h2 class="content_h2" id="anchor_6">Детская комната</h2>
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/moskvina/20_moskvina.webp"
+                    href="https://i-project.by/portfolio_newsite/moskvina/20_moskvina.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/moskvina/20_moskvina.jpg" alt="" />
@@ -187,13 +187,13 @@ const moskvina = () => {
               <div class="content_images">
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/moskvina/08_moskvina.webp"
+                    href="https://i-project.by/portfolio_newsite/moskvina/08_moskvina.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/moskvina/08_moskvina.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/moskvina/04_moskvina.webp"
+                    href="https://i-project.by/portfolio_newsite/moskvina/04_moskvina.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/moskvina/04_moskvina.jpg" alt="" />
@@ -207,13 +207,13 @@ const moskvina = () => {
               <div class="content_images">
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/moskvina/11_moskvina.webp"
+                    href="https://i-project.by/portfolio_newsite/moskvina/11_moskvina.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/moskvina/11_moskvina.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/moskvina/12_moskvina.webp"
+                    href="https://i-project.by/portfolio_newsite/moskvina/12_moskvina.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/moskvina/12_moskvina.jpg" alt="" />
@@ -224,13 +224,13 @@ const moskvina = () => {
                 <h2 class="content_h2" id="anchor_9">Санузлы</h2>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/moskvina/21_moskvina.webp"
+                    href="https://i-project.by/portfolio_newsite/moskvina/21_moskvina.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/moskvina/21_moskvina.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/moskvina/22_moskvina.webp"
+                    href="https://i-project.by/portfolio_newsite/moskvina/22_moskvina.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/moskvina/22_moskvina.jpg" alt="" />

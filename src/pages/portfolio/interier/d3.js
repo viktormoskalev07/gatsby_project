@@ -13,8 +13,8 @@ const d3 = () => {
   return (
     <Layout>
       <Seo  title={"Дизайн интерьера квартиры в ЖК D3 120 м2 | I-PROJECT"} description={"В интерьере есть барная стойка, большой стол и угловой диван. Преобладают оттенки пряного меда, дерева, корицы, светлого коралла."}
-            location={"https://www.i-project.by/portfolio/interier/d3"}
-            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
+            location={"https://i-project.by/portfolio/interier/d3"}
+            image={"https://i-project.by/portfolio_newsite/d3/01_d3.webp"}/>
       <Fancybox>
         <div class="wrapper">
           <div class="project">
@@ -54,19 +54,19 @@ const d3 = () => {
               </div>
               <div class="content_task_block" id="anchor_1">
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/d3/02_d3.webp"
+                  href="https://i-project.by/portfolio_newsite/d3/02_d3.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/d3/02_d3.jpg" alt="" />
                 </a>
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/d3/26_d3.webp"
+                  href="https://i-project.by/portfolio_newsite/d3/26_d3.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/d3/26_d3.jpg" alt="" />
                 </a>
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/d3/06_d3.webp"
+                  href="https://i-project.by/portfolio_newsite/d3/06_d3.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/d3/06_d3.jpg" alt="" />
@@ -80,13 +80,13 @@ const d3 = () => {
                 <h2 class="content_h2" id="anchor_2">Планировка квартиры</h2>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/d3/27_d3.webp"
+                    href="https://i-project.by/portfolio_newsite/d3/27_d3.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/d3/27_d3.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/d3/28_d3.webp"
+                    href="https://i-project.by/portfolio_newsite/d3/28_d3.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/d3/28_d3.jpg" alt="" />
@@ -98,7 +98,7 @@ const d3 = () => {
           </div>
           <div class="content_images_one_big">
             <a
-              href="https://www.i-project.by/portfolio_newsite/d3/01_d3.webp"
+              href="https://i-project.by/portfolio_newsite/d3/01_d3.webp"
               data-fancybox="gallery"
             >
               <StaticImage src="../../../images/portfolio/d3/01_d3.jpg" alt="" />
@@ -109,7 +109,7 @@ const d3 = () => {
               <div class="content_images">
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/d3/03_d3.webp"
+                    href="https://i-project.by/portfolio_newsite/d3/03_d3.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/d3/03_d3.jpg" alt="" />
@@ -122,13 +122,13 @@ const d3 = () => {
               <div class="content_images">
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/d3/11_d3.webp"
+                    href="https://i-project.by/portfolio_newsite/d3/11_d3.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/d3/11_d3.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/d3/09_d3.webp"
+                    href="https://i-project.by/portfolio_newsite/d3/09_d3.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/d3/09_d3.jpg" alt="" />
@@ -136,7 +136,7 @@ const d3 = () => {
                 </div>
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/d3/10_d3.webp"
+                    href="https://i-project.by/portfolio_newsite/d3/10_d3.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/d3/10_d3.jpg" alt="" />
@@ -144,13 +144,13 @@ const d3 = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/d3/07_d3.webp"
+                    href="https://i-project.by/portfolio_newsite/d3/07_d3.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/d3/07_d3.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/d3/08_d3.webp"
+                    href="https://i-project.by/portfolio_newsite/d3/08_d3.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/d3/08_d3.jpg" alt="" />
@@ -170,13 +170,13 @@ const d3 = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/d3/05_d3.webp"
+                    href="https://i-project.by/portfolio_newsite/d3/05_d3.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/d3/05_d3.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/d3/04_d3.webp"
+                    href="https://i-project.by/portfolio_newsite/d3/04_d3.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/d3/04_d3.jpg" alt="" />
@@ -202,13 +202,13 @@ const d3 = () => {
                 </div>
                 <div class="content_images_two_left_narrow">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/d3/14_d3.webp"
+                    href="https://i-project.by/portfolio_newsite/d3/14_d3.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/d3/14_d3.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/d3/12_d3.webp"
+                    href="https://i-project.by/portfolio_newsite/d3/12_d3.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/d3/12_d3.jpg" alt="" />
@@ -217,35 +217,15 @@ const d3 = () => {
                 <div class="pattern">
                   <StaticImage src="../../../images/portfolio/d3/pattern.jpg" alt="" />
                 </div>
-                <div class="content_images_one">
-                  <a
-                    href="https://www.i-project.by/portfolio_newsite/d3/15_d3.webp"
-                    data-fancybox="gallery"
-                  >
-                    <StaticImage src="../../../images/portfolio/d3/15_d3.jpg" alt="" />
-                  </a>
-                </div>
-                <div class="before_after">
-                  <ImgComparisonSlider class="slider-opacity-and-size" value="50">
-                    <figure slot="first" width="100%" class="before before_white_bcg">
-                      <StaticImage src="../../../images/portfolio/d3/3d/4.jpg" alt="" />
-                      <figcaption>3D</figcaption>
-                    </figure>
-                    <figure slot="second" width="100%" class="after after_white_bcg">
-                      <StaticImage src="../../../images/portfolio/d3/15_1_d3.jpg" alt="" />
-                      <figcaption>Фото</figcaption>
-                    </figure>
-                  </ImgComparisonSlider>
-                </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/d3/13_d3.webp"
+                    href="https://i-project.by/portfolio_newsite/d3/13_d3.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/d3/13_d3.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/d3/17_d3.webp"
+                    href="https://i-project.by/portfolio_newsite/d3/17_d3.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/d3/17_d3.jpg" alt="" />
@@ -256,13 +236,13 @@ const d3 = () => {
                 <h2 class="content_h2" id="anchor_5">Гардеробная</h2>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/d3/18_d3.webp"
+                    href="https://i-project.by/portfolio_newsite/d3/18_d3.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/d3/18_d3.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/d3/19_d3.webp"
+                    href="https://i-project.by/portfolio_newsite/d3/19_d3.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/d3/19_d3.jpg" alt="" />
@@ -280,7 +260,7 @@ const d3 = () => {
                     <figcaption>3D</figcaption>
                   </figure>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/d3/23_d3.webp"
+                    href="https://i-project.by/portfolio_newsite/d3/23_d3.webp"
                     data-fancybox="gallery"
                   >
                     <figure class="after after_white">
@@ -291,13 +271,13 @@ const d3 = () => {
                 </div>
                 <div class="content_images_two_left_narrow">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/d3/25_d3.webp"
+                    href="https://i-project.by/portfolio_newsite/d3/25_d3.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/d3/25_d3.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/d3/22_d3.webp"
+                    href="https://i-project.by/portfolio_newsite/d3/22_d3.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/d3/22_d3.jpg" alt="" />
@@ -335,13 +315,13 @@ const d3 = () => {
                 <h2 class="content_h2" id="anchor_7">Санузел</h2>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/d3/20_d3.webp"
+                    href="https://i-project.by/portfolio_newsite/d3/20_d3.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/d3/20_d3.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/d3/21_d3.webp"
+                    href="https://i-project.by/portfolio_newsite/d3/21_d3.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/d3/21_d3.jpg" alt="" />

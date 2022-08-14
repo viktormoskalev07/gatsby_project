@@ -6,6 +6,7 @@ import Masonry from 'react-masonry-css'
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 import SimpleBar from 'simplebar-react';
 import 'simplebar/dist/simplebar.min.css';
+import { GetPageView } from "../subitems/pageViewsCounter/getPageView"
 
 import { HeroSlider } from "../subitems/hompage/heroSlider"
 import { Faq } from "../subitems/faq"
@@ -26,9 +27,9 @@ import { Presentation } from "../subitems/posts/presentation"
 export default function Home() {
   return (
     <Layout>
-      <Seo  title={"Дизайн интерьера квартир, домов и офисов в Минске"} description={"Студия дизайна и архитектуры I-PROJECT разрабатывает индивидуальный дизайн интерьера ✦ более 15 лет опыта ✦ портфолио более 100 проектов ✦ под ключ"}
-            location={"https://www.i-project.by/portfolio/interery"}
-            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
+      <Seo  title={"Дизайн интерьера квартир, домов и офисов в Минске"} description={"Разрабатываем индивидуальный дизайн интерьера ✦ более 15 лет опыта ✦ портфолио более 100 проектов ✦ под ключ"}
+            location={"https://i-project.by/"}
+            image={"https://i-project.by/portfolio_newsite/korolya/01_korolya.webp"}/>
       <div className="main_video">
         <Video  mobileSrc={IndexVideoMobile} desktopSrc={IndexVideo} />
         <div className="wrapper">
@@ -97,45 +98,54 @@ export default function Home() {
             <section>
               <h2 className="main_portfolio_title" id="portfolio_title">Новые работы</h2>
               <div className="content_text">
-                <p className="content_p">В&nbsp;нашем <Link to="/portfolio/" className="link">портфолио</Link> большое количество реализованных объектов, которые получились именно благодаря комплексному подходу.</p>
+                <p className="content_p">В&nbsp;нашем <Link to="/portfolio" className="link">портфолио</Link> большое количество реализованных объектов, которые получились именно благодаря комплексному подходу.</p>
               </div>
               <Masonry
                 breakpointCols={breakpointColumnsPortfolio}
                 className="portfolio_grid main_portfolio"
                 columnClassName="my-masonry-grid_column">
-                <Link to="/portfolio/architecture/luban/" className="portfolio_grid_link">
+                <Link to="/portfolio/architecture/luban" className="portfolio_grid_link">
                   <StaticImage src="../images/portfolio/luban/00_luban.jpg" alt="" />
                   <div className="portfolio_grid_block">
                     <h3 className="portfolio_grid_block_title">Дом для жизни. Архитектура, 400м<sup>2</sup></h3>
                     <p className="portfolio_grid_block_realize">Реализовано</p>
                   </div>
                 </Link>
-                <Link to="/portfolio/interier/baikonur/" className="portfolio_grid_link">
-                  <StaticImage src="../images/portfolio/baikonur/00_baikonur.jpg" alt="" />
-                  <div className="portfolio_grid_block">
-                    <h3 className="portfolio_grid_block_title">Дизайн офисов в&nbsp;составе ЖК&nbsp;Байконур в&nbsp;г.Москва, 120м<sup>2</sup></h3>
-                  </div>
-                </Link>
-                <Link to="/portfolio/interier/korolya/" className="portfolio_grid_link">
-                  <StaticImage src="../images/portfolio/korolya/00_korolya.jpg" alt="" />
-                  <div className="portfolio_grid_block">
-                    <h2 className="portfolio_grid_block_title">Интерьер квартиры на&nbsp;ул.Короля в&nbsp;Минске, 145м<sup>2</sup></h2>
-                    <p className="portfolio_grid_block_realize">Реализовано</p>
-                  </div>
-                </Link>
-                <Link to="/portfolio/architecture/dom-na-holme/" className="portfolio_grid_link portfolio_grid_link_hide">
+                <Link to="/portfolio/architecture/dom-na-holme" className="portfolio_grid_link portfolio_grid_link_hide">
                   <StaticImage src="../images/portfolio/dom_na_holme/01_dom_na_holme.jpg" alt="" />
                   <div className="portfolio_grid_block">
-                    <h2 className="portfolio_grid_block_title">Дом на&nbsp;холме, 450м<sup>2</sup></h2>
+                    <h3 className="portfolio_grid_block_title">Дом на&nbsp;холме, 450м<sup>2</sup></h3>
                   </div>
                 </Link>
-                <Link to="/portfolio/interier/simple-house/" className="portfolio_grid_link">
+                <Link to="/portfolio/interier/simple-house" className="portfolio_grid_link">
                   <StaticImage src="../images/portfolio/simple_house/00_simple_house.jpg" alt="" />
                   <div className="portfolio_grid_block">
                     <h3 className="portfolio_grid_block_title">Дизайн интерьера обычного дома, 250м<sup>2</sup></h3>
                   </div>
                 </Link>
-                <Link to="/portfolio/" className="portfolio_grid_link_all">
+                <Link to="/portfolio/interier/interier-baltic-house" className="portfolio_grid_link">
+                  <StaticImage src="../images/portfolio/baltic_house/interior/00_baltic_home_interior.jpg" alt=""></StaticImage>
+                  <div class="portfolio_grid_block">
+                    <h2 className="portfolio_grid_block_title">Дом с&nbsp;балтийским характером. Интерьер, 500м<sup>2</sup></h2>
+                    <p className="portfolio_grid_block_realize">Реализовано</p>
+                  </div>
+                </Link>
+                <Link to="/portfolio/interier/interier-protos" className="portfolio_grid_link">
+                  <StaticImage src="../images/portfolio/protos_interior/00_protos_interior.jpg" alt=""></StaticImage>
+                  <div class="portfolio_grid_block">
+                    <h2 className="portfolio_grid_block_title">Дизайн интерьера офисов &laquo;Протос&raquo;, 200м<sup>2</sup></h2>
+                    <p className="portfolio_grid_block_realize">Реализовано</p>
+                  </div>
+                </Link>
+                <Link to="/portfolio/interier/korolya" className="portfolio_grid_link">
+                  <StaticImage src="../images/portfolio/korolya/00_korolya.jpg" alt="" />
+                  <div className="portfolio_grid_block">
+                    <h3 className="portfolio_grid_block_title">Интерьер квартиры на&nbsp;ул.Короля в&nbsp;Минске, 145м<sup>2</sup></h3>
+                    <p className="portfolio_grid_block_realize">Реализовано</p>
+                  </div>
+                </Link>
+                <></>
+                <Link to="/portfolio" className="portfolio_grid_link_all">
                   <p className="portfolio_grid_link_all_p">Все проекты</p>
                 </Link>
               </Masonry>
@@ -181,22 +191,28 @@ export default function Home() {
                 className="articles_page"
                 columnClassName="my-masonry-grid_column">
                 <Link to="/articles/beliy-interier" className="articles_page_item articles_page_item7">
-                  <h2 className="articles_page_item_title_medium articles_page_item_title_white">Белый цвет в&nbsp;интерьере</h2>
+                  <h3 className="articles_page_item_title_medium articles_page_item_title_white">Белый цвет в&nbsp;интерьере</h3>
+                  <p className="articles_page_item_view_number articles_page_item_view_number_hwhite"> <GetPageView slug={'/articles/beliy-interier'}/> </p>
                 </Link>
                 <Link to="/articles/hranenie" className="articles_page_item articles_page_item6">
                   <h3 className="articles_page_item_title_medium articles_page_item_title_black">Как организовать хранение вещей в&nbsp;доме и&nbsp;квартире</h3>
+                  <p className="articles_page_item_view_number articles_page_item_view_number_hblack"> <GetPageView slug={'/articles/hranenie'}/> </p>
                 </Link>
-                <Link to="/articles/spalnya" className="articles_page_item articles_page_item5">
-                  <h3 className="articles_page_item_title_small articles_page_item_title_white">Спальня мечты: секреты идеального дизайна</h3>
+                <Link to="/articles/obschaya-zona" className="articles_page_item articles_page_item11">
+                  <h3 className="articles_page_item_title_medium articles_page_item_title_white">Дизайн интерьера гостиной, кухни, столовой</h3>
+                  <p className="articles_page_item_view_number articles_page_item_view_number_hwhite"> <GetPageView slug={'/articles/obschaya-zona'}/> </p>
                 </Link>
                 <Link to="/articles/dveri" className="articles_page_item articles_page_item3">
                   <h3 className="articles_page_item_title_small articles_page_item_title_white">Как выбрать межкомнатные двери: советы и&nbsp;рекомендации</h3>
+                  <p className="articles_page_item_view_number articles_page_item_view_number_white"> <GetPageView slug={'/articles/dveri'}/> </p>
                 </Link>
                 <Link to="/articles/krovlya" className="articles_page_item articles_page_item2">
                   <h3 className="articles_page_item_title_medium articles_page_item_title_white">Плоская и&nbsp;скатная кровля: за&nbsp;и&nbsp;против</h3>
+                  <p className="articles_page_item_view_number articles_page_item_view_number_hwhite"> <GetPageView slug={'/articles/krovlya'}/> </p>
                 </Link>
                 <Link to="/articles/architectura" className="articles_page_item articles_page_item4">
                   <h3 className="articles_page_item_title_small articles_page_item_title_white">Архитектура частного дома: на&nbsp;что важно обратить внимание</h3>
+                  <p className="articles_page_item_view_number articles_page_item_view_number_hwhite"> <GetPageView slug={'/articles/architectura'}/> </p>
                 </Link>
               </Masonry>
             </section>
@@ -252,7 +268,7 @@ export default function Home() {
 
 const breakpointColumnsPortfolio = {
   default: 3,
-  // 1800: 2,
+  1800: 2,
   768: 1,
   
 };

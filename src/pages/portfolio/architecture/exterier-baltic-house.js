@@ -12,9 +12,9 @@ import Seo from "../../../components/seo"
 const exterierBalticHouse = () => {
   return (
     <Layout>
-      <Seo  title={"Экстерьер дома с Балтийским характером 500 м2 | I-PROJECT"} description={"Выполнили реконструкцию фасада и реализовали мероприятия по благоустройству территории. Представлены оригинальные фото и видео."}
-            location={"https://www.i-project.by/portfolio/architecture/exterier-baltic-house"}
-            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
+      <Seo  title={"Экстерьер дома с Балтийским характером 500 м2 | I-PROJECT"} description={"Завершили строительство дома под Минском, выполнили полную отделку всех помещений. Представлены оригинальные фото и видео."}
+            location={"https://i-project.by/portfolio/architecture/exterier-baltic-house"}
+            image={"https://i-project.by/portfolio_newsite/baltic_house/exterior/01_baltic_home_exterior.webp"}/>
       <Fancybox>
         <div class="wrapper">
           <div class="project">
@@ -51,33 +51,38 @@ const exterierBalticHouse = () => {
               </div>
               <div class="content_task_block" id="anchor_1">
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/baltic_house/exterior/01_baltic_home_exterior.webp"
+                  href="https://i-project.by/portfolio_newsite/baltic_house/exterior/01_baltic_home_exterior.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images//portfolio/baltic_house/exterior/01_baltic_home_exterior.jpg" alt="" />
                 </a>
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/baltic_house/exterior/05_baltic_home_exterior.webp"
+                  href="https://i-project.by/portfolio_newsite/baltic_house/exterior/05_baltic_home_exterior.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images//portfolio/baltic_house/exterior/05_baltic_home_exterior.jpg" alt="" />
                 </a>
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/baltic_house/exterior/07_baltic_home_exterior.webp"
+                  href="https://i-project.by/portfolio_newsite/baltic_house/exterior/07_baltic_home_exterior.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images//portfolio/baltic_house/exterior/07_baltic_home_exterior.jpg" alt="" />
                 </a>
                 <div class="content_task">
                   <span class="content_task_span">Описание</span>
-                  <p class="content_task_p">Реконструкция фасадов, элементы благоустройства.</p>
+                  <p class="content_task_p">Работа над проектом началась не&nbsp;с&nbsp;чистого листа, в&nbsp;наследство досталась прямоугольная &laquo;коробка&raquo; из&nbsp;красного кирпича. Было принято решение работать над проектом комплексно&nbsp;&mdash; создать новый, актуальный экстерьер, и&nbsp;интерьер в&nbsp;современном стиле.</p>
+                </div>
+              </div>
+              <div class="content_images">
+                <div class="content_text">
+                  <p class="content_p">Проект получил название &laquo;Дом с&nbsp;балтийским характером&raquo; неслучайно. Скандинавское направление выражается не&nbsp;только через лаконичность и&nbsp;традиционную простоту форм, но&nbsp;и&nbsp;с&nbsp;помощью характерной цветовой гаммы&nbsp;&mdash; сочетания белого и&nbsp;серого цветов, дерева и&nbsp;зелени. Она используется как в&nbsp;экстерьере, так и&nbsp;в&nbsp;интерьере. Таким образом экстерьер будто перетекает в&nbsp;интерьер, и&nbsp;наоборот, они одновременно дополняют и&nbsp;раскрывают друг друга.</p>
                 </div>
               </div>
               <div class="content_images">
                 <h2 class="content_h2" id="anchor_2">План дома</h2>
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/baltic_house/exterior/23_baltic_home_exterior.webp"
+                    href="https://i-project.by/portfolio_newsite/baltic_house/exterior/23_baltic_home_exterior.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images//portfolio/baltic_house/exterior/23_baltic_home_exterior.jpg" alt="" />
@@ -85,13 +90,13 @@ const exterierBalticHouse = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/baltic_house/exterior/24_baltic_home_exterior.webp"
+                    href="https://i-project.by/portfolio_newsite/baltic_house/exterior/24_baltic_home_exterior.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images//portfolio/baltic_house/exterior/24_baltic_home_exterior.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/baltic_house/exterior/25_baltic_home_exterior.webp"
+                    href="https://i-project.by/portfolio_newsite/baltic_house/exterior/25_baltic_home_exterior.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images//portfolio/baltic_house/exterior/25_baltic_home_exterior.jpg" alt="" />
@@ -106,17 +111,20 @@ const exterierBalticHouse = () => {
                   </figure>
                 </div>
               </div>
+              <h2 class="content_h2" id="anchor_3">Фасад</h2>
+              <div class="content_text">
+                <p class="content_p">При реконструкции фасадов в&nbsp;необходимых местах были добавлены солнцезащитные элементы, перголы, которые выполняют практическую и&nbsp;эстетическую функции&nbsp;&mdash; защищают от&nbsp;попадания прямых солнечных лучей и&nbsp;делают экстерьер более сложным и&nbsp;выразительным, создавая графику из&nbsp;света и&nbsp;тени на&nbsp;стенах дома.</p>
+              </div>
               <div class="content_images">
-                <h2 class="content_h2" id="anchor_3">Фасад</h2>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/baltic_house/exterior/02_baltic_home_exterior.webp"
+                    href="https://i-project.by/portfolio_newsite/baltic_house/exterior/02_baltic_home_exterior.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images//portfolio/baltic_house/exterior/02_baltic_home_exterior.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/baltic_house/exterior/03_baltic_home_exterior.webp"
+                    href="https://i-project.by/portfolio_newsite/baltic_house/exterior/03_baltic_home_exterior.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images//portfolio/baltic_house/exterior/03_baltic_home_exterior.jpg" alt="" />
@@ -124,13 +132,13 @@ const exterierBalticHouse = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/baltic_house/exterior/05_baltic_home_exterior.webp"
+                    href="https://i-project.by/portfolio_newsite/baltic_house/exterior/05_baltic_home_exterior.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images//portfolio/baltic_house/exterior/05_baltic_home_exterior.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/baltic_house/exterior/06_baltic_home_exterior.webp"
+                    href="https://i-project.by/portfolio_newsite/baltic_house/exterior/06_baltic_home_exterior.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images//portfolio/baltic_house/exterior/06_baltic_home_exterior.jpg" alt="" />
@@ -141,20 +149,20 @@ const exterierBalticHouse = () => {
                 <div class="rewards">
                   <div class="reward_item">
                     <StaticImage src="../../../images//rewards/reward_3.jpg" alt="" class="reward_image"/>
-                    <p class="reward_text">Первое место на&nbsp;XX&nbsp;Республиканском конкурсе на&nbsp;лучший &laquo;Проект&raquo;, &laquo;Постройку&raquo;, &laquo;Публикацию&raquo;, в&nbsp;рамках XIV Национального фестиваля архитектуры, в&nbsp;разделе &laquo;Постройка&raquo;, в&nbsp;номинации &laquo;Интерьеры зданий и&nbsp;сооружений&raquo;. За&nbsp;реализацию проекта &laquo;<Link to="/portfolio/interier/interier-baltic-house" className="link">Дом с&nbsp;Балтийским характером</Link>&raquo;.</p>
+                    <p class="reward_text">Проект занял первое место на&nbsp;XX&nbsp;Республиканском конкурсе на&nbsp;лучший &laquo;Проект&raquo;, &laquo;Постройку&raquo;, &laquo;Публикацию&raquo;, в&nbsp;рамках XIV Национального фестиваля архитектуры, в&nbsp;разделе &laquo;Постройка&raquo;, в&nbsp;номинации &laquo;Интерьеры зданий и&nbsp;сооружений&raquo;. За&nbsp;реализацию проекта &laquo;<Link to="/portfolio/interier/interier-baltic-house" className="link">Дом с&nbsp;Балтийским характером</Link>&raquo;.</p>
                   </div>
                 </div>
               </div>
               <div class="content_images">
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/baltic_house/exterior/07_baltic_home_exterior.webp"
+                    href="https://i-project.by/portfolio_newsite/baltic_house/exterior/07_baltic_home_exterior.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images//portfolio/baltic_house/exterior/07_baltic_home_exterior.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/baltic_house/exterior/08_baltic_home_exterior.webp"
+                    href="https://i-project.by/portfolio_newsite/baltic_house/exterior/08_baltic_home_exterior.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images//portfolio/baltic_house/exterior/08_baltic_home_exterior.jpg" alt="" />
@@ -166,7 +174,7 @@ const exterierBalticHouse = () => {
           <div class="content_images">
             <div class="content_images_one_big">
               <a
-                href="https://www.i-project.by/portfolio_newsite/baltic_house/exterior/08_baltic_home_exterior.webp"
+                href="https://i-project.by/portfolio_newsite/baltic_house/exterior/08_baltic_home_exterior.webp"
                 data-fancybox="gallery"
                 >
                 <StaticImage src="../../../images//portfolio/baltic_house/exterior/08_baltic_home_exterior.jpg" alt="" />
@@ -175,10 +183,13 @@ const exterierBalticHouse = () => {
           </div>
           <div class="wrapper">
             <div class="right_content">
+              <div class="content_text">
+                <p class="content_p">Фасады частично оштукатурены, частично отделаны планкеном из&nbsp;натурального фасадного дерева. Вдоль одной из&nbsp;стен по&nbsp;вантовым тросам вьется виноградная лоза, придавая экстерьеру особый шарм. На&nbsp;&laquo;задний&raquo; фасад для простоты обслуживания вынесены инженерные системы.</p>
+              </div>
               <div class="content_images">
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/baltic_house/exterior/09_baltic_home_exterior.webp"
+                    href="https://i-project.by/portfolio_newsite/baltic_house/exterior/09_baltic_home_exterior.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images//portfolio/baltic_house/exterior/09_baltic_home_exterior.jpg" alt="" />
@@ -186,13 +197,13 @@ const exterierBalticHouse = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/baltic_house/exterior/10_baltic_home_exterior.webp"
+                    href="https://i-project.by/portfolio_newsite/baltic_house/exterior/10_baltic_home_exterior.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images//portfolio/baltic_house/exterior/10_baltic_home_exterior.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/baltic_house/exterior/11_baltic_home_exterior.webp"
+                    href="https://i-project.by/portfolio_newsite/baltic_house/exterior/11_baltic_home_exterior.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images//portfolio/baltic_house/exterior/11_baltic_home_exterior.jpg" alt="" />
@@ -223,10 +234,14 @@ const exterierBalticHouse = () => {
           </div>
           <div class="wrapper">
             <div class="right_content">
+              <div class="content_text">
+                <p class="content_p">Ограждения французских балконов выполнены из&nbsp;закаленного стекла. На&nbsp;первом этаже расположена большая терраса, защищенная от&nbsp;избыточных солнечных лучей с&nbsp;помощью пергольного навеса.</p>
+                <p class="content_p">Участок имеет вытянутую форму, главный фасад раскрывается в&nbsp;направлении участка, на&nbsp;котором выполнен стильный ландшафтный дизайн, и&nbsp;соснового бора. Именно в&nbsp;этой части дома находятся самые большие окна, через которые элементы ландшафта и&nbsp;окружающей природы проникают в&nbsp;дом.</p>
+              </div>
               <div class="content_images">
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/baltic_house/exterior/12_baltic_home_exterior.webp"
+                    href="https://i-project.by/portfolio_newsite/baltic_house/exterior/12_baltic_home_exterior.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images//portfolio/baltic_house/exterior/12_baltic_home_exterior.jpg" alt="" />
@@ -234,13 +249,13 @@ const exterierBalticHouse = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/baltic_house/exterior/13_baltic_home_exterior.webp"
+                    href="https://i-project.by/portfolio_newsite/baltic_house/exterior/13_baltic_home_exterior.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images//portfolio/baltic_house/exterior/13_baltic_home_exterior.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/baltic_house/exterior/14_baltic_home_exterior.webp"
+                    href="https://i-project.by/portfolio_newsite/baltic_house/exterior/14_baltic_home_exterior.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images//portfolio/baltic_house/exterior/14_baltic_home_exterior.jpg" alt="" />
@@ -248,13 +263,13 @@ const exterierBalticHouse = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/baltic_house/exterior/15_baltic_home_exterior.webp"
+                    href="https://i-project.by/portfolio_newsite/baltic_house/exterior/15_baltic_home_exterior.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images//portfolio/baltic_house/exterior/15_baltic_home_exterior.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/baltic_house/exterior/16_baltic_home_exterior.webp"
+                    href="https://i-project.by/portfolio_newsite/baltic_house/exterior/16_baltic_home_exterior.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images//portfolio/baltic_house/exterior/16_baltic_home_exterior.jpg" alt="" />
@@ -264,7 +279,7 @@ const exterierBalticHouse = () => {
               <div class="content_images">
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/baltic_house/exterior/17_baltic_home_exterior.webp"
+                    href="https://i-project.by/portfolio_newsite/baltic_house/exterior/17_baltic_home_exterior.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images//portfolio/baltic_house/exterior/17_baltic_home_exterior.jpg" alt="" />
@@ -272,13 +287,13 @@ const exterierBalticHouse = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/baltic_house/exterior/18_baltic_home_exterior.webp"
+                    href="https://i-project.by/portfolio_newsite/baltic_house/exterior/18_baltic_home_exterior.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images//portfolio/baltic_house/exterior/18_baltic_home_exterior.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/baltic_house/exterior/19_baltic_home_exterior.webp"
+                    href="https://i-project.by/portfolio_newsite/baltic_house/exterior/19_baltic_home_exterior.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images//portfolio/baltic_house/exterior/19_baltic_home_exterior.jpg" alt="" />
@@ -286,13 +301,13 @@ const exterierBalticHouse = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/baltic_house/exterior/20_baltic_home_exterior.webp"
+                    href="https://i-project.by/portfolio_newsite/baltic_house/exterior/20_baltic_home_exterior.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images//portfolio/baltic_house/exterior/20_baltic_home_exterior.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/baltic_house/exterior/21_baltic_home_exterior.webp"
+                    href="https://i-project.by/portfolio_newsite/baltic_house/exterior/21_baltic_home_exterior.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images//portfolio/baltic_house/exterior/21_baltic_home_exterior.jpg" alt="" />

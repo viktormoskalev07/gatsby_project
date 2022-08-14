@@ -9,8 +9,8 @@ const griboedova = () => {
   return (
     <Layout>
       <Seo  title={"Дизайн квартиры на ул. Грибоедова 160м2 | I-PROJECT"} description={"Студия дизайна и архитектуры Александра Игнатьева, разработала современный интерьер квартиры для молодой семьи."}
-            location={"https://www.i-project.by/portfolio/interier/griboedova"}
-            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
+            location={"https://i-project.by/portfolio/interier/griboedova"}
+            image={"https://i-project.by/portfolio_newsite/griboedova/01_griboedova.webp"}/>
       <Fancybox>
         <div class="wrapper">
           <div class="project">
@@ -19,7 +19,7 @@ const griboedova = () => {
           </div>
           <div class="project_main_photo">
             <a
-              href="https://www.i-project.by/portfolio_newsite/griboedova/01_griboedova.webp"
+              href="https://i-project.by/portfolio_newsite/griboedova/01_griboedova.webp"
               data-fancybox="gallery"
             >
               <StaticImage src="../../../images/portfolio/griboedova/01_griboedova.jpg" alt="" />
@@ -45,19 +45,19 @@ const griboedova = () => {
               </div>
               <div class="content_task_block">
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/griboedova/06_griboedova.webp"
+                  href="https://i-project.by/portfolio_newsite/griboedova/06_griboedova.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/griboedova/06_griboedova.jpg" alt="" />
                 </a>
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/griboedova/09_griboedova.webp"
+                  href="https://i-project.by/portfolio_newsite/griboedova/09_griboedova.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/griboedova/09_griboedova.jpg" alt="" />
                 </a>
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/griboedova/07_griboedova.webp"
+                  href="https://i-project.by/portfolio_newsite/griboedova/07_griboedova.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/griboedova/07_griboedova.jpg" alt="" />
@@ -71,13 +71,13 @@ const griboedova = () => {
                 <h2 class="content_h2">Планировка квартиры</h2>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/griboedova/11_griboedova.webp"
+                    href="https://i-project.by/portfolio_newsite/griboedova/11_griboedova.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/griboedova/11_griboedova.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/griboedova/12_griboedova.webp"
+                    href="https://i-project.by/portfolio_newsite/griboedova/12_griboedova.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/griboedova/12_griboedova.jpg" alt="" />
@@ -88,7 +88,7 @@ const griboedova = () => {
                 <h2 class="content_h2">Помещения</h2>
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/griboedova/01_griboedova.webp"
+                    href="https://i-project.by/portfolio_newsite/griboedova/01_griboedova.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/griboedova/01_griboedova.jpg" alt="" />
@@ -96,13 +96,13 @@ const griboedova = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/griboedova/02_griboedova.webp"
+                    href="https://i-project.by/portfolio_newsite/griboedova/02_griboedova.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/griboedova/02_griboedova.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/griboedova/03_griboedova.webp"
+                    href="https://i-project.by/portfolio_newsite/griboedova/03_griboedova.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/griboedova/03_griboedova.jpg" alt="" />
@@ -110,13 +110,13 @@ const griboedova = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/griboedova/05_griboedova.webp"
+                    href="https://i-project.by/portfolio_newsite/griboedova/05_griboedova.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/griboedova/05_griboedova.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/griboedova/06_griboedova.webp"
+                    href="https://i-project.by/portfolio_newsite/griboedova/06_griboedova.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/griboedova/06_griboedova.jpg" alt="" />
@@ -128,7 +128,7 @@ const griboedova = () => {
           <div class="content_images">
             <div class="content_images_one_big">
               <a
-                href="https://www.i-project.by/portfolio_newsite/griboedova/07_griboedova.webp"
+                href="https://i-project.by/portfolio_newsite/griboedova/07_griboedova.webp"
                 data-fancybox="gallery"
               >
                 <StaticImage src="../../../images/portfolio/griboedova/07_griboedova.jpg" alt="" />
@@ -139,7 +139,7 @@ const griboedova = () => {
             <div class="right_content">
               <div class="content_images_two">
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/griboedova/08_griboedova.webp"
+                  href="https://i-project.by/portfolio_newsite/griboedova/08_griboedova.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/griboedova/08_griboedova.jpg" alt="" />
@@ -147,13 +147,13 @@ const griboedova = () => {
               </div>
               <div class="content_images_two">
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/griboedova/09_griboedova.webp"
+                  href="https://i-project.by/portfolio_newsite/griboedova/09_griboedova.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/griboedova/09_griboedova.jpg" alt="" />
                 </a>
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/griboedova/10_griboedova.webp"
+                  href="https://i-project.by/portfolio_newsite/griboedova/10_griboedova.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/griboedova/10_griboedova.jpg" alt="" />

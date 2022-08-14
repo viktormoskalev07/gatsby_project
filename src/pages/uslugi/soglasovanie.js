@@ -14,8 +14,8 @@ const soglasovanie = () => {
   return (
     <Layout>
       <Seo  title={"Согласование проекта дома и квартиры в Минске | I-PROJECT"} description={"Согласуем все необходимые документы для строительства или ремонта ✦ Работаем со всеми объектами ✦ Экономим ваше время ✦ Опыт более 15 лет."}
-            location={"https://www.i-project.by/uslugi/dizajn-interera"}
-            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
+            location={"https://i-project.by/uslugi/dizajn-interera"}
+            image={"https://i-project.by/portfolio_newsite/korolya/01_korolya.webp"}/>
       <div class="services_video">
         <Video  mobileSrc={mainVideoMobile} desktopSrc={mainVideo} />
         <div class="wrapper">
@@ -59,14 +59,27 @@ const soglasovanie = () => {
                   <section>
                     <h2 class="main_portfolio_title" id="anchor_5">Наши работы</h2>
                     <Masonry
-                      breakpointCols={breakpointColumnsObj}
+                      breakpointCols={breakpointColumnsPortfolio}
                       className="portfolio_grid"
                       columnClassName="my-masonry-grid_column">
-                      <Link to="/portfolio/interier/korolya/" className="portfolio_grid_link">
+                      <Link to="/portfolio/interier/korolya" className="portfolio_grid_link">
                         <StaticImage src="../../images/portfolio/korolya/00_korolya.jpg" alt="" />
                         <div class="portfolio_grid_block">
                           <h3 className="portfolio_grid_block_title">Интерьер квартиры на&nbsp;ул.Короля в&nbsp;Минске, 145м<sup>2</sup></h3>
                           <p className="portfolio_grid_block_realize">Реализовано</p>
+                        </div>
+                      </Link>
+                      <Link to="/portfolio/interier/d3" className="portfolio_grid_link">
+                        <StaticImage src="../../images/portfolio/d3/00_d3.jpg" alt="" />
+                        <div class="portfolio_grid_block">
+                          <h3 className="portfolio_grid_block_title">Дизайн квартиры в&nbsp;жилом комплексе &laquo;D3&raquo;, 120м<sup>2</sup></h3>
+                          <p className="portfolio_grid_block_realize">Реализовано</p>
+                        </div>
+                      </Link>
+                      <Link to="/portfolio/interier/sochi" className="portfolio_grid_link portfolio_grid_link_hide">
+                        <StaticImage src="../../images/portfolio/sochi/00_sochi.jpg" alt="" />
+                        <div class="portfolio_grid_block">
+                          <h3 className="portfolio_grid_block_title">Дизайн интерьера в&nbsp;апарт-комплексе &laquo;Матисс&raquo; в&nbsp;г.Сочи, 45м<sup>2</sup></h3>
                         </div>
                       </Link>
                       <Link to="/portfolio/interier/apart-for-life" className="portfolio_grid_link">
@@ -74,25 +87,6 @@ const soglasovanie = () => {
                         <div class="portfolio_grid_block">
                           <h3 className="portfolio_grid_block_title">Квартира для жизни. Дизайн интерьера в&nbsp;Минске, 110м<sup>2</sup></h3>
                           <p className="portfolio_grid_block_realize">Реализовано</p>
-                        </div>
-                      </Link>
-                      <Link to="/portfolio/interier/d3/" className="portfolio_grid_link">
-                        <StaticImage src="../../images/portfolio/d3/00_d3.jpg" alt="" />
-                        <div class="portfolio_grid_block">
-                          <h3 className="portfolio_grid_block_title">Дизайн квартиры в&nbsp;жилом комплексе &laquo;D3&raquo;, 120м<sup>2</sup></h3>
-                          <p className="portfolio_grid_block_realize">Реализовано</p>
-                        </div>
-                      </Link>
-                      <Link to="/portfolio/interier/color/" className="portfolio_grid_link">
-                        <StaticImage src="../../images/portfolio/color/00_color.jpg" alt="" />
-                        <div class="portfolio_grid_block">
-                          <h3 className="portfolio_grid_block_title">Энергия цвета. Интерьер квартиры в&nbsp;Минске, 120м<sup>2</sup></h3>
-                        </div>
-                      </Link>
-                      <Link to="/portfolio/interier/sochi/" className="portfolio_grid_link portfolio_grid_link_hide">
-                        <StaticImage src="../../images/portfolio/sochi/00_sochi.jpg" alt="" />
-                        <div class="portfolio_grid_block">
-                          <h3 className="portfolio_grid_block_title">Дизайн интерьера в&nbsp;апарт-комплексе &laquo;Матисс&raquo; в&nbsp;г.Сочи, 45м<sup>2</sup></h3>
                         </div>
                       </Link>
                       <Link to="/portfolio/interier/panfilova" className="portfolio_grid_link portfolio_grid_link_hide">
@@ -105,11 +99,12 @@ const soglasovanie = () => {
                       <Link to="/portfolio/interier/fine" className="portfolio_grid_link portfolio_grid_link_hide">
                         <StaticImage src="../../images/portfolio/fine/00_fine.jpg" alt="" />
                         <div class="portfolio_grid_block">
-                          <h2 className="portfolio_grid_block_title">Хорошее настроение. Дизайн квартиры в&nbsp;Минске, 140м<sup>2</sup></h2>
+                          <h3 className="portfolio_grid_block_title">Хорошее настроение. Дизайн квартиры в&nbsp;Минске, 140м<sup>2</sup></h3>
                           <p className="portfolio_grid_block_realize">Реализовано</p>
                         </div>
                       </Link>
-                      <Link to="/portfolio/" className="portfolio_grid_link_all">
+                      <></>
+                      <Link to="/portfolio" className="portfolio_grid_link_all">
                         <p className="portfolio_grid_link_all_p">Все проекты</p>
                       </Link>
                     </Masonry>
@@ -136,8 +131,6 @@ const soglasovanie = () => {
                   </div>
                 </div>
               </div>
-              
-              
             </div>
           </div>
         </div>
@@ -146,8 +139,9 @@ const soglasovanie = () => {
 }
 
 export default soglasovanie
-const breakpointColumnsObj = {
+const breakpointColumnsPortfolio = {
   default: 3,
+  1800: 2,
   768: 1,
   
 };

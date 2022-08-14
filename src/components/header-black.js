@@ -57,45 +57,45 @@ const HeaderBlack = () => {
               <p className="header_nav_link header_nav_services" activeClassName="header_nav_active">Услуги</p>
               <ul class="submenu">
                 <li class="submenu_li">
-                  <Link to="/uslugi/dizajn-interera/" className="submenu_li_a">Дизайн проект квартиры</Link>
+                  <Link to="/uslugi/dizajn-interera" className="submenu_li_a">Дизайн проект квартиры</Link>
                 </li>
                 <li class="submenu_li">
-                  <Link to="/uslugi/dizajn-interera-domov/" className="submenu_li_a">Дизайн проект дома</Link>
+                  <Link to="/uslugi/dizajn-interera-domov" className="submenu_li_a">Дизайн проект дома</Link>
                 </li>
                 <li class="submenu_li">
-                  <Link to="/uslugi/dizajn-interera-ofisov/" className="submenu_li_a">Дизайн проект офиса</Link>
+                  <Link to="/uslugi/dizajn-interera-ofisov" className="submenu_li_a">Дизайн проект офиса</Link>
                 </li>
                 <li class="submenu_li">
-                  <Link to="/uslugi/arxitekturnoe-proektirovanie/" className="submenu_li_a">Архитектурное проектирование</Link>
+                  <Link to="/uslugi/arxitekturnoe-proektirovanie" className="submenu_li_a">Архитектурное проектирование</Link>
                 </li>
                 <li class="submenu_li">
-                  <Link to="/uslugi/avtorskoe-soprovozhdenie/" className="submenu_li_a">Авторское сопровождение</Link>
+                  <Link to="/uslugi/avtorskoe-soprovozhdenie" className="submenu_li_a">Авторское сопровождение</Link>
                 </li>
                 <li class="submenu_li">
-                  <Link to="/uslugi/soglasovanie/" className="submenu_li_a">Согласование проекта</Link>
+                  <Link to="/uslugi/soglasovanie" className="submenu_li_a">Согласование проекта</Link>
                 </li>
                 <li class="submenu_li">
-                  <Link to="/uslugi/komplektaciya-obekta/" className="submenu_li_a">Комплектация объекта</Link>
+                  <Link to="/uslugi/komplektaciya-obekta" className="submenu_li_a">Комплектация объекта</Link>
                 </li>
                 <li class="submenu_li">
-                  <Link to="/uslugi/stroitelstvo-i-rekonstrukciya/" className="submenu_li_a">Строительство и&nbsp;ремонт</Link>
+                  <Link to="/uslugi/stroitelstvo-i-rekonstrukciya" className="submenu_li_a">Строительство и&nbsp;ремонт</Link>
                 </li>
               </ul>
             </li>
             <li>
-              <Link to="/portfolio/" className="header_nav_link" activeClassName="header_nav_active">Портфолио</Link>
+              <Link to="/portfolio" className="header_nav_link" activeClassName="header_nav_active">Портфолио</Link>
             </li>
             <li>
-              <Link to="/video/" className="header_nav_link" activeClassName="header_nav_active">Видео</Link>
+              <Link to="/video" className="header_nav_link" activeClassName="header_nav_active">Видео</Link>
             </li>
             <li>
-              <Link to="/articles/" className="header_nav_link" activeClassName="header_nav_active">Статьи</Link>
+              <Link to="/articles" className="header_nav_link" activeClassName="header_nav_active">Статьи</Link>
             </li>
             <li>
-              <Link to="/about/" className="header_nav_link" activeClassName="header_nav_active">О нас</Link>
+              <Link to="/about" className="header_nav_link" activeClassName="header_nav_active">О нас</Link>
             </li>
             <li>
-              <Link to="/contacts/" className="header_nav_link" activeClassName="header_nav_active">Контакты</Link>
+              <Link to="/contacts" className="header_nav_link" activeClassName="header_nav_active">Контакты</Link>
             </li>
           </ul>
           <a href="tel:+375293822550" class="header_phone">+375 29 382 25 50</a>
@@ -111,59 +111,59 @@ const HeaderBlack = () => {
           <p className="header_mobile_nav">Портфолио</p>
           <ul class="header_mobile_list_1">
             <li>
-              <Link to="/portfolio/" className="header_mobile_nav_link" activeClassName="header_mobile_nav_active">Все проекты</Link>
+              <Link to="/portfolio" className="header_mobile_nav_link" activeClassName="header_mobile_nav_active">Все проекты</Link>
             </li>
             <li>
-              <Link to="/portfolio/interier/" className="header_mobile_nav_link" activeClassName="header_mobile_active">Интерьеры</Link>
+              <Link to="/portfolio/interier" className="header_mobile_nav_link" activeClassName="header_mobile_active">Интерьеры</Link>
             </li>
             <li>
-              <Link to="/portfolio/realize/" className="header_mobile_nav_link" activeClassName="header_mobile_active">Реализованные</Link>
+              <Link to="/portfolio/realize" className="header_mobile_nav_link" activeClassName="header_mobile_active">Реализованные</Link>
             </li>
             <li>
-              <Link to="/portfolio/architecture/" className="header_mobile_nav_link" activeClassName="header_mobile_active">Архитектура</Link>
+              <Link to="/portfolio/architecture" className="header_mobile_nav_link" activeClassName="header_mobile_active">Архитектура</Link>
             </li>
           </ul>
           <div className="header_mobile_line"></div>
           <p className="header_mobile_nav">Услуги</p>
           <ul class="header_mobile_list_2">
             <li>
-              <Link to="/uslugi/dizajn-interera/" className="header_mobile_nav_link" activeClassName="header_mobile_active">Дизайн проект квартиры</Link>
+              <Link to="/uslugi/dizajn-interera" className="header_mobile_nav_link" activeClassName="header_mobile_active">Дизайн проект квартиры</Link>
             </li>
             <li>
-              <Link to="/uslugi/dizajn-interera-domov/" className="header_mobile_nav_link" activeClassName="header_mobile_active">Дизайн проект дома</Link>
+              <Link to="/uslugi/dizajn-interera-domov" className="header_mobile_nav_link" activeClassName="header_mobile_active">Дизайн проект дома</Link>
             </li>
             <li>
-              <Link to="/uslugi/dizajn-interera-ofisov/" className="header_mobile_nav_link" activeClassName="header_mobile_active">Дизайн проект офиса</Link>
+              <Link to="/uslugi/dizajn-interera-ofisov" className="header_mobile_nav_link" activeClassName="header_mobile_active">Дизайн проект офиса</Link>
             </li>
             <li>
-              <Link to="/uslugi/arxitekturnoe-proektirovanie/" className="header_mobile_nav_link" activeClassName="header_mobile_active">Архитектурное проектирование</Link>
+              <Link to="/uslugi/arxitekturnoe-proektirovanie" className="header_mobile_nav_link" activeClassName="header_mobile_active">Архитектурное проектирование</Link>
             </li>
             <li>
-              <Link to="/uslugi/stroitelstvo-i-rekonstrukciya/" className="header_mobile_nav_link" activeClassName="header_mobile_active">Строительство и реконструкция</Link>
+              <Link to="/uslugi/stroitelstvo-i-rekonstrukciya" className="header_mobile_nav_link" activeClassName="header_mobile_active">Строительство и реконструкция</Link>
             </li>
             <li>
-              <Link to="/uslugi/avtorskoe-soprovozhdenie/" className="header_mobile_nav_link" activeClassName="header_mobile_active">Авторское сопровождение</Link>
+              <Link to="/uslugi/avtorskoe-soprovozhdenie" className="header_mobile_nav_link" activeClassName="header_mobile_active">Авторское сопровождение</Link>
             </li>
             <li>
-              <Link to="/uslugi/soglasovanie/" className="header_mobile_nav_link" activeClassName="header_mobile_active">Согласование проекта</Link>
+              <Link to="/uslugi/soglasovanie" className="header_mobile_nav_link" activeClassName="header_mobile_active">Согласование проекта</Link>
             </li>
             <li>
-              <Link to="/uslugi/komplektaciya-obekta/" className="header_mobile_nav_link" activeClassName="header_mobile_active">Комплектация объекта</Link>
+              <Link to="/uslugi/komplektaciya-obekta" className="header_mobile_nav_link" activeClassName="header_mobile_active">Комплектация объекта</Link>
             </li>
           </ul>
           <div className="header_mobile_line"></div>
           <ul class="header_mobile_list_3">
             <li>
-              <Link to="/video/" className="header_mobile_nav_link" activeClassName="header_mobile_nav_active">Видео</Link>
+              <Link to="/video" className="header_mobile_nav_link" activeClassName="header_mobile_nav_active">Видео</Link>
             </li>
             <li>
-              <Link to="/articles/" className="header_mobile_nav_link" activeClassName="header_mobile_active">Статьи</Link>
+              <Link to="/articles" className="header_mobile_nav_link" activeClassName="header_mobile_active">Статьи</Link>
             </li>
             <li>
-              <Link to="/about/" className="header_mobile_nav_link" activeClassName="header_mobile_active">О нас</Link>
+              <Link to="/about" className="header_mobile_nav_link" activeClassName="header_mobile_active">О нас</Link>
             </li>
             <li>
-              <Link to="/contacts/" className="header_mobile_nav_link" activeClassName="header_mobile_active">Контакты</Link>
+              <Link to="/contacts" className="header_mobile_nav_link" activeClassName="header_mobile_active">Контакты</Link>
             </li>
           </ul>
         </div>

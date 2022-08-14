@@ -10,14 +10,14 @@ const PortfolioOffice = () => {
   return (
     <Layout>
       <Seo  title={"Портфолио интерьеров офисов | I-PROJECT"} description={"Реализованные интерьеры коммерческой недвижимости, офисов, реальные фотографии ✦ Опыт более 15 лет"}
-            location={"https://www.i-project.by/portfolio/office"}
-            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
+            location={"https://i-project.by/portfolio/office"}
+            image={"https://i-project.by/portfolio_newsite/compact/01_compact.webp"}/>
       <div class="wrapper">
-        <h1 class="portfolio_title">Портфолио</h1>
+        <h2 class="portfolio_title">Портфолио</h2>
         <AnimatedLine />
         <ul class="portfolio_category">
           <li class="portfolio_category_li">
-            <Link to="/portfolio/" className="portfolio_category_link">Все проекты</Link>
+            <Link to="/portfolio" className="portfolio_category_link">Все проекты</Link>
           </li>
           <li class="portfolio_category_li">
             <Link to="/portfolio/interier" className="portfolio_category_link">Интерьеры</Link>
@@ -35,15 +35,15 @@ const PortfolioOffice = () => {
             <Link to="/portfolio/house" className="portfolio_category_link">Дома</Link>
           </li>
           <li class="portfolio_category_li">
-            <Link to="/portfolio/office" className="portfolio_category_link portfolio_category_link_active">Офисы</Link>
+            <Link to="/portfolio/office" className="portfolio_category_link portfolio_category_link_active"><h1>Офисы</h1></Link>
           </li>
         </ul>
         <ul class="portfolio_category_mob">
           <li class="portfolio_category_mob_li">
-            <Link to="/portfolio/office" className="portfolio_category_mob_link portfolio_category_mob_link_active">Офисы</Link>
+            <Link to="/portfolio/office" className="portfolio_category_mob_link portfolio_category_mob_link_active"><h1>Офисы</h1></Link>
           </li>
           <li class="portfolio_category_mob_li">
-            <Link to="/portfolio/" className="portfolio_category_mob_link">Все проекты</Link>
+            <Link to="/portfolio" className="portfolio_category_mob_link">Все проекты</Link>
           </li>
           <li class="portfolio_category_mob_li">
             <Link to="/portfolio/interier" className="portfolio_category_mob_link">Интерьеры</Link>
@@ -65,14 +65,14 @@ const PortfolioOffice = () => {
           breakpointCols={breakpointColumnsObj}
           className="portfolio_grid"
           columnClassName="my-masonry-grid_column">
-          <Link to="/portfolio/architecture/rekonstrukciya-protos/" className="portfolio_grid_link">
+          <Link to="/portfolio/architecture/rekonstrukciya-protos" className="portfolio_grid_link">
             <StaticImage src="../../images/portfolio/protos_reconstraction/00_protos_reconstraction.jpg" alt="" />
             <div class="portfolio_grid_block">
               <h2 className="portfolio_grid_block_title">Реконструкция офисов группы компаний &laquo;Протос&raquo;, 200м<sup>2</sup></h2>
               <p className="portfolio_grid_block_realize">Реализовано</p>
             </div>
           </Link>
-          <Link to="/portfolio/interier/interier-protos/" className="portfolio_grid_link">
+          <Link to="/portfolio/interier/interier-protos" className="portfolio_grid_link">
             <StaticImage src="../../images/portfolio/protos_interior/00_protos_interior.jpg" alt="" />
             <div class="portfolio_grid_block">
               <h2 className="portfolio_grid_block_title">Дизайн интерьера офисов &laquo;Протос&raquo;, 200м<sup>2</sup></h2>

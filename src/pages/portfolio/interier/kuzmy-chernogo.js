@@ -9,8 +9,8 @@ const kuzmyChernogo = () => {
   return (
     <Layout>
       <Seo  title={"Дизайн интерьера квартиры 125 м2, фотографии | I-PROJECT"} description={"Фотографии реконструированной квартиры в Минске."}
-            location={"https://www.i-project.by/portfolio/interier/kuzmy-chernogo"}
-            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
+            location={"https://i-project.by/portfolio/interier/kuzmy-chernogo"}
+            image={"https://i-project.by/portfolio_newsite/kuzmy_chernogo/01_kuzmy_chernogo.webp"}/>
       <Fancybox>
         <div class="wrapper">
           <div class="project">
@@ -19,7 +19,7 @@ const kuzmyChernogo = () => {
           </div>
           <div class="project_main_photo">
             <a
-              href="https://www.i-project.by/portfolio_newsite/kuzmy_chernogo/01_kuzmy_chernogo.webp"
+              href="https://i-project.by/portfolio_newsite/kuzmy_chernogo/01_kuzmy_chernogo.webp"
               data-fancybox="gallery"
             >
               <StaticImage src="../../../images/portfolio/kuzmy_chernogo/01_kuzmy_chernogo.jpg" alt="" />
@@ -45,19 +45,19 @@ const kuzmyChernogo = () => {
               </div>
               <div class="content_task_block">
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/kuzmy_chernogo/02_kuzmy_chernogo.webp"
+                  href="https://i-project.by/portfolio_newsite/kuzmy_chernogo/02_kuzmy_chernogo.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/kuzmy_chernogo/02_kuzmy_chernogo.jpg" alt="" />
                 </a>
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/kuzmy_chernogo/04_kuzmy_chernogo.webp"
+                  href="https://i-project.by/portfolio_newsite/kuzmy_chernogo/04_kuzmy_chernogo.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/kuzmy_chernogo/04_kuzmy_chernogo.jpg" alt="" />
                 </a>
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/kuzmy_chernogo/06_kuzmy_chernogo.webp"
+                  href="https://i-project.by/portfolio_newsite/kuzmy_chernogo/06_kuzmy_chernogo.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/kuzmy_chernogo/06_kuzmy_chernogo.jpg" alt="" />
@@ -71,13 +71,13 @@ const kuzmyChernogo = () => {
                 <h2 class="content_h2">Планировка квартиры</h2>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/kuzmy_chernogo/07_kuzmy_chernogo.webp"
+                    href="https://i-project.by/portfolio_newsite/kuzmy_chernogo/07_kuzmy_chernogo.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/kuzmy_chernogo/07_kuzmy_chernogo.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/kuzmy_chernogo/08_kuzmy_chernogo.webp"
+                    href="https://i-project.by/portfolio_newsite/kuzmy_chernogo/08_kuzmy_chernogo.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/kuzmy_chernogo/08_kuzmy_chernogo.jpg" alt="" />
@@ -88,7 +88,7 @@ const kuzmyChernogo = () => {
                 <h2 class="content_h2">Помещения</h2>
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/kuzmy_chernogo/01_kuzmy_chernogo.webp"
+                    href="https://i-project.by/portfolio_newsite/kuzmy_chernogo/01_kuzmy_chernogo.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/kuzmy_chernogo/01_kuzmy_chernogo.jpg" alt="" />
@@ -96,13 +96,13 @@ const kuzmyChernogo = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/kuzmy_chernogo/02_kuzmy_chernogo.webp"
+                    href="https://i-project.by/portfolio_newsite/kuzmy_chernogo/02_kuzmy_chernogo.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/kuzmy_chernogo/02_kuzmy_chernogo.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/kuzmy_chernogo/03_kuzmy_chernogo.webp"
+                    href="https://i-project.by/portfolio_newsite/kuzmy_chernogo/03_kuzmy_chernogo.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/kuzmy_chernogo/03_kuzmy_chernogo.jpg" alt="" />
@@ -112,7 +112,7 @@ const kuzmyChernogo = () => {
               <div class="content_images">
                 <div class="content_images_one">
                 <a
-                    href="https://www.i-project.by/portfolio_newsite/kuzmy_chernogo/04_kuzmy_chernogo.webp"
+                    href="https://i-project.by/portfolio_newsite/kuzmy_chernogo/04_kuzmy_chernogo.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/kuzmy_chernogo/04_kuzmy_chernogo.jpg" alt="" />
@@ -120,13 +120,13 @@ const kuzmyChernogo = () => {
                 </div>
                 <div class="content_images_two">
                 <a
-                    href="https://www.i-project.by/portfolio_newsite/kuzmy_chernogo/05_kuzmy_chernogo.webp"
+                    href="https://i-project.by/portfolio_newsite/kuzmy_chernogo/05_kuzmy_chernogo.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/kuzmy_chernogo/05_kuzmy_chernogo.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/kuzmy_chernogo/06_kuzmy_chernogo.webp"
+                    href="https://i-project.by/portfolio_newsite/kuzmy_chernogo/06_kuzmy_chernogo.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/kuzmy_chernogo/06_kuzmy_chernogo.jpg" alt="" />

@@ -11,8 +11,8 @@ const simpleHouse = () => {
   return (
     <Layout>
       <Seo  title={"Обычный дом 250 м2, фото | I-PROJECT"} description={"Студия дизайна и архитектуры Александра Игнатьева спроектировала обычный дом в Минской области."}
-            location={"https://www.i-project.by/portfolio/interier/simple-house"}
-            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
+            location={"https://i-project.by/portfolio/interier/simple-house"}
+            image={"https://i-project.by/portfolio_newsite/simple_house/01_simple_house.webp"}/>
       <Fancybox options={{ infinite: false }}>
         <div class="wrapper">
           <div class="project">
@@ -21,7 +21,7 @@ const simpleHouse = () => {
           </div>
           <div class="project_main_photo">
             <a
-              href="https://www.i-project.by/portfolio_newsite/simple_house/02_simple_house.webp"
+              href="https://i-project.by/portfolio_newsite/simple_house/02_simple_house.webp"
               data-fancybox="gallery"
             >
               <StaticImage src="../../../images/portfolio/simple_house/02_simple_house.jpg" alt="" />
@@ -52,19 +52,19 @@ const simpleHouse = () => {
               </div>
               <div class="content_task_block" id="anchor_1">
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/simple_house/01_simple_house.webp"
+                  href="https://i-project.by/portfolio_newsite/simple_house/01_simple_house.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/simple_house/01_simple_house.jpg" alt="" />
                 </a>
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/simple_house/03_simple_house.webp"
+                  href="https://i-project.by/portfolio_newsite/simple_house/03_simple_house.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/simple_house/03_simple_house.jpg" alt="" />
                 </a>
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/simple_house/04_simple_house.webp"
+                  href="https://i-project.by/portfolio_newsite/simple_house/04_simple_house.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/simple_house/04_simple_house.jpg" alt="" />
@@ -85,13 +85,13 @@ const simpleHouse = () => {
                 <h2 class="content_h2" id="anchor_2">Первый этаж</h2>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/simple_house/18_simple_house.webp"
+                    href="https://i-project.by/portfolio_newsite/simple_house/18_simple_house.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/simple_house/18_simple_house.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/simple_house/19_simple_house.webp"
+                    href="https://i-project.by/portfolio_newsite/simple_house/19_simple_house.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/simple_house/19_simple_house.jpg" alt="" />
@@ -107,13 +107,13 @@ const simpleHouse = () => {
               <div class="content_images">
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/simple_house/05_simple_house.webp"
+                    href="https://i-project.by/portfolio_newsite/simple_house/05_simple_house.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/simple_house/05_simple_house.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/simple_house/08_simple_house.webp"
+                    href="https://i-project.by/portfolio_newsite/simple_house/08_simple_house.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/simple_house/08_simple_house.jpg" alt="" />
@@ -124,13 +124,13 @@ const simpleHouse = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/simple_house/06_simple_house.webp"
+                    href="https://i-project.by/portfolio_newsite/simple_house/06_simple_house.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/simple_house/06_simple_house.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/simple_house/07_simple_house.webp"
+                    href="https://i-project.by/portfolio_newsite/simple_house/07_simple_house.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/simple_house/07_simple_house.jpg" alt="" />
@@ -143,7 +143,7 @@ const simpleHouse = () => {
               <div class="content_images">
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/simple_house/03_simple_house.webp"
+                    href="https://i-project.by/portfolio_newsite/simple_house/03_simple_house.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/simple_house/03_simple_house.jpg" alt="" />
@@ -157,7 +157,7 @@ const simpleHouse = () => {
               <div class="content_images">
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/simple_house/09_simple_house.webp"
+                    href="https://i-project.by/portfolio_newsite/simple_house/09_simple_house.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/simple_house/09_simple_house.jpg" alt="" />
@@ -171,7 +171,7 @@ const simpleHouse = () => {
               <div class="content_images">
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/simple_house/10_simple_house.webp"
+                    href="https://i-project.by/portfolio_newsite/simple_house/10_simple_house.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/simple_house/10_simple_house.jpg" alt="" />
@@ -186,13 +186,13 @@ const simpleHouse = () => {
               <div class="content_images">
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/simple_house/20_simple_house.webp"
+                    href="https://i-project.by/portfolio_newsite/simple_house/20_simple_house.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/simple_house/20_simple_house.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/simple_house/21_simple_house.webp"
+                    href="https://i-project.by/portfolio_newsite/simple_house/21_simple_house.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/simple_house/21_simple_house.jpg" alt="" />
@@ -206,13 +206,13 @@ const simpleHouse = () => {
               <div class="content_images">
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/simple_house/12_simple_house.webp"
+                    href="https://i-project.by/portfolio_newsite/simple_house/12_simple_house.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/simple_house/12_simple_house.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/simple_house/11_simple_house.webp"
+                    href="https://i-project.by/portfolio_newsite/simple_house/11_simple_house.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/simple_house/11_simple_house.jpg" alt="" />
@@ -226,7 +226,7 @@ const simpleHouse = () => {
               <div class="content_images">
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/simple_house/17_simple_house.webp"
+                    href="https://i-project.by/portfolio_newsite/simple_house/17_simple_house.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/simple_house/17_simple_house.jpg" alt="" />
@@ -234,19 +234,19 @@ const simpleHouse = () => {
                 </div>
                 <div class="content_images_three_left_narrow">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/simple_house/16_simple_house.webp"
+                    href="https://i-project.by/portfolio_newsite/simple_house/16_simple_house.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/simple_house/16_simple_house.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/simple_house/14_simple_house.webp"
+                    href="https://i-project.by/portfolio_newsite/simple_house/14_simple_house.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/simple_house/14_simple_house.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/simple_house/15_simple_house.webp"
+                    href="https://i-project.by/portfolio_newsite/simple_house/15_simple_house.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/simple_house/15_simple_house.jpg" alt="" />
@@ -257,7 +257,7 @@ const simpleHouse = () => {
                 <h2 class="content_h2" id="anchor_8">Гардеробная</h2>
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/simple_house/13_simple_house.webp"
+                    href="https://i-project.by/portfolio_newsite/simple_house/13_simple_house.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/simple_house/13_simple_house.jpg" alt="" />

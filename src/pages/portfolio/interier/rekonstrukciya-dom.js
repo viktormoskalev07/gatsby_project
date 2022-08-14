@@ -9,8 +9,8 @@ const rekonstrukciyaDom = () => {
   return (
     <Layout>
       <Seo  title={"Реконструкция жилого дома в Минске 300 м2 | I-PROJECT"} description={"Фото работы: Реконструкция жилого дома в Минске. 300м2 | I-PROJECT Индивидуальный подход Опыт >15 лет"}
-            location={"https://www.i-project.by/portfolio/interier/rekonstrukciya-dom"}
-            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
+            location={"https://i-project.by/portfolio/interier/rekonstrukciya-dom"}
+            image={"https://i-project.by/portfolio_newsite/rekonstrukciya_dom/01_rekonstrukciya_dom.webp"}/>
       <Fancybox>
         <div class="wrapper">
           <div class="project">
@@ -19,7 +19,7 @@ const rekonstrukciyaDom = () => {
           </div>
           <div class="project_main_photo">
             <a
-              href="https://www.i-project.by/portfolio_newsite/rekonstrukciya_dom/01_rekonstrukciya_dom.webp"
+              href="https://i-project.by/portfolio_newsite/rekonstrukciya_dom/01_rekonstrukciya_dom.webp"
               data-fancybox="gallery"
             >
               <StaticImage src="../../../images/portfolio/rekonstrukciya_dom/01_rekonstrukciya_dom.jpg" alt="" />
@@ -45,19 +45,19 @@ const rekonstrukciyaDom = () => {
               </div>
               <div class="content_task_block">
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/rekonstrukciya_dom/02_rekonstrukciya_dom.webp"
+                  href="https://i-project.by/portfolio_newsite/rekonstrukciya_dom/02_rekonstrukciya_dom.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/rekonstrukciya_dom/02_rekonstrukciya_dom.jpg" alt="" />
                 </a>
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/rekonstrukciya_dom/08_rekonstrukciya_dom.webp"
+                  href="https://i-project.by/portfolio_newsite/rekonstrukciya_dom/08_rekonstrukciya_dom.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/rekonstrukciya_dom/08_rekonstrukciya_dom.jpg" alt="" />
                 </a>
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/rekonstrukciya_dom/03_rekonstrukciya_dom.webp"
+                  href="https://i-project.by/portfolio_newsite/rekonstrukciya_dom/03_rekonstrukciya_dom.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/rekonstrukciya_dom/03_rekonstrukciya_dom.jpg" alt="" />
@@ -71,13 +71,13 @@ const rekonstrukciyaDom = () => {
                 <h2 class="content_h2">План дома</h2>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/rekonstrukciya_dom/13_rekonstrukciya_dom.webp"
+                    href="https://i-project.by/portfolio_newsite/rekonstrukciya_dom/13_rekonstrukciya_dom.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/rekonstrukciya_dom/13_rekonstrukciya_dom.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/rekonstrukciya_dom/14_rekonstrukciya_dom.webp"
+                    href="https://i-project.by/portfolio_newsite/rekonstrukciya_dom/14_rekonstrukciya_dom.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/rekonstrukciya_dom/14_rekonstrukciya_dom.jpg" alt="" />
@@ -85,13 +85,13 @@ const rekonstrukciyaDom = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/rekonstrukciya_dom/15_rekonstrukciya_dom.webp"
+                    href="https://i-project.by/portfolio_newsite/rekonstrukciya_dom/15_rekonstrukciya_dom.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/rekonstrukciya_dom/15_rekonstrukciya_dom.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/rekonstrukciya_dom/16_rekonstrukciya_dom.webp"
+                    href="https://i-project.by/portfolio_newsite/rekonstrukciya_dom/16_rekonstrukciya_dom.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/rekonstrukciya_dom/16_rekonstrukciya_dom.jpg" alt="" />
@@ -99,13 +99,13 @@ const rekonstrukciyaDom = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/rekonstrukciya_dom/17_rekonstrukciya_dom.webp"
+                    href="https://i-project.by/portfolio_newsite/rekonstrukciya_dom/17_rekonstrukciya_dom.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/rekonstrukciya_dom/17_rekonstrukciya_dom.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/rekonstrukciya_dom/18_rekonstrukciya_dom.webp"
+                    href="https://i-project.by/portfolio_newsite/rekonstrukciya_dom/18_rekonstrukciya_dom.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/rekonstrukciya_dom/18_rekonstrukciya_dom.jpg" alt="" />
@@ -116,7 +116,7 @@ const rekonstrukciyaDom = () => {
               <h2 class="content_h2">Помещения</h2>
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/rekonstrukciya_dom/01_rekonstrukciya_dom.webp"
+                    href="https://i-project.by/portfolio_newsite/rekonstrukciya_dom/01_rekonstrukciya_dom.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/rekonstrukciya_dom/01_rekonstrukciya_dom.jpg" alt="" />
@@ -124,13 +124,13 @@ const rekonstrukciyaDom = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/rekonstrukciya_dom/02_rekonstrukciya_dom.webp"
+                    href="https://i-project.by/portfolio_newsite/rekonstrukciya_dom/02_rekonstrukciya_dom.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/rekonstrukciya_dom/02_rekonstrukciya_dom.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/rekonstrukciya_dom/03_rekonstrukciya_dom.webp"
+                    href="https://i-project.by/portfolio_newsite/rekonstrukciya_dom/03_rekonstrukciya_dom.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/rekonstrukciya_dom/03_rekonstrukciya_dom.jpg" alt="" />
@@ -140,7 +140,7 @@ const rekonstrukciyaDom = () => {
               <div class="content_images">
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/rekonstrukciya_dom/04_rekonstrukciya_dom.webp"
+                    href="https://i-project.by/portfolio_newsite/rekonstrukciya_dom/04_rekonstrukciya_dom.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/rekonstrukciya_dom/04_rekonstrukciya_dom.jpg" alt="" />
@@ -148,13 +148,13 @@ const rekonstrukciyaDom = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/rekonstrukciya_dom/05_rekonstrukciya_dom.webp"
+                    href="https://i-project.by/portfolio_newsite/rekonstrukciya_dom/05_rekonstrukciya_dom.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/rekonstrukciya_dom/05_rekonstrukciya_dom.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/rekonstrukciya_dom/06_rekonstrukciya_dom.webp"
+                    href="https://i-project.by/portfolio_newsite/rekonstrukciya_dom/06_rekonstrukciya_dom.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/rekonstrukciya_dom/06_rekonstrukciya_dom.jpg" alt="" />
@@ -162,13 +162,13 @@ const rekonstrukciyaDom = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/rekonstrukciya_dom/07_rekonstrukciya_dom.webp"
+                    href="https://i-project.by/portfolio_newsite/rekonstrukciya_dom/07_rekonstrukciya_dom.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/rekonstrukciya_dom/07_rekonstrukciya_dom.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/rekonstrukciya_dom/08_rekonstrukciya_dom.webp"
+                    href="https://i-project.by/portfolio_newsite/rekonstrukciya_dom/08_rekonstrukciya_dom.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/rekonstrukciya_dom/08_rekonstrukciya_dom.jpg" alt="" />
@@ -180,7 +180,7 @@ const rekonstrukciyaDom = () => {
           <div class="content_images">
             <div class="content_images_one_big">
               <a
-                href="https://www.i-project.by/portfolio_newsite/rekonstrukciya_dom/09_rekonstrukciya_dom.webp"
+                href="https://i-project.by/portfolio_newsite/rekonstrukciya_dom/09_rekonstrukciya_dom.webp"
                 data-fancybox="gallery"
               >
                 <StaticImage src="../../../images/portfolio/rekonstrukciya_dom/09_rekonstrukciya_dom.jpg" alt="" />
@@ -192,7 +192,7 @@ const rekonstrukciyaDom = () => {
               <div class="content_images">
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/rekonstrukciya_dom/10_rekonstrukciya_dom.webp"
+                    href="https://i-project.by/portfolio_newsite/rekonstrukciya_dom/10_rekonstrukciya_dom.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/rekonstrukciya_dom/10_rekonstrukciya_dom.jpg" alt="" />
@@ -200,13 +200,13 @@ const rekonstrukciyaDom = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/rekonstrukciya_dom/11_rekonstrukciya_dom.webp"
+                    href="https://i-project.by/portfolio_newsite/rekonstrukciya_dom/11_rekonstrukciya_dom.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/rekonstrukciya_dom/11_rekonstrukciya_dom.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/rekonstrukciya_dom/12_rekonstrukciya_dom.webp"
+                    href="https://i-project.by/portfolio_newsite/rekonstrukciya_dom/12_rekonstrukciya_dom.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/rekonstrukciya_dom/12_rekonstrukciya_dom.jpg" alt="" />

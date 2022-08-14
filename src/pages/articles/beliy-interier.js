@@ -6,20 +6,23 @@ import Fancybox from "../../components/fancybox.js";
 import Masonry from 'react-masonry-css'
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 import BreadcrumbsArticles from "../../components/breadcrumbs-articles.js";
+import { PageViewCounter } from "../../subitems/pageViewsCounter/pageViewCounter"
+import { GetPageView } from "../../subitems/pageViewsCounter/getPageView"
 import Seo from "../../components/seo"
 
-const beliyInterier = () => {
+const beliyInterier = ({location }) => {
   return (
     <Layout>
       <Seo  title={"Белый цвет в интерьере. Преимущества | I-PROJECT"} description={"Разберем 3 основные функции которые выполняет белый интерьер и с какими цветами его можно сочетать."}
-            location={"https://www.i-project.by/articles/beliy-interier"}
-            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
+            location={"https://i-project.by/articles/beliy-interier"}
+            image={"https://i-project.by/portfolio_newsite/articles/article_1-7.jpg"}/>
       <section class="article">
         <BreadcrumbsArticles />
         <div class="article_bcg article_bcg7">
           <div class="wrapper">
             <div class="article_title">
               <h1 class="article_title_h1">Белый цвет в&nbsp;интерьере</h1>
+              <p class="article_view_number article_view_number_hwhite"> <PageViewCounter  location={location}  /></p>
             </div>
           </div>
         </div>
@@ -43,16 +46,16 @@ const beliyInterier = () => {
                   <div class="content_images">
                     <div class="content_images_two">
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/podmoskovye_interier/10_podmoskovye_interier.webp"
+                        href="https://i-project.by/portfolio_newsite/podmoskovye_interier/10_podmoskovye_interier.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/podmoskovye_interier/10_podmoskovye_interier.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/podmoskovye_interier/10_podmoskovye_interier.jpg" alt="Светлый интерьер, с прозрачной люстрой" />
                       </a>
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/prestizhino/03_prestizhino.webp"
+                        href="https://i-project.by/portfolio_newsite/prestizhino/03_prestizhino.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/prestizhino/03_prestizhino.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/prestizhino/03_prestizhino.jpg" alt="Светлый интерьер, сервым диваном и прозрачной люстрой" />
                       </a>
                     </div>
                   </div>
@@ -65,16 +68,16 @@ const beliyInterier = () => {
                     <div class="content_images">
                       <div class="content_images_two">
                         <a
-                          href="https://www.i-project.by/portfolio_newsite/dom_u_more/06_dom_u_more.webp"
+                          href="https://i-project.by/portfolio_newsite/dom_u_more/06_dom_u_more.webp"
                           data-fancybox="gallery"
                         >
-                          <StaticImage src="../../images/portfolio/dom_u_more/06_dom_u_more.jpg" alt="" />
+                          <StaticImage src="../../images/portfolio/dom_u_more/06_dom_u_more.jpg" alt="Современная кухня совмещенная со столовой" />
                         </a>
                         <a
-                          href="https://www.i-project.by/portfolio_newsite/bedy/01_bedy.webp"
+                          href="https://i-project.by/portfolio_newsite/bedy/01_bedy.webp"
                           data-fancybox="gallery"
                         >
-                          <StaticImage src="../../images/portfolio/bedy/01_bedy.jpg" alt="" />
+                          <StaticImage src="../../images/portfolio/bedy/01_bedy.jpg" alt="Белая столовая с серым диваном в квартире" />
                         </a>
                       </div>
                     </div>
@@ -85,10 +88,10 @@ const beliyInterier = () => {
                     <div class="content_images">
                       <div class="content_images_one">
                         <a
-                          href="https://www.i-project.by/portfolio_newsite/storojevskaya/19_storojevskaya.webp"
+                          href="https://i-project.by/portfolio_newsite/storojevskaya/19_storojevskaya.webp"
                           data-fancybox="gallery"
                         >
-                          <StaticImage src="../../images/portfolio/storojevskaya/19_storojevskaya.jpg" alt="" />
+                          <StaticImage src="../../images/portfolio/storojevskaya/19_storojevskaya.jpg" alt="Мастер-спальня в светлых тонах" />
                         </a>
                       </div>
                     </div>
@@ -99,16 +102,16 @@ const beliyInterier = () => {
                     <div class="content_images">
                       <div class="content_images_two">
                         <a
-                          href="https://www.i-project.by/portfolio_newsite/griboedova/09_griboedova.webp"
+                          href="https://i-project.by/portfolio_newsite/griboedova/09_griboedova.webp"
                           data-fancybox="gallery"
                         >
-                          <StaticImage src="../../images/portfolio/griboedova/09_griboedova.jpg" alt="" />
+                          <StaticImage src="../../images/portfolio/griboedova/09_griboedova.jpg" alt="Светлая кухня с коричневым шкафом" />
                         </a>
                         <a
-                          href="https://www.i-project.by/portfolio_newsite/simple_house/03_simple_house.webp"
+                          href="https://i-project.by/portfolio_newsite/simple_house/03_simple_house.webp"
                           data-fancybox="gallery"
                         >
-                          <StaticImage src="../../images/portfolio/simple_house/03_simple_house.jpg" alt="" />
+                          <StaticImage src="../../images/portfolio/simple_house/03_simple_house.jpg" alt="Светлая спальня с изумрудным камином" />
                         </a>
                       </div>
                     </div>
@@ -121,10 +124,10 @@ const beliyInterier = () => {
                   <div class="content_images">
                     <div class="content_images_one">
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/prestizhino/09_prestizhino.webp"
+                        href="https://i-project.by/portfolio_newsite/prestizhino/09_prestizhino.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/prestizhino/09_prestizhino.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/prestizhino/09_prestizhino.jpg" alt="Светлый интерьер с деревянной мебелью" />
                       </a>
                     </div>
                   </div>
@@ -134,10 +137,10 @@ const beliyInterier = () => {
                   <div class="content_images">
                     <div class="content_images_one">
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/dom_sovremeniy/18_dom_sovremeniy.webp"
+                        href="https://i-project.by/portfolio_newsite/dom_sovremeniy/18_dom_sovremeniy.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/dom_sovremeniy/18_dom_sovremeniy.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/dom_sovremeniy/18_dom_sovremeniy.jpg" alt="Белый интерьер спальни" />
                       </a>
                     </div>
                   </div>
@@ -152,10 +155,10 @@ const beliyInterier = () => {
                   <div class="content_images">
                     <div class="content_images_one">
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/bedy/08_bedy.webp"
+                        href="https://i-project.by/portfolio_newsite/bedy/08_bedy.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/bedy/08_bedy.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/bedy/08_bedy.jpg" alt="Белый санузел с душем" />
                       </a>
                     </div>
                   </div>
@@ -165,10 +168,10 @@ const beliyInterier = () => {
                   <div class="content_images">
                     <div class="content_images_one">
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/zelenyi/19_zelenyi.webp"
+                        href="https://i-project.by/portfolio_newsite/zelenyi/19_zelenyi.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/zelenyi/19_zelenyi.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/zelenyi/19_zelenyi.jpg" alt="Светлый санузел с ванной и душем" />
                       </a>
                     </div>
                   </div>
@@ -179,10 +182,10 @@ const beliyInterier = () => {
                   <div class="content_images">
                     <div class="content_images_one">
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/podmoskovye_interier/03_podmoskovye_interier.webp"
+                        href="https://i-project.by/portfolio_newsite/podmoskovye_interier/03_podmoskovye_interier.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/podmoskovye_interier/03_podmoskovye_interier.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/podmoskovye_interier/03_podmoskovye_interier.jpg" alt="Светлая столовая в частном доме" />
                       </a>
                     </div>
                   </div>
@@ -199,15 +202,19 @@ const beliyInterier = () => {
             columnClassName="my-masonry-grid_column">
             <Link to="/articles/hranenie" className="articles_page_item articles_page_item6">
               <h4 className="articles_page_item_title_medium articles_page_item_title_black">Как организовать хранение вещей в&nbsp;доме и&nbsp;квартире</h4>
+              <p className="articles_page_item_view_number articles_page_item_view_number_hblack"> <GetPageView slug={'/articles/hranenie'}/> </p>
             </Link>
             <Link to="/articles/spalnya" className="articles_page_item articles_page_item5">
               <h4 className="articles_page_item_title_small articles_page_item_title_white">Спальня мечты: секреты идеального дизайна</h4>
+              <p className="articles_page_item_view_number articles_page_item_view_number_hwhite"> <GetPageView slug={'/articles/spalnya'}/> </p>
             </Link>
             <Link to="/articles/architectura" className="articles_page_item articles_page_item4">
               <h4 className="articles_page_item_title_small articles_page_item_title_white">Архитектура частного дома: на&nbsp;что важно обратить внимание</h4>
+              <p className="articles_page_item_view_number articles_page_item_view_number_hwhite"> <GetPageView slug={'/articles/architectura'}/> </p>
             </Link>
             <Link to="/articles/krovlya" className="articles_page_item articles_page_item2">
               <h4 className="articles_page_item_title_medium articles_page_item_title_white">Плоская и&nbsp;скатная кровля: за&nbsp;и&nbsp;против</h4>
+              <p className="articles_page_item_view_number articles_page_item_view_number_hwhite"> <GetPageView slug={'/articles/krovlya'}/> </p>
             </Link>
           </Masonry>
         </div>

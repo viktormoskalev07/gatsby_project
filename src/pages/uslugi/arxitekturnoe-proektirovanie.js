@@ -28,8 +28,8 @@ const Arxitekturnoe = () => {
   return (
     <Layout>
       <Seo  title={"Архитектурное проектирование домов в Минске | I-PROJECT"} description={"Предоставляем весь комплекс проектной документации, необходимый для строительства и согласования ✦ Авторское сопровождение и комплектация ✦ Опыт более 15 лет."}
-            location={"https://www.i-project.by/uslugi/arxitekturnoe-proektirovanie"}
-            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
+            location={"https://i-project.by/uslugi/arxitekturnoe-proektirovanie"}
+            image={"https://i-project.by/portfolio_newsite/korolya/01_korolya.webp"}/>
       <div class="services_video">
         <Video  mobileSrc={mainVideoMobile} desktopSrc={mainVideo} />
         <div class="wrapper">
@@ -135,37 +135,37 @@ const Arxitekturnoe = () => {
                 breakpointCols={breakpointColumnsPortfolio}
                 className="portfolio_grid"
                 columnClassName="my-masonry-grid_column">
-                <Link to="/portfolio/architecture/luban/" className="portfolio_grid_link">
+                <Link to="/portfolio/architecture/luban" className="portfolio_grid_link">
                   <StaticImage src="../../images/portfolio/luban/00_luban.jpg" alt="" />
                   <div class="portfolio_grid_block">
                     <h3 className="portfolio_grid_block_title">Дом для жизни. Архитектура, 400м<sup>2</sup></h3>
                     <p className="portfolio_grid_block_realize">Реализовано</p>
                   </div>
                 </Link>
-                <Link to="/portfolio/interier/interier-baltic-house/" className="portfolio_grid_link">
-                  <StaticImage src="../../images/portfolio/baltic_house/interior/00_baltic_home_interior.jpg" alt="" />
-                  <div class="portfolio_grid_block">
-                    <h3 className="portfolio_grid_block_title">Дом с&nbsp;балтийским характером. Интерьер, 500м<sup>2</sup></h3>
-                    <p className="portfolio_grid_block_realize">Реализовано</p>
-                  </div>
-                </Link>
-                <Link to="/portfolio/architecture/rekonstrukciya-protos/" className="portfolio_grid_link">
+                <Link to="/portfolio/architecture/rekonstrukciya-protos" className="portfolio_grid_link">
                   <StaticImage src="../../images/portfolio/protos_reconstraction/00_protos_reconstraction.jpg" alt="" />
                   <div class="portfolio_grid_block">
                     <h3 className="portfolio_grid_block_title">Реконструкция офисов группы компаний &laquo;Протос&raquo;, 200м<sup>2</sup></h3>
                     <p className="portfolio_grid_block_realize">Реализовано</p>
                   </div>
                 </Link>
+                <Link to="/portfolio/architecture/sosni" className="portfolio_grid_link">
+                  <StaticImage src="../../images/portfolio/sosni/00_sosni.jpg" alt="" />
+                  <div class="portfolio_grid_block">
+                    <h2 className="portfolio_grid_block_title">Дом в&nbsp;сосновом бору. Архитектура, 750м<sup>2</sup></h2>
+                  </div>
+                </Link>
+                <Link to="/portfolio/architecture/dom-na-holme" className="portfolio_grid_link portfolio_grid_link_hide">
+                  <StaticImage src="../../images/portfolio/dom_na_holme/01_dom_na_holme.jpg" alt="" />
+                  <div class="portfolio_grid_block">
+                    <h3 className="portfolio_grid_block_title">Дом на&nbsp;холме, 450м<sup>2</sup></h3>
+                  </div>
+                </Link>
+                
                 <Link to="/portfolio/architecture/dom-u-more" className="portfolio_grid_link">
                   <StaticImage src="../../images/portfolio/dom_u_more/00_dom_u_more.jpg" alt="" />
                   <div class="portfolio_grid_block">
                     <h3 className="portfolio_grid_block_title">Дом у&nbsp;моря. Архитектурное решение + Интерьер, 1000м<sup>2</sup></h3>
-                  </div>
-                </Link>
-                <Link to="/portfolio/architecture/shale" className="portfolio_grid_link portfolio_grid_link_hide">
-                  <StaticImage src="../../images/portfolio/shale/00_shale.jpg" alt="" />
-                  <div class="portfolio_grid_block">
-                    <h3 className="portfolio_grid_block_title">Современное шале. Архитектура дома, 300м<sup>2</sup></h3>
                   </div>
                 </Link>
                 <Link to="/portfolio/architecture/sosni" className="portfolio_grid_link portfolio_grid_link_hide">
@@ -174,13 +174,8 @@ const Arxitekturnoe = () => {
                     <h3 className="portfolio_grid_block_title">Дом в&nbsp;сосновом бору. Архитектура, 750м<sup>2</sup></h3>
                   </div>
                 </Link>
-                <Link to="/portfolio/architecture/dom-na-holme/" className="portfolio_grid_link portfolio_grid_link_hide">
-                  <StaticImage src="../../images/portfolio/dom_na_holme/01_dom_na_holme.jpg" alt="" />
-                  <div class="portfolio_grid_block">
-                    <h2 className="portfolio_grid_block_title">Дом на&nbsp;холме, 450м<sup>2</sup></h2>
-                  </div>
-                </Link>
-                <Link to="/portfolio/" className="portfolio_grid_link_all">
+                <></>
+                <Link to="/portfolio" className="portfolio_grid_link_all">
                   <p className="portfolio_grid_link_all_p">Все проекты</p>
                 </Link>
               </Masonry>
@@ -226,7 +221,7 @@ const Arxitekturnoe = () => {
               </div>
               <div class="services_process_link_block">
                 <p class="services_process_link_block_p">Как мы работаем</p>
-                <Link to="/process/" className="services_process_link">Подробнее о процессе</Link>
+                <Link to="/process" className="services_process_link">Подробнее о процессе</Link>
               </div>
             </section>
             <section class="services_term">
@@ -251,12 +246,12 @@ const Arxitekturnoe = () => {
                     <p>Выстраиваем схему выполнения проектных предложений и&nbsp;контролируем выполнение работ подрядчиков. Таким образом исключаем возможность возникновения ошибок или недочетов на&nbsp;смежных участках работ.</p>
                     <p class="services__add_item_text_hidden">Мы&nbsp;не&nbsp;бросаем свою работу на&nbsp;половине пути и&nbsp;сопровождаем проекты до&nbsp;их&nbsp;полной реализации.</p>
                   </div>
-                  <Link to="/uslugi/avtorskoe-soprovozhdenie/" className="services__add_item_link">Подробнее</Link>
+                  <Link to="/uslugi/avtorskoe-soprovozhdenie" className="services__add_item_link">Подробнее</Link>
                 </div>
                 <div class="services__add_support_block_img">
                   <StaticImage className="services__add_support_img" src="../../images/services/services_add_support.jpg" alt="" />
                 </div>
-                <Link to="/uslugi/avtorskoe-soprovozhdenie/" className="services__add_item_link_mob">Подробнее</Link>
+                <Link to="/uslugi/avtorskoe-soprovozhdenie" className="services__add_item_link_mob">Подробнее</Link>
               </div>
               <div class="services__add_item services__add_complete" id="anchor_8">
                 <div class="services__add_item_block">
@@ -265,12 +260,12 @@ const Arxitekturnoe = () => {
                     <p>Мы&nbsp;берем на&nbsp;себя организацию всех мероприятий, связанных с&nbsp;закупкой и&nbsp;доставкой всех необходимых материалов, образцов, мебели, оборудования.</p>
                     <p>Согласование поставок материалов с&nbsp;графиком строительных работ.</p>
                   </div>
-                  <Link to="/uslugi/komplektaciya-obekta/" className="services__add_item_link">Подробнее</Link>
+                  <Link to="/uslugi/komplektaciya-obekta" className="services__add_item_link">Подробнее</Link>
                 </div>
                 <div class="services__add_complete_block_img">
                   <StaticImage className="services__add_complete_img" src="../../images/services/services_add_complete.png" alt="" />
                 </div>
-                <Link to="/uslugi/komplektaciya-obekta/" className="services__add_item_link_mob">Подробнее</Link>
+                <Link to="/uslugi/komplektaciya-obekta" className="services__add_item_link_mob">Подробнее</Link>
               </div>
             </section>
           </div>     
@@ -284,6 +279,7 @@ export default Arxitekturnoe
 
 const breakpointColumnsPortfolio = {
   default: 3,
+  1800: 2,
   768: 1,
   
 };

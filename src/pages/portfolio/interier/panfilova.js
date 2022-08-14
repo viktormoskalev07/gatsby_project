@@ -13,8 +13,8 @@ const panfilova = () => {
   return (
     <Layout>
       <Seo  title={"Дизайн квартиры в Минске 85 м2 | I-PROJECT"} description={"Студия дизайна и архитектуры Александра Игнатьева, разработала современный интерьер небольшой квартиры для 1-го-2-х человек."}
-            location={"https://www.i-project.by/portfolio/interier/panfilova"}
-            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
+            location={"https://i-project.by/portfolio/interier/panfilova"}
+            image={"https://i-project.by/portfolio_newsite/panfilova/01_panfilova.webp"}/>
       <Fancybox>
         <div class="wrapper">
           <div class="project">
@@ -54,19 +54,19 @@ const panfilova = () => {
               </div>
               <div class="content_task_block" id="anchor_1">
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/panfilova/03_panfilova.webp"
+                  href="https://i-project.by/portfolio_newsite/panfilova/03_panfilova.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/panfilova/03_panfilova.jpg" alt="" />
                 </a>
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/panfilova/04_panfilova.webp"
+                  href="https://i-project.by/portfolio_newsite/panfilova/04_panfilova.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/panfilova/04_panfilova.jpg" alt="" />
                 </a>
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/panfilova/08_panfilova.webp"
+                  href="https://i-project.by/portfolio_newsite/panfilova/08_panfilova.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/panfilova/08_panfilova.jpg" alt="" />
@@ -81,7 +81,7 @@ const panfilova = () => {
                 <div class="content_images_two">
                   <StaticImage src="../../../images/portfolio/panfilova/3d/1.jpg" alt="" />
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/panfilova/01_panfilova.webp"
+                    href="https://i-project.by/portfolio_newsite/panfilova/01_panfilova.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/panfilova/01_panfilova.jpg" alt="" />
@@ -124,13 +124,13 @@ const panfilova = () => {
                 <h2 class="content_h2" id="anchor_3">Планировка квартиры</h2>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/panfilova/15_panfilova.webp"
+                    href="https://i-project.by/portfolio_newsite/panfilova/15_panfilova.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/panfilova/15_panfilova.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/panfilova/16_panfilova.webp"
+                    href="https://i-project.by/portfolio_newsite/panfilova/16_panfilova.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/panfilova/16_panfilova.jpg" alt="" />
@@ -141,13 +141,13 @@ const panfilova = () => {
                 <h2 class="content_h2" id="anchor_4">Кухня-столовая</h2>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/panfilova/01_panfilova.webp"
+                    href="https://i-project.by/portfolio_newsite/panfilova/01_panfilova.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/panfilova/01_panfilova.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/panfilova/05_panfilova.webp"
+                    href="https://i-project.by/portfolio_newsite/panfilova/05_panfilova.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/panfilova/05_panfilova.jpg" alt="" />
@@ -158,13 +158,13 @@ const panfilova = () => {
                 <h2 class="content_h2" id="anchor_5">Гостиная</h2>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/panfilova/02_panfilova.webp"
+                    href="https://i-project.by/portfolio_newsite/panfilova/02_panfilova.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/panfilova/02_panfilova.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/panfilova/06_panfilova.webp"
+                    href="https://i-project.by/portfolio_newsite/panfilova/06_panfilova.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/panfilova/06_panfilova.jpg" alt="" />
@@ -175,7 +175,7 @@ const panfilova = () => {
                 <h2 class="content_h2" id="anchor_6">Спальня</h2>
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/panfilova/07_panfilova.webp"
+                    href="https://i-project.by/portfolio_newsite/panfilova/07_panfilova.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/panfilova/07_panfilova.jpg" alt="" />
@@ -183,19 +183,19 @@ const panfilova = () => {
                 </div>
                 <div class="content_images_three_left_narrow">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/panfilova/12_panfilova.webp"
+                    href="https://i-project.by/portfolio_newsite/panfilova/12_panfilova.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/panfilova/12_panfilova.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/panfilova/09_panfilova.webp"
+                    href="https://i-project.by/portfolio_newsite/panfilova/09_panfilova.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/panfilova/09_panfilova.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/panfilova/10_panfilova.webp"
+                    href="https://i-project.by/portfolio_newsite/panfilova/10_panfilova.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/panfilova/10_panfilova.jpg" alt="" />
@@ -203,7 +203,7 @@ const panfilova = () => {
                 </div>
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/panfilova/11_panfilova.webp"
+                    href="https://i-project.by/portfolio_newsite/panfilova/11_panfilova.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/panfilova/11_panfilova.jpg" alt="" />
@@ -214,7 +214,7 @@ const panfilova = () => {
                 <h2 class="content_h2">Прихожая</h2>
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/panfilova/14_panfilova.webp"
+                    href="https://i-project.by/portfolio_newsite/panfilova/14_panfilova.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/panfilova/14_panfilova.jpg" alt="" />
@@ -225,7 +225,7 @@ const panfilova = () => {
                 <h2 class="content_h2" id="anchor_7">Санузел</h2>
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/panfilova/13_panfilova.webp"
+                    href="https://i-project.by/portfolio_newsite/panfilova/13_panfilova.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/panfilova/13_panfilova.jpg" alt="" />

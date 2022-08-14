@@ -11,8 +11,8 @@ const Contacts = () => {
   return (
     <Layout>
       <Seo  title={"Контакты cтудии дизайна и архитектуры | I-PROJECT"} description={"Работаем в Минске по адресу ✦ Минск, пр-т Машерова 9 ✦ с понедельника по пятницу с 9 до 18 ✦ Встречи предварительно согласовываются"}
-            location={"https://www.i-project.by/about"}
-            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
+            location={"https://i-project.by/about"}
+            image={"https://i-project.by/portfolio_newsite/korolya/01_korolya.webp"}/>
       <div class="wrapper">
         <h1 class="contacts_title">Контакты</h1>
         <div class="contacts">
@@ -48,11 +48,11 @@ const Contacts = () => {
               <img src={youtubeIcon} alt="youtube icon" class="contacts_social_youtube_icon" />
               <p class="contacts_social_text">Youtube</p>
             </Link>
-            <Link to="https://www.instagram.com/iproject.studio/" class="contacts_social_item">
+            <Link to="https://www.instagram.com/iproject.studio" class="contacts_social_item">
               <img src={instagramIcon} alt="instagram icon" class="contacts_social_insta_icon" />
               <p class="contacts_social_text">Instagram</p>
             </Link>
-            <Link to="https://www.facebook.com/iproject.by/" class="contacts_social_item">
+            <Link to="https://www.facebook.com/iproject.by" class="contacts_social_item">
               <img src={facebookIcon} alt="facebook icon" class="contacts_social_facebook_icon" />
               <p class="contacts_social_text">Facebook</p>
             </Link>

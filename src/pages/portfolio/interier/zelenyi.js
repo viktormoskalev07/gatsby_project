@@ -10,8 +10,8 @@ const zelenyi = () => {
   return (
     <Layout>
       <Seo  title={"Дизайн интерьера дома 250 м2, фото | I-PROJECT"} description={"Студия дизайна и архитектуры Александра Игнатьева, разработала современный дизайн интерьера дома в Острошицком городке."}
-            location={"https://www.i-project.by/portfolio/interier/zelenyi"}
-            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
+            location={"https://i-project.by/portfolio/interier/zelenyi"}
+            image={"https://i-project.by/portfolio_newsite/zelenyi/01_zelenyi.webp"}/>
       <Fancybox>
         <div class="wrapper">
           <div class="project">
@@ -20,7 +20,7 @@ const zelenyi = () => {
           </div>
           <div class="project_main_photo">
             <a
-              href="https://www.i-project.by/portfolio_newsite/zelenyi/03_zelenyi.webp"
+              href="https://i-project.by/portfolio_newsite/zelenyi/03_zelenyi.webp"
               data-fancybox="gallery"
             >
               <StaticImage src="../../../images/portfolio/zelenyi/03_zelenyi.jpg" alt="" />
@@ -51,19 +51,19 @@ const zelenyi = () => {
               </div>
               <div class="content_task_block" id="anchor_1">
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/zelenyi/06_zelenyi.webp"
+                  href="https://i-project.by/portfolio_newsite/zelenyi/06_zelenyi.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/zelenyi/06_zelenyi.jpg" alt="" />
                 </a>
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/zelenyi/17_zelenyi.webp"
+                  href="https://i-project.by/portfolio_newsite/zelenyi/17_zelenyi.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/zelenyi/17_zelenyi.jpg" alt="" />
                 </a>
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/zelenyi/11_zelenyi.webp"
+                  href="https://i-project.by/portfolio_newsite/zelenyi/11_zelenyi.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/zelenyi/11_zelenyi.jpg" alt="" />
@@ -77,13 +77,13 @@ const zelenyi = () => {
                 <h2 class="content_h2" id="anchor_2">Первый этаж</h2>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/zelenyi/20_zelenyi.webp"
+                    href="https://i-project.by/portfolio_newsite/zelenyi/20_zelenyi.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/zelenyi/20_zelenyi.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/zelenyi/22_zelenyi.webp"
+                    href="https://i-project.by/portfolio_newsite/zelenyi/22_zelenyi.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/zelenyi/22_zelenyi.jpg" alt="" />
@@ -94,7 +94,7 @@ const zelenyi = () => {
                 <h2 class="content_h2" id="anchor_3">Гостиная</h2>
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/zelenyi/02_zelenyi.webp"
+                    href="https://i-project.by/portfolio_newsite/zelenyi/02_zelenyi.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/zelenyi/02_zelenyi.jpg" alt="" />
@@ -105,13 +105,13 @@ const zelenyi = () => {
                 <h2 class="content_h2" id="anchor_4">Кухня</h2>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/zelenyi/04_zelenyi.webp"
+                    href="https://i-project.by/portfolio_newsite/zelenyi/04_zelenyi.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/zelenyi/04_zelenyi.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/zelenyi/05_zelenyi.webp"
+                    href="https://i-project.by/portfolio_newsite/zelenyi/05_zelenyi.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/zelenyi/05_zelenyi.jpg" alt="" />
@@ -122,13 +122,13 @@ const zelenyi = () => {
                 <h2 class="content_h2" id="anchor_5">Прихожая</h2>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/zelenyi/07_zelenyi.webp"
+                    href="https://i-project.by/portfolio_newsite/zelenyi/07_zelenyi.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/zelenyi/07_zelenyi.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/zelenyi/01_zelenyi.webp"
+                    href="https://i-project.by/portfolio_newsite/zelenyi/01_zelenyi.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/zelenyi/01_zelenyi.jpg" alt="" />
@@ -139,13 +139,13 @@ const zelenyi = () => {
                 <h2 class="content_h2" id="anchor_6">Второй этаж</h2>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/zelenyi/21_zelenyi.webp"
+                    href="https://i-project.by/portfolio_newsite/zelenyi/21_zelenyi.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/zelenyi/21_zelenyi.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/zelenyi/23_zelenyi.webp"
+                    href="https://i-project.by/portfolio_newsite/zelenyi/23_zelenyi.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/zelenyi/23_zelenyi.jpg" alt="" />
@@ -156,13 +156,13 @@ const zelenyi = () => {
                 <h2 class="content_h2" id="anchor_7">Спальня</h2>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/zelenyi/10_zelenyi.webp"
+                    href="https://i-project.by/portfolio_newsite/zelenyi/10_zelenyi.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/zelenyi/10_zelenyi.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/zelenyi/09_zelenyi.webp"
+                    href="https://i-project.by/portfolio_newsite/zelenyi/09_zelenyi.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/zelenyi/09_zelenyi.jpg" alt="" />
@@ -174,7 +174,7 @@ const zelenyi = () => {
           <div class="content_images">
             <div class="content_images_one_big">
               <a
-                href="https://www.i-project.by/portfolio_newsite/zelenyi/13_zelenyi.webp"
+                href="https://i-project.by/portfolio_newsite/zelenyi/13_zelenyi.webp"
                 data-fancybox="gallery"
               >
                 <StaticImage src="../../../images/portfolio/zelenyi/13_zelenyi.jpg" alt="" />
@@ -186,19 +186,19 @@ const zelenyi = () => {
               <div class="content_images">
                 <div class="content_images_three_left_narrow">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/zelenyi/14_zelenyi.webp"
+                    href="https://i-project.by/portfolio_newsite/zelenyi/14_zelenyi.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/zelenyi/14_zelenyi.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/zelenyi/12_zelenyi.webp"
+                    href="https://i-project.by/portfolio_newsite/zelenyi/12_zelenyi.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/zelenyi/12_zelenyi.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/zelenyi/08_zelenyi.webp"
+                    href="https://i-project.by/portfolio_newsite/zelenyi/08_zelenyi.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/zelenyi/08_zelenyi.jpg" alt="" />
@@ -209,13 +209,13 @@ const zelenyi = () => {
                 <h2 class="content_h2" id="anchor_8">Санузел</h2>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/zelenyi/19_zelenyi.webp"
+                    href="https://i-project.by/portfolio_newsite/zelenyi/19_zelenyi.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/zelenyi/19_zelenyi.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/zelenyi/15_zelenyi.webp"
+                    href="https://i-project.by/portfolio_newsite/zelenyi/15_zelenyi.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/zelenyi/15_zelenyi.jpg" alt="" />
@@ -223,13 +223,13 @@ const zelenyi = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/zelenyi/10_zelenyi.webp"
+                    href="https://i-project.by/portfolio_newsite/zelenyi/10_zelenyi.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/zelenyi/18_zelenyi.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/zelenyi/16_zelenyi.webp"
+                    href="https://i-project.by/portfolio_newsite/zelenyi/16_zelenyi.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/zelenyi/16_zelenyi.jpg" alt="" />

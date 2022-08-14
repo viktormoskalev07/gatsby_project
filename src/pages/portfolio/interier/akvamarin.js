@@ -9,9 +9,9 @@ import Seo from "../../../components/seo"
 const akvamarin = () => {
   return (
     <Layout>
-      <Seo  title={"Дизайн интерьера квартиры 140 м2, фотографии | I-PROJECT"} description={"Здания комплекса примечательны тем, что не имеют двух параллельных стен — все они либо закругляются, либо расходятся лучами от центра."}
-            location={"https://www.i-project.by/portfolio/interier/akvamarin"}
-            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
+      <Seo  title={"Интерьера квартиры в коричнево-бежевых тонах 140 м2 | I-PROJECT"} description={"Здания комплекса примечательны тем, что не имеют двух параллельных стен — все они либо закругляются, либо расходятся лучами от центра."}
+            location={"https://i-project.by/portfolio/interier/akvamarin"}
+            image={"https://i-project.by/portfolio_newsite/akvamarin/01_akvamarin.webp"}/>
       <Fancybox>
         <div class="wrapper">
           <div class="project">
@@ -20,7 +20,7 @@ const akvamarin = () => {
           </div>
           <div class="project_main_photo">
             <a
-              href="https://www.i-project.by/portfolio_newsite/akvamarin/03_akvamarin.webp"
+              href="https://i-project.by/portfolio_newsite/akvamarin/03_akvamarin.webp"
               data-fancybox="gallery"
             >
               <StaticImage src="../../../images/portfolio/akvamarin/03_akvamarin.jpg" alt="" />
@@ -50,19 +50,19 @@ const akvamarin = () => {
               </div>
               <div class="content_task_block" id="anchor_1">
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/akvamarin/07_akvamarin.webp"
+                  href="https://i-project.by/portfolio_newsite/akvamarin/07_akvamarin.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/akvamarin/07_akvamarin.jpg" alt="" />
                 </a>
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/akvamarin/14_akvamarin.webp"
+                  href="https://i-project.by/portfolio_newsite/akvamarin/14_akvamarin.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/akvamarin/14_akvamarin.jpg" alt="" />
                 </a>
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/akvamarin/09_akvamarin.webp"
+                  href="https://i-project.by/portfolio_newsite/akvamarin/09_akvamarin.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/akvamarin/09_akvamarin.jpg" alt="" />
@@ -76,13 +76,13 @@ const akvamarin = () => {
                 <h2 class="content_h2" id="anchor_2">Планировка квартиры</h2>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/akvamarin/17_akvamarin.webp"
+                    href="https://i-project.by/portfolio_newsite/akvamarin/17_akvamarin.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/akvamarin/17_akvamarin.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/akvamarin/18_akvamarin.webp"
+                    href="https://i-project.by/portfolio_newsite/akvamarin/18_akvamarin.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/akvamarin/18_akvamarin.jpg" alt="" />
@@ -96,7 +96,7 @@ const akvamarin = () => {
               <div class="content_images">
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/akvamarin/01_akvamarin.webp"
+                    href="https://i-project.by/portfolio_newsite/akvamarin/01_akvamarin.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/akvamarin/01_akvamarin.jpg" alt="" />
@@ -104,13 +104,13 @@ const akvamarin = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/akvamarin/02_akvamarin.webp"
+                    href="https://i-project.by/portfolio_newsite/akvamarin/02_akvamarin.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/akvamarin/02_akvamarin.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/akvamarin/03_akvamarin.webp"
+                    href="https://i-project.by/portfolio_newsite/akvamarin/03_akvamarin.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/akvamarin/03_akvamarin.jpg" alt="" />
@@ -118,7 +118,7 @@ const akvamarin = () => {
                 </div>
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/akvamarin/05_akvamarin.webp"
+                    href="https://i-project.by/portfolio_newsite/akvamarin/05_akvamarin.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/akvamarin/05_akvamarin.jpg" alt="" />
@@ -126,13 +126,13 @@ const akvamarin = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/akvamarin/04_akvamarin.webp"
+                    href="https://i-project.by/portfolio_newsite/akvamarin/04_akvamarin.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/akvamarin/04_akvamarin.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/akvamarin/06_akvamarin.webp"
+                    href="https://i-project.by/portfolio_newsite/akvamarin/06_akvamarin.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/akvamarin/06_akvamarin.jpg" alt="" />
@@ -146,7 +146,7 @@ const akvamarin = () => {
               <div class="content_images">
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/akvamarin/07_akvamarin.webp"
+                    href="https://i-project.by/portfolio_newsite/akvamarin/07_akvamarin.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/akvamarin/07_akvamarin.jpg" alt="" />
@@ -160,7 +160,7 @@ const akvamarin = () => {
               <div class="content_images">
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/akvamarin/08_akvamarin.webp"
+                    href="https://i-project.by/portfolio_newsite/akvamarin/08_akvamarin.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/akvamarin/08_akvamarin.jpg" alt="" />
@@ -174,7 +174,7 @@ const akvamarin = () => {
               <div class="content_images">
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/akvamarin/09_akvamarin.webp"
+                    href="https://i-project.by/portfolio_newsite/akvamarin/09_akvamarin.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/akvamarin/09_akvamarin.jpg" alt="" />
@@ -182,13 +182,13 @@ const akvamarin = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/akvamarin/10_akvamarin.webp"
+                    href="https://i-project.by/portfolio_newsite/akvamarin/10_akvamarin.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/akvamarin/10_akvamarin.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/akvamarin/11_akvamarin.webp"
+                    href="https://i-project.by/portfolio_newsite/akvamarin/11_akvamarin.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/akvamarin/11_akvamarin.jpg" alt="" />
@@ -202,13 +202,13 @@ const akvamarin = () => {
               <div class="content_images">
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/akvamarin/12_akvamarin.webp"
+                    href="https://i-project.by/portfolio_newsite/akvamarin/12_akvamarin.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/akvamarin/12_akvamarin.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/akvamarin/13_akvamarin.webp"
+                    href="https://i-project.by/portfolio_newsite/akvamarin/13_akvamarin.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/akvamarin/13_akvamarin.jpg" alt="" />
@@ -216,7 +216,7 @@ const akvamarin = () => {
                 </div>
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/akvamarin/14_akvamarin.webp"
+                    href="https://i-project.by/portfolio_newsite/akvamarin/14_akvamarin.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/akvamarin/14_akvamarin.jpg" alt="" />
@@ -224,13 +224,13 @@ const akvamarin = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/akvamarin/15_akvamarin.webp"
+                    href="https://i-project.by/portfolio_newsite/akvamarin/15_akvamarin.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/akvamarin/15_akvamarin.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/akvamarin/16_akvamarin.webp"
+                    href="https://i-project.by/portfolio_newsite/akvamarin/16_akvamarin.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/akvamarin/16_akvamarin.jpg" alt="" />

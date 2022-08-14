@@ -9,8 +9,8 @@ const vostochnaya2 = () => {
   return (
     <Layout>
       <Seo  title={"Дизайн интерьера квартиры 80 м2, фотографии | I-PROJECT"} description={"Разработали современный интерьер квартиры который подходит для комфортного проживания 1-2 человек."}
-            location={"https://www.i-project.by/portfolio/interier/vostochnaya"}
-            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
+            location={"https://i-project.by/portfolio/interier/vostochnaya"}
+            image={"https://i-project.by/portfolio_newsite/vostochnaya/01_vostochnaya.webp"}/>
       <Fancybox>
         <div class="wrapper">
           <div class="project">
@@ -19,7 +19,7 @@ const vostochnaya2 = () => {
           </div>
           <div class="project_main_photo">
             <a
-              href="https://www.i-project.by/portfolio_newsite/vostochnaya/01_vostochnaya.webp"
+              href="https://i-project.by/portfolio_newsite/vostochnaya/01_vostochnaya.webp"
               data-fancybox="gallery"
             >
               <StaticImage src="../../../images/portfolio/vostochnaya/01_vostochnaya.jpg" alt="" />
@@ -45,19 +45,19 @@ const vostochnaya2 = () => {
               </div>
               <div class="content_task_block">
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/vostochnaya/04_vostochnaya.webp"
+                  href="https://i-project.by/portfolio_newsite/vostochnaya/04_vostochnaya.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/vostochnaya/04_vostochnaya.jpg" alt="" />
                 </a>
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/vostochnaya/07_vostochnaya.webp"
+                  href="https://i-project.by/portfolio_newsite/vostochnaya/07_vostochnaya.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/vostochnaya/07_vostochnaya.jpg" alt="" />
                 </a>
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/vostochnaya/11_vostochnaya.webp"
+                  href="https://i-project.by/portfolio_newsite/vostochnaya/11_vostochnaya.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/vostochnaya/11_vostochnaya.jpg" alt="" />
@@ -71,13 +71,13 @@ const vostochnaya2 = () => {
                 <h2 class="content_h2">Планировка квартиры</h2>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/vostochnaya/13_vostochnaya.webp"
+                    href="https://i-project.by/portfolio_newsite/vostochnaya/13_vostochnaya.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/vostochnaya/13_vostochnaya.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/vostochnaya/14_vostochnaya.webp"
+                    href="https://i-project.by/portfolio_newsite/vostochnaya/14_vostochnaya.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/vostochnaya/14_vostochnaya.jpg" alt="" />
@@ -88,7 +88,7 @@ const vostochnaya2 = () => {
                 <h2 class="content_h2">Помещения</h2>
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/vostochnaya/01_vostochnaya.webp"
+                    href="https://i-project.by/portfolio_newsite/vostochnaya/01_vostochnaya.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/vostochnaya/01_vostochnaya.jpg" alt="" />
@@ -96,13 +96,13 @@ const vostochnaya2 = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/vostochnaya/02_vostochnaya.webp"
+                    href="https://i-project.by/portfolio_newsite/vostochnaya/02_vostochnaya.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/vostochnaya/02_vostochnaya.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/vostochnaya/03_vostochnaya.webp"
+                    href="https://i-project.by/portfolio_newsite/vostochnaya/03_vostochnaya.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/vostochnaya/03_vostochnaya.jpg" alt="" />
@@ -112,7 +112,7 @@ const vostochnaya2 = () => {
               <div class="content_images">
                 <div class="content_images_one">
                 <a
-                    href="https://www.i-project.by/portfolio_newsite/vostochnaya/04_vostochnaya.webp"
+                    href="https://i-project.by/portfolio_newsite/vostochnaya/04_vostochnaya.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/vostochnaya/04_vostochnaya.jpg" alt="" />
@@ -120,13 +120,13 @@ const vostochnaya2 = () => {
                 </div>
                 <div class="content_images_two">
                 <a
-                    href="https://www.i-project.by/portfolio_newsite/vostochnaya/06_vostochnaya.webp"
+                    href="https://i-project.by/portfolio_newsite/vostochnaya/06_vostochnaya.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/vostochnaya/06_vostochnaya.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/vostochnaya/07_vostochnaya.webp"
+                    href="https://i-project.by/portfolio_newsite/vostochnaya/07_vostochnaya.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/vostochnaya/07_vostochnaya.jpg" alt="" />
@@ -134,13 +134,13 @@ const vostochnaya2 = () => {
                 </div>
                 <div class="content_images_two">
                 <a
-                    href="https://www.i-project.by/portfolio_newsite/vostochnaya/08_vostochnaya.webp"
+                    href="https://i-project.by/portfolio_newsite/vostochnaya/08_vostochnaya.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/vostochnaya/08_vostochnaya.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/vostochnaya/11_vostochnaya.webp"
+                    href="https://i-project.by/portfolio_newsite/vostochnaya/11_vostochnaya.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/vostochnaya/11_vostochnaya.jpg" alt="" />

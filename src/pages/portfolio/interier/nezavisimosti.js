@@ -9,9 +9,9 @@ import Seo from "../../../components/seo"
 const nezavisimosti = () => {
   return (
     <Layout>
-      <Seo  title={"Дизайн интерьера квартиры 150 м2, фотографии | I-PROJECT"} description={"Студия дизайна и архитектуры Александра Игнатьева, разработала современный интерьер квартиры для молодой семьи в тихом центре Минска."}
-            location={"https://www.i-project.by/portfolio/interier/nezavisimosti"}
-            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
+      <Seo  title={"Уютный дизайн интерьера квартиры 150 м2 | I-PROJECT"} description={"Студия дизайна и архитектуры Александра Игнатьева, разработала современный интерьер квартиры для молодой семьи в тихом центре Минска."}
+            location={"https://i-project.by/portfolio/interier/nezavisimosti"}
+            image={"https://i-project.by/portfolio_newsite/nezavisimosti/01_nezavisimosti.webp"}/>
       <Fancybox>
         <div class="wrapper">
           <div class="project">
@@ -20,7 +20,7 @@ const nezavisimosti = () => {
           </div>
           <div class="project_main_photo">
             <a
-              href="https://www.i-project.by/portfolio_newsite/nezavisimosti/01_nezavisimosti.webp"
+              href="https://i-project.by/portfolio_newsite/nezavisimosti/01_nezavisimosti.webp"
               data-fancybox="gallery"
             >
               <StaticImage src="../../../images/portfolio/nezavisimosti/01_nezavisimosti.jpg" alt="" />
@@ -51,19 +51,19 @@ const nezavisimosti = () => {
               </div>
               <div class="content_task_block" id="anchor_1">
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/nezavisimosti/06_nezavisimosti.webp"
+                  href="https://i-project.by/portfolio_newsite/nezavisimosti/06_nezavisimosti.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/nezavisimosti/06_nezavisimosti.jpg" alt="" />
                 </a>
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/nezavisimosti/05_nezavisimosti.webp"
+                  href="https://i-project.by/portfolio_newsite/nezavisimosti/05_nezavisimosti.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/nezavisimosti/05_nezavisimosti.jpg" alt="" />
                 </a>
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/nezavisimosti/11_nezavisimosti.webp"
+                  href="https://i-project.by/portfolio_newsite/nezavisimosti/11_nezavisimosti.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/nezavisimosti/11_nezavisimosti.jpg" alt="" />
@@ -77,13 +77,13 @@ const nezavisimosti = () => {
                 <h2 class="content_h2" id="anchor_2">Планировка квартиры</h2>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/nezavisimosti/19_nezavisimosti.webp"
+                    href="https://i-project.by/portfolio_newsite/nezavisimosti/19_nezavisimosti.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/nezavisimosti/19_nezavisimosti.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/nezavisimosti/20_nezavisimosti.webp"
+                    href="https://i-project.by/portfolio_newsite/nezavisimosti/20_nezavisimosti.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/nezavisimosti/20_nezavisimosti.jpg" alt="" />
@@ -97,7 +97,7 @@ const nezavisimosti = () => {
               <div class="content_images">
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/nezavisimosti/01_nezavisimosti.webp"
+                    href="https://i-project.by/portfolio_newsite/nezavisimosti/01_nezavisimosti.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/nezavisimosti/01_nezavisimosti.jpg" alt="" />
@@ -105,13 +105,13 @@ const nezavisimosti = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/nezavisimosti/03_nezavisimosti.webp"
+                    href="https://i-project.by/portfolio_newsite/nezavisimosti/03_nezavisimosti.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/nezavisimosti/03_nezavisimosti.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/nezavisimosti/05_nezavisimosti.webp"
+                    href="https://i-project.by/portfolio_newsite/nezavisimosti/05_nezavisimosti.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/nezavisimosti/05_nezavisimosti.jpg" alt="" />
@@ -122,13 +122,13 @@ const nezavisimosti = () => {
                 <h2 class="content_h2" id="anchor_4">Кухня</h2>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/nezavisimosti/02_nezavisimosti.webp"
+                    href="https://i-project.by/portfolio_newsite/nezavisimosti/02_nezavisimosti.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/nezavisimosti/02_nezavisimosti.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/nezavisimosti/04_nezavisimosti.webp"
+                    href="https://i-project.by/portfolio_newsite/nezavisimosti/04_nezavisimosti.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/nezavisimosti/04_nezavisimosti.jpg" alt="" />
@@ -142,7 +142,7 @@ const nezavisimosti = () => {
               <div class="content_images">
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/nezavisimosti/06_nezavisimosti.webp"
+                    href="https://i-project.by/portfolio_newsite/nezavisimosti/06_nezavisimosti.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/nezavisimosti/06_nezavisimosti.jpg" alt="" />
@@ -150,13 +150,13 @@ const nezavisimosti = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/nezavisimosti/07_nezavisimosti.webp"
+                    href="https://i-project.by/portfolio_newsite/nezavisimosti/07_nezavisimosti.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/nezavisimosti/07_nezavisimosti.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/nezavisimosti/08_nezavisimosti.webp"
+                    href="https://i-project.by/portfolio_newsite/nezavisimosti/08_nezavisimosti.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/nezavisimosti/08_nezavisimosti.jpg" alt="" />
@@ -168,7 +168,7 @@ const nezavisimosti = () => {
           <div class="content_images">
             <div class="content_images_one_big">
               <a
-                href="https://www.i-project.by/portfolio_newsite/nezavisimosti/09_nezavisimosti.webp"
+                href="https://i-project.by/portfolio_newsite/nezavisimosti/09_nezavisimosti.webp"
                 data-fancybox="gallery"
               >
                 <StaticImage src="../../../images/portfolio/nezavisimosti/09_nezavisimosti.jpg" alt="" />
@@ -180,7 +180,7 @@ const nezavisimosti = () => {
               <div class="content_images">
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/nezavisimosti/10_nezavisimosti.webp"
+                    href="https://i-project.by/portfolio_newsite/nezavisimosti/10_nezavisimosti.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/nezavisimosti/10_nezavisimosti.jpg" alt="" />
@@ -198,7 +198,7 @@ const nezavisimosti = () => {
               <div class="content_images">
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/nezavisimosti/15_nezavisimosti.webp"
+                    href="https://i-project.by/portfolio_newsite/nezavisimosti/15_nezavisimosti.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/nezavisimosti/15_nezavisimosti.jpg" alt="" />
@@ -206,13 +206,13 @@ const nezavisimosti = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/nezavisimosti/16_nezavisimosti.webp"
+                    href="https://i-project.by/portfolio_newsite/nezavisimosti/16_nezavisimosti.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/nezavisimosti/16_nezavisimosti.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/nezavisimosti/17_nezavisimosti.webp"
+                    href="https://i-project.by/portfolio_newsite/nezavisimosti/17_nezavisimosti.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/nezavisimosti/17_nezavisimosti.jpg" alt="" />
@@ -226,7 +226,7 @@ const nezavisimosti = () => {
               <div class="content_images">
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/nezavisimosti/18_nezavisimosti.webp"
+                    href="https://i-project.by/portfolio_newsite/nezavisimosti/18_nezavisimosti.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/nezavisimosti/18_nezavisimosti.jpg" alt="" />
@@ -240,13 +240,13 @@ const nezavisimosti = () => {
               <div class="content_images">
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/nezavisimosti/11_nezavisimosti.webp"
+                    href="https://i-project.by/portfolio_newsite/nezavisimosti/11_nezavisimosti.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/nezavisimosti/11_nezavisimosti.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/nezavisimosti/12_nezavisimosti.webp"
+                    href="https://i-project.by/portfolio_newsite/nezavisimosti/12_nezavisimosti.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/nezavisimosti/12_nezavisimosti.jpg" alt="" />
@@ -254,13 +254,13 @@ const nezavisimosti = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/nezavisimosti/13_nezavisimosti.webp"
+                    href="https://i-project.by/portfolio_newsite/nezavisimosti/13_nezavisimosti.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/nezavisimosti/13_nezavisimosti.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/nezavisimosti/14_nezavisimosti.webp"
+                    href="https://i-project.by/portfolio_newsite/nezavisimosti/14_nezavisimosti.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/nezavisimosti/14_nezavisimosti.jpg" alt="" />

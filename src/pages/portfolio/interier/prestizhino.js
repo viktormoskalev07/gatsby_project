@@ -9,8 +9,8 @@ const prestizhino = () => {
   return (
     <Layout>
       <Seo  title={"Дизайн интерьера 160 м2, ЖK «Престижино» | I-PROJECT"} description={"Объединение двух квартир в одну. Фотографии интерьера современной квартиры после перепланировки в Минске."}
-            location={"https://www.i-project.by/portfolio/interier/prestizhino"}
-            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
+            location={"https://i-project.by/portfolio/interier/prestizhino"}
+            image={"https://i-project.by/portfolio_newsite/prestizhino/01_prestizhino.webp"}/>
       <Fancybox>
         <div class="wrapper">
           <div class="project">
@@ -19,7 +19,7 @@ const prestizhino = () => {
           </div>
           <div class="project_main_photo">
             <a
-              href="https://www.i-project.by/portfolio_newsite/prestizhino/01_prestizhino.webp"
+              href="https://i-project.by/portfolio_newsite/prestizhino/01_prestizhino.webp"
               data-fancybox="gallery"
             >
               <StaticImage src="../../../images/portfolio/prestizhino/01_prestizhino.jpg" alt="" />
@@ -45,19 +45,19 @@ const prestizhino = () => {
               </div>
               <div class="content_task_block">
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/prestizhino/02_prestizhino.webp"
+                  href="https://i-project.by/portfolio_newsite/prestizhino/02_prestizhino.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/prestizhino/02_prestizhino.jpg" alt="" />
                 </a>
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/prestizhino/08_prestizhino.webp"
+                  href="https://i-project.by/portfolio_newsite/prestizhino/08_prestizhino.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/prestizhino/08_prestizhino.jpg" alt="" />
                 </a>
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/prestizhino/03_prestizhino.webp"
+                  href="https://i-project.by/portfolio_newsite/prestizhino/03_prestizhino.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/prestizhino/03_prestizhino.jpg" alt="" />
@@ -71,13 +71,13 @@ const prestizhino = () => {
                 <h2 class="content_h2">Планировка квартиры</h2>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/prestizhino/19_prestizhino.webp"
+                    href="https://i-project.by/portfolio_newsite/prestizhino/19_prestizhino.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/prestizhino/19_prestizhino.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/prestizhino/20_prestizhino.webp"
+                    href="https://i-project.by/portfolio_newsite/prestizhino/20_prestizhino.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/prestizhino/20_prestizhino.jpg" alt="" />
@@ -88,7 +88,7 @@ const prestizhino = () => {
                 <h2 class="content_h2">Помещения</h2>
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/prestizhino/01_prestizhino.webp"
+                    href="https://i-project.by/portfolio_newsite/prestizhino/01_prestizhino.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/prestizhino/01_prestizhino.jpg" alt="" />
@@ -96,13 +96,13 @@ const prestizhino = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/prestizhino/02_prestizhino.webp"
+                    href="https://i-project.by/portfolio_newsite/prestizhino/02_prestizhino.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/prestizhino/02_prestizhino.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/prestizhino/03_prestizhino.webp"
+                    href="https://i-project.by/portfolio_newsite/prestizhino/03_prestizhino.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/prestizhino/03_prestizhino.jpg" alt="" />
@@ -112,7 +112,7 @@ const prestizhino = () => {
               <div class="content_images">
                 <div class="content_images_one">
                 <a
-                    href="https://www.i-project.by/portfolio_newsite/prestizhino/04_prestizhino.webp"
+                    href="https://i-project.by/portfolio_newsite/prestizhino/04_prestizhino.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/prestizhino/04_prestizhino.jpg" alt="" />
@@ -120,13 +120,13 @@ const prestizhino = () => {
                 </div>
                 <div class="content_images_two">
                 <a
-                    href="https://www.i-project.by/portfolio_newsite/prestizhino/05_prestizhino.webp"
+                    href="https://i-project.by/portfolio_newsite/prestizhino/05_prestizhino.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/prestizhino/05_prestizhino.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/prestizhino/06_prestizhino.webp"
+                    href="https://i-project.by/portfolio_newsite/prestizhino/06_prestizhino.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/prestizhino/06_prestizhino.jpg" alt="" />
@@ -134,13 +134,13 @@ const prestizhino = () => {
                 </div>
                 <div class="content_images_two">
                 <a
-                    href="https://www.i-project.by/portfolio_newsite/prestizhino/07_prestizhino.webp"
+                    href="https://i-project.by/portfolio_newsite/prestizhino/07_prestizhino.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/prestizhino/07_prestizhino.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/prestizhino/08_prestizhino.webp"
+                    href="https://i-project.by/portfolio_newsite/prestizhino/08_prestizhino.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/prestizhino/08_prestizhino.jpg" alt="" />
@@ -150,7 +150,7 @@ const prestizhino = () => {
               <div class="content_images">
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/prestizhino/09_prestizhino.webp"
+                    href="https://i-project.by/portfolio_newsite/prestizhino/09_prestizhino.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/prestizhino/09_prestizhino.jpg" alt="" />
@@ -158,13 +158,13 @@ const prestizhino = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/prestizhino/10_prestizhino.webp"
+                    href="https://i-project.by/portfolio_newsite/prestizhino/10_prestizhino.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/prestizhino/10_prestizhino.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/prestizhino/11_prestizhino.webp"
+                    href="https://i-project.by/portfolio_newsite/prestizhino/11_prestizhino.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/prestizhino/11_prestizhino.jpg" alt="" />
@@ -172,13 +172,13 @@ const prestizhino = () => {
                 </div>
                 <div class="content_images_two">
                 <a
-                    href="https://www.i-project.by/portfolio_newsite/prestizhino/12_prestizhino.webp"
+                    href="https://i-project.by/portfolio_newsite/prestizhino/12_prestizhino.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/prestizhino/12_prestizhino.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/prestizhino/13_prestizhino.webp"
+                    href="https://i-project.by/portfolio_newsite/prestizhino/13_prestizhino.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/prestizhino/13_prestizhino.jpg" alt="" />
@@ -190,7 +190,7 @@ const prestizhino = () => {
           <div class="content_images">
             <div class="content_images_one_big">
               <a
-                href="https://www.i-project.by/portfolio_newsite/prestizhino/14_prestizhino.webp"
+                href="https://i-project.by/portfolio_newsite/prestizhino/14_prestizhino.webp"
                 data-fancybox="gallery"
               >
                 <StaticImage src="../../../images/portfolio/prestizhino/14_prestizhino.jpg" alt="" />
@@ -202,7 +202,7 @@ const prestizhino = () => {
               <div class="content_images">
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/prestizhino/15_prestizhino.webp"
+                    href="https://i-project.by/portfolio_newsite/prestizhino/15_prestizhino.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/prestizhino/15_prestizhino.jpg" alt="" />
@@ -210,13 +210,13 @@ const prestizhino = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/prestizhino/16_prestizhino.webp"
+                    href="https://i-project.by/portfolio_newsite/prestizhino/16_prestizhino.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/prestizhino/16_prestizhino.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/prestizhino/17_prestizhino.webp"
+                    href="https://i-project.by/portfolio_newsite/prestizhino/17_prestizhino.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/prestizhino/17_prestizhino.jpg" alt="" />
@@ -224,7 +224,7 @@ const prestizhino = () => {
                 </div>
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/prestizhino/18_prestizhino.webp"
+                    href="https://i-project.by/portfolio_newsite/prestizhino/18_prestizhino.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/prestizhino/18_prestizhino.jpg" alt="" />

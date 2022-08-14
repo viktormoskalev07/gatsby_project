@@ -6,20 +6,23 @@ import Fancybox from "../../components/fancybox.js";
 import Masonry from 'react-masonry-css'
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 import BreadcrumbsArticles from "../../components/breadcrumbs-articles.js";
+import { PageViewCounter } from "../../subitems/pageViewsCounter/pageViewCounter"
+import { GetPageView } from "../../subitems/pageViewsCounter/getPageView"
 import Seo from "../../components/seo"
 
-const lighting = () => {
+const lighting = ({location }) => {
   return (
     <Layout>
       <Seo  title={"Освещение в интерьере: рекомендации по подбору | I-PROJECT"} description={"Разделяем 3 вида источника света по назначению: дизайнерский, навигационный и рассеянный свет. Разбираемся где их использовать."}
-            location={"https://www.i-project.by/articles/lighting"}
-            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
+            location={"https://i-project.by/articles/lighting"}
+            image={"https://i-project.by/portfolio_newsite/articles/article_1-10.jpg"}/>
       <section class="article">
         <BreadcrumbsArticles />
         <div class="article_bcg article_bcg10">
           <div class="wrapper">
             <div class="article_title">
               <h1 class="article_title_h1">Освещение в&nbsp;интерьере: рекомендации по&nbsp;подбору</h1>
+              <p class="article_view_number article_view_number_hwhite"> <PageViewCounter  location={location}  /></p>
             </div>
           </div>
         </div>
@@ -29,6 +32,7 @@ const lighting = () => {
               <ul>
                 <li><AnchorLink to="/articles/lighting/#lighting_1" title="Какие бывают источники света" /></li>
                 <li><AnchorLink to="/articles/lighting/#lighting_2" title="Световые сценарии" /></li>
+                <li><AnchorLink to="/articles/lighting/#lighting_3" title="Подсветка для мебели" /></li>
               </ul>
             </div>
           </div> 
@@ -46,10 +50,10 @@ const lighting = () => {
                   <div class="content_images">
                     <div class="content_images_one">
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/storojevskaya/27_storojevskaya.webp"
+                        href="https://i-project.by/portfolio_newsite/storojevskaya/27_storojevskaya.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/storojevskaya/27_storojevskaya.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/storojevskaya/27_storojevskaya.jpg" alt="Освещение в мастер спальне" />
                       </a>
                     </div>
                   </div>
@@ -60,16 +64,16 @@ const lighting = () => {
                   <div class="content_images">
                     <div class="content_images_two">
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/korolya/01_korolya.webp"
+                        href="https://i-project.by/portfolio_newsite/korolya/01_korolya.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/korolya/01_korolya.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/korolya/01_korolya.jpg" alt="Светильники в интерьере кухни и столовой" />
                       </a>
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/sunny/34_sunny.webp"
+                        href="https://i-project.by/portfolio_newsite/sunny/34_sunny.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/sunny/34_sunny.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/sunny/34_sunny.jpg" alt="Гирлянда светильников в детской комнате" />
                       </a>
                     </div>
                   </div>
@@ -87,6 +91,14 @@ const lighting = () => {
                     <p class="content_p">Каждый источник света, интегрированный в&nbsp;систему &laquo;умный дом&raquo;, можно диммировать или регулировать по&nbsp;яркости.</p>
                     <p class="content_p">Зачастую в&nbsp;подсветках кроме теплого или нейтрального света доступны разноцветные вариации&nbsp;&mdash; красный, зеленый, розовый и&nbsp;другие. Этот свет является специфическим, и&nbsp;его рекомендуется использовать только для особых зон, например, домашнего кинотеатра или лаунж-зоны.</p>
                   </div>
+                  <h2 class="content_h2" id="lighting_3">Подсветка для мебели</h2>
+                  <div class="content_text">
+                    <p class="content_p">Подсветка во&nbsp;внутренних секциях мебели имеет не&nbsp;только практическое, но&nbsp;и&nbsp;эстетическое предназначение. Она облегчает поиск нужных вещей даже при выключенном основном освещении, а&nbsp;также добавляет в&nbsp;интерьер эффект новизны и&nbsp;современности.</p>
+                    <p class="content_p">Подсвечивать можно любые элементы мебели, в&nbsp;том числе, ящики, полки, дверцы.</p>
+                    <p class="content_p">Для внутренней подсветки шкафов и&nbsp;ящиков могут применяться светодиодные или люминесцентные светильники в&nbsp;виде лент, фонарей или миниатюрных спотов. С&nbsp;помощью светодиодных лент можно подсветить ниши в&nbsp;шкафах и&nbsp;стенах, нижнюю часть кровати или дивана.</p>
+                    <p class="content_p">Встраиваемые светильники используют, чтобы подсветить полки в&nbsp;шкафах со&nbsp;стеклянными дверцами или без них. В&nbsp;закрытые ящики можно встроить сенсорную подсветку, вибродатчик или ИК-сенсор&nbsp;&mdash; свет будет автоматически включаться при открывании дверцы.</p>
+                    <p class="content_p">В&nbsp;случае с&nbsp;подсветкой мебели главное соблюдать правило умеренности. При грамотном подходе такой свет гармонично дополнит интерьер и&nbsp;упростит жизнь хозяевам.</p>
+                  </div>
                 </div>
               </Fancybox>
             </div>
@@ -100,15 +112,19 @@ const lighting = () => {
             columnClassName="my-masonry-grid_column">
             <Link to="/articles/hranenie" className="articles_page_item articles_page_item6">
               <h4 className="articles_page_item_title_medium articles_page_item_title_black">Как организовать хранение вещей в&nbsp;доме и&nbsp;квартире</h4>
+              <p className="articles_page_item_view_number articles_page_item_view_number_hblack"> <GetPageView slug={'/articles/hranenie'}/> </p>
             </Link>
             <Link to="/articles/spalnya" className="articles_page_item articles_page_item5">
               <h4 className="articles_page_item_title_small articles_page_item_title_white">Спальня мечты: секреты идеального дизайна</h4>
+              <p className="articles_page_item_view_number articles_page_item_view_number_hwhite"> <GetPageView slug={'/articles/spalnya'}/> </p>
             </Link>
             <Link to="/articles/architectura" className="articles_page_item articles_page_item4">
               <h4 className="articles_page_item_title_small articles_page_item_title_white">Архитектура частного дома: на&nbsp;что важно обратить внимание</h4>
+              <p className="articles_page_item_view_number articles_page_item_view_number_hwhite"> <GetPageView slug={'/articles/architectura'}/> </p>
             </Link>
             <Link to="/articles/krovlya" className="articles_page_item articles_page_item2">
               <h4 className="articles_page_item_title_medium articles_page_item_title_white">Плоская и&nbsp;скатная кровля: за&nbsp;и&nbsp;против</h4>
+              <p className="articles_page_item_view_number articles_page_item_view_number_hwhite"> <GetPageView slug={'/articles/krovlya'}/> </p>
             </Link>
           </Masonry>
         </div>

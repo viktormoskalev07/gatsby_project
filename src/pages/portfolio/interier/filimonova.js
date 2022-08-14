@@ -9,8 +9,8 @@ const filimonova = () => {
   return (
     <Layout>
       <Seo  title={"Дизайн интерьера квартиры 140 м2, ЖК «Аквамарин»  | I-PROJECT"} description={"Фотографии интерьера современной квартиры после перепланировки в Минске."}
-            location={"https://www.i-project.by/portfolio/interier/filimonova"}
-            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
+            location={"https://i-project.by/portfolio/interier/filimonova"}
+            image={"https://i-project.by/portfolio_newsite/filimonova/01_filimonova.webp"}/>
       <Fancybox>
         <div class="wrapper">
           <div class="project">
@@ -19,7 +19,7 @@ const filimonova = () => {
           </div>
           <div class="project_main_photo">
             <a
-              href="https://www.i-project.by/portfolio_newsite/filimonova/06_filimonova.webp"
+              href="https://i-project.by/portfolio_newsite/filimonova/06_filimonova.webp"
               data-fancybox="gallery"
             >
               <StaticImage src="../../../images/portfolio/filimonova/06_filimonova.jpg" alt="" />
@@ -45,19 +45,19 @@ const filimonova = () => {
               </div>
               <div class="content_task_block">
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/filimonova/01_filimonova.webp"
+                  href="https://i-project.by/portfolio_newsite/filimonova/01_filimonova.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/filimonova/01_filimonova.jpg" alt="" />
                 </a>
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/filimonova/04_filimonova.webp"
+                  href="https://i-project.by/portfolio_newsite/filimonova/04_filimonova.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/filimonova/04_filimonova.jpg" alt="" />
                 </a>
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/filimonova/11_filimonova.webp"
+                  href="https://i-project.by/portfolio_newsite/filimonova/11_filimonova.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/filimonova/11_filimonova.jpg" alt="" />
@@ -71,13 +71,13 @@ const filimonova = () => {
                 <h2 class="content_h2">Планировка квартиры</h2>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/filimonova/15_filimonova.webp"
+                    href="https://i-project.by/portfolio_newsite/filimonova/15_filimonova.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/filimonova/15_filimonova.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/filimonova/16_filimonova.webp"
+                    href="https://i-project.by/portfolio_newsite/filimonova/16_filimonova.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/filimonova/16_filimonova.jpg" alt="" />
@@ -88,7 +88,7 @@ const filimonova = () => {
                 <h2 class="content_h2">Помещения</h2>
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/filimonova/01_filimonova.webp"
+                    href="https://i-project.by/portfolio_newsite/filimonova/01_filimonova.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/filimonova/01_filimonova.jpg" alt="" />
@@ -96,13 +96,13 @@ const filimonova = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/filimonova/02_filimonova.webp"
+                    href="https://i-project.by/portfolio_newsite/filimonova/02_filimonova.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/filimonova/02_filimonova.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/filimonova/03_filimonova.webp"
+                    href="https://i-project.by/portfolio_newsite/filimonova/03_filimonova.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/filimonova/03_filimonova.jpg" alt="" />
@@ -112,7 +112,7 @@ const filimonova = () => {
               <div class="content_images">
                 <div class="content_images_one">
                 <a
-                    href="https://www.i-project.by/portfolio_newsite/filimonova/04_filimonova.webp"
+                    href="https://i-project.by/portfolio_newsite/filimonova/04_filimonova.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/filimonova/04_filimonova.jpg" alt="" />
@@ -120,13 +120,13 @@ const filimonova = () => {
                 </div>
                 <div class="content_images_two">
                 <a
-                    href="https://www.i-project.by/portfolio_newsite/filimonova/05_filimonova.webp"
+                    href="https://i-project.by/portfolio_newsite/filimonova/05_filimonova.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/filimonova/05_filimonova.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/filimonova/06_filimonova.webp"
+                    href="https://i-project.by/portfolio_newsite/filimonova/06_filimonova.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/filimonova/06_filimonova.jpg" alt="" />
@@ -134,13 +134,13 @@ const filimonova = () => {
                 </div>
                 <div class="content_images_two">
                 <a
-                    href="https://www.i-project.by/portfolio_newsite/filimonova/07_filimonova.webp"
+                    href="https://i-project.by/portfolio_newsite/filimonova/07_filimonova.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/filimonova/07_filimonova.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/filimonova/08_filimonova.webp"
+                    href="https://i-project.by/portfolio_newsite/filimonova/08_filimonova.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/filimonova/08_filimonova.jpg" alt="" />
@@ -152,7 +152,7 @@ const filimonova = () => {
           <div class="content_images">
             <div class="content_images_one_big">
              <a
-                href="https://www.i-project.by/portfolio_newsite/filimonova/09_filimonova.webp"
+                href="https://i-project.by/portfolio_newsite/filimonova/09_filimonova.webp"
                 data-fancybox="gallery"
               >
                 <StaticImage src="../../../images/portfolio/filimonova/09_filimonova.jpg" alt="" />
@@ -164,7 +164,7 @@ const filimonova = () => {
               <div class="content_images">
                 <div class="content_images_one">
                  <a
-                    href="https://www.i-project.by/portfolio_newsite/filimonova/10_filimonova.webp"
+                    href="https://i-project.by/portfolio_newsite/filimonova/10_filimonova.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/filimonova/10_filimonova.jpg" alt="" />
@@ -172,13 +172,13 @@ const filimonova = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/filimonova/11_filimonova.webp"
+                    href="https://i-project.by/portfolio_newsite/filimonova/11_filimonova.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/filimonova/11_filimonova.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/filimonova/12_filimonova.webp"
+                    href="https://i-project.by/portfolio_newsite/filimonova/12_filimonova.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/filimonova/12_filimonova.jpg" alt="" />
@@ -186,13 +186,13 @@ const filimonova = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/filimonova/13_filimonova.webp"
+                    href="https://i-project.by/portfolio_newsite/filimonova/13_filimonova.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/filimonova/13_filimonova.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/filimonova/14_filimonova.webp"
+                    href="https://i-project.by/portfolio_newsite/filimonova/14_filimonova.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/filimonova/14_filimonova.jpg" alt="" />

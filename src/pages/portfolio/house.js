@@ -10,14 +10,14 @@ const portfolioHouse = () => {
   return (
     <Layout>
       <Seo  title={"Портфолио интерьеров домов | I-PROJECT"} description={"Интерьеры продуманных домов, 3D визуализации интерьеров, реальные фотографии ✦ Большой опыт в реконструкции"}
-            location={"https://www.i-project.by/portfolio/house"}
-            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
+            location={"https://i-project.by/portfolio/house"}
+            image={"https://i-project.by/portfolio_newsite/dom_na_holme/01_dom_na_holme.webp"}/>
       <div class="wrapper">
-        <h1 class="portfolio_title">Портфолио</h1>
+        <h2 class="portfolio_title">Портфолио</h2>
         <AnimatedLine />
         <ul class="portfolio_category">
           <li class="portfolio_category_li">
-            <Link to="/portfolio/" className="portfolio_category_link">Все проекты</Link>
+            <Link to="/portfolio" className="portfolio_category_link">Все проекты</Link>
           </li>
           <li class="portfolio_category_li">
             <Link to="/portfolio/interier" className="portfolio_category_link">Интерьеры</Link>
@@ -32,7 +32,7 @@ const portfolioHouse = () => {
             <Link to="/portfolio/apartment" className="portfolio_category_link">Квартиры</Link>
           </li>
           <li class="portfolio_category_li">
-            <Link to="/portfolio/house" className="portfolio_category_link portfolio_category_link_active">Дома</Link>
+            <Link to="/portfolio/house" className="portfolio_category_link portfolio_category_link_active"><h1>Дома</h1></Link>
           </li>
           <li class="portfolio_category_li">
             <Link to="/portfolio/office" className="portfolio_category_link">Офисы</Link>
@@ -40,10 +40,10 @@ const portfolioHouse = () => {
         </ul>
         <ul class="portfolio_category_mob">
           <li class="portfolio_category_mob_li">
-            <Link to="/portfolio/house" className="portfolio_category_mob_link portfolio_category_mob_link_active">Дома</Link>
+            <Link to="/portfolio/house" className="portfolio_category_mob_link portfolio_category_mob_link_active"><h1>Дома</h1></Link>
           </li>
           <li class="portfolio_category_mob_li">
-            <Link to="/portfolio/" className="portfolio_category_mob_link">Все проекты</Link>
+            <Link to="/portfolio" className="portfolio_category_mob_link">Все проекты</Link>
           </li>
           <li class="portfolio_category_mob_li">
             <Link to="/portfolio/interier" className="portfolio_category_mob_link">Интерьеры</Link>
@@ -65,7 +65,7 @@ const portfolioHouse = () => {
           breakpointCols={breakpointColumnsObj}
           className="portfolio_grid"
           columnClassName="my-masonry-grid_column">
-          <Link to="/portfolio/architecture/luban/" className="portfolio_grid_link">
+          <Link to="/portfolio/architecture/luban" className="portfolio_grid_link">
             <StaticImage src="../../images/portfolio/luban/00_luban.jpg" alt="" />
             <div class="portfolio_grid_block">
               <h2 className="portfolio_grid_block_title">Дом для жизни. Архитектура, 400м<sup>2</sup></h2>
@@ -78,21 +78,21 @@ const portfolioHouse = () => {
               <h2 className="portfolio_grid_block_title">Дом у&nbsp;моря. Архитектурное решение + Интерьер, 1000м<sup>2</sup></h2>
             </div>
           </Link>
-          <Link to="/portfolio/interier/interier-baltic-house/" className="portfolio_grid_link">
+          <Link to="/portfolio/interier/interier-baltic-house" className="portfolio_grid_link">
             <StaticImage src="../../images/portfolio/baltic_house/interior/00_baltic_home_interior.jpg" alt="" />
             <div class="portfolio_grid_block">
               <h2 className="portfolio_grid_block_title">Дом с&nbsp;балтийским характером. Интерьер, 500м<sup>2</sup></h2>
               <p className="portfolio_grid_block_realize">Реализовано</p>
             </div>
           </Link>
-          <Link to="/portfolio/architecture/exterier-baltic-house/" className="portfolio_grid_link">
+          <Link to="/portfolio/architecture/exterier-baltic-house" className="portfolio_grid_link">
             <StaticImage src="../../images/portfolio/baltic_house/exterior/00_baltic_home_exterior.jpg" alt="" />
             <div class="portfolio_grid_block">
               <h2 className="portfolio_grid_block_title">Дом с&nbsp;балтийским характером. Экстерьер, 500&nbsp;м<sup>2</sup></h2>
               <p className="portfolio_grid_block_realize">Реализовано</p>
             </div>
           </Link>
-          <Link to="/portfolio/interier/simple-house/" className="portfolio_grid_link">
+          <Link to="/portfolio/interier/simple-house" className="portfolio_grid_link">
             <StaticImage src="../../images/portfolio/simple_house/00_simple_house.jpg" alt="" />
             <div class="portfolio_grid_block">
               <h2 className="portfolio_grid_block_title">Дизайн интерьера обычного дома, 250м<sup>2</sup></h2>

@@ -10,8 +10,8 @@ const baikonur = () => {
   return (
     <Layout>
       <Seo  title={"Дизайн офисов в ЖК Байконур | I-PROJECT"} description={"Разработали современный интерьер со сложной исходной геометрией исходного пространства."}
-            location={"https://www.i-project.by/portfolio/interier/baikonur"}
-            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
+            location={"https://i-project.by/portfolio/interier/baikonur"}
+            image={"https://i-project.by/portfolio_newsite/baikonur/01_baikonur.webp"}/>
       <Fancybox>
         <div class="wrapper">
           <div class="project">
@@ -20,7 +20,7 @@ const baikonur = () => {
           </div>
           <div class="project_main_photo">
             <a
-              href="https://www.i-project.by/portfolio_newsite/baikonur/01_baikonur.webp"
+              href="https://i-project.by/portfolio_newsite/baikonur/01_baikonur.webp"
               data-fancybox="gallery"
             >
               <StaticImage src="../../../images/portfolio/baikonur/01_baikonur.jpg" alt="" />
@@ -49,19 +49,19 @@ const baikonur = () => {
               </div>
               <div class="content_task_block" id="anchor_1">
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/baikonur/04_baikonur.webp"
+                  href="https://i-project.by/portfolio_newsite/baikonur/04_baikonur.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/baikonur/04_baikonur.jpg" alt="" />
                 </a>
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/baikonur/11_baikonur.webp"
+                  href="https://i-project.by/portfolio_newsite/baikonur/11_baikonur.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/baikonur/11_baikonur.jpg" alt="" />
                 </a>
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/baikonur/07_baikonur.webp"
+                  href="https://i-project.by/portfolio_newsite/baikonur/07_baikonur.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/baikonur/07_baikonur.jpg" alt="" />
@@ -75,13 +75,13 @@ const baikonur = () => {
                 <h2 class="content_h2" id="anchor_2">План</h2>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/baikonur/15_baikonur.webp"
+                    href="https://i-project.by/portfolio_newsite/baikonur/15_baikonur.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/baikonur/15_baikonur.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/baikonur/16_baikonur.webp"
+                    href="https://i-project.by/portfolio_newsite/baikonur/16_baikonur.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/baikonur/16_baikonur.jpg" alt="" />
@@ -92,7 +92,7 @@ const baikonur = () => {
                 <h2 class="content_h2" id="anchor_3">Кабинет руководителя</h2>
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/baikonur/12_baikonur.webp"
+                    href="https://i-project.by/portfolio_newsite/baikonur/12_baikonur.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/baikonur/12_baikonur.jpg" alt="" />
@@ -100,13 +100,13 @@ const baikonur = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/baikonur/13_baikonur.webp"
+                    href="https://i-project.by/portfolio_newsite/baikonur/13_baikonur.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/baikonur/13_baikonur.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/baikonur/08_baikonur.webp"
+                    href="https://i-project.by/portfolio_newsite/baikonur/08_baikonur.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/baikonur/08_baikonur.jpg" alt="" />
@@ -117,7 +117,7 @@ const baikonur = () => {
                 <h2 class="content_h2" id="anchor_4">Совмещенная зона с&nbsp;рабочими местами и&nbsp;мини-кухней</h2>
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/baikonur/14_baikonur.webp"
+                    href="https://i-project.by/portfolio_newsite/baikonur/14_baikonur.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/baikonur/14_baikonur.jpg" alt="" />
@@ -125,13 +125,13 @@ const baikonur = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/baikonur/02_baikonur.webp"
+                    href="https://i-project.by/portfolio_newsite/baikonur/02_baikonur.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/baikonur/02_baikonur.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/baikonur/03_baikonur.webp"
+                    href="https://i-project.by/portfolio_newsite/baikonur/03_baikonur.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/baikonur/03_baikonur.jpg" alt="" />
@@ -142,13 +142,13 @@ const baikonur = () => {
                 <h2 class="content_h2" id="anchor_5">Переговорная с&nbsp;рабочими местами</h2>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/baikonur/05_baikonur.webp"
+                    href="https://i-project.by/portfolio_newsite/baikonur/05_baikonur.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/baikonur/05_baikonur.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/baikonur/06_baikonur.webp"
+                    href="https://i-project.by/portfolio_newsite/baikonur/06_baikonur.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/baikonur/06_baikonur.jpg" alt="" />
@@ -159,13 +159,13 @@ const baikonur = () => {
                 <h2 class="content_h2" id="anchor_6">Приемная</h2>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/baikonur/09_baikonur.webp"
+                    href="https://i-project.by/portfolio_newsite/baikonur/09_baikonur.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/baikonur/09_baikonur.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/baikonur/10_baikonur.webp"
+                    href="https://i-project.by/portfolio_newsite/baikonur/10_baikonur.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/baikonur/10_baikonur.jpg" alt="" />

@@ -16,8 +16,8 @@ const process = () => {
   return (
     <Layout>
       <Seo  title={"Как работают над проектом в дизайн-студии | I-PROJECT"} description={"На примере квартиры показываем все 7 этапов: от проектирования до реализации."}
-            location={"https://www.i-project.by/process"}
-            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
+            location={"https://i-project.by/process"}
+            image={"https://i-project.by/portfolio_newsite/korolya/01_korolya.webp"}/>
       <section>
         <div class="process_video">
           <Video  mobileSrc={ProcessVideoMobile} desktopSrc={ProcessVideo} />
@@ -68,13 +68,13 @@ const process = () => {
                 <div class="content_images">
                   <div class="content_images_two">
                     <a
-                      href="https://www.i-project.by/portfolio_newsite/process/process_img_2.webp"
+                      href="https://i-project.by/portfolio_newsite/process/process_img_2.webp"
                       data-fancybox="gallery-1"
                     >
                       <StaticImage src="../images/process/process_img_2.jpg" alt="Как строится работа в i-project" />
                     </a>
                     <a
-                      href="https://www.i-project.by/portfolio_newsite/process/process_img_3.webp"
+                      href="https://i-project.by/portfolio_newsite/process/process_img_3.webp"
                       data-fancybox="gallery-1"
                     >
                       <StaticImage src="../images/process/process_img_3.jpg" alt="Как строится работа в i-project" />
@@ -82,13 +82,13 @@ const process = () => {
                   </div>
                   <div class="content_images_two">
                     <a
-                      href="https://www.i-project.by/portfolio_newsite/process/process_img_4.webp"
+                      href="https://i-project.by/portfolio_newsite/process/process_img_4.webp"
                       data-fancybox="gallery-1"
                     >
                       <StaticImage src="../images/process/process_img_4.jpg" alt="Как строится работа в i-project" />
                     </a>
                     <a
-                      href="https://www.i-project.by/portfolio_newsite/process/process_img_5.webp"
+                      href="https://i-project.by/portfolio_newsite/process/process_img_5.webp"
                       data-fancybox="gallery-1"
                     >
                       <StaticImage src="../images/process/process_img_5.jpg" alt="Как строится работа в i-project" />
@@ -105,13 +105,13 @@ const process = () => {
                 <div class="content_images">
                   <div class="content_images_two">
                     <a
-                      href="https://www.i-project.by/portfolio_newsite/process/process_img_6.webp"
+                      href="https://i-project.by/portfolio_newsite/process/process_img_6.webp"
                       data-fancybox="gallery-2"
                     >
                       <StaticImage src="../images/process/process_img_6.jpg" alt="Как строится работа в i-project" />
                     </a>
                     <a
-                      href="https://www.i-project.by/portfolio_newsite/process/process_img_7.webp"
+                      href="https://i-project.by/portfolio_newsite/process/process_img_7.webp"
                       data-fancybox="gallery-2"
                     >
                       <StaticImage src="../images/process/process_img_7.jpg" alt="Как строится работа в i-project" />
@@ -119,19 +119,19 @@ const process = () => {
                   </div>
                   <div class="content_images_three">
                     <a
-                      href="https://www.i-project.by/portfolio_newsite/process/process_img_8.webp"
+                      href="https://i-project.by/portfolio_newsite/process/process_img_8.webp"
                       data-fancybox="gallery-2"
                     >
                       <StaticImage src="../images/process/process_img_8.jpg" alt="Как строится работа в i-project" />
                     </a>
                     <a
-                      href="https://www.i-project.by/portfolio_newsite/process/process_img_9.webp"
+                      href="https://i-project.by/portfolio_newsite/process/process_img_9.webp"
                       data-fancybox="gallery-2"
                     >
                       <StaticImage src="../images/process/process_img_9.jpg" alt="Как строится работа в i-project" />
                     </a>
                     <a
-                      href="https://www.i-project.by/portfolio_newsite/process/process_img_10.webp"
+                      href="https://i-project.by/portfolio_newsite/process/process_img_10.webp"
                       data-fancybox="gallery-2"
                     >
                       <StaticImage src="../images/process/process_img_10.jpg" alt="Как строится работа в i-project" />
@@ -139,25 +139,25 @@ const process = () => {
                   </div>
                   <div class="content_images_four">
                     <a
-                      href="https://www.i-project.by/portfolio_newsite/process/process_img_11.webp"
+                      href="https://i-project.by/portfolio_newsite/process/process_img_11.webp"
                       data-fancybox="gallery-2"
                     >
                       <StaticImage src="../images/process/process_img_11.jpg" alt="Как строится работа в i-project" />
                     </a>
                     <a
-                      href="https://www.i-project.by/portfolio_newsite/process/process_img_12.webp"
+                      href="https://i-project.by/portfolio_newsite/process/process_img_12.webp"
                       data-fancybox="gallery-2"
                     >
                       <StaticImage src="../images/process/process_img_12.jpg" alt="Как строится работа в i-project" />
                     </a>
                     <a
-                      href="https://www.i-project.by/portfolio_newsite/process/process_img_13.webp"
+                      href="https://i-project.by/portfolio_newsite/process/process_img_13.webp"
                       data-fancybox="gallery-2"
                     >
                       <StaticImage src="../images/process/process_img_13.jpg" alt="Как строится работа в i-project" />
                     </a>
                     <a
-                      href="https://www.i-project.by/portfolio_newsite/process/process_img_14.webp"
+                      href="https://i-project.by/portfolio_newsite/process/process_img_14.webp"
                       data-fancybox="gallery-2"
                     >
                       <StaticImage src="../images/process/process_img_14.jpg" alt="Как строится работа в i-project" />
@@ -165,25 +165,25 @@ const process = () => {
                   </div>
                   <div class="content_images_four">
                     <a
-                      href="https://www.i-project.by/portfolio_newsite/process/process_img_15.webp"
+                      href="https://i-project.by/portfolio_newsite/process/process_img_15.webp"
                       data-fancybox="gallery-2"
                     >
                       <StaticImage src="../images/process/process_img_15.jpg" alt="Как строится работа в i-project" />
                     </a>
                     <a
-                      href="https://www.i-project.by/portfolio_newsite/process/process_img_16.webp"
+                      href="https://i-project.by/portfolio_newsite/process/process_img_16.webp"
                       data-fancybox="gallery-2"
                     >
                       <StaticImage src="../images/process/process_img_16.jpg" alt="Как строится работа в i-project" />
                     </a>
                     <a
-                      href="https://www.i-project.by/portfolio_newsite/process/process_img_17.webp"
+                      href="https://i-project.by/portfolio_newsite/process/process_img_17.webp"
                       data-fancybox="gallery-2"
                     >
                       <StaticImage src="../images/process/process_img_17.jpg" alt="Как строится работа в i-project" />
                     </a>
                     <a
-                      href="https://www.i-project.by/portfolio_newsite/process/process_img_18.webp"
+                      href="https://i-project.by/portfolio_newsite/process/process_img_18.webp"
                       data-fancybox="gallery-2"
                     >
                       <StaticImage src="../images/process/process_img_18.jpg" alt="Как строится работа в i-project" />
@@ -191,25 +191,25 @@ const process = () => {
                   </div>
                   <div class="content_images_four">
                     <a
-                      href="https://www.i-project.by/portfolio_newsite/process/process_img_19.webp"
+                      href="https://i-project.by/portfolio_newsite/process/process_img_19.webp"
                       data-fancybox="gallery-2"
                     >
                       <StaticImage src="../images/process/process_img_19.jpg" alt="Как строится работа в i-project" />
                     </a>
                     <a
-                      href="https://www.i-project.by/portfolio_newsite/process/process_img_20.webp"
+                      href="https://i-project.by/portfolio_newsite/process/process_img_20.webp"
                       data-fancybox="gallery-2"
                     >
                       <StaticImage src="../images/process/process_img_20.jpg" alt="Как строится работа в i-project" />
                     </a>
                     <a
-                      href="https://www.i-project.by/portfolio_newsite/process/process_img_21.webp"
+                      href="https://i-project.by/portfolio_newsite/process/process_img_21.webp"
                       data-fancybox="gallery-2"
                     >
                       <StaticImage src="../images/process/process_img_21.jpg" alt="Как строится работа в i-project" />
                     </a>
                     <a
-                      href="https://www.i-project.by/portfolio_newsite/process/process_img_22.webp"
+                      href="https://i-project.by/portfolio_newsite/process/process_img_22.webp"
                       data-fancybox="gallery-2"
                     >
                       <StaticImage src="../images/process/process_img_22.jpg" alt="Как строится работа в i-project" />
@@ -268,13 +268,13 @@ const process = () => {
                 <div class="content_images">
                   <div class="content_images_two">
                     <a
-                      href="https://www.i-project.by/portfolio_newsite/d3/01_d3.webp"
+                      href="https://i-project.by/portfolio_newsite/d3/01_d3.webp"
                       data-fancybox="gallery"
                     >
                       <StaticImage src="../images/portfolio/d3/01_d3.jpg" alt="Дизайн квартиры в жилом комплексе «D3», Минск" />
                     </a>
                     <a
-                      href="https://www.i-project.by/portfolio_newsite/d3/02_d3.webp"
+                      href="https://i-project.by/portfolio_newsite/d3/02_d3.webp"
                       data-fancybox="gallery"
                     >
                       <StaticImage src="../images/portfolio/d3/02_d3.jpg" alt="Дизайн квартиры в жилом комплексе «D3», Минск" />
@@ -282,19 +282,19 @@ const process = () => {
                   </div>
                   <div class="content_images_three">
                     <a
-                      href="https://www.i-project.by/portfolio_newsite/d3/15_d3.webp"
+                      href="https://i-project.by/portfolio_newsite/d3/15_d3.webp"
                       data-fancybox="gallery"
                     >
                       <StaticImage src="../images/portfolio/d3/15_d3.jpg" alt="Дизайн квартиры в жилом комплексе «D3», Минск" />
                     </a>
                     <a
-                      href="https://www.i-project.by/portfolio_newsite/d3/03_d3.webp"
+                      href="https://i-project.by/portfolio_newsite/d3/03_d3.webp"
                       data-fancybox="gallery"
                     >
                       <StaticImage src="../images/portfolio/d3/03_d3.jpg" alt="Дизайн квартиры в жилом комплексе «D3», Минск" />
                     </a>
                     <a
-                      href="https://www.i-project.by/portfolio_newsite/d3/12_d3.webp"
+                      href="https://i-project.by/portfolio_newsite/d3/12_d3.webp"
                       data-fancybox="gallery"
                     >
                       <StaticImage src="../images/portfolio/d3/12_d3.jpg" alt="Дизайн квартиры в жилом комплексе «D3», Минск" />
@@ -302,25 +302,25 @@ const process = () => {
                   </div>
                   <div class="content_images_four">
                     <a
-                      href="https://www.i-project.by/portfolio_newsite/d3/11_d3.webp"
+                      href="https://i-project.by/portfolio_newsite/d3/11_d3.webp"
                       data-fancybox="gallery"
                     >
                       <StaticImage src="../images/portfolio/d3/11_d3.jpg" alt="Дизайн квартиры в жилом комплексе «D3», Минск" />
                     </a>
                     <a
-                      href="https://www.i-project.by/portfolio_newsite/d3/23_d3.webp"
+                      href="https://i-project.by/portfolio_newsite/d3/23_d3.webp"
                       data-fancybox="gallery"
                     >
                       <StaticImage src="../images/portfolio/d3/23_d3.jpg" alt="Дизайн квартиры в жилом комплексе «D3», Минск" />
                     </a>
                     <a
-                      href="https://www.i-project.by/portfolio_newsite/d3/09_d3.webp"
+                      href="https://i-project.by/portfolio_newsite/d3/09_d3.webp"
                       data-fancybox="gallery"
                     >
                       <StaticImage src="../images/portfolio/d3/09_d3.jpg" alt="Дизайн квартиры в жилом комплексе «D3», Минск" />
                     </a>
                     <a
-                      href="https://www.i-project.by/portfolio_newsite/d3/05_d3.webp"
+                      href="https://i-project.by/portfolio_newsite/d3/05_d3.webp"
                       data-fancybox="gallery"
                     >
                       <StaticImage src="../images/portfolio/d3/05_d3.jpg" alt="Дизайн квартиры в жилом комплексе «D3», Минск" />
@@ -328,25 +328,25 @@ const process = () => {
                   </div>
                   <div class="content_images_four">
                     <a
-                      href="https://www.i-project.by/portfolio_newsite/d3/20_d3.webp"
+                      href="https://i-project.by/portfolio_newsite/d3/20_d3.webp"
                       data-fancybox="gallery"
                     >
                       <StaticImage src="../images/portfolio/d3/20_d3.jpg" alt="Дизайн квартиры в жилом комплексе «D3», Минск" />
                     </a>
                     <a
-                      href="https://www.i-project.by/portfolio_newsite/d3/19_d3.webp"
+                      href="https://i-project.by/portfolio_newsite/d3/19_d3.webp"
                       data-fancybox="gallery"
                     >
                       <StaticImage src="../images/portfolio/d3/19_d3.jpg" alt="Дизайн квартиры в жилом комплексе «D3», Минск" />
                     </a>
                     <a
-                      href="https://www.i-project.by/portfolio_newsite/d3/14_d3.webp"
+                      href="https://i-project.by/portfolio_newsite/d3/14_d3.webp"
                       data-fancybox="gallery"
                     >
                       <StaticImage src="../images/portfolio/d3/14_d3.jpg" alt="Дизайн квартиры в жилом комплексе «D3», Минск" />
                     </a>
                     <a
-                      href="https://www.i-project.by/portfolio_newsite/d3/07_d3.webp"
+                      href="https://i-project.by/portfolio_newsite/d3/07_d3.webp"
                       data-fancybox="gallery"
                     >
                       <StaticImage src="../images/portfolio/d3/07_d3.jpg" alt="Дизайн квартиры в жилом комплексе «D3», Минск" />
@@ -354,25 +354,25 @@ const process = () => {
                   </div>
                   <div class="content_images_four">
                     <a
-                      href="https://www.i-project.by/portfolio_newsite/d3/26_d3.webp"
+                      href="https://i-project.by/portfolio_newsite/d3/26_d3.webp"
                       data-fancybox="gallery"
                     >
                       <StaticImage src="../images/portfolio/d3/26_d3.jpg" alt="Дизайн квартиры в жилом комплексе «D3», Минск" />
                     </a>
                     <a
-                      href="https://www.i-project.by/portfolio_newsite/d3/06_d3.webp"
+                      href="https://i-project.by/portfolio_newsite/d3/06_d3.webp"
                       data-fancybox="gallery"
                     >
                       <StaticImage src="../images/portfolio/d3/06_d3.jpg" alt="Дизайн квартиры в жилом комплексе «D3», Минск" />
                     </a>
                     <a
-                      href="https://www.i-project.by/portfolio_newsite/d3/16_d3.webp"
+                      href="https://i-project.by/portfolio_newsite/d3/16_d3.webp"
                       data-fancybox="gallery"
                     >
                       <StaticImage src="../images/portfolio/d3/16_d3.jpg" alt="Дизайн квартиры в жилом комплексе «D3», Минск" />
                     </a>
                     <a
-                      href="https://www.i-project.by/portfolio_newsite/d3/24_d3.webp"
+                      href="https://i-project.by/portfolio_newsite/d3/24_d3.webp"
                       data-fancybox="gallery"
                     >
                       <StaticImage src="../images/portfolio/d3/24_d3.jpg" alt="Дизайн квартиры в жилом комплексе «D3», Минск" />

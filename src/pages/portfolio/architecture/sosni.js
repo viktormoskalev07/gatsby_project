@@ -10,8 +10,8 @@ const sosni = () => {
   return (
     <Layout>
       <Seo  title={"Архитектура дома в сосновом бору 750 м2 | I-PROJECT"} description={"Разработали современную архитектуру для дома в сосновом бору."}
-            location={"https://www.i-project.by/portfolio/architecture/sosni"}
-            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
+            location={"https://i-project.by/portfolio/architecture/sosni"}
+            image={"https://i-project.by/portfolio_newsite/sosni/01_sosni.webp"}/>
       <Fancybox>
         <div class="wrapper">
           <div class="project">
@@ -20,7 +20,7 @@ const sosni = () => {
           </div>
           <div class="project_main_photo">
             <a
-              href="https://www.i-project.by/portfolio_newsite/sosni/01_sosni.webp"
+              href="https://i-project.by/portfolio_newsite/sosni/01_sosni.webp"
               data-fancybox="gallery"
             >
               <StaticImage src="../../../images/portfolio/sosni/01_sosni.jpg" alt="" />
@@ -47,13 +47,13 @@ const sosni = () => {
                 <h2 class="content_h2" id="anchor_1">Планировка дома</h2>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/sosni/08_sosni.webp"
+                    href="https://i-project.by/portfolio_newsite/sosni/08_sosni.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/sosni/08_sosni.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/sosni/09_sosni.webp"
+                    href="https://i-project.by/portfolio_newsite/sosni/09_sosni.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/sosni/09_sosni.jpg" alt="" />
@@ -64,7 +64,7 @@ const sosni = () => {
                 <h2 class="content_h2" id="anchor_2">Фасад</h2>
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/sosni/02_sosni.webp"
+                    href="https://i-project.by/portfolio_newsite/sosni/02_sosni.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/sosni/02_sosni.jpg" alt="" />
@@ -72,13 +72,13 @@ const sosni = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/sosni/03_sosni.webp"
+                    href="https://i-project.by/portfolio_newsite/sosni/03_sosni.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/sosni/03_sosni.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/sosni/04_sosni.webp"
+                    href="https://i-project.by/portfolio_newsite/sosni/04_sosni.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/sosni/04_sosni.jpg" alt="" />
@@ -86,13 +86,13 @@ const sosni = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/sosni/05_sosni.webp"
+                    href="https://i-project.by/portfolio_newsite/sosni/05_sosni.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/sosni/05_sosni.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/sosni/06_sosni.webp"
+                    href="https://i-project.by/portfolio_newsite/sosni/06_sosni.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/sosni/06_sosni.jpg" alt="" />
@@ -100,7 +100,7 @@ const sosni = () => {
                 </div>
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/sosni/07_sosni.webp"
+                    href="https://i-project.by/portfolio_newsite/sosni/07_sosni.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/sosni/07_sosni.jpg" alt="" />

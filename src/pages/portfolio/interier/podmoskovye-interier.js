@@ -9,8 +9,8 @@ const podmoskovyeInterier = () => {
   return (
     <Layout>
       <Seo  title={"Дом в Подмосковье. Интерьер 300 м2 | I-PROJECT"} description={"Для этого дома мы сами делали архитектуру: смотреть архитектуру, поэтому работать над созданием дизайна интерьера было легко и приятно."}
-            location={"https://www.i-project.by/portfolio/interier/podmoskovye-interier"}
-            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
+            location={"https://i-project.by/portfolio/interier/podmoskovye-interier"}
+            image={"https://i-project.by/portfolio_newsite/podmoskovye_interier/01_podmoskovye_interier.webp"}/>
       <Fancybox>
         <div class="wrapper">
           <div class="project">
@@ -19,7 +19,7 @@ const podmoskovyeInterier = () => {
           </div>
           <div class="project_main_photo">
             <a
-              href="https://www.i-project.by/portfolio_newsite/podmoskovye_interier/08_podmoskovye_interier.webp"
+              href="https://i-project.by/portfolio_newsite/podmoskovye_interier/08_podmoskovye_interier.webp"
               data-fancybox="gallery"
             >
               <StaticImage src="../../../images/portfolio/podmoskovye_interier/08_podmoskovye_interier.jpg" alt="" />
@@ -45,19 +45,19 @@ const podmoskovyeInterier = () => {
               </div>
               <div class="content_task_block">
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/podmoskovye_interier/02_podmoskovye_interier.webp"
+                  href="https://i-project.by/portfolio_newsite/podmoskovye_interier/02_podmoskovye_interier.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/podmoskovye_interier/02_podmoskovye_interier.jpg" alt="" />
                 </a>
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/podmoskovye_interier/10_podmoskovye_interier.webp"
+                  href="https://i-project.by/portfolio_newsite/podmoskovye_interier/10_podmoskovye_interier.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/podmoskovye_interier/10_podmoskovye_interier.jpg" alt="" />
                 </a>
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/podmoskovye_interier/05_podmoskovye_interier.webp"
+                  href="https://i-project.by/portfolio_newsite/podmoskovye_interier/05_podmoskovye_interier.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/podmoskovye_interier/05_podmoskovye_interier.jpg" alt="" />
@@ -71,13 +71,13 @@ const podmoskovyeInterier = () => {
                 <h2 class="content_h2">План дома</h2>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/podmoskovye_interier/15_podmoskovye_interier.webp"
+                    href="https://i-project.by/portfolio_newsite/podmoskovye_interier/15_podmoskovye_interier.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/podmoskovye_interier/15_podmoskovye_interier.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/podmoskovye_interier/16_podmoskovye_interier.webp"
+                    href="https://i-project.by/portfolio_newsite/podmoskovye_interier/16_podmoskovye_interier.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/podmoskovye_interier/16_podmoskovye_interier.jpg" alt="" />
@@ -88,7 +88,7 @@ const podmoskovyeInterier = () => {
               <h2 class="content_h2">Помещения</h2>
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/podmoskovye_interier/01_podmoskovye_interier.webp"
+                    href="https://i-project.by/portfolio_newsite/podmoskovye_interier/01_podmoskovye_interier.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/podmoskovye_interier/01_podmoskovye_interier.jpg" alt="" />
@@ -96,13 +96,13 @@ const podmoskovyeInterier = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/podmoskovye_interier/02_podmoskovye_interier.webp"
+                    href="https://i-project.by/portfolio_newsite/podmoskovye_interier/02_podmoskovye_interier.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/podmoskovye_interier/02_podmoskovye_interier.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/podmoskovye_interier/03_podmoskovye_interier.webp"
+                    href="https://i-project.by/portfolio_newsite/podmoskovye_interier/03_podmoskovye_interier.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/podmoskovye_interier/03_podmoskovye_interier.jpg" alt="" />
@@ -110,13 +110,13 @@ const podmoskovyeInterier = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/podmoskovye_interier/05_podmoskovye_interier.webp"
+                    href="https://i-project.by/portfolio_newsite/podmoskovye_interier/05_podmoskovye_interier.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/podmoskovye_interier/05_podmoskovye_interier.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/podmoskovye_interier/06_podmoskovye_interier.webp"
+                    href="https://i-project.by/portfolio_newsite/podmoskovye_interier/06_podmoskovye_interier.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/podmoskovye_interier/06_podmoskovye_interier.jpg" alt="" />
@@ -124,7 +124,7 @@ const podmoskovyeInterier = () => {
                 </div>
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/podmoskovye_interier/08_podmoskovye_interier.webp"
+                    href="https://i-project.by/portfolio_newsite/podmoskovye_interier/08_podmoskovye_interier.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/podmoskovye_interier/08_podmoskovye_interier.jpg" alt="" />
@@ -136,7 +136,7 @@ const podmoskovyeInterier = () => {
           <div class="content_images">
             <div class="content_images_one_big">
               <a
-                href="https://www.i-project.by/portfolio_newsite/podmoskovye_interier/09_podmoskovye_interier.webp"
+                href="https://i-project.by/portfolio_newsite/podmoskovye_interier/09_podmoskovye_interier.webp"
                 data-fancybox="gallery"
               >
                 <StaticImage src="../../../images/portfolio/podmoskovye_interier/09_podmoskovye_interier.jpg" alt="" />
@@ -148,7 +148,7 @@ const podmoskovyeInterier = () => {
               <div class="content_images">
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/podmoskovye_interier/10_podmoskovye_interier.webp"
+                    href="https://i-project.by/portfolio_newsite/podmoskovye_interier/10_podmoskovye_interier.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/podmoskovye_interier/10_podmoskovye_interier.jpg" alt="" />
@@ -156,13 +156,13 @@ const podmoskovyeInterier = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/podmoskovye_interier/11_podmoskovye_interier.webp"
+                    href="https://i-project.by/portfolio_newsite/podmoskovye_interier/11_podmoskovye_interier.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/podmoskovye_interier/11_podmoskovye_interier.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/podmoskovye_interier/12_podmoskovye_interier.webp"
+                    href="https://i-project.by/portfolio_newsite/podmoskovye_interier/12_podmoskovye_interier.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/podmoskovye_interier/12_podmoskovye_interier.jpg" alt="" />
@@ -170,13 +170,13 @@ const podmoskovyeInterier = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/podmoskovye_interier/13_podmoskovye_interier.webp"
+                    href="https://i-project.by/portfolio_newsite/podmoskovye_interier/13_podmoskovye_interier.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/podmoskovye_interier/13_podmoskovye_interier.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/podmoskovye_interier/14_podmoskovye_interier.webp"
+                    href="https://i-project.by/portfolio_newsite/podmoskovye_interier/14_podmoskovye_interier.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/podmoskovye_interier/14_podmoskovye_interier.jpg" alt="" />

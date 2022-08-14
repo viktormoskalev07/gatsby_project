@@ -35,8 +35,8 @@ const DesignInteriera = () => {
   return (
     <Layout>
       <Seo  title={"Дизайн проект квартиры в Минске | I-PROJECT"} description={"Проектируем дизайн интерьера, подготавливаем документы для строителей, контроль за подрядчиками и строителями ✦ Реализованные объекты ✦ Более 200 работ"}
-            location={"https://www.i-project.by/uslugi/dizajn-interera"}
-            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
+            location={"https://i-project.by/uslugi/dizajn-interera"}
+            image={"https://i-project.by/portfolio_newsite/korolya/01_korolya.webp"}/>
       <div class="services_video">
         <Video  mobileSrc={mainVideoMobile} desktopSrc={mainVideo} />
         <div class="wrapper">
@@ -177,11 +177,24 @@ const DesignInteriera = () => {
                 breakpointCols={breakpointColumnsPortfolio}
                 className="portfolio_grid"
                 columnClassName="my-masonry-grid_column">
-                <Link to="/portfolio/interier/korolya/" className="portfolio_grid_link">
+                <Link to="/portfolio/interier/korolya" className="portfolio_grid_link">
                   <StaticImage src="../../images/portfolio/korolya/00_korolya.jpg" alt="" />
                   <div class="portfolio_grid_block">
                     <h3 className="portfolio_grid_block_title">Интерьер квартиры на&nbsp;ул.Короля в&nbsp;Минске, 145м<sup>2</sup></h3>
                     <p className="portfolio_grid_block_realize">Реализовано</p>
+                  </div>
+                </Link>
+                <Link to="/portfolio/interier/d3" className="portfolio_grid_link">
+                  <StaticImage src="../../images/portfolio/d3/00_d3.jpg" alt="" />
+                  <div class="portfolio_grid_block">
+                    <h3 className="portfolio_grid_block_title">Дизайн квартиры в&nbsp;жилом комплексе &laquo;D3&raquo;, 120м<sup>2</sup></h3>
+                    <p className="portfolio_grid_block_realize">Реализовано</p>
+                  </div>
+                </Link>
+                <Link to="/portfolio/interier/sochi" className="portfolio_grid_link portfolio_grid_link_hide">
+                  <StaticImage src="../../images/portfolio/sochi/00_sochi.jpg" alt="" />
+                  <div class="portfolio_grid_block">
+                    <h3 className="portfolio_grid_block_title">Дизайн интерьера в&nbsp;апарт-комплексе &laquo;Матисс&raquo; в&nbsp;г.Сочи, 45м<sup>2</sup></h3>
                   </div>
                 </Link>
                 <Link to="/portfolio/interier/apart-for-life" className="portfolio_grid_link">
@@ -191,25 +204,13 @@ const DesignInteriera = () => {
                     <p className="portfolio_grid_block_realize">Реализовано</p>
                   </div>
                 </Link>
-                <Link to="/portfolio/interier/d3/" className="portfolio_grid_link">
-                  <StaticImage src="../../images/portfolio/d3/00_d3.jpg" alt="" />
-                  <div class="portfolio_grid_block">
-                    <h3 className="portfolio_grid_block_title">Дизайн квартиры в&nbsp;жилом комплексе &laquo;D3&raquo;, 120м<sup>2</sup></h3>
-                    <p className="portfolio_grid_block_realize">Реализовано</p>
-                  </div>
-                </Link>
-                <Link to="/portfolio/interier/color/" className="portfolio_grid_link">
+                <Link to="/portfolio/interier/color" className="portfolio_grid_link">
                   <StaticImage src="../../images/portfolio/color/00_color.jpg" alt="" />
                   <div class="portfolio_grid_block">
                     <h3 className="portfolio_grid_block_title">Энергия цвета. Интерьер квартиры в&nbsp;Минске, 120м<sup>2</sup></h3>
                   </div>
                 </Link>
-                <Link to="/portfolio/interier/sochi/" className="portfolio_grid_link portfolio_grid_link_hide">
-                  <StaticImage src="../../images/portfolio/sochi/00_sochi.jpg" alt="" />
-                  <div class="portfolio_grid_block">
-                    <h3 className="portfolio_grid_block_title">Дизайн интерьера в&nbsp;апарт-комплексе &laquo;Матисс&raquo; в&nbsp;г.Сочи, 45м<sup>2</sup></h3>
-                  </div>
-                </Link>
+                
                 <Link to="/portfolio/interier/panfilova" className="portfolio_grid_link portfolio_grid_link_hide">
                   <StaticImage src="../../images/portfolio/panfilova/00_panfilova.jpg" alt="" />
                   <div class="portfolio_grid_block">
@@ -218,7 +219,7 @@ const DesignInteriera = () => {
                   </div>
                 </Link>
                 <></>
-                <Link to="/portfolio/" className="portfolio_grid_link_all">
+                <Link to="/portfolio" className="portfolio_grid_link_all">
                   <p className="portfolio_grid_link_all_p">Все проекты</p>
                 </Link>
               </Masonry>
@@ -258,7 +259,7 @@ const DesignInteriera = () => {
               </div>
               <div class="services_process_link_block">
                 <p class="services_process_link_block_p">Как мы работаем</p>
-                <Link to="/process/" className="services_process_link">Подробнее о процессе</Link>
+                <Link to="/process" className="services_process_link">Подробнее о процессе</Link>
               </div>
             </section>
             <section class="services_term">
@@ -283,12 +284,12 @@ const DesignInteriera = () => {
                     <p>Выстраиваем схему выполнения проектных предложений и&nbsp;контролируем выполнение работ подрядчиков. Таким образом исключаем возможность возникновения ошибок или недочетов на&nbsp;смежных участках работ.</p>
                     <p class="services__add_item_text_hidden">Мы&nbsp;не&nbsp;бросаем свою работу на&nbsp;половине пути и&nbsp;сопровождаем проекты до&nbsp;их&nbsp;полной реализации.</p>
                   </div>
-                  <Link to="/uslugi/avtorskoe-soprovozhdenie/" className="services__add_item_link">Подробнее</Link>
+                  <Link to="/uslugi/avtorskoe-soprovozhdenie" className="services__add_item_link">Подробнее</Link>
                 </div>
                 <div class="services__add_support_block_img">
                   <StaticImage className="services__add_support_img" src="../../images/services/services_add_support.jpg" alt="" />
                 </div>
-                <Link to="/uslugi/avtorskoe-soprovozhdenie/" className="services__add_item_link_mob">Подробнее</Link>
+                <Link to="/uslugi/avtorskoe-soprovozhdenie" className="services__add_item_link_mob">Подробнее</Link>
               </div>
               <div class="services__add_item services__add_complete" id="anchor_8">
                 <div class="services__add_item_block">
@@ -297,12 +298,12 @@ const DesignInteriera = () => {
                     <p>Мы&nbsp;берем на&nbsp;себя организацию всех мероприятий, связанных с&nbsp;закупкой и&nbsp;доставкой всех необходимых материалов, образцов, мебели, оборудования.</p>
                     <p>Согласование поставок материалов с&nbsp;графиком строительных работ.</p>
                   </div>
-                  <Link to="/uslugi/komplektaciya-obekta/" className="services__add_item_link">Подробнее</Link>
+                  <Link to="/uslugi/komplektaciya-obekta" className="services__add_item_link">Подробнее</Link>
                 </div>
                 <div class="services__add_complete_block_img">
                   <StaticImage className="services__add_complete_img" src="../../images/services/services_add_complete.png" alt="" />
                 </div>
-                <Link to="/uslugi/komplektaciya-obekta/" className="services__add_item_link_mob">Подробнее</Link>
+                <Link to="/uslugi/komplektaciya-obekta" className="services__add_item_link_mob">Подробнее</Link>
               </div>
             </section>
             <div class="faq" id="anchor_9">
@@ -320,6 +321,7 @@ export default DesignInteriera
 
 const breakpointColumnsPortfolio = {
   default: 3,
+  1800: 2,
   768: 1,
   
 };

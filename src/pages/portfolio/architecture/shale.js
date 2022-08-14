@@ -10,8 +10,8 @@ const shale = () => {
   return (
     <Layout>
       <Seo  title={"Современное шале. Архитектура дома 300 м2 | I-PROJECT"} description={"Студия дизайна и архитектуры Александра Игнатьева, разработала современный дом, похожий на фахверковое шале, но в монолите."}
-            location={"https://www.i-project.by/portfolio/architecture/shale"}
-            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
+            location={"https://i-project.by/portfolio/architecture/shale"}
+            image={"https://i-project.by/portfolio_newsite/shale/01_shale.webp"}/>
       <Fancybox>
         <div class="wrapper">
           <div class="project">
@@ -20,7 +20,7 @@ const shale = () => {
           </div>
           <div class="project_main_photo">
             <a
-              href="https://www.i-project.by/portfolio_newsite/shale/01_shale.webp"
+              href="https://i-project.by/portfolio_newsite/shale/01_shale.webp"
               data-fancybox="gallery"
             >
               <StaticImage src="../../../images/portfolio/shale/01_shale.jpg" alt="" />
@@ -46,19 +46,19 @@ const shale = () => {
               </div>
               <div class="content_task_block" id="anchor_1">
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/shale/03_shale.webp"
+                  href="https://i-project.by/portfolio_newsite/shale/03_shale.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/shale/03_shale.jpg" alt="" />
                 </a>
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/shale/02_shale.webp"
+                  href="https://i-project.by/portfolio_newsite/shale/02_shale.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/shale/02_shale.jpg" alt="" />
                 </a>
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/shale/04_shale.webp"
+                  href="https://i-project.by/portfolio_newsite/shale/04_shale.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/shale/04_shale.jpg" alt="" />
@@ -72,13 +72,13 @@ const shale = () => {
                 <h2 class="content_h2" id="anchor_2">Планировка дома</h2>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/shale/05_shale.webp"
+                    href="https://i-project.by/portfolio_newsite/shale/05_shale.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/shale/05_shale.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/shale/06_shale.webp"
+                    href="https://i-project.by/portfolio_newsite/shale/06_shale.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/shale/06_shale.jpg" alt="" />
@@ -89,13 +89,13 @@ const shale = () => {
                 <h2 class="content_h2" id="anchor_3">Фасад</h2>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/shale/01_shale.webp"
+                    href="https://i-project.by/portfolio_newsite/shale/01_shale.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/shale/01_shale.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/shale/02_shale.webp"
+                    href="https://i-project.by/portfolio_newsite/shale/02_shale.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/shale/02_shale.jpg" alt="" />
@@ -103,13 +103,13 @@ const shale = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/shale/03_shale.webp"
+                    href="https://i-project.by/portfolio_newsite/shale/03_shale.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/shale/03_shale.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/shale/04_shale.webp"
+                    href="https://i-project.by/portfolio_newsite/shale/04_shale.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/shale/04_shale.jpg" alt="" />

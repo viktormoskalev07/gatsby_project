@@ -5,14 +5,16 @@ import { StaticImage } from "gatsby-plugin-image"
 import Fancybox from "../../components/fancybox.js";
 import Masonry from 'react-masonry-css'
 import { AnchorLink } from "gatsby-plugin-anchor-links"
+import { PageViewCounter } from "../../subitems/pageViewsCounter/pageViewCounter"
+import { GetPageView } from "../../subitems/pageViewsCounter/getPageView"
 import Seo from "../../components/seo"
 
-const hranenie = () => {
+const hranenie = ({location }) => {
   return (
     <Layout>
       <Seo  title={"Как организовать хранение вещей в квартире | I-PROJECT"} description={"Разбираемся как хранить вещи в доме. Практические советы по размещению мест для хранения в квартире"}
-            location={"https://www.i-project.by/articles/hranenie"}
-            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
+            location={"https://i-project.by/articles/hranenie"}
+            image={"https://i-project.by/portfolio_newsite/articles/article_1-6.jpg"}/>
       <section class="article">
         <div class="breadcrumbs">
           <ul class="breadcrumbs_list">
@@ -24,6 +26,7 @@ const hranenie = () => {
           <div class="wrapper">
             <div class="article_title">
               <h1 class="article_title_h1">Как организовать хранение вещей в&nbsp;доме и&nbsp;квартире</h1>
+              <p class="article_view_number article_view_number_hwhite"> <PageViewCounter  location={location}  /></p>
             </div>
           </div>
         </div>
@@ -53,24 +56,24 @@ const hranenie = () => {
                   <div class="content_images">
                     <div class="content_images_two">
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/d3/19_d3.webp"
+                        href="https://i-project.by/portfolio_newsite/d3/19_d3.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/d3/19_d3.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/d3/19_d3.jpg" alt="Стильный черный гардероб в мастер-спальне" />
                       </a>
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/d3/18_d3.webp"
+                        href="https://i-project.by/portfolio_newsite/d3/18_d3.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/d3/18_d3.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/d3/18_d3.jpg" alt="Гардероб в мастер-спальне" />
                       </a>
                     </div>
                     <div class="content_images_one">
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/luxury/40_luxury.webp"
+                        href="https://i-project.by/portfolio_newsite/luxury/40_luxury.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/luxury/40_luxury.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/luxury/40_luxury.jpg" alt="Гардероб с вещами и столиком для переодевания" />
                       </a>
                     </div>
                   </div>
@@ -84,16 +87,16 @@ const hranenie = () => {
                   <div class="content_images">
                     <div class="content_images_two">
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/simple_house/13_simple_house.webp"
+                        href="https://i-project.by/portfolio_newsite/simple_house/13_simple_house.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/simple_house/13_simple_house.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/simple_house/13_simple_house.jpg" alt="Прозрачный стеклянный шкаф с подсветкой вещей" />
                       </a>
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/simple_house/17_simple_house.webp"
+                        href="https://i-project.by/portfolio_newsite/simple_house/17_simple_house.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/simple_house/17_simple_house.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/simple_house/17_simple_house.jpg" alt="Прозрачный стеклянный шкаф с подсветкой вещей" />
                       </a>
                     </div>
                   </div>
@@ -105,30 +108,30 @@ const hranenie = () => {
                   <div class="content_images">
                     <div class="content_images_two">
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/zelenyi/11_zelenyi.webp"
+                        href="https://i-project.by/portfolio_newsite/zelenyi/11_zelenyi.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/zelenyi/11_zelenyi.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/zelenyi/11_zelenyi.jpg" alt="Спальня с прозрачным стеклянным шкафом" />
                       </a>
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/panfilova/09_panfilova.webp"
+                        href="https://i-project.by/portfolio_newsite/panfilova/09_panfilova.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/panfilova/09_panfilova.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/panfilova/09_panfilova.jpg" alt="Спальня с кроватью и прозрачным шкафом" />
                       </a>
                     </div>
                     <div class="content_images_two">
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/korolya/15_korolya.webp"
+                        href="https://i-project.by/portfolio_newsite/korolya/15_korolya.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/korolya/15_korolya.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/korolya/15_korolya.jpg" alt="Двухстворчатый шкаф в спальне с подсветкой" />
                       </a>
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/d3/10_d3.webp"
+                        href="https://i-project.by/portfolio_newsite/d3/10_d3.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/d3/10_d3.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/d3/10_d3.jpg" alt="Гардеробная в мастер-спальне с видом на коридор" />
                       </a>
                     </div>
                     {/* <div class="main_services_outside main_services_outside1">
@@ -152,16 +155,16 @@ const hranenie = () => {
                   <div class="content_images">
                     <div class="content_images_two">
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/luxury/19_luxury.webp"
+                        href="https://i-project.by/portfolio_newsite/luxury/19_luxury.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/luxury/19_luxury.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/luxury/19_luxury.jpg" alt="Гардеробная в спальне за стеклом" />
                       </a>
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/apart_for_life/09_apart_for_life.webp"
+                        href="https://i-project.by/portfolio_newsite/apart_for_life/09_apart_for_life.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/apart_for_life/09_apart_for_life.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/apart_for_life/09_apart_for_life.jpg" alt="Спальня с кроватью, шкафом и балконом" />
                       </a>
                     </div>
                   </div>
@@ -176,24 +179,24 @@ const hranenie = () => {
                   <div class="content_images">
                     <div class="content_images_one">
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/korolya/04_korolya.webp"
+                        href="https://i-project.by/portfolio_newsite/korolya/04_korolya.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/korolya/04_korolya.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/korolya/04_korolya.jpg" alt="Стеллаж с книгами в коридоре" />
                       </a>
                     </div>
                     <div class="content_images_two">
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/zelenyi/01_zelenyi.webp"
+                        href="https://i-project.by/portfolio_newsite/zelenyi/01_zelenyi.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/zelenyi/01_zelenyi.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/zelenyi/01_zelenyi.jpg" alt="Стеллаж и диван в коридоре" />
                       </a>
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/sunny/38_sunny.webp"
+                        href="https://i-project.by/portfolio_newsite/sunny/38_sunny.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/sunny/38_sunny.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/sunny/38_sunny.jpg" alt="Стеллаж в спальне с книгами" />
                       </a>
                     </div>
                   </div>
@@ -205,16 +208,16 @@ const hranenie = () => {
                   <div class="content_images">
                     <div class="content_images_two">
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/korolya/19_korolya.webp"
+                        href="https://i-project.by/portfolio_newsite/korolya/19_korolya.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/korolya/19_korolya.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/korolya/19_korolya.jpg" alt="Черный комод и картина в коридоре" />
                       </a>
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/d3/17_d3.webp"
+                        href="https://i-project.by/portfolio_newsite/d3/17_d3.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/d3/17_d3.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/d3/17_d3.jpg" alt="Подвесной комод с подсветкой белого и черного цвета" />
                       </a>
                     </div>
                   </div>
@@ -235,15 +238,19 @@ const hranenie = () => {
             columnClassName="my-masonry-grid_column">
             <Link to="/articles/spalnya" className="articles_page_item articles_page_item5">
               <h4 className="articles_page_item_title_small articles_page_item_title_white">Спальня мечты: секреты идеального дизайна</h4>
+              <p className="articles_page_item_view_number articles_page_item_view_number_hwhite"> <GetPageView slug={'/articles/spalnya'}/> </p>
             </Link>
             <Link to="/articles/architectura" className="articles_page_item articles_page_item4">
               <h4 className="articles_page_item_title_small articles_page_item_title_white">Архитектура частного дома: на&nbsp;что важно обратить внимание</h4>
+              <p className="articles_page_item_view_number articles_page_item_view_number_hwhite"> <GetPageView slug={'/articles/architectura'}/> </p>
             </Link>
             <Link to="/articles/dveri" className="articles_page_item articles_page_item3">
               <h4 className="articles_page_item_title_small articles_page_item_title_white">Как выбрать межкомнатные двери: советы и&nbsp;рекомендации</h4>
+              <p className="articles_page_item_view_number articles_page_item_view_number_white"> <GetPageView slug={'/articles/dveri'}/> </p>
             </Link>
             <Link to="/articles/krovlya" className="articles_page_item articles_page_item2">
               <h4 className="articles_page_item_title_medium articles_page_item_title_white">Плоская и&nbsp;скатная кровля: за&nbsp;и&nbsp;против</h4>
+              <p className="articles_page_item_view_number articles_page_item_view_number_hwhite"> <GetPageView slug={'/articles/krovlya'}/> </p>
             </Link>
           </Masonry>
         </div>

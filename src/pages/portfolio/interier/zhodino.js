@@ -10,8 +10,8 @@ const zhodino = () => {
   return (
     <Layout>
       <Seo  title={"Дизайн интерьера дома 120 м2, фотографии | I-PROJECT"} description={"Студия дизайна и архитектуры Александра Игнатьева, разработала современный интерьер дома для небольшой современной семьи."}
-            location={"https://www.i-project.by/portfolio/interier/zhodino"}
-            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
+            location={"https://i-project.by/portfolio/interier/zhodino"}
+            image={"https://i-project.by/portfolio_newsite/zhodino/01_zhodino.webp"}/>
       <Fancybox>
         <div class="wrapper">
           <div class="project">
@@ -20,7 +20,7 @@ const zhodino = () => {
           </div>
           <div class="project_main_photo">
             <a
-              href="https://www.i-project.by/portfolio_newsite/zhodino/01_zhodino.webp"
+              href="https://i-project.by/portfolio_newsite/zhodino/01_zhodino.webp"
               data-fancybox="gallery"
             >
               <StaticImage src="../../../images/portfolio/zhodino/01_zhodino.jpg" alt="" />
@@ -48,19 +48,19 @@ const zhodino = () => {
               </div>
               <div class="content_task_block" id="anchor_1">
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/zhodino/02_zhodino.webp"
+                  href="https://i-project.by/portfolio_newsite/zhodino/02_zhodino.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/zhodino/02_zhodino.jpg" alt="" />
                 </a>
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/zhodino/08_zhodino.webp"
+                  href="https://i-project.by/portfolio_newsite/zhodino/08_zhodino.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/zhodino/08_zhodino.jpg" alt="" />
                 </a>
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/zhodino/04_zhodino.webp"
+                  href="https://i-project.by/portfolio_newsite/zhodino/04_zhodino.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/zhodino/04_zhodino.jpg" alt="" />
@@ -74,13 +74,13 @@ const zhodino = () => {
                 <h2 class="content_h2">Первый этаж</h2>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/zhodino/13_zhodino.webp"
+                    href="https://i-project.by/portfolio_newsite/zhodino/13_zhodino.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/zhodino/13_zhodino.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/zhodino/14_zhodino.webp"
+                    href="https://i-project.by/portfolio_newsite/zhodino/14_zhodino.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/zhodino/14_zhodino.jpg" alt="" />
@@ -94,7 +94,7 @@ const zhodino = () => {
               <div class="content_images">
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/zhodino/01_zhodino.webp"
+                    href="https://i-project.by/portfolio_newsite/zhodino/01_zhodino.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/zhodino/01_zhodino.jpg" alt="" />
@@ -102,13 +102,13 @@ const zhodino = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/zhodino/03_zhodino.webp"
+                    href="https://i-project.by/portfolio_newsite/zhodino/03_zhodino.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/zhodino/03_zhodino.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/zhodino/07_zhodino.webp"
+                    href="https://i-project.by/portfolio_newsite/zhodino/07_zhodino.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/zhodino/07_zhodino.jpg" alt="" />
@@ -122,7 +122,7 @@ const zhodino = () => {
               <div class="content_images">
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/zhodino/02_zhodino.webp"
+                    href="https://i-project.by/portfolio_newsite/zhodino/02_zhodino.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/zhodino/02_zhodino.jpg" alt="" />
@@ -130,13 +130,13 @@ const zhodino = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/zhodino/04_zhodino.webp"
+                    href="https://i-project.by/portfolio_newsite/zhodino/04_zhodino.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/zhodino/04_zhodino.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/zhodino/05_zhodino.webp"
+                    href="https://i-project.by/portfolio_newsite/zhodino/05_zhodino.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/zhodino/05_zhodino.jpg" alt="" />
@@ -151,7 +151,7 @@ const zhodino = () => {
                 <h2 class="content_h2" id="anchor_4">Кухня</h2>
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/zhodino/06_zhodino.webp"
+                    href="https://i-project.by/portfolio_newsite/zhodino/06_zhodino.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/zhodino/06_zhodino.jpg" alt="" />
@@ -165,13 +165,13 @@ const zhodino = () => {
               <div class="content_images">
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/zhodino/15_zhodino.webp"
+                    href="https://i-project.by/portfolio_newsite/zhodino/15_zhodino.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/zhodino/15_zhodino.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/zhodino/16_zhodino.webp"
+                    href="https://i-project.by/portfolio_newsite/zhodino/16_zhodino.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/zhodino/16_zhodino.jpg" alt="" />
@@ -186,7 +186,7 @@ const zhodino = () => {
               <div class="content_images">
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/zhodino/08_zhodino.webp"
+                    href="https://i-project.by/portfolio_newsite/zhodino/08_zhodino.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/zhodino/08_zhodino.jpg" alt="" />
@@ -198,7 +198,7 @@ const zhodino = () => {
           <div class="content_images">
             <div class="content_images_one_big">
               <a
-                href="https://www.i-project.by/portfolio_newsite/zhodino/10_zhodino.webp"
+                href="https://i-project.by/portfolio_newsite/zhodino/10_zhodino.webp"
                 data-fancybox="gallery"
               >
                 <StaticImage src="../../../images/portfolio/zhodino/10_zhodino.jpg" alt="" />
@@ -210,7 +210,7 @@ const zhodino = () => {
               <div class="content_images">
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/zhodino/09_zhodino.webp"
+                    href="https://i-project.by/portfolio_newsite/zhodino/09_zhodino.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/zhodino/09_zhodino.jpg" alt="" />
@@ -218,13 +218,13 @@ const zhodino = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/zhodino/11_zhodino.webp"
+                    href="https://i-project.by/portfolio_newsite/zhodino/11_zhodino.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/zhodino/11_zhodino.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/zhodino/12_zhodino.webp"
+                    href="https://i-project.by/portfolio_newsite/zhodino/12_zhodino.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/zhodino/12_zhodino.jpg" alt="" />

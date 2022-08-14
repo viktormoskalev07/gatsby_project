@@ -13,8 +13,8 @@ const luban = () => {
   return (
     <Layout>
       <Seo  title={"Дом для жизни. Архитектура 400 м2, фото | I-PROJECT"} description={"Выполнили реконструкцию фасада и реализовали мероприятия по благоустройству территории. Представлены оригинальные фото и видео."}
-            location={"https://www.i-project.by/portfolio/architecture/luban"}
-            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
+            location={"https://i-project.by/portfolio/architecture/luban"}
+            image={"https://i-project.by/portfolio_newsite/luban/01_luban.webp"}/>
       <Fancybox>
         <div class="wrapper">
           <div class="project">
@@ -53,19 +53,19 @@ const luban = () => {
               </div>
               <div class="content_task_block" id="anchor_1">
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/luban/02_luban.webp"
+                  href="https://i-project.by/portfolio_newsite/luban/02_luban.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/luban/02_luban.jpg" alt="" />
                 </a>
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/luban/12_luban.webp"
+                  href="https://i-project.by/portfolio_newsite/luban/12_luban.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/luban/12_luban.jpg" alt="" />
                 </a>
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/luban/04_luban.webp"
+                  href="https://i-project.by/portfolio_newsite/luban/04_luban.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/luban/04_luban.jpg" alt="" />
@@ -81,16 +81,16 @@ const luban = () => {
                 <ImgComparisonSlider class="slider-opacity-and-size" value="70">
                   <figure slot="first" width="100%" class="before">
                     <StaticImage src="../../../images/portfolio/luban/12_luban.jpg" alt="" />
-                    <figcaption>3D</figcaption>
+                    <figcaption>Фото</figcaption>
                   </figure>
                   <figure slot="second" width="100%" class="after after_white">
                     <StaticImage src="../../../images/portfolio/luban/3d/01_luban.jpg" alt="" />
-                    <figcaption>Фото</figcaption>
+                    <figcaption>3D</figcaption>
                   </figure>
                 </ImgComparisonSlider>
                 <div class="content_images_two_right_narrow">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/luban/3d/05_luban.webp"
+                    href="https://i-project.by/portfolio_newsite/luban/3d/05_luban.webp"
                     data-fancybox="gallery"
                   >
                     <figure class="before">
@@ -99,7 +99,7 @@ const luban = () => {
                     </figure>
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/luban/05_luban.webp"
+                    href="https://i-project.by/portfolio_newsite/luban/05_luban.webp"
                     data-fancybox="gallery"
                   >
                     <figure class="after after_white_bcg">
@@ -113,7 +113,7 @@ const luban = () => {
                 <h2 class="content_h2" id="anchor_3">План дома</h2>
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/luban/13_luban.webp"
+                    href="https://i-project.by/portfolio_newsite/luban/13_luban.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/luban/13_luban.jpg" alt="" />
@@ -121,7 +121,7 @@ const luban = () => {
                 </div>
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/luban/14_luban.webp"
+                    href="https://i-project.by/portfolio_newsite/luban/14_luban.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/luban/14_luban.jpg" alt="" />
@@ -166,13 +166,13 @@ const luban = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/luban/03_luban.webp"
+                    href="https://i-project.by/portfolio_newsite/luban/03_luban.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/luban/03_luban.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/luban/05_luban.webp"
+                    href="https://i-project.by/portfolio_newsite/luban/05_luban.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/luban/05_luban.jpg" alt="" />
@@ -183,13 +183,13 @@ const luban = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/luban/08_luban.webp"
+                    href="https://i-project.by/portfolio_newsite/luban/08_luban.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/luban/08_luban.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/luban/09_luban.webp"
+                    href="https://i-project.by/portfolio_newsite/luban/09_luban.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/luban/09_luban.jpg" alt="" />
@@ -204,7 +204,7 @@ const luban = () => {
           <div class="content_images">
             <div class="content_images_one_big">
               <a
-                href="https://www.i-project.by/portfolio_newsite/luban/01_luban.webp"
+                href="https://i-project.by/portfolio_newsite/luban/01_luban.webp"
                 data-fancybox="gallery"
               >
                 <StaticImage src="../../../images/portfolio/luban/01_luban.jpg" alt="" />
@@ -224,13 +224,13 @@ const luban = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/luban/06_luban.webp"
+                    href="https://i-project.by/portfolio_newsite/luban/06_luban.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/luban/06_luban.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/luban/11_luban.webp"
+                    href="https://i-project.by/portfolio_newsite/luban/11_luban.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/luban/11_luban.jpg" alt="" />

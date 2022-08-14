@@ -10,8 +10,8 @@ const sochi = () => {
   return (
     <Layout>
       <Seo  title={"Дизайн интерьера в апарт-комплексе Сочи 45м2 | I-PROJECT"} description={"В интерьере нашлось место и для спальни, и для гостиной, и для небольшой кухни-столовой. Интерьер получился немного сказочным, с легким ретро-флером, но без нафталина."}
-            location={"https://www.i-project.by/portfolio/interier/sochi"}
-            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
+            location={"https://i-project.by/portfolio/interier/sochi"}
+            image={"https://i-project.by/portfolio_newsite/sochi/01_sochi.webp"}/>
       <Fancybox>
         <div class="wrapper">
           <div class="project">
@@ -20,7 +20,7 @@ const sochi = () => {
           </div>
           <div class="project_main_photo">
             <a
-              href="https://www.i-project.by/portfolio_newsite/sochi/05_sochi.webp"
+              href="https://i-project.by/portfolio_newsite/sochi/05_sochi.webp"
               data-fancybox="gallery"
             >
               <StaticImage src="../../../images/portfolio/sochi/05_sochi.jpg" alt="" />
@@ -49,19 +49,19 @@ const sochi = () => {
               </div>
               <div class="content_task_block" id="anchor_1">
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/sochi/08_sochi.webp"
+                  href="https://i-project.by/portfolio_newsite/sochi/08_sochi.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/sochi/08_sochi.jpg" alt="" />
                 </a>
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/sochi/13_sochi.webp"
+                  href="https://i-project.by/portfolio_newsite/sochi/13_sochi.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/sochi/13_sochi.jpg" alt="" />
                 </a>
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/sochi/01_sochi.webp"
+                  href="https://i-project.by/portfolio_newsite/sochi/01_sochi.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/sochi/01_sochi.jpg" alt="" />
@@ -76,13 +76,13 @@ const sochi = () => {
                 <h2 class="content_h2" id="anchor_2">Планировка квартиры</h2>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/sochi/19_sochi.webp"
+                    href="https://i-project.by/portfolio_newsite/sochi/19_sochi.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/sochi/19_sochi.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/sochi/20_sochi.webp"
+                    href="https://i-project.by/portfolio_newsite/sochi/20_sochi.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/sochi/20_sochi.jpg" alt="" />
@@ -93,7 +93,7 @@ const sochi = () => {
                 <h2 class="content_h2" id="anchor_3">Кухня-столовая</h2>
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/sochi/04_sochi.webp"
+                    href="https://i-project.by/portfolio_newsite/sochi/04_sochi.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/sochi/04_sochi.jpg" alt="" />
@@ -101,13 +101,13 @@ const sochi = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/sochi/03_sochi.webp"
+                    href="https://i-project.by/portfolio_newsite/sochi/03_sochi.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/sochi/03_sochi.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/sochi/02_sochi.webp"
+                    href="https://i-project.by/portfolio_newsite/sochi/02_sochi.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/sochi/02_sochi.jpg" alt="" />
@@ -118,7 +118,7 @@ const sochi = () => {
                 <h2 class="content_h2" id="anchor_4">Гостиная</h2>
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/sochi/12_sochi.webp"
+                    href="https://i-project.by/portfolio_newsite/sochi/12_sochi.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/sochi/12_sochi.jpg" alt="" />
@@ -126,13 +126,13 @@ const sochi = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/sochi/07_sochi.webp"
+                    href="https://i-project.by/portfolio_newsite/sochi/07_sochi.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/sochi/07_sochi.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/sochi/06_sochi.webp"
+                    href="https://i-project.by/portfolio_newsite/sochi/06_sochi.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/sochi/06_sochi.jpg" alt="" />
@@ -143,19 +143,19 @@ const sochi = () => {
                 <h2 class="content_h2" id="anchor_5">Спальня</h2>
                 <div class="content_images_three_left_narrow">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/sochi/09_sochi.webp"
+                    href="https://i-project.by/portfolio_newsite/sochi/09_sochi.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/sochi/09_sochi.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/sochi/10_sochi.webp"
+                    href="https://i-project.by/portfolio_newsite/sochi/10_sochi.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/sochi/10_sochi.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/sochi/11_sochi.webp"
+                    href="https://i-project.by/portfolio_newsite/sochi/11_sochi.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/sochi/11_sochi.jpg" alt="" />
@@ -166,7 +166,7 @@ const sochi = () => {
                 <h2 class="content_h2" id="anchor_6">Санузел</h2>
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/sochi/16_sochi.webp"
+                    href="https://i-project.by/portfolio_newsite/sochi/16_sochi.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/sochi/16_sochi.jpg" alt="" />
@@ -177,19 +177,19 @@ const sochi = () => {
                 </div> */}
                 <div class="content_images_three">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/sochi/14_sochi.webp"
+                    href="https://i-project.by/portfolio_newsite/sochi/14_sochi.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/sochi/14_sochi.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/sochi/15_sochi.webp"
+                    href="https://i-project.by/portfolio_newsite/sochi/15_sochi.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/sochi/15_sochi.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/sochi/18_sochi.webp"
+                    href="https://i-project.by/portfolio_newsite/sochi/18_sochi.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/sochi/18_sochi.jpg" alt="" />

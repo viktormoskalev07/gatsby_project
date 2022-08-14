@@ -8,9 +8,9 @@ import Seo from "../../../components/seo"
 const mogilevApart = () => {
   return (
     <Layout>
-      <Seo  title={"Дизайн интерьера квартиры 150 м2, фотографии | I-PROJECT"} description={"По желанию клиентов интерьер выполнен в нашей фирменной стилистической манере."}
-            location={"https://www.i-project.by/portfolio/interier/mogilev-apart"}
-            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
+      <Seo  title={"Фирменный дизайн интерьера квартиры 150 м2 | I-PROJECT"} description={"По желанию клиентов интерьер выполнен в нашей фирменной стилистической манере."}
+            location={"https://i-project.by/portfolio/interier/mogilev-apart"}
+            image={"https://i-project.by/portfolio_newsite/mogilev_apart/01_mogilev_apart.webp"}/>
       <Fancybox>
         <div class="wrapper">
           <div class="project">
@@ -19,7 +19,7 @@ const mogilevApart = () => {
           </div>
           <div class="project_main_photo">
             <a
-              href="https://www.i-project.by/portfolio_newsite/mogilev_apart/01_mogilev_apart.webp"
+              href="https://i-project.by/portfolio_newsite/mogilev_apart/01_mogilev_apart.webp"
               data-fancybox="gallery"
             >
               <StaticImage src="../../../images/portfolio/mogilev_apart/01_mogilev_apart.jpg" alt="" />
@@ -45,19 +45,19 @@ const mogilevApart = () => {
               </div>
               <div class="content_task_block">
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/mogilev_apart/02_mogilev_apart.webp"
+                  href="https://i-project.by/portfolio_newsite/mogilev_apart/02_mogilev_apart.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/mogilev_apart/02_mogilev_apart.jpg" alt="" />
                 </a>
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/mogilev_apart/09_mogilev_apart.webp"
+                  href="https://i-project.by/portfolio_newsite/mogilev_apart/09_mogilev_apart.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/mogilev_apart/09_mogilev_apart.jpg" alt="" />
                 </a>
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/mogilev_apart/17_mogilev_apart.webp"
+                  href="https://i-project.by/portfolio_newsite/mogilev_apart/17_mogilev_apart.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/mogilev_apart/17_mogilev_apart.jpg" alt="" />
@@ -71,13 +71,13 @@ const mogilevApart = () => {
                 <h2 class="content_h2">Планировка квартиры</h2>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/mogilev_apart/19_mogilev_apart.webp"
+                    href="https://i-project.by/portfolio_newsite/mogilev_apart/19_mogilev_apart.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/mogilev_apart/19_mogilev_apart.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/mogilev_apart/20_mogilev_apart.webp"
+                    href="https://i-project.by/portfolio_newsite/mogilev_apart/20_mogilev_apart.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/mogilev_apart/20_mogilev_apart.jpg" alt="" />
@@ -88,7 +88,7 @@ const mogilevApart = () => {
                 <h2 class="content_h2">Помещения</h2>
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/mogilev_apart/01_mogilev_apart.webp"
+                    href="https://i-project.by/portfolio_newsite/mogilev_apart/01_mogilev_apart.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/mogilev_apart/01_mogilev_apart.jpg" alt="" />
@@ -96,13 +96,13 @@ const mogilevApart = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/mogilev_apart/02_mogilev_apart.webp"
+                    href="https://i-project.by/portfolio_newsite/mogilev_apart/02_mogilev_apart.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/mogilev_apart/02_mogilev_apart.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/mogilev_apart/03_mogilev_apart.webp"
+                    href="https://i-project.by/portfolio_newsite/mogilev_apart/03_mogilev_apart.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/mogilev_apart/03_mogilev_apart.jpg" alt="" />
@@ -112,7 +112,7 @@ const mogilevApart = () => {
               <div class="content_images">
                 <div class="content_images_one">
                 <a
-                    href="https://www.i-project.by/portfolio_newsite/mogilev_apart/04_mogilev_apart.webp"
+                    href="https://i-project.by/portfolio_newsite/mogilev_apart/04_mogilev_apart.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/mogilev_apart/04_mogilev_apart.jpg" alt="" />
@@ -120,13 +120,13 @@ const mogilevApart = () => {
                 </div>
                 <div class="content_images_two">
                 <a
-                    href="https://www.i-project.by/portfolio_newsite/mogilev_apart/05_mogilev_apart.webp"
+                    href="https://i-project.by/portfolio_newsite/mogilev_apart/05_mogilev_apart.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/mogilev_apart/05_mogilev_apart.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/mogilev_apart/06_mogilev_apart.webp"
+                    href="https://i-project.by/portfolio_newsite/mogilev_apart/06_mogilev_apart.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/mogilev_apart/06_mogilev_apart.jpg" alt="" />
@@ -134,13 +134,13 @@ const mogilevApart = () => {
                 </div>
                 <div class="content_images_two">
                 <a
-                    href="https://www.i-project.by/portfolio_newsite/mogilev_apart/07_mogilev_apart.webp"
+                    href="https://i-project.by/portfolio_newsite/mogilev_apart/07_mogilev_apart.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/mogilev_apart/07_mogilev_apart.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/mogilev_apart/08_mogilev_apart.webp"
+                    href="https://i-project.by/portfolio_newsite/mogilev_apart/08_mogilev_apart.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/mogilev_apart/08_mogilev_apart.jpg" alt="" />
@@ -150,7 +150,7 @@ const mogilevApart = () => {
               <div class="content_images">
                 <div class="content_images_one">
                 <a
-                    href="https://www.i-project.by/portfolio_newsite/mogilev_apart/09_mogilev_apart.webp"
+                    href="https://i-project.by/portfolio_newsite/mogilev_apart/09_mogilev_apart.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/mogilev_apart/09_mogilev_apart.jpg" alt="" />
@@ -158,13 +158,13 @@ const mogilevApart = () => {
                 </div>
                 <div class="content_images_two">
                 <a
-                    href="https://www.i-project.by/portfolio_newsite/mogilev_apart/10_mogilev_apart.webp"
+                    href="https://i-project.by/portfolio_newsite/mogilev_apart/10_mogilev_apart.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/mogilev_apart/10_mogilev_apart.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/mogilev_apart/11_mogilev_apart.webp"
+                    href="https://i-project.by/portfolio_newsite/mogilev_apart/11_mogilev_apart.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/mogilev_apart/11_mogilev_apart.jpg" alt="" />
@@ -172,13 +172,13 @@ const mogilevApart = () => {
                 </div>
                 <div class="content_images_two">
                 <a
-                    href="https://www.i-project.by/portfolio_newsite/mogilev_apart/12_mogilev_apart.webp"
+                    href="https://i-project.by/portfolio_newsite/mogilev_apart/12_mogilev_apart.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/mogilev_apart/12_mogilev_apart.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/mogilev_apart/13_mogilev_apart.webp"
+                    href="https://i-project.by/portfolio_newsite/mogilev_apart/13_mogilev_apart.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/mogilev_apart/13_mogilev_apart.jpg" alt="" />
@@ -190,7 +190,7 @@ const mogilevApart = () => {
           <div class="content_images">
             <div class="content_images_one_big">
              <a
-                href="https://www.i-project.by/portfolio_newsite/mogilev_apart/15_mogilev_apart.webp"
+                href="https://i-project.by/portfolio_newsite/mogilev_apart/15_mogilev_apart.webp"
                 data-fancybox="gallery"
               >
                 <StaticImage src="../../../images/portfolio/mogilev_apart/15_mogilev_apart.jpg" alt="" />
@@ -202,7 +202,7 @@ const mogilevApart = () => {
               <div class="content_images">
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/mogilev_apart/14_mogilev_apart.webp"
+                    href="https://i-project.by/portfolio_newsite/mogilev_apart/14_mogilev_apart.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/mogilev_apart/14_mogilev_apart.jpg" alt="" />
@@ -210,13 +210,13 @@ const mogilevApart = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/mogilev_apart/16_mogilev_apart.webp"
+                    href="https://i-project.by/portfolio_newsite/mogilev_apart/16_mogilev_apart.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/mogilev_apart/16_mogilev_apart.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/mogilev_apart/17_mogilev_apart.webp"
+                    href="https://i-project.by/portfolio_newsite/mogilev_apart/17_mogilev_apart.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/mogilev_apart/17_mogilev_apart.jpg" alt="" />
@@ -224,7 +224,7 @@ const mogilevApart = () => {
                 </div>
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/mogilev_apart/18_mogilev_apart.webp"
+                    href="https://i-project.by/portfolio_newsite/mogilev_apart/18_mogilev_apart.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/mogilev_apart/18_mogilev_apart.jpg" alt="" />

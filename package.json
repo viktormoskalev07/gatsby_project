@@ -7,10 +7,10 @@
   "dependencies": {
     "@fancyapps/ui": "^4.0.12",
     "@img-comparison-slider/react": "^7.3.2",
-    "axios": "^0.27.2",
     "gatsby": "^4.4.0",
     "gatsby-plugin-anchor-links": "^1.2.1",
     "gatsby-plugin-gatsby-cloud": "^4.4.0",
+    "gatsby-plugin-google-analytics": "^4.17.0",
     "gatsby-plugin-google-fonts": "^1.0.1",
     "gatsby-plugin-image": "^2.4.0",
     "gatsby-plugin-manifest": "^4.4.0",

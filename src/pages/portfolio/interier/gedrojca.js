@@ -9,9 +9,9 @@ import Seo from "../../../components/seo"
 const gedrojca = () => {
   return (
     <Layout>
-      <Seo  title={"Дизайн интерьера квартиры 120 м2, фотографии | I-PROJECT"} description={"Студия дизайна и архитектуры Александра Игнатьева, разработала современный интерьер квартир в светлых тонах."}
-            location={"https://www.i-project.by/portfolio/interier/gedrojca"}
-            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
+      <Seo  title={"Интерьер квартиры с водопадом на стекле 120 м2, фотографии | I-PROJECT"} description={"Студия дизайна и архитектуры Александра Игнатьева, разработала современный интерьер квартир в светлых тонах."}
+            location={"https://i-project.by/portfolio/interier/gedrojca"}
+            image={"https://i-project.by/portfolio_newsite/gedrojca/01_gedrojca.webp"}/>
       <Fancybox>
         <div class="wrapper">
           <div class="project">
@@ -20,7 +20,7 @@ const gedrojca = () => {
           </div>
           <div class="project_main_photo">
             <a
-              href="https://www.i-project.by/portfolio_newsite/gedrojca/01_gedrojca.webp"
+              href="https://i-project.by/portfolio_newsite/gedrojca/01_gedrojca.webp"
               data-fancybox="gallery"
             >
               <StaticImage src="../../../images/portfolio/gedrojca/01_gedrojca.jpg" alt="" />
@@ -49,19 +49,19 @@ const gedrojca = () => {
               </div>
               <div class="content_task_block" id="anchor_1">
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/gedrojca/05_gedrojca.webp"
+                  href="https://i-project.by/portfolio_newsite/gedrojca/05_gedrojca.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/gedrojca/05_gedrojca.jpg" alt="" />
                 </a>
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/gedrojca/10_gedrojca.webp"
+                  href="https://i-project.by/portfolio_newsite/gedrojca/10_gedrojca.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/gedrojca/10_gedrojca.jpg" alt="" />
                 </a>
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/gedrojca/06_gedrojca.webp"
+                  href="https://i-project.by/portfolio_newsite/gedrojca/06_gedrojca.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/gedrojca/06_gedrojca.jpg" alt="" />
@@ -75,13 +75,13 @@ const gedrojca = () => {
                 <h2 class="content_h2" id="anchor_2">Планировка квартиры</h2>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/gedrojca/13_gedrojca.webp"
+                    href="https://i-project.by/portfolio_newsite/gedrojca/13_gedrojca.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/gedrojca/13_gedrojca.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/gedrojca/14_gedrojca.webp"
+                    href="https://i-project.by/portfolio_newsite/gedrojca/14_gedrojca.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/gedrojca/14_gedrojca.jpg" alt="" />
@@ -96,7 +96,7 @@ const gedrojca = () => {
               <div class="content_images">
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/gedrojca/01_gedrojca.webp"
+                    href="https://i-project.by/portfolio_newsite/gedrojca/01_gedrojca.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/gedrojca/01_gedrojca.jpg" alt="" />
@@ -104,13 +104,13 @@ const gedrojca = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/gedrojca/03_gedrojca.webp"
+                    href="https://i-project.by/portfolio_newsite/gedrojca/03_gedrojca.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/gedrojca/03_gedrojca.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/gedrojca/04_gedrojca.webp"
+                    href="https://i-project.by/portfolio_newsite/gedrojca/04_gedrojca.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/gedrojca/04_gedrojca.jpg" alt="" />
@@ -125,7 +125,7 @@ const gedrojca = () => {
               <div class="content_images">
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/gedrojca/05_gedrojca.webp"
+                    href="https://i-project.by/portfolio_newsite/gedrojca/05_gedrojca.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/gedrojca/05_gedrojca.jpg" alt="" />
@@ -140,13 +140,13 @@ const gedrojca = () => {
               <div class="content_images">
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/gedrojca/06_gedrojca.webp"
+                    href="https://i-project.by/portfolio_newsite/gedrojca/06_gedrojca.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/gedrojca/06_gedrojca.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/gedrojca/07_gedrojca.webp"
+                    href="https://i-project.by/portfolio_newsite/gedrojca/07_gedrojca.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/gedrojca/07_gedrojca.jpg" alt="" />
@@ -157,13 +157,13 @@ const gedrojca = () => {
                 <h2 class="content_h2" id="anchor_6">Детская комната</h2>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/gedrojca/09_gedrojca.webp"
+                    href="https://i-project.by/portfolio_newsite/gedrojca/09_gedrojca.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/gedrojca/09_gedrojca.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/gedrojca/10_gedrojca.webp"
+                    href="https://i-project.by/portfolio_newsite/gedrojca/10_gedrojca.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/gedrojca/10_gedrojca.jpg" alt="" />
@@ -171,13 +171,13 @@ const gedrojca = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/gedrojca/11_gedrojca.webp"
+                    href="https://i-project.by/portfolio_newsite/gedrojca/11_gedrojca.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/gedrojca/11_gedrojca.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/gedrojca/12_gedrojca.webp"
+                    href="https://i-project.by/portfolio_newsite/gedrojca/12_gedrojca.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/gedrojca/12_gedrojca.jpg" alt="" />

@@ -7,38 +7,42 @@ import Masonry from 'react-masonry-css'
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 import BreadcrumbsArticles from "../../components/breadcrumbs-articles.js";
 import { ImgComparisonSlider } from '@img-comparison-slider/react';
+import { PageViewCounter } from "../../subitems/pageViewsCounter/pageViewCounter"
+import { GetPageView } from "../../subitems/pageViewsCounter/getPageView"
 import Seo from "../../components/seo"
 
-const reconstruction = () => {
+const reconstruction = ({location }) => {
   return (
     <Layout>
       <Seo  title={"Современная реконструкция зданий. Основные моменты | I-PROJECT"} description={"Выделим 3 варианта реконструкции дома, сравним плюсы и минусы. Примеры реализации дома и офиса в минской и могилевской области."}
-            location={"https://www.i-project.by/articles/reconstruction"}
-            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
-      <section class="article">
-        <BreadcrumbsArticles />
-        <div class="article_bcg article_bcg9">
-          <div class="wrapper">
-            <div class="article_title">
-              <h1 class="article_title_h1">Современная реконструкция зданий. Основные моменты</h1>
+            location={"https://i-project.by/articles/reconstruction"}
+            image={"https://i-project.by/portfolio_newsite/articles/article_1-9.jpg"}/>
+      <Fancybox>
+        <section class="article">
+          <BreadcrumbsArticles />
+          <div class="article_bcg article_bcg9">
+            <div class="wrapper">
+              <div class="article_title">
+                <h1 class="article_title_h1">Современная реконструкция зданий. Основные моменты</h1>
+                <p class="article_view_number article_view_number_hwhite"> <PageViewCounter  location={location}  /></p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="content_body">
-          <div class="content_body_absolute">
-            <div class="left_sidebar">
-              <ul>
-                <li><AnchorLink to="/articles/reconstruction/#reconstruction_1" title="Определение реконструкции" /></li>
-                <li><AnchorLink to="/articles/reconstruction/#reconstruction_2" title="Этап первый. Техобследование" /></li>
-                <li><AnchorLink to="/articles/reconstruction/#reconstruction_3" title="Этап второй. Выбор вариантов реконструкции" /></li>
-                <li><AnchorLink to="/articles/reconstruction/#reconstruction_4" title="Какие материалы применяются для обновления фасадов" /></li>
-                <li><AnchorLink to="/articles/reconstruction/#reconstruction_5" title="Перепланировка при реконструкции" /></li>
-              </ul>
-            </div>
-          </div> 
-          <div class="wrapper">
-            <div class="right_content">
-              <Fancybox>
+          <div class="content_body">
+            <div class="content_body_absolute">
+              <div class="left_sidebar">
+                <ul>
+                  <li><AnchorLink to="/articles/reconstruction/#reconstruction_1" title="Определение реконструкции" /></li>
+                  <li><AnchorLink to="/articles/reconstruction/#reconstruction_2" title="Этап первый. Техобследование" /></li>
+                  <li><AnchorLink to="/articles/reconstruction/#reconstruction_3" title="Этап второй. Выбор вариантов реконструкции" /></li>
+                  <li><AnchorLink to="/articles/reconstruction/#reconstruction_4" title="Реконструкции здания для компании &laquo;Протос&raquo;" /></li>
+                  <li><AnchorLink to="/articles/reconstruction/#reconstruction_5" title="Какие материалы применяются для обновления фасадов" /></li>
+                  <li><AnchorLink to="/articles/reconstruction/#reconstruction_6" title="Перепланировка при реконструкции" /></li>
+                </ul>
+              </div>
+            </div> 
+            <div class="wrapper">
+              <div class="right_content">
                 <div class="wrapper_article">
                   <div class="content_text">
                     <p class="content_p">Сносить или делать реконструкцию? Этим вопросом задаются владельцы многих сооружений, построенных более 20&nbsp;лет назад.</p>
@@ -46,7 +50,7 @@ const reconstruction = () => {
                   </div>
                   <div class="content_images">
                     <div class="content_images_one">
-                      <StaticImage src="../../images//portfolio/baltic_house/exterior/before/1.jpg" alt="" />
+                      <StaticImage src="../../images//portfolio/baltic_house/exterior/before/1.jpg" alt="Недостроенный кирпичный дом" />
                     </div>
                   </div>
                   <div class="content_text" id="reconstruction_1">
@@ -56,11 +60,11 @@ const reconstruction = () => {
                   <div class="before_after">
                     <ImgComparisonSlider class="slider-opacity-and-size" value="50">
                       <figure slot="first" width="100%" class="before">
-                        <StaticImage src="../../images/portfolio/protos_reconstraction/11_1_protos_reconstraction.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/protos_reconstraction/11_1_protos_reconstraction.jpg" alt="Фасад офиса после реконструкции" />
                         <figcaption>Стало</figcaption>
                       </figure>
                       <figure slot="second" width="100%" class="after">
-                        <StaticImage src="../../images/portfolio/protos_reconstraction/before/01_protos_before.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/protos_reconstraction/before/01_protos_before.jpg" alt="Фасад офиса до реконструкции" />
                         <figcaption>Было</figcaption>
                       </figure>
                     </ImgComparisonSlider>
@@ -87,12 +91,12 @@ const reconstruction = () => {
                     <div class="content_images">
                       <div class="content_images_two">
                         <a
-                          href="https://www.i-project.by/portfolio_newsite/baltic_house/exterior/01_baltic_home_exterior.webp"
+                          href="https://i-project.by/portfolio_newsite/baltic_house/exterior/01_baltic_home_exterior.webp"
                           data-fancybox="gallery"
                         >
-                          <StaticImage src="../../images/portfolio/baltic_house/exterior/01_baltic_home_exterior.jpg" alt="" />
+                          <StaticImage src="../../images/portfolio/baltic_house/exterior/01_baltic_home_exterior.jpg" alt="Современный дом после реконструкции" />
                         </a>
-                        <StaticImage src="../../images//portfolio/baltic_house/exterior/before/1.jpg" alt="" />
+                        <StaticImage src="../../images//portfolio/baltic_house/exterior/before/1.jpg" alt="Недостроенный кирпичный дом" />
                       </div>
                     </div>
                     <li>3. Обновление фасада с&nbsp;добавлением пристройки</li>
@@ -102,26 +106,57 @@ const reconstruction = () => {
                     </div>
                     <div class="content_images">
                       <div class="content_images_three">
-                        <StaticImage src="../../images/portfolio/protos_reconstraction/before/03_protos_before.jpg" alt="" />
-                        <StaticImage src="../../images/portfolio/protos_reconstraction/before/04_protos_before.jpg" alt="" />
-                        <StaticImage src="../../images/portfolio/protos_reconstraction/before/06_protos_before.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/protos_reconstraction/before/03_protos_before.jpg" alt="Строительство пристройки к офису" />
+                        <StaticImage src="../../images/portfolio/protos_reconstraction/before/04_protos_before.jpg" alt="Строительство пристройки к офису, утепление фасада" />
+                        <StaticImage src="../../images/portfolio/protos_reconstraction/before/06_protos_before.jpg" alt="Строительство пристройки к офису, установка вентфасада" />
                       </div>
                       <div class="before_after">
                         <ImgComparisonSlider class="slider-opacity-and-size" value="50">
                           <figure slot="first" width="100%" class="before">
-                            <StaticImage src="../../images/portfolio/protos_reconstraction/11_1_protos_reconstraction.jpg" alt="" />
+                            <StaticImage src="../../images/portfolio/protos_reconstraction/11_1_protos_reconstraction.jpg" alt="Фасад офиса после реконструкции" />
                             <figcaption>Стало</figcaption>
                           </figure>
                           <figure slot="second" width="100%" class="after">
-                            <StaticImage src="../../images/portfolio/protos_reconstraction/before/01_protos_before.jpg" alt="" />
+                            <StaticImage src="../../images/portfolio/protos_reconstraction/before/01_protos_before.jpg" alt="Фасад офиса до реконструкции" />
                             <figcaption>Было</figcaption>
                           </figure>
                         </ImgComparisonSlider>
                       </div>
                     </div>
-                    
                   </ul>
-                  <h2 class="content_h2" id="reconstruction_4">Какие материалы применяются для обновления фасадов</h2>
+                  <h2 class="content_h2" id="reconstruction_4">Реконструкции здания для компании &laquo;Протос&raquo;</h2>
+                  <div class="content_text">
+                    <p class="content_p">В&nbsp;процессе реконструкции здания для компании &laquo;Протос&raquo; к&nbsp;основному строению добавлена эффектная входная группа с&nbsp;тамбуром и&nbsp;пристраиваемая часть со&nbsp;сплошным остеклением и&nbsp;террасой. В&nbsp;уровень с&nbsp;новым остеклением были установлены фальш-панели, что позволило создать иллюзию цельного стекла, уходящего в&nbsp;небо.</p>
+                    <p class="content_p">В&nbsp;пристраиваемое помещение можно попасть из&nbsp;кабинета через стеклянный коридор. Lounge-зона может открываться при хорошей погоде, рядом с&nbsp;ней находится терраса, частично закрытая от&nbsp;осадков.</p>
+                    <p class="content_p">Благодаря использованным решениям здание преобразилось кардинальным образом.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="content_images">
+              <div class="partner_project">
+                <div class="wrapper">
+                  <div class="right_content">
+                    <div class="partner_project_flex">
+                      <div class="partner_project_images">
+                        <StaticImage src="../../images/portfolio/protos_reconstraction/01_protos_reconstraction.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/protos_reconstraction/02_protos_reconstraction.jpg" alt="" />
+                      </div>
+                      <div class="partner_project_line"></div>
+                      <div class="partner_project_text">
+                        <p>Реконструкция офиса &laquo;Протос&raquo;</p>
+                        <Link to="/portfolio/architecture/rekonstrukciya-protos" className="partner_project_link">Подробнее</Link>
+                      </div>
+                    </div>
+                    <Link to="/portfolio/architecture/rekonstrukciya-protos" className="partner_project_link_mob">Подробнее</Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="wrapper">
+              <div class="right_content">
+                <div class="wrapper_article">
+                  <h2 class="content_h2" id="reconstruction_5">Какие материалы применяются для обновления фасадов</h2>
                   <div class="content_text">
                     <p class="content_p">Неотъемлемой частью процесса реконструкции здания является утепление стен качественными материалами. Это позволит повысить класс энергоэффективности здания и&nbsp;снизить энергозатраты.</p>
                     <p class="content_p">Большую популярность благодаря своим отличным визуальным и&nbsp;эксплуатационным характеристикам приобрел керамогранит. Он&nbsp;характеризуется прочностью, экологичностью, не&nbsp;горючестью и&nbsp;стойкостью к&nbsp;агрессивной среде. Сегодня керамогранит применяют для создания вентилируемых фасадов при внешней облицовке зданий. Помимо отделочной функции такой фасад способствует эффективному утеплению внешней части здания.</p>
@@ -129,70 +164,73 @@ const reconstruction = () => {
                   <div class="content_images">
                     <div class="content_images_one">
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/protos_reconstraction/13_protos_reconstraction.webp"
+                        href="https://i-project.by/portfolio_newsite/protos_reconstraction/13_protos_reconstraction.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/protos_reconstraction/13_protos_reconstraction.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/protos_reconstraction/13_protos_reconstraction.jpg" alt="Пристройка офиса с большими окнами" />
                       </a>
                     </div>
                     <div class="pattern">
-                      <StaticImage src="../../images/portfolio/protos_reconstraction/pattern.jpg" alt="" />
+                      <StaticImage src="../../images/portfolio/protos_reconstraction/pattern.jpg" alt="Керамогранит с уникальным рисунком" />
                     </div>
                   </div>
                   <div class="content_text">
-                    <p class="content_p">Еще один вариант эффектного и&nbsp;надежного материала для отделки фасада в&nbsp;процессе реконструкции&nbsp;&mdash; клинкерный кирпич. Это материал, который прошел проверку временем. Производители клинкера предлагают огромное многообразие лицевого кирпича самых разных размеров, форм и&nbsp;текстур. Клинкерную плитку можно смело клеить как на&nbsp;аквапанели, так и&nbsp;непосредственно на&nbsp;фасад, не&nbsp;боясь, что она отскочит.
-                    </p>
+                    <p class="content_p">Еще один вариант эффектного и&nbsp;надежного материала для отделки фасада в&nbsp;процессе реконструкции&nbsp;&mdash; клинкерный кирпич. Это материал, который прошел проверку временем. Производители клинкера предлагают огромное многообразие лицевого кирпича самых разных размеров, форм и&nbsp;текстур. Клинкерную плитку можно смело клеить как на&nbsp;аквапанели, так и&nbsp;непосредственно на&nbsp;фасад, не&nbsp;боясь, что она отскочит.</p>
                   </div>
                   <div class="content_images">
                     <div class="content_images_two">
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/luban/03_luban.webp"
+                        href="https://i-project.by/portfolio_newsite/luban/03_luban.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/luban/03_luban.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/luban/03_luban.jpg" alt="Современный фасад частного дома" />
                       </a>
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/luban/05_luban.webp"
+                        href="https://i-project.by/portfolio_newsite/luban/05_luban.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/luban/05_luban.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/luban/05_luban.jpg" alt="Терраса в современном частном доме" />
                       </a>
                     </div>
                     <div class="pattern">
-                      <StaticImage src="../../images/portfolio/luban/pattern.jpg" alt="" />
+                      <StaticImage src="../../images/portfolio/luban/pattern.jpg" alt="Светлый клинкерный кирпич" />
                     </div>
                   </div>
-                  <h2 class="content_h2" id="reconstruction_5">Перепланировка при реконструкции</h2>
+                  <h2 class="content_h2" id="reconstruction_6">Перепланировка при реконструкции</h2>
                   <div class="content_text">
                     <p class="content_p">Существует множество вариантов перепланировки здания в&nbsp;процессе реконструкции, особенно если речь идет про одноэтажное здание. Стены и&nbsp;перегородки можно полностью или частично демонтировать, а&nbsp;также возвести новые, добавить или ликвидировать оконные и&nbsp;дверные проемы, изменить их&nbsp;размеры. При необходимости, можно корректировать и&nbsp;несущие конструкции или делать в&nbsp;них необходимые проемы, не&nbsp;забывая разработать проект усиления. Просчитывать и&nbsp;проводить эти манипуляции должны исключительно специалисты-конструкторы.</p>
                     <p class="content_p">Стоит отметить, что кроме создания новой планировки в&nbsp;процессе реконструкции создается и&nbsp;новый интерьер в&nbsp;соответствии с&nbsp;предпочтениями хозяев и&nbsp;функциональным назначением каждого помещения.</p>
                   </div>
                 </div>
-              </Fancybox>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="wrapper">
-          <h3 class="content_h2">Похожие статьи</h3>
-          <Masonry
-            breakpointCols={breakpointColumnsObj}
-            className="articles_page"
-            columnClassName="my-masonry-grid_column">
-            <Link to="/articles/hranenie" className="articles_page_item articles_page_item6">
-              <h4 className="articles_page_item_title_medium articles_page_item_title_black">Как организовать хранение вещей в&nbsp;доме и&nbsp;квартире</h4>
-            </Link>
-            <Link to="/articles/spalnya" className="articles_page_item articles_page_item5">
-              <h4 className="articles_page_item_title_small articles_page_item_title_white">Спальня мечты: секреты идеального дизайна</h4>
-            </Link>
-            <Link to="/articles/architectura" className="articles_page_item articles_page_item4">
-              <h4 className="articles_page_item_title_small articles_page_item_title_white">Архитектура частного дома: на&nbsp;что важно обратить внимание</h4>
-            </Link>
-            <Link to="/articles/krovlya" className="articles_page_item articles_page_item2">
-              <h4 className="articles_page_item_title_medium articles_page_item_title_white">Плоская и&nbsp;скатная кровля: за&nbsp;и&nbsp;против</h4>
-            </Link>
-          </Masonry>
-        </div>
-      </section>
+          <div class="wrapper">
+            <h3 class="content_h2">Похожие статьи</h3>
+            <Masonry
+              breakpointCols={breakpointColumnsObj}
+              className="articles_page"
+              columnClassName="my-masonry-grid_column">
+              <Link to="/articles/hranenie" className="articles_page_item articles_page_item6">
+                <h4 className="articles_page_item_title_medium articles_page_item_title_black">Как организовать хранение вещей в&nbsp;доме и&nbsp;квартире</h4>
+                <p className="articles_page_item_view_number articles_page_item_view_number_hblack"> <GetPageView slug={'/articles/hranenie'}/> </p>
+              </Link>
+              <Link to="/articles/spalnya" className="articles_page_item articles_page_item5">
+                <h4 className="articles_page_item_title_small articles_page_item_title_white">Спальня мечты: секреты идеального дизайна</h4>
+                <p className="articles_page_item_view_number articles_page_item_view_number_hwhite"> <GetPageView slug={'/articles/spalnya'}/> </p>
+              </Link>
+              <Link to="/articles/architectura" className="articles_page_item articles_page_item4">
+                <h4 className="articles_page_item_title_small articles_page_item_title_white">Архитектура частного дома: на&nbsp;что важно обратить внимание</h4>
+                <p className="articles_page_item_view_number articles_page_item_view_number_hwhite"> <GetPageView slug={'/articles/architectura'}/> </p>
+              </Link>
+              <Link to="/articles/krovlya" className="articles_page_item articles_page_item2">
+                <h4 className="articles_page_item_title_medium articles_page_item_title_white">Плоская и&nbsp;скатная кровля: за&nbsp;и&nbsp;против</h4>
+                <p className="articles_page_item_view_number articles_page_item_view_number_hwhite"> <GetPageView slug={'/articles/krovlya'}/> </p>
+              </Link>
+            </Masonry>
+          </div>
+        </section>
+      </Fancybox>
     </Layout>
   )
 }

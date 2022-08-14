@@ -13,8 +13,8 @@ const korolya = () => {
   return (
     <Layout>
       <Seo  title={"Интерьер квартиры на ул.Короля 145 м2, фото | I-PROJECT"} description={"Основная идея проекта: сделать интерьер, который будет отражать внутренний мир заказчика Цветовая гамма: смелое сочетание сложных цветов, в основном — приглушенных."}
-            location={"https://www.i-project.by/portfolio/interier/korolya"}
-            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
+            location={"https://i-project.by/portfolio/interier/korolya"}
+            image={"https://i-project.by/portfolio_newsite/korolya/01_korolya.webp"}/>
       <Fancybox>
         <div class="wrapper">
           <div class="project">
@@ -53,19 +53,19 @@ const korolya = () => {
               </div>
               <div class="content_task_block" id="anchor_1">
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/korolya/03_korolya.webp"
+                  href="https://i-project.by/portfolio_newsite/korolya/03_korolya.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/korolya/03_korolya.jpg" alt="" />
                 </a>
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/korolya/10_korolya.webp"
+                  href="https://i-project.by/portfolio_newsite/korolya/10_korolya.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/korolya/10_korolya.jpg" alt="" />
                 </a>
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/korolya/04_korolya.webp"
+                  href="https://i-project.by/portfolio_newsite/korolya/04_korolya.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/korolya/04_korolya.jpg" alt="" />
@@ -80,13 +80,13 @@ const korolya = () => {
                 <h2 class="content_h2" id="anchor_2">Планировка квартиры</h2>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/korolya/21_korolya.webp"
+                    href="https://i-project.by/portfolio_newsite/korolya/21_korolya.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/korolya/21_korolya.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/korolya/22_korolya.webp"
+                    href="https://i-project.by/portfolio_newsite/korolya/22_korolya.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/korolya/22_korolya.jpg" alt="" />
@@ -101,7 +101,7 @@ const korolya = () => {
           </div>
           <div class="content_images_one_big">
             <a
-              href="https://www.i-project.by/portfolio_newsite/korolya/01_korolya.webp"
+              href="https://i-project.by/portfolio_newsite/korolya/01_korolya.webp"
               data-fancybox="gallery"
             >
               <StaticImage src="../../../images/portfolio/korolya/01_korolya.jpg" alt="" />
@@ -112,13 +112,13 @@ const korolya = () => {
               <div class="content_images">
                 <div class="content_images_two_left_narrow">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/korolya/02_korolya.webp"
+                    href="https://i-project.by/portfolio_newsite/korolya/02_korolya.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/korolya/02_korolya.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/korolya/04_korolya.webp"
+                    href="https://i-project.by/portfolio_newsite/korolya/04_korolya.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/korolya/04_korolya.jpg" alt="" />
@@ -126,13 +126,13 @@ const korolya = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/korolya/05_korolya.webp"
+                    href="https://i-project.by/portfolio_newsite/korolya/05_korolya.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/korolya/05_korolya.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/korolya/06_korolya.webp"
+                    href="https://i-project.by/portfolio_newsite/korolya/06_korolya.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/korolya/06_korolya.jpg" alt="" />
@@ -145,13 +145,13 @@ const korolya = () => {
               <div class="content_images">
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/korolya/07_korolya.webp"
+                    href="https://i-project.by/portfolio_newsite/korolya/07_korolya.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/korolya/07_korolya.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/korolya/08_korolya.webp"
+                    href="https://i-project.by/portfolio_newsite/korolya/08_korolya.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/korolya/08_korolya.jpg" alt="" />
@@ -166,13 +166,13 @@ const korolya = () => {
                 <h2 class="content_h2" id="anchor_4">Мастер-спальня</h2>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/korolya/14_korolya.webp"
+                    href="https://i-project.by/portfolio_newsite/korolya/14_korolya.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/korolya/14_korolya.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/korolya/12_korolya.webp"
+                    href="https://i-project.by/portfolio_newsite/korolya/12_korolya.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/korolya/12_korolya.jpg" alt="" />
@@ -180,7 +180,7 @@ const korolya = () => {
                 </div>
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/korolya/15_korolya.webp"
+                    href="https://i-project.by/portfolio_newsite/korolya/15_korolya.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/korolya/15_korolya.jpg" alt="" />
@@ -188,7 +188,7 @@ const korolya = () => {
                 </div>
                 <div class="content_images_two_left_narrow">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/korolya/13_korolya.webp"
+                    href="https://i-project.by/portfolio_newsite/korolya/13_korolya.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/korolya/13_korolya.jpg" alt="" />
@@ -205,13 +205,13 @@ const korolya = () => {
                 <h2 class="content_h2" id="anchor_5">Санузлы</h2>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/korolya/16_korolya.webp"
+                    href="https://i-project.by/portfolio_newsite/korolya/16_korolya.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/korolya/16_korolya.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/korolya/11_korolya.webp"
+                    href="https://i-project.by/portfolio_newsite/korolya/11_korolya.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/korolya/11_korolya.jpg" alt="" />
@@ -222,13 +222,13 @@ const korolya = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/korolya/17_korolya.webp"
+                    href="https://i-project.by/portfolio_newsite/korolya/17_korolya.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/korolya/17_korolya.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/korolya/20_korolya.webp"
+                    href="https://i-project.by/portfolio_newsite/korolya/20_korolya.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/korolya/20_korolya.jpg" alt="" />
@@ -247,19 +247,19 @@ const korolya = () => {
                 </div>
                 <div class="content_images_three">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/korolya/09_korolya.webp"
+                    href="https://i-project.by/portfolio_newsite/korolya/09_korolya.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/korolya/09_korolya.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/korolya/18_korolya.webp"
+                    href="https://i-project.by/portfolio_newsite/korolya/18_korolya.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/korolya/18_korolya.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/korolya/19_korolya.webp"
+                    href="https://i-project.by/portfolio_newsite/korolya/19_korolya.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/korolya/19_korolya.jpg" alt="" />

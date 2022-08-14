@@ -38,7 +38,7 @@ export const GetPageView = ({    slug}) => {
 
   return (
     <span style={hide?{opacity:0}:{color:'inherit'}}>
-                {number}
-           </span>
+      {number}
+    </span>
   )
 }

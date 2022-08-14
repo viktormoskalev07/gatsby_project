@@ -6,20 +6,23 @@ import Fancybox from "../../components/fancybox.js";
 import Masonry from 'react-masonry-css'
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 import BreadcrumbsArticles from "../../components/breadcrumbs-articles.js";
+import { PageViewCounter } from "../../subitems/pageViewsCounter/pageViewCounter"
+import { GetPageView } from "../../subitems/pageViewsCounter/getPageView"
 import Seo from "../../components/seo"
 
-const krovlya = () => {
+const krovlya = ({location }) => {
   return (
     <Layout>
       <Seo  title={"Плоская и скатная кровля: за и против | I-PROJECT"} description={"Вместе с дизайнерами попробуем выяснить все плюсы и минусы скатной, плоской и эксплуатируемой кровли."}
-            location={"https://www.i-project.by/articles/krovlya"}
-            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
+            location={"https://i-project.by/articles/krovlya"}
+            image={"https://i-project.by/portfolio_newsite/articles/article_1-2.jpg"}/>
       <section class="article">
         <BreadcrumbsArticles />
         <div class="article_bcg article_bcg2">
           <div class="wrapper">
             <div class="article_title">
               <h1 class="article_title_h1">Плоская и&nbsp;скатная кровля: за&nbsp;и&nbsp;против</h1>
+              <p class="article_view_number article_view_number_hwhite"> <PageViewCounter  location={location}  /></p>
             </div>
           </div>
         </div>
@@ -42,24 +45,24 @@ const krovlya = () => {
                   <div class="content_images">
                     <div class="content_images_one">
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/luban/01_luban.webp"
+                        href="https://i-project.by/portfolio_newsite/luban/01_luban.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/luban/01_luban.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/luban/01_luban.jpg" alt="Пример скатной, фальцевой кровли" />
                       </a>
                     </div>
                     <div class="content_images_two">
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/protos_reconstraction/06_protos_reconstraction.webp"
+                        href="https://i-project.by/portfolio_newsite/protos_reconstraction/06_protos_reconstraction.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/protos_reconstraction/06_protos_reconstraction.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/protos_reconstraction/06_protos_reconstraction.jpg" alt="Пример плоской, фальцевой кровли" />
                       </a>
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/sosni/01_sosni.webp"
+                        href="https://i-project.by/portfolio_newsite/sosni/01_sosni.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/sosni/01_sosni.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/sosni/01_sosni.jpg" alt="Пример плоской, эксплуатируемой кровли" />
                       </a>
                     </div>
                   </div>
@@ -73,16 +76,16 @@ const krovlya = () => {
                   <div class="content_images">
                     <div class="content_images_two">
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/luban/12_luban.webp"
+                        href="https://i-project.by/portfolio_newsite/luban/12_luban.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/luban/12_luban.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/luban/12_luban.jpg" alt="Дом с вальмовой кровлей" />
                       </a>
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/shale/02_shale.webp"
+                        href="https://i-project.by/portfolio_newsite/shale/02_shale.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/shale/02_shale.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/shale/02_shale.jpg" alt="Дом с двускатной кровлей" />
                       </a>
                     </div>
                   </div>
@@ -104,10 +107,10 @@ const krovlya = () => {
                   <div class="content_images">
                     <div class="content_images_one">
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/protos_reconstraction/01_protos_reconstraction.webp"
+                        href="https://i-project.by/portfolio_newsite/protos_reconstraction/01_protos_reconstraction.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/protos_reconstraction/01_protos_reconstraction.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/protos_reconstraction/01_protos_reconstraction.jpg" alt="Офис с плоской кровлей" />
                       </a>
                     </div>
                   </div>
@@ -132,24 +135,24 @@ const krovlya = () => {
                   <div class="content_images">
                     <div class="content_images_one">
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/luban/3d/06_luban.webp"
+                        href="https://i-project.by/portfolio_newsite/luban/3d/06_luban.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/luban/3d/06_luban.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/luban/3d/06_luban.jpg" alt="Пример дома с фальцевой кровлей" />
                       </a>
                     </div>
                     <div class="content_images_two_left_narrow">
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/luban/08_luban.webp"
+                        href="https://i-project.by/portfolio_newsite/luban/08_luban.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/luban/08_luban.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/luban/08_luban.jpg" alt="Пример дома с фальцевой кровлей" />
                       </a>
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/protos_reconstraction/07_protos_reconstraction.webp"
+                        href="https://i-project.by/portfolio_newsite/protos_reconstraction/07_protos_reconstraction.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/protos_reconstraction/07_protos_reconstraction.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/protos_reconstraction/07_protos_reconstraction.jpg" alt="Пример офиса с фальцевой кровлей" />
                       </a>
                     </div>
                   </div>
@@ -160,16 +163,16 @@ const krovlya = () => {
                   <div class="content_images">
                     <div class="content_images_two">
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/protos_reconstraction/04_protos_reconstraction.webp"
+                        href="https://i-project.by/portfolio_newsite/protos_reconstraction/04_protos_reconstraction.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/protos_reconstraction/04_protos_reconstraction.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/protos_reconstraction/04_protos_reconstraction.jpg" alt="Пример плоской, неэксплуатируемой кровли" />
                       </a>
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/baltic_house/exterior/04_baltic_home_exterior.webp"
+                        href="https://i-project.by/portfolio_newsite/baltic_house/exterior/04_baltic_home_exterior.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/baltic_house/exterior/04_baltic_home_exterior.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/baltic_house/exterior/04_baltic_home_exterior.jpg" alt="Пример плоской, эксплуатируемой кровли" />
                       </a>
                     </div>
                   </div>
@@ -180,16 +183,16 @@ const krovlya = () => {
                   <div class="content_images">
                     <div class="content_images_two">
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/sosni/02_sosni.webp"
+                        href="https://i-project.by/portfolio_newsite/sosni/02_sosni.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/sosni/02_sosni.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/sosni/02_sosni.jpg" alt="Плоская крыша, эксплуатируемая кровля" />
                       </a>
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/baltic_house/exterior/01_baltic_home_exterior.webp"
+                        href="https://i-project.by/portfolio_newsite/baltic_house/exterior/01_baltic_home_exterior.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/baltic_house/exterior/01_baltic_home_exterior.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/baltic_house/exterior/01_baltic_home_exterior.jpg" alt="Плоская, эксплуатируемая кровля" />
                       </a>
                     </div>
                   </div>
@@ -210,22 +213,22 @@ const krovlya = () => {
                   <div class="content_images">
                     <div class="content_images_three_left_narrow">
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/luban/03_luban.webp"
+                        href="https://i-project.by/portfolio_newsite/luban/03_luban.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/luban/03_luban.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/luban/03_luban.jpg" alt="Дом с плоской и эксплуатируемой кровлей" />
                       </a>
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/baltic_house/exterior/12_baltic_home_exterior.webp"
+                        href="https://i-project.by/portfolio_newsite/baltic_house/exterior/12_baltic_home_exterior.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/baltic_house/exterior/12_baltic_home_exterior.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/baltic_house/exterior/12_baltic_home_exterior.jpg" alt="Дом с террасой, эксплуатируемая кровля" />
                       </a>
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/protos_reconstraction/15_protos_reconstraction.webp"
+                        href="https://i-project.by/portfolio_newsite/protos_reconstraction/15_protos_reconstraction.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/protos_reconstraction/15_protos_reconstraction.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/protos_reconstraction/15_protos_reconstraction.jpg" alt="Плоская, неэксплуатируемая кровля" />
                       </a>
                     </div>
                   </div>
@@ -270,15 +273,19 @@ const krovlya = () => {
             columnClassName="my-masonry-grid_column">
             <Link to="/articles/hranenie" className="articles_page_item articles_page_item6">
               <h4 className="articles_page_item_title_medium articles_page_item_title_black">Как организовать хранение вещей в&nbsp;доме и&nbsp;квартире</h4>
+              <p className="articles_page_item_view_number articles_page_item_view_number_hblack"> <GetPageView slug={'/articles/hranenie'}/> </p>
             </Link>
             <Link to="/articles/spalnya" className="articles_page_item articles_page_item5">
               <h4 className="articles_page_item_title_small articles_page_item_title_white">Спальня мечты: секреты идеального дизайна</h4>
+              <p className="articles_page_item_view_number articles_page_item_view_number_hwhite"> <GetPageView slug={'/articles/spalnya'}/> </p>
             </Link>
             <Link to="/articles/architectura" className="articles_page_item articles_page_item4">
               <h4 className="articles_page_item_title_small articles_page_item_title_white">Архитектура частного дома: на&nbsp;что важно обратить внимание</h4>
+              <p className="articles_page_item_view_number articles_page_item_view_number_hwhite"> <GetPageView slug={'/articles/architectura'}/> </p>
             </Link>
             <Link to="/articles/dveri" className="articles_page_item articles_page_item3">
               <h4 className="articles_page_item_title_small articles_page_item_title_white">Как выбрать межкомнатные двери: советы и&nbsp;рекомендации</h4>
+              <p className="articles_page_item_view_number articles_page_item_view_number_white"> <GetPageView slug={'/articles/dveri'}/> </p>
             </Link>
           </Masonry>
         </div>

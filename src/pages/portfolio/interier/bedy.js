@@ -9,9 +9,9 @@ import Seo from "../../../components/seo"
 const bedy = () => {
   return (
     <Layout>
-      <Seo  title={"Дизайн интерьера квартиры 120 м2, фотографии | I-PROJECT"} description={"Студия дизайна и архитектуры Александра Игнатьева, разработала современный интерьер квартиры для молодой семьи. Представлены оригинальные фото реализованной квартиры"}
-            location={"https://www.i-project.by/portfolio/interier/bedy"}
-            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
+      <Seo  title={"Интерьер квартиры в монохромном цвете 120 м2, фотографии | I-PROJECT"} description={"Студия дизайна и архитектуры Александра Игнатьева, разработала современный интерьер квартиры для молодой семьи. Представлены оригинальные фото реализованной квартиры"}
+            location={"https://i-project.by/portfolio/interier/bedy"}
+            image={"https://i-project.by/portfolio_newsite/bedy/01_bedy.webp"}/>
       <Fancybox>
         <div class="wrapper">
           <div class="project">
@@ -20,7 +20,7 @@ const bedy = () => {
           </div>
           <div class="project_main_photo">
             <a
-              href="https://www.i-project.by/portfolio_newsite/bedy/01_bedy.webp"
+              href="https://i-project.by/portfolio_newsite/bedy/01_bedy.webp"
               data-fancybox="gallery"
             >
               <StaticImage src="../../../images/portfolio/bedy/01_bedy.jpg" alt="" />
@@ -48,19 +48,19 @@ const bedy = () => {
               </div>
               <div class="content_task_block" id="anchor_1">
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/bedy/02_bedy.webp"
+                  href="https://i-project.by/portfolio_newsite/bedy/02_bedy.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/bedy/02_bedy.jpg" alt="" />
                 </a>
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/bedy/06_bedy.webp"
+                  href="https://i-project.by/portfolio_newsite/bedy/06_bedy.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/bedy/06_bedy.jpg" alt="" />
                 </a>
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/bedy/03_bedy.webp"
+                  href="https://i-project.by/portfolio_newsite/bedy/03_bedy.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/bedy/03_bedy.jpg" alt="" />
@@ -77,13 +77,13 @@ const bedy = () => {
               <div class="content_images">
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/bedy/09_bedy.webp"
+                    href="https://i-project.by/portfolio_newsite/bedy/09_bedy.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/bedy/09_bedy.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/bedy/10_bedy.webp"
+                    href="https://i-project.by/portfolio_newsite/bedy/10_bedy.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/bedy/10_bedy.jpg" alt="" />
@@ -98,7 +98,7 @@ const bedy = () => {
               <div class="content_images">
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/bedy/01_bedy.webp"
+                    href="https://i-project.by/portfolio_newsite/bedy/01_bedy.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/bedy/01_bedy.jpg" alt="" />
@@ -106,13 +106,13 @@ const bedy = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/bedy/02_bedy.webp"
+                    href="https://i-project.by/portfolio_newsite/bedy/02_bedy.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/bedy/02_bedy.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/bedy/03_bedy.webp"
+                    href="https://i-project.by/portfolio_newsite/bedy/03_bedy.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/bedy/03_bedy.jpg" alt="" />
@@ -120,7 +120,7 @@ const bedy = () => {
                 </div>
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/bedy/04_bedy.webp"
+                    href="https://i-project.by/portfolio_newsite/bedy/04_bedy.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/bedy/04_bedy.jpg" alt="" />
@@ -128,13 +128,13 @@ const bedy = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/bedy/05_bedy.webp"
+                    href="https://i-project.by/portfolio_newsite/bedy/05_bedy.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/bedy/05_bedy.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/bedy/06_bedy.webp"
+                    href="https://i-project.by/portfolio_newsite/bedy/06_bedy.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/bedy/06_bedy.jpg" alt="" />
@@ -148,7 +148,7 @@ const bedy = () => {
               <div class="content_images">
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/bedy/07_bedy.webp"
+                    href="https://i-project.by/portfolio_newsite/bedy/07_bedy.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/bedy/07_bedy.jpg" alt="" />
@@ -162,7 +162,7 @@ const bedy = () => {
               <div class="content_images">
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/bedy/08_bedy.webp"
+                    href="https://i-project.by/portfolio_newsite/bedy/08_bedy.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/bedy/08_bedy.jpg" alt="" />

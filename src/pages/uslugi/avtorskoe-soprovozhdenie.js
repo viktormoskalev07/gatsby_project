@@ -14,8 +14,8 @@ const avtorskoeSoprovozhdenie = () => {
   return (
     <Layout>
       <Seo  title={"Авторский надзор и сопровождение в Минске | I-PROJECT"} description={"Консультируем наших клиентов, регулярно выезжаем на объект, исключаем возможность возникновения ошибок или недочетов на смежных участках работ"}
-            location={"https://www.i-project.by/uslugi/dizajn-interera"}
-            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
+            location={"https://i-project.by/uslugi/dizajn-interera"}
+            image={"https://i-project.by/portfolio_newsite/korolya/01_korolya.webp"}/>
       <div class="services_video">
         <Video  mobileSrc={mainVideoMobile} desktopSrc={mainVideo} />
         <div className="wrapper">
@@ -88,21 +88,21 @@ const avtorskoeSoprovozhdenie = () => {
                   breakpointCols={breakpointColumnsPortfolio}
                   className="portfolio_grid"
                   columnClassName="my-masonry-grid_column">
-                  <Link to="/portfolio/interier/interier-baltic-house/" className="portfolio_grid_link">
+                  <Link to="/portfolio/interier/interier-baltic-house" className="portfolio_grid_link">
                     <StaticImage src="../../images/portfolio/baltic_house/interior/00_baltic_home_interior.jpg" alt="" />
                     <div className="portfolio_grid_block">
                       <h3 className="portfolio_grid_block_title">Дом с&nbsp;балтийским характером. Интерьер, 500м<sup>2</sup></h3>
                       <p className="portfolio_grid_block_realize">Реализовано</p>
                     </div>
                   </Link>
-                  <Link to="/portfolio/interier/d3/" className="portfolio_grid_link">
+                  <Link to="/portfolio/interier/d3" className="portfolio_grid_link">
                     <StaticImage src="../../images/portfolio/d3/00_d3.jpg" alt="" />
                     <div className="portfolio_grid_block">
                       <h3 className="portfolio_grid_block_title">Дизайн квартиры в&nbsp;жилом комплексе &laquo;D3&raquo;, 120м<sup>2</sup></h3>
                       <p className="portfolio_grid_block_realize">Реализовано</p>
                     </div>
                   </Link>
-                  <Link to="/portfolio/architecture/exterier-baltic-house/" className="portfolio_grid_link">
+                  <Link to="/portfolio/architecture/exterier-baltic-house" className="portfolio_grid_link">
                     <StaticImage src="../../images/portfolio/baltic_house/exterior/00_baltic_home_exterior.jpg" alt="" />
                     <div className="portfolio_grid_block">
                       <h3 className="portfolio_grid_block_title">Дом с&nbsp;балтийским характером. Экстерьер, 500&nbsp;м<sup>2</sup></h3>
@@ -130,7 +130,7 @@ const avtorskoeSoprovozhdenie = () => {
                       <p className="portfolio_grid_block_realize">Реализовано</p>
                     </div>
                   </Link>
-                  <Link to="/portfolio/" className="portfolio_grid_link_all">
+                  <Link to="/portfolio" className="portfolio_grid_link_all">
                   <p className="portfolio_grid_link_all_p">Все проекты</p>
                 </Link>
                 </Masonry>
@@ -147,6 +147,7 @@ export default avtorskoeSoprovozhdenie
 
 const breakpointColumnsPortfolio = {
   default: 3,
+  1800: 2,
   768: 1,
   
 };

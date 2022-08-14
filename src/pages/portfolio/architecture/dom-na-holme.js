@@ -10,8 +10,8 @@ const domNaHolme = () => {
   return (
     <Layout>
       <Seo  title={"Дом на холме 450 м2, визуализации | I-PROJECT"} description={"Наша студия спроектировала идеальный дом из стекла и бетона в Подмосковье."}
-            location={"https://www.i-project.by/portfolio/architecture/dom-na-holme"}
-            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
+            location={"https://i-project.by/portfolio/architecture/dom-na-holme"}
+            image={"https://i-project.by/portfolio_newsite/dom_na_holme/01_dom_na_holme.webp"}/>
       <Fancybox>
         <div class="wrapper">
           <div class="project">
@@ -20,7 +20,7 @@ const domNaHolme = () => {
           </div>
           <div class="project_main_photo">
             <a
-              href="https://www.i-project.by/portfolio_newsite/dom_na_holme/08_dom_na_holme.webp"
+              href="https://i-project.by/portfolio_newsite/dom_na_holme/08_dom_na_holme.webp"
               data-fancybox="gallery"
             >
               <StaticImage src="../../../images/portfolio/dom_na_holme/08_dom_na_holme.jpg" alt="" />
@@ -48,19 +48,19 @@ const domNaHolme = () => {
               </div>
               <div class="content_task_block" id="anchor_1">
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/dom_na_holme/02_dom_na_holme.webp"
+                  href="https://i-project.by/portfolio_newsite/dom_na_holme/02_dom_na_holme.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/dom_na_holme/02_dom_na_holme.jpg" alt="" />
                 </a>
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/dom_na_holme/08_dom_na_holme.webp"
+                  href="https://i-project.by/portfolio_newsite/dom_na_holme/08_dom_na_holme.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/dom_na_holme/08_dom_na_holme.jpg" alt="" />
                 </a>
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/dom_na_holme/07_dom_na_holme.webp"
+                  href="https://i-project.by/portfolio_newsite/dom_na_holme/07_dom_na_holme.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/dom_na_holme/07_dom_na_holme.jpg" alt="" />
@@ -74,13 +74,13 @@ const domNaHolme = () => {
                 <h2 class="content_h2" id="anchor_2">План дома</h2>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/dom_na_holme/09_dom_na_holme.webp"
+                    href="https://i-project.by/portfolio_newsite/dom_na_holme/09_dom_na_holme.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/dom_na_holme/09_dom_na_holme.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/dom_na_holme/10_dom_na_holme.webp"
+                    href="https://i-project.by/portfolio_newsite/dom_na_holme/10_dom_na_holme.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/dom_na_holme/10_dom_na_holme.jpg" alt="" />
@@ -99,13 +99,13 @@ const domNaHolme = () => {
               <div class="content_images">
               <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/dom_na_holme/01_dom_na_holme.webp"
+                    href="https://i-project.by/portfolio_newsite/dom_na_holme/01_dom_na_holme.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/dom_na_holme/01_dom_na_holme.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/dom_na_holme/02_dom_na_holme.webp"
+                    href="https://i-project.by/portfolio_newsite/dom_na_holme/02_dom_na_holme.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/dom_na_holme/02_dom_na_holme.jpg" alt="" />
@@ -116,13 +116,13 @@ const domNaHolme = () => {
               <div class="content_images">
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/dom_na_holme/04_dom_na_holme.webp"
+                    href="https://i-project.by/portfolio_newsite/dom_na_holme/04_dom_na_holme.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/dom_na_holme/04_dom_na_holme.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/dom_na_holme/07_dom_na_holme.webp"
+                    href="https://i-project.by/portfolio_newsite/dom_na_holme/07_dom_na_holme.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/dom_na_holme/07_dom_na_holme.jpg" alt="" />
@@ -137,7 +137,7 @@ const domNaHolme = () => {
               <div class="content_images">
                 <div class="content_images_one">
                   <a
-                  href="https://www.i-project.by/portfolio_newsite/dom_na_holme/03_dom_na_holme.webp"
+                  href="https://i-project.by/portfolio_newsite/dom_na_holme/03_dom_na_holme.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/dom_na_holme/03_dom_na_holme.jpg" alt="" />
@@ -152,7 +152,7 @@ const domNaHolme = () => {
               <div class="content_images">
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/dom_na_holme/08_dom_na_holme.webp"
+                    href="https://i-project.by/portfolio_newsite/dom_na_holme/08_dom_na_holme.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/dom_na_holme/08_dom_na_holme.jpg" alt="" />
@@ -167,13 +167,13 @@ const domNaHolme = () => {
               <div class="content_images">
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/dom_na_holme/05_dom_na_holme.webp"
+                    href="https://i-project.by/portfolio_newsite/dom_na_holme/05_dom_na_holme.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/dom_na_holme/05_dom_na_holme.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/dom_na_holme/06_dom_na_holme.webp"
+                    href="https://i-project.by/portfolio_newsite/dom_na_holme/06_dom_na_holme.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/dom_na_holme/06_dom_na_holme.jpg" alt="" />

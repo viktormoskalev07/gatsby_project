@@ -6,22 +6,23 @@ import Fancybox from "../../components/fancybox.js";
 import Masonry from 'react-masonry-css'
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 import BreadcrumbsArticles from "../../components/breadcrumbs-articles.js";
-import Seo from "../../components/seo"
 import { PageViewCounter } from "../../subitems/pageViewsCounter/pageViewCounter"
+import { GetPageView } from "../../subitems/pageViewsCounter/getPageView"
+import Seo from "../../components/seo"
 
-const obschayaZona = ( {location}) => {
+const obschayaZona = ({location }) => {
   return (
     <Layout>
       <Seo  title={"Дизайн интерьера гостиной, кухни, столовой | I-PROJECT"} description={"Основные правила совмещения гостиной, кухни, столовой, только практические советы."}
-            location={"https://www.i-project.by/articles/obschaya-zona"}
-            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
+            location={"https://i-project.by/articles/obschaya-zona"}
+            image={"https://i-project.by/portfolio_newsite/articles/article_1-11.jpg"}/>
       <section class="article">
         <BreadcrumbsArticles />
         <div class="article_bcg article_bcg11">
           <div class="wrapper">
             <div class="article_title">
               <h1 class="article_title_h1">Дизайн интерьера гостиной, кухни, столовой</h1>
-              <p className="article_view_number article_view_number_white"><PageViewCounter location={location} /></p>
+              <p class="article_view_number article_view_number_hwhite"> <PageViewCounter  location={location}  /></p>
             </div>
           </div>
         </div>
@@ -46,16 +47,16 @@ const obschayaZona = ( {location}) => {
                   <div class="content_images">
                     <div class="content_images_two">
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/filimonova/04_filimonova.webp"
+                        href="https://i-project.by/portfolio_newsite/filimonova/04_filimonova.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/filimonova/04_filimonova.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/filimonova/04_filimonova.jpg" alt="Интерьер квартиры, совмещенные кухня гостиная столовая" />
                       </a>
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/sunny/03_sunny.webp"
+                        href="https://i-project.by/portfolio_newsite/sunny/03_sunny.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/sunny/03_sunny.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/sunny/03_sunny.jpg" alt="Интерьер квартиры, совмещенные кухня гостиная столовая" />
                       </a>
                     </div>
                   </div>
@@ -65,16 +66,16 @@ const obschayaZona = ( {location}) => {
                   <div class="content_images">
                     <div class="content_images_two">
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/korolya/01_korolya.webp"
+                        href="https://i-project.by/portfolio_newsite/korolya/01_korolya.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/korolya/01_korolya.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/korolya/01_korolya.jpg" alt="Интерьер квартиры, совмещенные кухня гостиная столовая" />
                       </a>
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/kaskad/04_kaskad.webp"
+                        href="https://i-project.by/portfolio_newsite/kaskad/04_kaskad.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/kaskad/04_kaskad.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/kaskad/04_kaskad.jpg" alt="Интерьер квартиры, совмещенные кухня гостиная столовая" />
                       </a>
                     </div>
                   </div>
@@ -84,16 +85,16 @@ const obschayaZona = ( {location}) => {
                   <div class="content_images">
                     <div class="content_images_two">
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/baltic_house/interior/09_baltic_home_interior.webp"
+                        href="https://i-project.by/portfolio_newsite/baltic_house/interior/09_baltic_home_interior.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/baltic_house/interior/09_baltic_home_interior.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/baltic_house/interior/09_baltic_home_interior.jpg" alt="Интерьер квартиры, совмещенные кухня гостиная столовая" />
                       </a>
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/akvamarin/02_akvamarin.webp"
+                        href="https://i-project.by/portfolio_newsite/akvamarin/02_akvamarin.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/kaskad/04_kaskad.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/akvamarin/02_akvamarin.jpg" alt="Интерьер квартиры, совмещенные кухня гостиная столовая" />
                       </a>
                     </div>
                   </div>
@@ -103,10 +104,10 @@ const obschayaZona = ( {location}) => {
                   <div class="content_images">
                     <div class="content_images_one">
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/d3/02_d3.webp"
+                        href="https://i-project.by/portfolio_newsite/d3/02_d3.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/d3/02_d3.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/d3/02_d3.jpg" alt="Интерьер квартиры, кухня с барной стойкой и гардероб" />
                       </a>
                     </div>
                   </div>
@@ -123,16 +124,16 @@ const obschayaZona = ( {location}) => {
                   <div class="content_images">
                     <div class="content_images_two">
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/korolya/04_korolya.webp"
+                        href="https://i-project.by/portfolio_newsite/korolya/04_korolya.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/korolya/04_korolya.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/korolya/04_korolya.jpg" alt="Гостиная с диваном и стеллажом" />
                       </a>
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/storojevskaya/02_storojevskaya.webp"
+                        href="https://i-project.by/portfolio_newsite/storojevskaya/02_storojevskaya.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/storojevskaya/02_storojevskaya.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/storojevskaya/02_storojevskaya.jpg" alt="Интерьер квартиры, совмещенные кухня гостиная столовая" />
                       </a>
                     </div>
                   </div>
@@ -141,39 +142,21 @@ const obschayaZona = ( {location}) => {
                     <li>&mdash;&nbsp;По&nbsp;возможности на&nbsp;кухне желательно разместить барную стойку, это практично и&nbsp;красиво.</li>
                     <li>&mdash;&nbsp;Свободная рабочая поверхность кухни должна быть не&nbsp;менее 2,5&nbsp;м длиной, она может быть прямой, поворотной или П&nbsp;&mdash; образной.</li>
                     <li>&mdash;&nbsp;Рабочая поверхность может проходить сразу под окном, в&nbsp;таком случае важно не&nbsp;забыть предусмотреть отверстия для выхода теплого воздуха от&nbsp;подоконного радиатора.</li>
-                  </ul>
-                  <div class="content_images">
-                    <div class="content_images_two">
-                      <a
-                        href="https://www.i-project.by/portfolio_newsite/korolya/04_korolya.webp"
-                        data-fancybox="gallery"
-                      >
-                        <StaticImage src="../../images/portfolio/korolya/04_korolya.jpg" alt="" />
-                      </a>
-                      <a
-                        href="https://www.i-project.by/portfolio_newsite/storojevskaya/02_storojevskaya.webp"
-                        data-fancybox="gallery"
-                      >
-                        <StaticImage src="../../images/portfolio/storojevskaya/02_storojevskaya.jpg" alt="" />
-                      </a>
-                    </div>
-                  </div>
-                  <ul class="content_list">
                     <li>&mdash;&nbsp;Чтобы бытовая техника стала частью интерьера и&nbsp;не&nbsp;выбивалась из&nbsp;него, рекомендуется использовать встроенные варианты.</li>
                   </ul>
                   <div class="content_images">
                     <div class="content_images_two_left_narrow">
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/korolya/08_korolya.webp"
+                        href="https://i-project.by/portfolio_newsite/korolya/08_korolya.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/korolya/08_korolya.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/korolya/08_korolya.jpg" alt="Современный дизайн кухни в серых тонах" />
                       </a>
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/design_interier_2/04_design_interier_2.webp"
+                        href="https://i-project.by/portfolio_newsite/design_interier_2/04_design_interier_2.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/design_interier_2/04_design_interier_2.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/design_interier_2/04_design_interier_2.jpg" alt="Современный дизайн кухни в серых тонах" />
                       </a>
                     </div>
                   </div>
@@ -181,16 +164,16 @@ const obschayaZona = ( {location}) => {
                   <div class="content_images">
                     <div class="content_images_two">
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/bedy/03_bedy.webp"
+                        href="https://i-project.by/portfolio_newsite/bedy/03_bedy.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/bedy/03_bedy.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/bedy/03_bedy.jpg" alt="Интерьер квартиры, совмещенные кухня гостиная столовая" />
                       </a>
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/design_interier_2/01_design_interier_2.webp"
+                        href="https://i-project.by/portfolio_newsite/design_interier_2/01_design_interier_2.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/design_interier_2/01_design_interier_2.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/design_interier_2/01_design_interier_2.jpg" alt="Интерьер квартиры, совмещенные кухня гостиная столовая" />
                       </a>
                     </div>
                   </div>
@@ -203,10 +186,10 @@ const obschayaZona = ( {location}) => {
                   <div class="content_images">
                     <div class="content_images_one">
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/d3/01_d3.webp"
+                        href="https://i-project.by/portfolio_newsite/d3/01_d3.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/d3/01_d3.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/d3/01_d3.jpg" alt="Интерьер квартиры, совмещенные кухня гостиная столовая" />
                       </a>
                     </div>
                   </div>
@@ -223,15 +206,19 @@ const obschayaZona = ( {location}) => {
             columnClassName="my-masonry-grid_column">
             <Link to="/articles/hranenie" className="articles_page_item articles_page_item6">
               <h4 className="articles_page_item_title_medium articles_page_item_title_black">Как организовать хранение вещей в&nbsp;доме и&nbsp;квартире</h4>
+              <p className="articles_page_item_view_number articles_page_item_view_number_hblack"> <GetPageView slug={'/articles/hranenie'}/> </p>
             </Link>
             <Link to="/articles/spalnya" className="articles_page_item articles_page_item5">
               <h4 className="articles_page_item_title_small articles_page_item_title_white">Спальня мечты: секреты идеального дизайна</h4>
+              <p className="articles_page_item_view_number articles_page_item_view_number_hwhite"> <GetPageView slug={'/articles/spalnya'}/> </p>
             </Link>
             <Link to="/articles/architectura" className="articles_page_item articles_page_item4">
               <h4 className="articles_page_item_title_small articles_page_item_title_white">Архитектура частного дома: на&nbsp;что важно обратить внимание</h4>
+              <p className="articles_page_item_view_number articles_page_item_view_number_hwhite"> <GetPageView slug={'/articles/architectura'}/> </p>
             </Link>
             <Link to="/articles/krovlya" className="articles_page_item articles_page_item2">
               <h4 className="articles_page_item_title_medium articles_page_item_title_white">Плоская и&nbsp;скатная кровля: за&nbsp;и&nbsp;против</h4>
+              <p className="articles_page_item_view_number articles_page_item_view_number_hwhite"> <GetPageView slug={'/articles/krovlya'}/> </p>
             </Link>
           </Masonry>
         </div>

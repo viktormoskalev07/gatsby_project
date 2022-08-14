@@ -13,8 +13,8 @@ const storojevskaya = () => {
   return (
     <Layout>
       <Seo  title={"Дизайн интерьера квартиры 130 м2, фото | I-PROJECT"} description={"Фото интерьера на ул. Сторожевская. Интерьер получил первое место на Республиканском конкурсе дизайнеров частного интерьера «Профессиональный интерьер» в 2016."}
-            location={"https://www.i-project.by/portfolio/interier/storojevskaya"}
-            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
+            location={"https://i-project.by/portfolio/interier/storojevskaya"}
+            image={"https://i-project.by/portfolio_newsite/storojevskaya/01_storojevskaya.webp"}/>
       <Fancybox>
         <div class="wrapper">
           <div class="project">
@@ -54,19 +54,19 @@ const storojevskaya = () => {
               </div>
               <div class="content_task_block" id="anchor_1">
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/storojevskaya/04_storojevskaya.webp"
+                  href="https://i-project.by/portfolio_newsite/storojevskaya/04_storojevskaya.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/storojevskaya/04_storojevskaya.jpg" alt="" />
                 </a>
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/storojevskaya/27_storojevskaya.webp"
+                  href="https://i-project.by/portfolio_newsite/storojevskaya/27_storojevskaya.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/storojevskaya/27_storojevskaya.jpg" alt="" />
                 </a>
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/storojevskaya/30_storojevskaya.webp"
+                  href="https://i-project.by/portfolio_newsite/storojevskaya/30_storojevskaya.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/storojevskaya/30_storojevskaya.jpg" alt="" />
@@ -82,13 +82,13 @@ const storojevskaya = () => {
                 <h2 class="content_h2" id="anchor_2">Планировка квартиры</h2>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/storojevskaya/38_storojevskaya.webp"
+                    href="https://i-project.by/portfolio_newsite/storojevskaya/38_storojevskaya.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/storojevskaya/38_storojevskaya.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/storojevskaya/39_storojevskaya.webp"
+                    href="https://i-project.by/portfolio_newsite/storojevskaya/39_storojevskaya.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/storojevskaya/39_storojevskaya.jpg" alt="" />
@@ -108,7 +108,7 @@ const storojevskaya = () => {
               <div class="content_images">
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/storojevskaya/01_storojevskaya.webp"
+                    href="https://i-project.by/portfolio_newsite/storojevskaya/01_storojevskaya.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/storojevskaya/01_storojevskaya.jpg" alt="" />
@@ -116,13 +116,13 @@ const storojevskaya = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/storojevskaya/03_storojevskaya.webp"
+                    href="https://i-project.by/portfolio_newsite/storojevskaya/03_storojevskaya.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/storojevskaya/03_storojevskaya.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/storojevskaya/07_storojevskaya.webp"
+                    href="https://i-project.by/portfolio_newsite/storojevskaya/07_storojevskaya.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/storojevskaya/07_storojevskaya.jpg" alt="" />
@@ -137,13 +137,13 @@ const storojevskaya = () => {
               <div class="content_images">
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/storojevskaya/05_storojevskaya.webp"
+                    href="https://i-project.by/portfolio_newsite/storojevskaya/05_storojevskaya.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/storojevskaya/05_storojevskaya.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/storojevskaya/06_storojevskaya.webp"
+                    href="https://i-project.by/portfolio_newsite/storojevskaya/06_storojevskaya.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/storojevskaya/06_storojevskaya.jpg" alt="" />
@@ -155,7 +155,7 @@ const storojevskaya = () => {
           <div class="content_images">
             <div class="content_images_one_big">
               <a
-                href="https://www.i-project.by/portfolio_newsite/storojevskaya/02_storojevskaya.webp"
+                href="https://i-project.by/portfolio_newsite/storojevskaya/02_storojevskaya.webp"
                 data-fancybox="gallery"
               >
                 <StaticImage src="../../../images/portfolio/storojevskaya/02_storojevskaya.jpg" alt="" />
@@ -170,13 +170,13 @@ const storojevskaya = () => {
               <div class="content_images">
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/storojevskaya/09_storojevskaya.webp"
+                    href="https://i-project.by/portfolio_newsite/storojevskaya/09_storojevskaya.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/storojevskaya/09_storojevskaya.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/storojevskaya/10_storojevskaya.webp"
+                    href="https://i-project.by/portfolio_newsite/storojevskaya/10_storojevskaya.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/storojevskaya/10_storojevskaya.jpg" alt="" />
@@ -184,19 +184,19 @@ const storojevskaya = () => {
                 </div>
                 <div class="content_images_three">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/storojevskaya/16_storojevskaya.webp"
+                    href="https://i-project.by/portfolio_newsite/storojevskaya/16_storojevskaya.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/storojevskaya/16_storojevskaya.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/storojevskaya/12_storojevskaya.webp"
+                    href="https://i-project.by/portfolio_newsite/storojevskaya/12_storojevskaya.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/storojevskaya/12_storojevskaya.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/storojevskaya/17_storojevskaya.webp"
+                    href="https://i-project.by/portfolio_newsite/storojevskaya/17_storojevskaya.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/storojevskaya/17_storojevskaya.jpg" alt="" />
@@ -204,13 +204,13 @@ const storojevskaya = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/storojevskaya/14_storojevskaya.webp"
+                    href="https://i-project.by/portfolio_newsite/storojevskaya/14_storojevskaya.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/storojevskaya/14_storojevskaya.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/storojevskaya/15_storojevskaya.webp"
+                    href="https://i-project.by/portfolio_newsite/storojevskaya/15_storojevskaya.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/storojevskaya/15_storojevskaya.jpg" alt="" />
@@ -233,19 +233,19 @@ const storojevskaya = () => {
               <div class="content_images">
                 <div class="content_images_three_left_narrow">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/storojevskaya/13_storojevskaya.webp"
+                    href="https://i-project.by/portfolio_newsite/storojevskaya/13_storojevskaya.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/storojevskaya/13_storojevskaya.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/storojevskaya/08_storojevskaya.webp"
+                    href="https://i-project.by/portfolio_newsite/storojevskaya/08_storojevskaya.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/storojevskaya/08_storojevskaya.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/storojevskaya/11_storojevskaya.webp"
+                    href="https://i-project.by/portfolio_newsite/storojevskaya/11_storojevskaya.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/storojevskaya/11_storojevskaya.jpg" alt="" />
@@ -256,7 +256,7 @@ const storojevskaya = () => {
                 <h2 class="content_h2" id="anchor_5">Прихожая</h2>
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/storojevskaya/18_storojevskaya.webp"
+                    href="https://i-project.by/portfolio_newsite/storojevskaya/18_storojevskaya.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/storojevskaya/18_storojevskaya.jpg" alt="" />
@@ -271,13 +271,13 @@ const storojevskaya = () => {
               <div class="content_images">
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/storojevskaya/19_storojevskaya.webp"
+                    href="https://i-project.by/portfolio_newsite/storojevskaya/19_storojevskaya.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/storojevskaya/19_storojevskaya.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/storojevskaya/20_storojevskaya.webp"
+                    href="https://i-project.by/portfolio_newsite/storojevskaya/20_storojevskaya.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/storojevskaya/20_storojevskaya.jpg" alt="" />
@@ -285,13 +285,13 @@ const storojevskaya = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/storojevskaya/21_storojevskaya.webp"
+                    href="https://i-project.by/portfolio_newsite/storojevskaya/21_storojevskaya.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/storojevskaya/21_storojevskaya.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/storojevskaya/23_storojevskaya.webp"
+                    href="https://i-project.by/portfolio_newsite/storojevskaya/23_storojevskaya.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/storojevskaya/23_storojevskaya.jpg" alt="" />
@@ -312,13 +312,13 @@ const storojevskaya = () => {
               <div class="content_images">
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/storojevskaya/25_storojevskaya.webp"
+                    href="https://i-project.by/portfolio_newsite/storojevskaya/25_storojevskaya.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/storojevskaya/25_storojevskaya.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/storojevskaya/26_storojevskaya.webp"
+                    href="https://i-project.by/portfolio_newsite/storojevskaya/26_storojevskaya.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/storojevskaya/26_storojevskaya.jpg" alt="" />
@@ -326,13 +326,13 @@ const storojevskaya = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/storojevskaya/28_storojevskaya.webp"
+                    href="https://i-project.by/portfolio_newsite/storojevskaya/28_storojevskaya.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/storojevskaya/28_storojevskaya.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/storojevskaya/29_storojevskaya.webp"
+                    href="https://i-project.by/portfolio_newsite/storojevskaya/29_storojevskaya.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/storojevskaya/29_storojevskaya.jpg" alt="" />
@@ -348,13 +348,13 @@ const storojevskaya = () => {
               <div class="content_images">
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/storojevskaya/31_storojevskaya.webp"
+                    href="https://i-project.by/portfolio_newsite/storojevskaya/31_storojevskaya.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/storojevskaya/31_storojevskaya.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/storojevskaya/32_storojevskaya.webp"
+                    href="https://i-project.by/portfolio_newsite/storojevskaya/32_storojevskaya.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/storojevskaya/32_storojevskaya.jpg" alt="" />
@@ -362,7 +362,7 @@ const storojevskaya = () => {
                 </div>
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/storojevskaya/33_storojevskaya.webp"
+                    href="https://i-project.by/portfolio_newsite/storojevskaya/33_storojevskaya.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/storojevskaya/33_storojevskaya.jpg" alt="" />
@@ -370,13 +370,13 @@ const storojevskaya = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/storojevskaya/34_storojevskaya.webp"
+                    href="https://i-project.by/portfolio_newsite/storojevskaya/34_storojevskaya.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/storojevskaya/34_storojevskaya.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/storojevskaya/35_storojevskaya.webp"
+                    href="https://i-project.by/portfolio_newsite/storojevskaya/35_storojevskaya.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/storojevskaya/35_storojevskaya.jpg" alt="" />
@@ -384,13 +384,13 @@ const storojevskaya = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/storojevskaya/36_storojevskaya.webp"
+                    href="https://i-project.by/portfolio_newsite/storojevskaya/36_storojevskaya.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/storojevskaya/36_storojevskaya.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/storojevskaya/37_storojevskaya.webp"
+                    href="https://i-project.by/portfolio_newsite/storojevskaya/37_storojevskaya.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/storojevskaya/37_storojevskaya.jpg" alt="" />

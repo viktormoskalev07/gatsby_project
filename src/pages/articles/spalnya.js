@@ -6,20 +6,23 @@ import Fancybox from "../../components/fancybox.js";
 import Masonry from 'react-masonry-css'
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 import BreadcrumbsArticles from "../../components/breadcrumbs-articles.js";
+import { PageViewCounter } from "../../subitems/pageViewsCounter/pageViewCounter"
+import { GetPageView } from "../../subitems/pageViewsCounter/getPageView"
 import Seo from "../../components/seo"
 
-const spalnya = () => {
+const spalnya = ({location }) => {
   return (
     <Layout>
       <Seo  title={"Секреты идеального дизайна спальни | I-PROJECT"} description={"Попробуем разобрать в основных аспектах дизайна спальни. Практические рекомендации как сделать спальню мечты."}
-            location={"https://www.i-project.by/articles/spalnya"}
-            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
+            location={"https://i-project.by/articles/spalnya"}
+            image={"https://i-project.by/portfolio_newsite/articles/article_1-5.jpg"}/>
       <section class="article">
         <BreadcrumbsArticles />
         <div class="article_bcg article_bcg5">
           <div class="wrapper">
             <div class="article_title">
               <h1 class="article_title_h1">Спальня мечты: секреты идеального дизайна</h1>
+              <p class="article_view_number article_view_number_hwhite"> <PageViewCounter  location={location}  /></p>
             </div>
           </div>
         </div>
@@ -30,7 +33,8 @@ const spalnya = () => {
                 <li><AnchorLink to="/articles/spalnya/#spalnya_1" title="Грамотное зонирование" /></li>
                 <li><AnchorLink to="/articles/spalnya/#spalnya_2" title="Правильное наполнение" /></li>
                 <li><AnchorLink to="/articles/spalnya/#spalnya_3" title="Уместное освещение" /></li>
-                <li><AnchorLink to="/articles/spalnya/#spalnya_4" title="Подходящая цветовая гамма" /></li>
+                <li><AnchorLink to="/articles/spalnya/#spalnya_4" title="Мастер-спальня" /></li>
+                <li><AnchorLink to="/articles/spalnya/#spalnya_5" title="Подходящая цветовая гамма" /></li>
               </ul>
             </div>
           </div> 
@@ -48,22 +52,22 @@ const spalnya = () => {
                   <div class="content_images">
                     <div class="content_images_three">
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/korolya/10_korolya.webp"
+                        href="https://i-project.by/portfolio_newsite/korolya/10_korolya.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/korolya/10_korolya.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/korolya/10_korolya.jpg" alt="Кресло со столиком в спальне" />
                       </a>
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/korolya/11_korolya.webp"
+                        href="https://i-project.by/portfolio_newsite/korolya/11_korolya.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/korolya/11_korolya.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/korolya/11_korolya.jpg" alt="Выход из спальни в ванную комнату" />
                       </a>
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/korolya/14_korolya.webp"
+                        href="https://i-project.by/portfolio_newsite/korolya/14_korolya.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/korolya/14_korolya.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/korolya/14_korolya.jpg" alt="Кровать и кресло в спальне" />
                       </a>
                     </div>
                   </div>
@@ -75,16 +79,16 @@ const spalnya = () => {
                   <div class="content_images">
                     <div class="content_images_two_left_narrow">
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/d3/18_d3.webp"
+                        href="https://i-project.by/portfolio_newsite/d3/18_d3.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/d3/18_d3.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/d3/18_d3.jpg" alt="Гардеробная в мастер-спальне" />
                       </a>
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/storojevskaya/25_storojevskaya.webp"
+                        href="https://i-project.by/portfolio_newsite/storojevskaya/25_storojevskaya.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/storojevskaya/25_storojevskaya.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/storojevskaya/25_storojevskaya.jpg" alt="Ванная комната в мастер-спальне" />
                       </a>
                     </div>
                   </div>
@@ -96,42 +100,43 @@ const spalnya = () => {
                   <div class="content_images">
                     <div class="content_images_two_left_narrow">
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/korolya/14_korolya.webp"
+                        href="https://i-project.by/portfolio_newsite/korolya/14_korolya.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/korolya/14_korolya.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/korolya/14_korolya.jpg" alt="Проработанный интерьер в мастер-спальне" />
                       </a>
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/d3/15_d3.webp"
+                        href="https://i-project.by/portfolio_newsite/d3/15_d3.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/d3/15_d3.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/d3/15_d3.jpg" alt="Дорогой интерьер в мастер-спальне" />
                       </a>
                     </div>
                   </div>
                   <div class="content_text">
-                    <p class="content_p">Рядом с&nbsp;кроватью обязательно должны располагаться прикроватные тумбочки или столики. Это эстетично и&nbsp;функционально. Если площадь комнаты позволяет, то&nbsp;в&nbsp;спальне желательно разместить небольшой столик и&nbsp;кресло.</p>
+                    <p class="content_p">Рядом с&nbsp;кроватью обязательно должны располагаться прикроватные тумбочки или столики. Это эстетично и&nbsp;функционально. Если площадь комнаты позволяет, то&nbsp;в&nbsp;спальне желательно разместить небольшой столик и&nbsp;кресло. За таким столиком можно делать макияж, читать или работать.</p>
+                    <p class="content_p">Уделите особое внимание освещению в&nbsp;этой зоне, оно играет важную роль. Можно использовать светильник, бра или точечную подсветку. Свет должен быть достаточно ярким, но&nbsp;не&nbsp;слепить.</p>
                     <p class="content_p">Наличие телевизора в&nbsp;спальне&nbsp;&mdash; индивидуальный момент. Последний тренд в&nbsp;дизайне&nbsp;&mdash; минимизировать использование этого предмета в&nbsp;интерьере, особенно в&nbsp;комнатах, предназначенных для расслабления.</p>
                   </div>
                   <div class="content_images">
                     <div class="content_images_three_left_narrow">
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/d3/14_d3.webp"
+                        href="https://i-project.by/portfolio_newsite/d3/14_d3.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/d3/14_d3.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/d3/14_d3.jpg" alt="Прикроватная тумба с цветком" />
                       </a>
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/prestizhino/14_prestizhino.webp"
+                        href="https://i-project.by/portfolio_newsite/prestizhino/14_prestizhino.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/prestizhino/14_prestizhino.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/prestizhino/14_prestizhino.jpg" alt="Минималистичный интерьер спальни" />
                       </a>
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/color/11_color.webp"
+                        href="https://i-project.by/portfolio_newsite/color/11_color.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/color/11_color.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/color/11_color.jpg" alt="Кровать и шкаф в интерьере спальни" />
                       </a>
                     </div>
                   </div>
@@ -143,10 +148,10 @@ const spalnya = () => {
                   <div class="content_images">
                     <div class="content_images_one">
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/sochi/10_sochi.webp"
+                        href="https://i-project.by/portfolio_newsite/sochi/10_sochi.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/sochi/10_sochi.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/sochi/10_sochi.jpg" alt="Кровать в классическом стиле" />
                       </a>
                     </div>
                   </div>
@@ -157,44 +162,65 @@ const spalnya = () => {
                   <div class="content_images">
                     <div class="content_images_two">
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/prestizhino/11_prestizhino.webp"
+                        href="https://i-project.by/portfolio_newsite/prestizhino/11_prestizhino.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/prestizhino/11_prestizhino.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/prestizhino/11_prestizhino.jpg" alt="Кровать в минималистичном интерьере" />
                       </a>
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/panfilova/08_panfilova.webp"
+                        href="https://i-project.by/portfolio_newsite/panfilova/08_panfilova.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/panfilova/08_panfilova.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/panfilova/08_panfilova.jpg" alt="Кровать в современном интерьере" />
                       </a>
                     </div>
                   </div>
-                  <h2 class="content_h2" id="spalnya_4">Подходящая цветовая гамма</h2>
+                  <h2 class="content_h2" id="spalnya_4">Мастер-спальня</h2>
+                  <div class="content_text">
+                    <p class="content_p">Мастер-спальня&nbsp;&mdash; актуальный тренд в&nbsp;создании интерьеров. Это часть жилой зоны, в&nbsp;которой есть все необходимое для полного комфорта: непосредственно спальня, личный санузел, гардеробная, а&nbsp;иногда выход на&nbsp;балкон или небольшой кабинет.</p>
+                    <p class="content_p">Как правило, мастер-спальню организуют в&nbsp;больших квартирах, где живут семьи с&nbsp;детьми или старшими родственниками. Это грамотное и&nbsp;логичное решение, благодаря которому у&nbsp;хозяев квартиры появляется личное пространство. Они могут побыть наедине, отдохнуть в&nbsp;тишине или собраться на&nbsp;работу, не&nbsp;беспокоя при этом остальных членов семьи.</p>
+                  </div>
+                  <div class="content_images">
+                    <div class="content_images_two_right_narrow">
+                      <a
+                        href="https://i-project.by/portfolio_newsite/d3/15_d3.webp"
+                        data-fancybox="gallery"
+                      >
+                        <StaticImage src="../../images/portfolio/d3/15_d3.jpg" alt="Мастер-спальня в интерьере в жилом комплексе D3 в Минске" />
+                      </a>
+                      <a
+                        href="https://i-project.by/portfolio_newsite/d3/18_d3.webp"
+                        data-fancybox="gallery"
+                      >
+                        <StaticImage src="../../images/portfolio/d3/18_d3.jpg" alt="Гардеробная в мастер-спальне в жилом комплексе D3 в Минске" />
+                      </a>
+                    </div>
+                  </div>
+                  <h2 class="content_h2" id="spalnya_5">Подходящая цветовая гамма</h2>
                   <div class="content_text">
                     <p class="content_p">Цвет стен в&nbsp;спальне зависит исключительно от&nbsp;предпочтений пользователя. Главная задача&nbsp;&mdash; создавать ощущение комфорта. Бытует мнение, что такую комнату стоит оформлять исключительно в&nbsp;спокойных тонах, но&nbsp;профессиональный дизайнер учтет все нюансы и&nbsp;сможет обыграть в&nbsp;интерьере любой цвет, поэтому не&nbsp;стоит бояться ярких элементов или темных цветов в&nbsp;оформлении.</p>
                   </div>
                   <div class="content_images">
                     <div class="content_images_one">
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/baltic_house/interior/29_baltic_home_interior.webp"
+                        href="https://i-project.by/portfolio_newsite/baltic_house/interior/29_baltic_home_interior.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/baltic_house/interior/29_baltic_home_interior.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/baltic_house/interior/29_baltic_home_interior.jpg" alt="Кровать в современном интерьере" />
                       </a>
                     </div>
                     <div class="content_images_two">
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/color/14_color.webp"
+                        href="https://i-project.by/portfolio_newsite/color/14_color.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/color/14_color.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/color/14_color.jpg" alt="Кровать и шкаф в интерьере спальни" />
                       </a>
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/prestizhino/13_prestizhino.webp"
+                        href="https://i-project.by/portfolio_newsite/prestizhino/13_prestizhino.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/prestizhino/13_prestizhino.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/prestizhino/13_prestizhino.jpg" alt="Кровать в минималистичном интерьере" />
                       </a>
                     </div>
                   </div>
@@ -207,30 +233,30 @@ const spalnya = () => {
                   <div class="content_images">
                     <div class="content_images_one">
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/storojevskaya/30_storojevskaya.webp"
+                        href="https://i-project.by/portfolio_newsite/storojevskaya/30_storojevskaya.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/storojevskaya/30_storojevskaya.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/storojevskaya/30_storojevskaya.jpg" alt="Вид из ванной в мастер-спальне" />
                       </a>
                     </div>
                     <div class="content_images_three">
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/fine/11_fine.webp"
+                        href="https://i-project.by/portfolio_newsite/fine/11_fine.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/fine/11_fine.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/fine/11_fine.jpg" alt="Балкон в спальне" />
                       </a>
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/panfilova/07_panfilova.webp"
+                        href="https://i-project.by/portfolio_newsite/panfilova/07_panfilova.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/panfilova/07_panfilova.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/panfilova/07_panfilova.jpg" alt="Кровать в современном интерьере" />
                       </a>
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/apart_for_life/11_apart_for_life.webp"
+                        href="https://i-project.by/portfolio_newsite/apart_for_life/11_apart_for_life.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/apart_for_life/11_apart_for_life.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/apart_for_life/11_apart_for_life.jpg" alt="Балкон в спальне со шторами" />
                       </a>
                     </div>
                   </div>
@@ -251,15 +277,19 @@ const spalnya = () => {
             columnClassName="my-masonry-grid_column">
             <Link to="/articles/hranenie" className="articles_page_item articles_page_item6">
               <h4 className="articles_page_item_title_medium articles_page_item_title_black">Как организовать хранение вещей в&nbsp;доме и&nbsp;квартире</h4>
+              <p className="articles_page_item_view_number articles_page_item_view_number_hblack"> <GetPageView slug={'/articles/hranenie'}/> </p>
             </Link>
             <Link to="/articles/architectura" className="articles_page_item articles_page_item4">
               <h4 className="articles_page_item_title_small articles_page_item_title_white">Архитектура частного дома: на&nbsp;что важно обратить внимание</h4>
+              <p className="articles_page_item_view_number articles_page_item_view_number_hwhite"> <GetPageView slug={'/articles/architectura'}/> </p>
             </Link>
             <Link to="/articles/dveri" className="articles_page_item articles_page_item3">
               <h4 className="articles_page_item_title_small articles_page_item_title_white">Как выбрать межкомнатные двери: советы и&nbsp;рекомендации</h4>
+              <p className="articles_page_item_view_number articles_page_item_view_number_white"> <GetPageView slug={'/articles/dveri'}/> </p>
             </Link>
             <Link to="/articles/krovlya" className="articles_page_item articles_page_item2">
               <h4 className="articles_page_item_title_medium articles_page_item_title_white">Плоская и&nbsp;скатная кровля: за&nbsp;и&nbsp;против</h4>
+              <p className="articles_page_item_view_number articles_page_item_view_number_hwhite"> <GetPageView slug={'/articles/krovlya'}/> </p>
             </Link>
           </Masonry>
         </div>

@@ -6,8 +6,8 @@ const video = () => {
   return (
     <Layout>
       <Seo  title={"Видео материалы и презентации | I-PROJECT"} description={"На странице собраны видео наших реализованных проектов: квартир, домов и офисов. На видео можно увидеть процесс реализации или презентацию объекта."}
-            location={"https://www.i-project.by/video"}
-            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
+            location={"https://i-project.by/video"}
+            image={"https://i-project.by/portfolio_newsite/korolya/01_korolya.webp"}/>
       <section>
         <div class="wrapper">
           <h1 class="pagevideo_title">Видео</h1>

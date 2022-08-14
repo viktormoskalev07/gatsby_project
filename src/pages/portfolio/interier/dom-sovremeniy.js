@@ -10,8 +10,8 @@ const domSovremeniy = () => {
   return (
     <Layout>
       <Seo  title={"Дизайн интерьера дома 300 м2, фотографии | I-PROJECT"} description={"Студия дизайна и архитектуры I-PROJECT, разработала современный интерьер дома под Минском."}
-            location={"https://www.i-project.by/portfolio/interier/dom-sovremeniy"}
-            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
+            location={"https://i-project.by/portfolio/interier/dom-sovremeniy"}
+            image={"https://i-project.by/portfolio_newsite/dom_sovremeniy/01_dom_sovremeniy.webp"}/>
       <Fancybox>
         <div class="wrapper">
           <div class="project">
@@ -20,7 +20,7 @@ const domSovremeniy = () => {
           </div>
           <div class="project_main_photo">
             <a
-              href="https://www.i-project.by/portfolio_newsite/dom_sovremeniy/01_dom_sovremeniy.webp"
+              href="https://i-project.by/portfolio_newsite/dom_sovremeniy/01_dom_sovremeniy.webp"
               data-fancybox="gallery"
             >
               <StaticImage src="../../../images/portfolio/dom_sovremeniy/01_dom_sovremeniy.jpg" alt="" />
@@ -50,19 +50,19 @@ const domSovremeniy = () => {
               </div>
               <div class="content_task_block" id="anchor_1">
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/dom_sovremeniy/09_dom_sovremeniy.webp"
+                  href="https://i-project.by/portfolio_newsite/dom_sovremeniy/09_dom_sovremeniy.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/dom_sovremeniy/09_dom_sovremeniy.jpg" alt="" />
                 </a>
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/dom_sovremeniy/11_dom_sovremeniy.webp"
+                  href="https://i-project.by/portfolio_newsite/dom_sovremeniy/11_dom_sovremeniy.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/dom_sovremeniy/11_dom_sovremeniy.jpg" alt="" />
                 </a>
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/dom_sovremeniy/18_dom_sovremeniy.webp"
+                  href="https://i-project.by/portfolio_newsite/dom_sovremeniy/18_dom_sovremeniy.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/dom_sovremeniy/18_dom_sovremeniy.jpg" alt="" />
@@ -76,13 +76,13 @@ const domSovremeniy = () => {
                 <h2 class="content_h2">Первый этаж</h2>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/dom_sovremeniy/19_dom_sovremeniy.webp"
+                    href="https://i-project.by/portfolio_newsite/dom_sovremeniy/19_dom_sovremeniy.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/dom_sovremeniy/19_dom_sovremeniy.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/dom_sovremeniy/20_dom_sovremeniy.webp"
+                    href="https://i-project.by/portfolio_newsite/dom_sovremeniy/20_dom_sovremeniy.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/dom_sovremeniy/20_dom_sovremeniy.jpg" alt="" />
@@ -97,7 +97,7 @@ const domSovremeniy = () => {
               <div class="content_images">
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/dom_sovremeniy/01_dom_sovremeniy.webp"
+                    href="https://i-project.by/portfolio_newsite/dom_sovremeniy/01_dom_sovremeniy.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/dom_sovremeniy/01_dom_sovremeniy.jpg" alt="" />
@@ -105,13 +105,13 @@ const domSovremeniy = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/dom_sovremeniy/02_dom_sovremeniy.webp"
+                    href="https://i-project.by/portfolio_newsite/dom_sovremeniy/02_dom_sovremeniy.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/dom_sovremeniy/02_dom_sovremeniy.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/dom_sovremeniy/03_dom_sovremeniy.webp"
+                    href="https://i-project.by/portfolio_newsite/dom_sovremeniy/03_dom_sovremeniy.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/dom_sovremeniy/03_dom_sovremeniy.jpg" alt="" />
@@ -125,7 +125,7 @@ const domSovremeniy = () => {
               <div class="content_images">
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/dom_sovremeniy/04_dom_sovremeniy.webp"
+                    href="https://i-project.by/portfolio_newsite/dom_sovremeniy/04_dom_sovremeniy.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/dom_sovremeniy/04_dom_sovremeniy.jpg" alt="" />
@@ -133,13 +133,13 @@ const domSovremeniy = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/dom_sovremeniy/05_dom_sovremeniy.webp"
+                    href="https://i-project.by/portfolio_newsite/dom_sovremeniy/05_dom_sovremeniy.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/dom_sovremeniy/05_dom_sovremeniy.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/dom_sovremeniy/06_dom_sovremeniy.webp"
+                    href="https://i-project.by/portfolio_newsite/dom_sovremeniy/06_dom_sovremeniy.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/dom_sovremeniy/06_dom_sovremeniy.jpg" alt="" />
@@ -147,13 +147,13 @@ const domSovremeniy = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/dom_sovremeniy/07_dom_sovremeniy.webp"
+                    href="https://i-project.by/portfolio_newsite/dom_sovremeniy/07_dom_sovremeniy.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/dom_sovremeniy/07_dom_sovremeniy.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/dom_sovremeniy/08_dom_sovremeniy.webp"
+                    href="https://i-project.by/portfolio_newsite/dom_sovremeniy/08_dom_sovremeniy.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/dom_sovremeniy/08_dom_sovremeniy.jpg" alt="" />
@@ -168,7 +168,7 @@ const domSovremeniy = () => {
           </div>
           <div class="content_images_one_big">
             <a
-              href="https://www.i-project.by/portfolio_newsite/dom_sovremeniy/09_dom_sovremeniy.webp"
+              href="https://i-project.by/portfolio_newsite/dom_sovremeniy/09_dom_sovremeniy.webp"
               data-fancybox="gallery"
             >
               <StaticImage src="../../../images/portfolio/dom_sovremeniy/09_dom_sovremeniy.jpg" alt="" />
@@ -183,13 +183,13 @@ const domSovremeniy = () => {
               <div class="content_images">
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/dom_sovremeniy/10_dom_sovremeniy.webp"
+                    href="https://i-project.by/portfolio_newsite/dom_sovremeniy/10_dom_sovremeniy.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/dom_sovremeniy/10_dom_sovremeniy.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/dom_sovremeniy/11_dom_sovremeniy.webp"
+                    href="https://i-project.by/portfolio_newsite/dom_sovremeniy/11_dom_sovremeniy.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/dom_sovremeniy/11_dom_sovremeniy.jpg" alt="" />
@@ -200,13 +200,13 @@ const domSovremeniy = () => {
                 <h2 class="content_h2">Второй этаж</h2>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/dom_sovremeniy/21_dom_sovremeniy.webp"
+                    href="https://i-project.by/portfolio_newsite/dom_sovremeniy/21_dom_sovremeniy.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/dom_sovremeniy/21_dom_sovremeniy.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/dom_sovremeniy/22_dom_sovremeniy.webp"
+                    href="https://i-project.by/portfolio_newsite/dom_sovremeniy/22_dom_sovremeniy.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/dom_sovremeniy/22_dom_sovremeniy.jpg" alt="" />
@@ -220,7 +220,7 @@ const domSovremeniy = () => {
               <div class="content_images">
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/dom_sovremeniy/12_dom_sovremeniy.webp"
+                    href="https://i-project.by/portfolio_newsite/dom_sovremeniy/12_dom_sovremeniy.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/dom_sovremeniy/12_dom_sovremeniy.jpg" alt="" />
@@ -228,13 +228,13 @@ const domSovremeniy = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/dom_sovremeniy/13_dom_sovremeniy.webp"
+                    href="https://i-project.by/portfolio_newsite/dom_sovremeniy/13_dom_sovremeniy.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/dom_sovremeniy/13_dom_sovremeniy.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/dom_sovremeniy/14_dom_sovremeniy.webp"
+                    href="https://i-project.by/portfolio_newsite/dom_sovremeniy/14_dom_sovremeniy.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/dom_sovremeniy/14_dom_sovremeniy.jpg" alt="" />
@@ -248,13 +248,13 @@ const domSovremeniy = () => {
               <div class="content_images">
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/dom_sovremeniy/15_dom_sovremeniy.webp"
+                    href="https://i-project.by/portfolio_newsite/dom_sovremeniy/15_dom_sovremeniy.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/dom_sovremeniy/15_dom_sovremeniy.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/dom_sovremeniy/16_dom_sovremeniy.webp"
+                    href="https://i-project.by/portfolio_newsite/dom_sovremeniy/16_dom_sovremeniy.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/dom_sovremeniy/16_dom_sovremeniy.jpg" alt="" />
@@ -262,13 +262,13 @@ const domSovremeniy = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/dom_sovremeniy/17_dom_sovremeniy.webp"
+                    href="https://i-project.by/portfolio_newsite/dom_sovremeniy/17_dom_sovremeniy.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/dom_sovremeniy/17_dom_sovremeniy.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/dom_sovremeniy/18_dom_sovremeniy.webp"
+                    href="https://i-project.by/portfolio_newsite/dom_sovremeniy/18_dom_sovremeniy.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/dom_sovremeniy/18_dom_sovremeniy.jpg" alt="" />

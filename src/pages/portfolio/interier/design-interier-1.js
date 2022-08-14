@@ -9,8 +9,8 @@ const designInterier1 = () => {
   return (
     <Layout>
       <Seo  title={"Дизайн интерьера дома в Минске 1000 м2 | I-PROJECT"} description={"Разработали современный интерьер дома для молодой семьи."}
-            location={"https://www.i-project.by/portfolio/interier/design-interier-1"}
-            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
+            location={"https://i-project.by/portfolio/interier/design-interier-1"}
+            image={"https://i-project.by/portfolio_newsite/design_interier_1/01_design_interier_1.webp"}/>
       <Fancybox>
         <div class="wrapper">
           <div class="project">
@@ -19,7 +19,7 @@ const designInterier1 = () => {
           </div>
           <div class="project_main_photo">
             <a
-              href="https://www.i-project.by/portfolio_newsite/design_interier_1/01_design_interier_1.webp"
+              href="https://i-project.by/portfolio_newsite/design_interier_1/01_design_interier_1.webp"
               data-fancybox="gallery"
             >
               <StaticImage src="../../../images/portfolio/design_interier_1/01_design_interier_1.jpg" alt="" />
@@ -45,19 +45,19 @@ const designInterier1 = () => {
               </div>
               <div class="content_task_block">
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/design_interier_1/02_design_interier_1.webp"
+                  href="https://i-project.by/portfolio_newsite/design_interier_1/02_design_interier_1.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/design_interier_1/02_design_interier_1.jpg" alt="" />
                 </a>
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/design_interier_1/11_design_interier_1.webp"
+                  href="https://i-project.by/portfolio_newsite/design_interier_1/11_design_interier_1.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/design_interier_1/11_design_interier_1.jpg" alt="" />
                 </a>
                 <a
-                  href="https://www.i-project.by/portfolio_newsite/design_interier_1/22_design_interier_1.webp"
+                  href="https://i-project.by/portfolio_newsite/design_interier_1/22_design_interier_1.webp"
                   data-fancybox="gallery"
                 >
                   <StaticImage src="../../../images/portfolio/design_interier_1/22_design_interier_1.jpg" alt="" />
@@ -71,13 +71,13 @@ const designInterier1 = () => {
                 <h2 class="content_h2">План дома</h2>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/design_interier_1/25_design_interier_1.webp"
+                    href="https://i-project.by/portfolio_newsite/design_interier_1/25_design_interier_1.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/design_interier_1/25_design_interier_1.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/design_interier_1/26_design_interier_1.webp"
+                    href="https://i-project.by/portfolio_newsite/design_interier_1/26_design_interier_1.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/design_interier_1/26_design_interier_1.jpg" alt="" />
@@ -88,7 +88,7 @@ const designInterier1 = () => {
               <h2 class="content_h2">Помещения</h2>
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/design_interier_1/01_design_interier_1.webp"
+                    href="https://i-project.by/portfolio_newsite/design_interier_1/01_design_interier_1.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/design_interier_1/01_design_interier_1.jpg" alt="" />
@@ -96,13 +96,13 @@ const designInterier1 = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/design_interier_1/02_design_interier_1.webp"
+                    href="https://i-project.by/portfolio_newsite/design_interier_1/02_design_interier_1.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/design_interier_1/02_design_interier_1.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/design_interier_1/03_design_interier_1.webp"
+                    href="https://i-project.by/portfolio_newsite/design_interier_1/03_design_interier_1.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/design_interier_1/03_design_interier_1.jpg" alt="" />
@@ -112,7 +112,7 @@ const designInterier1 = () => {
               <div class="content_images">
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/design_interier_1/04_design_interier_1.webp"
+                    href="https://i-project.by/portfolio_newsite/design_interier_1/04_design_interier_1.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/design_interier_1/04_design_interier_1.jpg" alt="" />
@@ -120,13 +120,13 @@ const designInterier1 = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/design_interier_1/06_design_interier_1.webp"
+                    href="https://i-project.by/portfolio_newsite/design_interier_1/06_design_interier_1.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/design_interier_1/06_design_interier_1.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/design_interier_1/07_design_interier_1.webp"
+                    href="https://i-project.by/portfolio_newsite/design_interier_1/07_design_interier_1.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/design_interier_1/07_design_interier_1.jpg" alt="" />
@@ -134,13 +134,13 @@ const designInterier1 = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/design_interier_1/08_design_interier_1.webp"
+                    href="https://i-project.by/portfolio_newsite/design_interier_1/08_design_interier_1.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/design_interier_1/08_design_interier_1.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/design_interier_1/09_design_interier_1.webp"
+                    href="https://i-project.by/portfolio_newsite/design_interier_1/09_design_interier_1.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/design_interier_1/09_design_interier_1.jpg" alt="" />
@@ -150,7 +150,7 @@ const designInterier1 = () => {
               <div class="content_images">
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/design_interier_1/10_design_interier_1.webp"
+                    href="https://i-project.by/portfolio_newsite/design_interier_1/10_design_interier_1.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/design_interier_1/10_design_interier_1.jpg" alt="" />
@@ -158,13 +158,13 @@ const designInterier1 = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/design_interier_1/11_design_interier_1.webp"
+                    href="https://i-project.by/portfolio_newsite/design_interier_1/11_design_interier_1.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/design_interier_1/11_design_interier_1.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/design_interier_1/12_design_interier_1.webp"
+                    href="https://i-project.by/portfolio_newsite/design_interier_1/12_design_interier_1.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/design_interier_1/12_design_interier_1.jpg" alt="" />
@@ -172,13 +172,13 @@ const designInterier1 = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/design_interier_1/13_design_interier_1.webp"
+                    href="https://i-project.by/portfolio_newsite/design_interier_1/13_design_interier_1.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/design_interier_1/13_design_interier_1.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/design_interier_1/14_design_interier_1.webp"
+                    href="https://i-project.by/portfolio_newsite/design_interier_1/14_design_interier_1.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/design_interier_1/14_design_interier_1.jpg" alt="" />
@@ -190,7 +190,7 @@ const designInterier1 = () => {
           <div class="content_images">
             <div class="content_images_one_big">
               <a
-                href="https://www.i-project.by/portfolio_newsite/design_interier_1/15_design_interier_1.webp"
+                href="https://i-project.by/portfolio_newsite/design_interier_1/15_design_interier_1.webp"
                 data-fancybox="gallery"
               >
                 <StaticImage src="../../../images/portfolio/design_interier_1/15_design_interier_1.jpg" alt="" />
@@ -202,7 +202,7 @@ const designInterier1 = () => {
               <div class="content_images">
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/design_interier_1/17_design_interier_1.webp"
+                    href="https://i-project.by/portfolio_newsite/design_interier_1/17_design_interier_1.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/design_interier_1/17_design_interier_1.jpg" alt="" />
@@ -210,13 +210,13 @@ const designInterier1 = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/design_interier_1/18_design_interier_1.webp"
+                    href="https://i-project.by/portfolio_newsite/design_interier_1/18_design_interier_1.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/design_interier_1/18_design_interier_1.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/design_interier_1/19_design_interier_1.webp"
+                    href="https://i-project.by/portfolio_newsite/design_interier_1/19_design_interier_1.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/design_interier_1/19_design_interier_1.jpg" alt="" />
@@ -226,7 +226,7 @@ const designInterier1 = () => {
               <div class="content_images">
                 <div class="content_images_one">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/design_interier_1/20_design_interier_1.webp"
+                    href="https://i-project.by/portfolio_newsite/design_interier_1/20_design_interier_1.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/design_interier_1/20_design_interier_1.jpg" alt="" />
@@ -234,13 +234,13 @@ const designInterier1 = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/design_interier_1/21_design_interier_1.webp"
+                    href="https://i-project.by/portfolio_newsite/design_interier_1/21_design_interier_1.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/design_interier_1/21_design_interier_1.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/design_interier_1/22_design_interier_1.webp"
+                    href="https://i-project.by/portfolio_newsite/design_interier_1/22_design_interier_1.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/design_interier_1/22_design_interier_1.jpg" alt="" />
@@ -248,13 +248,13 @@ const designInterier1 = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/design_interier_1/23_design_interier_1.webp"
+                    href="https://i-project.by/portfolio_newsite/design_interier_1/23_design_interier_1.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/design_interier_1/23_design_interier_1.jpg" alt="" />
                   </a>
                   <a
-                    href="https://www.i-project.by/portfolio_newsite/design_interier_1/24_design_interier_1.webp"
+                    href="https://i-project.by/portfolio_newsite/design_interier_1/24_design_interier_1.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/design_interier_1/24_design_interier_1.jpg" alt="" />

@@ -6,20 +6,23 @@ import Fancybox from "../../components/fancybox.js";
 import Masonry from 'react-masonry-css'
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 import BreadcrumbsArticles from "../../components/breadcrumbs-articles.js";
+import { PageViewCounter } from "../../subitems/pageViewsCounter/pageViewCounter"
+import { GetPageView } from "../../subitems/pageViewsCounter/getPageView"
 import Seo from "../../components/seo"
 
-const planHouse = () => {
+const planHouse = ({location }) => {
   return (
     <Layout>
       <Seo  title={"Планировка дома: основные правила | I-PROJECT"} description={"Разбираем 4 основные фактора которые влияют на планировку дома. Делаем суммарный вывод."}
-            location={"https://www.i-project.by/articles/plan-house"}
-            image={"https://www.i-project.by/wp-content/uploads/2020/08/d3-1-min-800x600.jpg"}/>
+            location={"https://i-project.by/articles/plan-house"}
+            image={"https://i-project.by/portfolio_newsite/articles/article_1-8.jpg"}/>
       <section class="article">
         <BreadcrumbsArticles />
         <div class="article_bcg article_bcg8">
           <div class="wrapper">
             <div class="article_title">
               <h1 class="article_title_h1">Планировка дома: основные правила</h1>
+              <p class="article_view_number article_view_number_hwhite"> <PageViewCounter  location={location}  /></p>
             </div>
           </div>
         </div>
@@ -52,10 +55,10 @@ const planHouse = () => {
                   <div class="content_images">
                     <div class="content_images_one">
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/dom_u_more/02_dom_u_more.webp"
+                        href="https://i-project.by/portfolio_newsite/dom_u_more/02_dom_u_more.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/dom_u_more/02_dom_u_more.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/dom_u_more/02_dom_u_more.jpg" alt="Гостиная в большом доме с видом на море" />
                       </a>
                     </div>
                   </div>
@@ -66,10 +69,10 @@ const planHouse = () => {
                   <div class="content_images">
                     <div class="content_images_one">
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/dom_sovremeniy/10_dom_sovremeniy.webp"
+                        href="https://i-project.by/portfolio_newsite/dom_sovremeniy/10_dom_sovremeniy.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/dom_sovremeniy/10_dom_sovremeniy.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/dom_sovremeniy/10_dom_sovremeniy.jpg" alt="Холл в частном доме, первый этаж" />
                       </a>
                     </div>
                   </div>
@@ -79,16 +82,16 @@ const planHouse = () => {
                   <div class="content_images">
                     <div class="content_images_two">
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/podmoskovye_interier/02_podmoskovye_interier.webp"
+                        href="https://i-project.by/portfolio_newsite/podmoskovye_interier/02_podmoskovye_interier.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/podmoskovye_interier/02_podmoskovye_interier.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/podmoskovye_interier/02_podmoskovye_interier.jpg" alt="Совмещенная кухня и столовая в частном доме" />
                       </a>
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/simple_house/05_simple_house.webp"
+                        href="https://i-project.by/portfolio_newsite/simple_house/05_simple_house.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/simple_house/05_simple_house.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/simple_house/05_simple_house.jpg" alt="Гостиная с большим диваном" />
                       </a>
                     </div>
                   </div>
@@ -102,24 +105,24 @@ const planHouse = () => {
                   <div class="content_images">
                     <div class="content_images_one">
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/simple_house/10_simple_house.webp"
+                        href="https://i-project.by/portfolio_newsite/simple_house/10_simple_house.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/simple_house/10_simple_house.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/simple_house/10_simple_house.jpg" alt="Уютное пространство для отдыха в частном доме" />
                       </a>
                     </div>
                     <div class="content_images_two_left_narrow">
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/baltic_house/interior/14_baltic_home_interior.webp"
+                        href="https://i-project.by/portfolio_newsite/baltic_house/interior/14_baltic_home_interior.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/baltic_house/interior/14_baltic_home_interior.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/baltic_house/interior/14_baltic_home_interior.jpg" alt="Лестница на второй этаж в частном доме" />
                       </a>
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/baltic_house/interior/21_baltic_home_interior.webp"
+                        href="https://i-project.by/portfolio_newsite/baltic_house/interior/21_baltic_home_interior.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/baltic_house/interior/21_baltic_home_interior.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/baltic_house/interior/21_baltic_home_interior.jpg" alt="Холл и лестница на второй этаж в частном доме" />
                       </a>
                     </div>
                   </div>
@@ -130,10 +133,10 @@ const planHouse = () => {
                   <div class="content_images">
                     <div class="content_images_one">
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/baltic_house/interior/37_baltic_home_interior.webp"
+                        href="https://i-project.by/portfolio_newsite/baltic_house/interior/37_baltic_home_interior.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/baltic_house/interior/37_baltic_home_interior.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/baltic_house/interior/37_baltic_home_interior.jpg" alt="Цокольный этаж с баром в частном доме" />
                       </a>
                     </div>
                   </div>
@@ -145,10 +148,10 @@ const planHouse = () => {
                   <div class="content_images">
                     <div class="content_images_one">
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/house_minsk/11_house_minsk.webp"
+                        href="https://i-project.by/portfolio_newsite/house_minsk/11_house_minsk.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/house_minsk/11_house_minsk.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/house_minsk/11_house_minsk.jpg" alt="Вешалки возле входа в частном доме" />
                       </a>
                     </div>
                   </div>
@@ -158,16 +161,16 @@ const planHouse = () => {
                   <div class="content_images">
                     <div class="content_images_two">
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/baltic_house/interior/01_baltic_home_interior.webp"
+                        href="https://i-project.by/portfolio_newsite/baltic_house/interior/01_baltic_home_interior.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/baltic_house/interior/01_baltic_home_interior.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/baltic_house/interior/01_baltic_home_interior.jpg" alt="Интерьер частного дома, совмещенные кухня гостиная столовая" />
                       </a>
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/zelenyi/06_zelenyi.webp"
+                        href="https://i-project.by/portfolio_newsite/zelenyi/06_zelenyi.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/zelenyi/06_zelenyi.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/zelenyi/06_zelenyi.jpg" alt="Интерьер частного дома, совмещенные кухня гостиная столовая" />
                       </a>
                     </div>
                   </div>
@@ -179,10 +182,10 @@ const planHouse = () => {
                   <div class="content_images">
                     <div class="content_images_one">
                       <a
-                        href="https://www.i-project.by/portfolio_newsite/dom_sovremeniy/09_dom_sovremeniy.webp"
+                        href="https://i-project.by/portfolio_newsite/dom_sovremeniy/09_dom_sovremeniy.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/dom_sovremeniy/09_dom_sovremeniy.jpg" alt="" />
+                        <StaticImage src="../../images/portfolio/dom_sovremeniy/09_dom_sovremeniy.jpg" alt="Интерьер частного дома, совмещенные кухня гостиная столовая" />
                       </a>
                     </div>
                   </div>
@@ -199,15 +202,19 @@ const planHouse = () => {
             columnClassName="my-masonry-grid_column">
             <Link to="/articles/hranenie" className="articles_page_item articles_page_item6">
               <h4 className="articles_page_item_title_medium articles_page_item_title_black">Как организовать хранение вещей в&nbsp;доме и&nbsp;квартире</h4>
+              <p className="articles_page_item_view_number articles_page_item_view_number_hblack"> <GetPageView slug={'/articles/hranenie'}/> </p>
             </Link>
             <Link to="/articles/spalnya" className="articles_page_item articles_page_item5">
               <h4 className="articles_page_item_title_small articles_page_item_title_white">Спальня мечты: секреты идеального дизайна</h4>
+              <p className="articles_page_item_view_number articles_page_item_view_number_hwhite"> <GetPageView slug={'/articles/spalnya'}/> </p>
             </Link>
             <Link to="/articles/architectura" className="articles_page_item articles_page_item4">
               <h4 className="articles_page_item_title_small articles_page_item_title_white">Архитектура частного дома: на&nbsp;что важно обратить внимание</h4>
+              <p className="articles_page_item_view_number articles_page_item_view_number_hwhite"> <GetPageView slug={'/articles/architectura'}/> </p>
             </Link>
             <Link to="/articles/krovlya" className="articles_page_item articles_page_item2">
               <h4 className="articles_page_item_title_medium articles_page_item_title_white">Плоская и&nbsp;скатная кровля: за&nbsp;и&nbsp;против</h4>
+              <p className="articles_page_item_view_number articles_page_item_view_number_hwhite"> <GetPageView slug={'/articles/krovlya'}/> </p>
             </Link>
           </Masonry>
         </div>
