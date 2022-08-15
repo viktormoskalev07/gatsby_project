@@ -1,0 +1,52 @@
+.calculatorLink {
+  margin: 0 20px;
+  background-color: #E94A34;
+  color: #FFF;
+  font-size: 1vw;
+  line-height: 1.1vw;
+  padding: 0.7vw 1.4vw;
+  text-transform: none;
+  letter-spacing: 0;
+  border: none;
+  cursor: pointer;
+  transition: all .5s ease;
+  &:hover{
+    background-color: #FF7562;
+  }
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+
+.close{
+  background-color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+  &:hover{
+
+    transform:scale(1.1);
+  }
+}
+
+
+
+.form{
+  :global{
+    .loader{
+      display: flex;
+      position: fixed;
+      top: 20%;
+      bottom: 20%;
+      left: 20%;
+      pointer-events: none;
+      right: 20%;
+
+      justify-content: center;
+      align-items: center;
+      img{
+        height: 100px;
+        width: 100px;
+      }
+    }
+  }
+}

@@ -3,6 +3,8 @@ import * as React from "react"
 import { Link } from "gatsby"
 import logo from "../images/iproject_logo.svg"
 import logoMobile from "../images/iproject_logo_mobile.svg"
+import { CalculatorLink } from "./calculator/calculatorLink"
+
 
 const Header = () => {
   const [navOpen , setNavOpen ]= React.useState(false);
@@ -20,7 +22,7 @@ const Header = () => {
   React.useEffect(() => {
           let pscroll = 0
           const stickyHeader = ()=>{
-            if(typeof window ==undefined){
+            if(typeof window ==='undefined'){
                 return
             }
             const pageYOffset = window.pageYOffset; 
@@ -96,7 +98,9 @@ const Header = () => {
               <Link to="/contacts" className="header_nav_link" activeClassName="header_nav_active">Контакты</Link>
             </li>
           </ul>
+
           <a href="tel:+375293822550" class="header_phone">+375 29 382 25 50</a>
+          <CalculatorLink  />
           <div onClick={()=>  {   
             setNavOpen(!navOpen)}}  class="header_burger">
             <span></span>

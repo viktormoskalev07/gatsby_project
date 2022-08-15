@@ -4,14 +4,16 @@ import Header from "./header-black"
 import Footer from "./footer"
 import "./layout.css"
 
-const layout = ({ children }) => {
+const LayoutBlack = ( { children   }) => {
+
   return (
     <>
-      <Header />
+      <Header  />
       <main>{children}</main>
       <Footer />
+
     </>
   )
 }
 
-export default layout
+export default LayoutBlack
