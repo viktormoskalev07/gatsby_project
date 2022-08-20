@@ -856,7 +856,7 @@ export const pureJs = ({dollarRate,backFunc})=>{
        // функция обновления элементов
        const renderElements = () => {
          modalSidebarLine.style.width = `${(numberQuestion * 100 / steps.length) || 15}%`;
-         questionTitle.textContent = `${questions[numberQuestion].question}`;
+         questionTitle.textContent = `${questions[(steps[numberQuestion])||numberQuestion].question}`;
 
          if (!steps.length || numberQuestion === 0) {
            nextButton.classList.add('d-none');
