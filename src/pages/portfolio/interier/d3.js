@@ -8,6 +8,7 @@ import { AnchorLink } from "gatsby-plugin-anchor-links"
 import { YouTobe } from "../../../subitems/youToobe"
 import  thumbnail  from  "../../../images/portfolio/d3/01_d3.jpg"
 import Seo from "../../../components/seo"
+import { Compliment } from "../../../subitems/compliment/compliment"
 
 const d3 = () => {
   return (
@@ -328,6 +329,7 @@ const d3 = () => {
                   </a>
                 </div>
               </div>
+              <Compliment />
             </div>     
           </div>
         </div>

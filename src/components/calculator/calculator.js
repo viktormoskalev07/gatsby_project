@@ -11,7 +11,7 @@ export const CalculatorScreen = ( {location}  ) => {
 
   useEffect(()=>{
   pureJs({
-    dollarRate:1,backFunc:backBtn
+    dollarRate:2.5705,backFunc:backBtn
   });
   return ()=>{
     document.location.reload()

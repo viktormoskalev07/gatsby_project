@@ -4,6 +4,7 @@ import { AnchorLink } from "gatsby-plugin-anchor-links"
 import { StaticImage } from "gatsby-plugin-image"
 import { Link } from "gatsby"
 import Masonry from 'react-masonry-css'
+import { CalculatorLink } from "../../components/calculator/calculatorLink"
 
 import { Video } from "../../subitems/hompage/video"
 import mainVideo from "../../video/support.mp4"
@@ -29,10 +30,11 @@ const soglasovanie = () => {
           <div class="content_body_absolute">
             <div class="left_sidebar">
               <ul>
-                <li><AnchorLink to="/uslugi/soglasovanie/#link_1" title="Что такое согласование?" /></li>
-                <li><AnchorLink to="/uslugi/soglasovanie/#link_2" title="Условия для согласования проекта" /></li>
-                <li><AnchorLink to="/uslugi/soglasovanie/#link_3" title="Процесс согласования проекта" /></li>
-                <li><AnchorLink to="/uslugi/soglasovanie/#link_4" title="Зачем нужна помощь специалистов?" /></li>
+                <li><AnchorLink to="/uslugi/soglasovanie/#anchor_1" title="Что такое согласование?" /></li>
+                <li><AnchorLink to="/uslugi/soglasovanie/#anchor_2" title="Условия для согласования проекта" /></li>
+                <li><AnchorLink to="/uslugi/soglasovanie/#anchor_3" title="Портфолио" /></li>
+                <li><AnchorLink to="/uslugi/soglasovanie/#anchor_4" title="Процесс согласования проекта" /></li>
+                <li><AnchorLink to="/uslugi/soglasovanie/#anchor_5" title="Зачем нужна помощь специалистов?" /></li>
               </ul>
             </div>
           </div> 
@@ -42,9 +44,9 @@ const soglasovanie = () => {
                 <div class="wrapper_article">
                   <div class="content_text">
                     <p class="content_p">Прежде чем начать строительство дома или ремонт квартиры и&nbsp;реализовать все задуманное, есть один этап, опустить который никак нельзя. Речь идет о&nbsp;согласовании проекта.</p>
-                    <h2 class="content_h2" id="link_1">Что такое согласование?</h2>
+                    <h2 class="content_h2" id="anchor_1">Что такое согласование?</h2>
                     <p class="content_p">Процедура согласования&nbsp;&mdash; это проверка и&nbsp;одобрение государственными надзорными органами всех проектных решений, используемых в&nbsp;будущем строительстве, в&nbsp;соответствии с&nbsp;обязательными требованиями со&nbsp;стороны законодательства. Другими словами, согласование&nbsp;&mdash; это подтверждение того, что объект, который вы&nbsp;собираетесь строить, будет безопасным, устойчивым и&nbsp;подходить для жизни, работы или другой выбранной для осуществления в&nbsp;нем деятельности.</p>
-                    <h2 class="content_h2" id="link_2">Условия для согласования проекта: где искать</h2>
+                    <h2 class="content_h2" id="anchor_2">Условия для согласования проекта: где искать</h2>
                     <p class="content_p">Проект, который вы&nbsp;собираетесь реализовать, должен соответствовать строительным нормам и&nbsp;правилам (СНБ), техническому кодексу установившейся практики (ТКП), и&nbsp;всем требованиям, обозначенным в&nbsp;исходно-разрешительной документации.</p>
                   </div>
                   <div class="services_include_item services_include_item_control">
@@ -57,7 +59,7 @@ const soglasovanie = () => {
                     <p class="content_p">В&nbsp;случае, если какие-то из&nbsp;требований не&nbsp;соблюдаются, проектная документация не&nbsp;будет согласована&nbsp;и, как следствие, строительство по&nbsp;проекту будет невозможно.</p>
                   </div>
                   <section>
-                    <h2 class="main_portfolio_title" id="anchor_5">Наши работы</h2>
+                    <h2 class="main_portfolio_title" id="anchor_3">Наши работы</h2>
                     <Masonry
                       breakpointCols={breakpointColumnsPortfolio}
                       className="portfolio_grid"
@@ -110,12 +112,12 @@ const soglasovanie = () => {
                     </Masonry>
                   </section>
                   <div class="content_text">
-                    <h2 class="content_h2" id="link_3">Процесс согласования проекта</h2>
+                    <h2 class="content_h2" id="anchor_4">Процесс согласования проекта</h2>
                     <p class="content_p">Согласование проекта&nbsp;&mdash; довольно трудоемкий процесс, требующий немало времени, в&nbsp;зависимости от&nbsp;особенностей объекта, вида и&nbsp;масштаба проектных решений. Так, только на&nbsp;первую часть процедуры согласования может потребоваться от&nbsp;нескольких недель до&nbsp;нескольких месяцев, далее сроки согласования будут зависеть от&nbsp;скорости ведения строительных работ, т.к. надзорным органам (технадзор) потребуется воочию убедиться в&nbsp;соответствии строительных решений проектным.</p>
                     <p class="content_p">Пакет документов, разрешающий строительство жилого дома, согласуется в&nbsp;местных органах архитектуры и&nbsp;градостроительства. При успешном результате этой процедуры исполкомом выдается паспорт застройщика, который разрешает начать стройку.</p>
                     <p class="content_p">Учитывая большое количество тонкостей, особых требований со&nbsp;стороны законодательства и&nbsp;государственных организаций, которые не&nbsp;всегда просты для понимания человеку, не&nbsp;обладающему квалификацией и&nbsp;опытом в&nbsp;этой сфере, может потребоваться много времени, сил и&nbsp;нервов, чтобы закрыть этот вопрос.</p>
                     <p class="content_p">Разрешение на&nbsp;строительство возможно получить сразу только в&nbsp;том случае, если проектная документация составлена и&nbsp;оформлена грамотно и&nbsp;в&nbsp;соответствии со&nbsp;всеми требованиями. Также необходимо знать, что процесс согласования происходит по-разному для проектов, располагающихся в&nbsp;областном и&nbsp;районном центрах.</p>
-                    <h2 class="content_h2" id="link_4">Зачем нужна помощь специалистов?</h2>
+                    <h2 class="content_h2" id="anchor_5">Зачем нужна помощь специалистов?</h2>
                     <p class="content_p">Во-первых, вы&nbsp;минимизируете риск совершения ошибки, в&nbsp;случае если занимаетесь подготовкой пакета документов самостоятельно.</p>
                     <p class="content_p">Во-вторых, вы&nbsp;экономите свое время на&nbsp;посещении десятка кабинетов государственных организаций в&nbsp;попытке получить согласование.</p>
                     <p class="content_p">За&nbsp;время работы мы&nbsp;получили достаточный объем опыта в&nbsp;процедуре согласования всех видов проектов и&nbsp;гарантируем стопроцентный результат.</p>
@@ -131,6 +133,7 @@ const soglasovanie = () => {
                   </div>
                 </div>
               </div>
+              <CalculatorLink />
             </div>
           </div>
         </div>

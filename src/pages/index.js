@@ -7,6 +7,7 @@ import { AnchorLink } from "gatsby-plugin-anchor-links"
 import SimpleBar from 'simplebar-react';
 import 'simplebar/dist/simplebar.min.css';
 import { GetPageView } from "../subitems/pageViewsCounter/getPageView"
+import { CalculatorLink } from "../components/calculator/calculatorLink"
 
 import { HeroSlider } from "../subitems/hompage/heroSlider"
 import { Faq } from "../subitems/faq"
@@ -71,10 +72,7 @@ export default function Home() {
               <h2 className="services_block_rep_title">Строительство и&nbsp;реконструкция</h2>
             </Link>
           </div>
-
           <ServiceBlock/>
-
-
         </div>
       </div>
       <div className="content_body">
@@ -253,6 +251,7 @@ export default function Home() {
                 </div>
               </SimpleBar>
             </section>
+            <CalculatorLink />
             <section>
               <div className="faq" id="faq_title">
                 <h3 className="faq_title">Вопрос / ответ</h3>

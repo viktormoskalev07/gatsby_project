@@ -5,6 +5,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import { Link } from "gatsby"
 import Masonry from 'react-masonry-css'
 import { Faq } from "../../subitems/faq/stroyka"
+import { CalculatorLink } from "../../components/calculator/calculatorLink"
 
 import { Video } from "../../subitems/hompage/video"
 import mainVideo from "../../video/reconstruction.mp4"
@@ -38,7 +39,7 @@ const stroitelstvo = () => {
               <li><AnchorLink to="/uslugi/stroitelstvo-i-rekonstrukciya/#anchor_4" title="Контроль качества" /></li>
               <li><AnchorLink to="/uslugi/stroitelstvo-i-rekonstrukciya/#anchor_5" title="Портфолио" /></li>
               {/* <li><AnchorLink to="/uslugi/stroitelstvo-i-rekonstrukciya/#anchor_7" title="Комплектация объекта" /></li> */}
-              <li><AnchorLink to="/uslugi/stroitelstvo-i-rekonstrukciya/#anchor_8" title="Вопрос / ответ" /></li>
+              <li><AnchorLink to="/uslugi/stroitelstvo-i-rekonstrukciya/#anchor_6" title="Вопрос / ответ" /></li>
             </ul>
           </div>
         </div>
@@ -140,10 +141,13 @@ const stroitelstvo = () => {
                 </Link>
               </Masonry>
             </section>
-            <div class="faq" id="anchor_8">
-              <h3 class="faq_title">Вопрос / ответ</h3>
-              <Faq/>
-            </div>
+            <CalculatorLink />
+            <section>
+              <div className="faq" id="anchor_6">
+                <h3 className="faq_title">Вопрос / ответ</h3>
+                <Faq/>
+              </div>
+            </section>
           </div>     
         </div>
       </div>

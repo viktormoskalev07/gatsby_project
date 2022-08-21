@@ -795,12 +795,12 @@ export const pureJs = ({dollarRate,backFunc})=>{
            stepNumber.innerHTML = `
                   <label class="modal_body6_title" for="modal_desc">Описание</label>
                   <div class="modal_step6">
-                    <textarea class="modal_body6_textarea" name="modal_desc" id="modal_desc" placeholder="Место положение, особенности вашего объекта, состав семьи"></textarea>
+                    <textarea class="modal_body6_textarea" name="modal_desc" id="modal_desc" placeholder="Местоположение, особенности вашего объекта, состав семьи"></textarea>
                     <div class="modal_body6_dad">
                       <input type="file" name="modal_file" id="modal_file" class="modal_body6_dad_input">
                       <p class="modal_body6_dad_p"><label for="modal_file" class="modal_body6_dad_button">Прикрепить</label> фото или план объекта (если имеется)</p>
                       <div class="modal_body6_dad_done" style="display: none">
-                        <img src="https://i-project.by/wp-content/uploads/2021/03/dddone.svg" alt="" class="modal_body6_dad_done_img">
+                        <img src="https://i-project.by/portfolio_newsite/calculator/dddone.svg" alt="" class="modal_body6_dad_done_img">
                         <span><button class="modal_body6_dad_done_button">Удалить</button></span>
                       </div>
                     </div>

@@ -3,7 +3,6 @@ import React, { useEffect } from 'react'
 import { Link } from "gatsby"
 import logo from "../images/iproject_logo.svg"
 import logoMobile from "../images/iproject_logo_mobile.svg"
-import { CalculatorLink } from "./calculator/calculatorLink"
 
 
 const HeaderBlack = () => {
@@ -102,7 +101,6 @@ const HeaderBlack = () => {
           </ul>
 
           <a href="tel:+375293822550" class="header_phone">+375 29 382 25 50</a>
-          <CalculatorLink />
           <div onClick={()=>  { 
             setNavOpen(!navOpen)}} class="header_burger">
             <span></span>

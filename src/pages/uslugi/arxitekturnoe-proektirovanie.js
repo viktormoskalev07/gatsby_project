@@ -4,6 +4,7 @@ import { AnchorLink } from "gatsby-plugin-anchor-links"
 import { StaticImage } from "gatsby-plugin-image"
 import { Link } from "gatsby"
 import Masonry from 'react-masonry-css'
+import { CalculatorLink } from "../../components/calculator/calculatorLink"
 
 import { Video } from "../../subitems/hompage/video"
 import mainVideo from "../../video/architect.mp4"
@@ -268,6 +269,7 @@ const Arxitekturnoe = () => {
                 <Link to="/uslugi/komplektaciya-obekta" className="services__add_item_link_mob">Подробнее</Link>
               </div>
             </section>
+            <CalculatorLink />
           </div>     
         </div>
       </div>

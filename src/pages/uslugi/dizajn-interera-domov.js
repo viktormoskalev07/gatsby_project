@@ -5,6 +5,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import { Link } from "gatsby"
 import Masonry from 'react-masonry-css'
 import { Faq } from "../../subitems/faq/house"
+import { CalculatorLink } from "../../components/calculator/calculatorLink"
 
 import { Video } from "../../subitems/hompage/video"
 import mainVideo from "../../video/design_interiera_house.mp4"
@@ -301,10 +302,13 @@ const DesignInterieraDomov = () => {
                 <Link to="/uslugi/komplektaciya-obekta" className="services__add_item_link_mob">Подробнее</Link>
               </div>
             </section>
-            <div class="faq" id="anchor_9">
-              <h3 class="faq_title">Вопрос / ответ</h3>
-              <Faq/>
-            </div>
+            <CalculatorLink />
+            <section>
+              <div className="faq" id="anchor_9">
+                <h3 className="faq_title">Вопрос / ответ</h3>
+                <Faq/>
+              </div>
+            </section>
           </div>     
         </div>
       </div>

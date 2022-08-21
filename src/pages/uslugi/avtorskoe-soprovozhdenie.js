@@ -4,6 +4,7 @@ import { AnchorLink } from "gatsby-plugin-anchor-links"
 import { StaticImage } from "gatsby-plugin-image"
 import { Link } from "gatsby"
 import Masonry from 'react-masonry-css'
+import { CalculatorLink } from "../../components/calculator/calculatorLink"
 
 import { Video } from "../../subitems/hompage/video"
 import mainVideo from "../../video/support.mp4"
@@ -131,10 +132,11 @@ const avtorskoeSoprovozhdenie = () => {
                     </div>
                   </Link>
                   <Link to="/portfolio" className="portfolio_grid_link_all">
-                  <p className="portfolio_grid_link_all_p">Все проекты</p>
-                </Link>
+                    <p className="portfolio_grid_link_all_p">Все проекты</p>
+                  </Link>
                 </Masonry>
               </section>
+              <CalculatorLink />
             </div>
           </div>     
         </div>

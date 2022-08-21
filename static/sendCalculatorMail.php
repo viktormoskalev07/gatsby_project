@@ -113,18 +113,19 @@ $name =   $_REQUEST['name'] ;
         <div>Буду ждать Вашего звонка. С уважением, {$name}!</div>
     ";
 
-    $sub = "  Price calculationg for :  ".$name ;
+    $sub = " Расчет стоимости объекта: ".$name ;
 
     require 'PHPMailer/PHPMailerAutoload.php';
     $mail = new PHPMailer;
     $mail->CharSet = 'UTF-8';
     $mail->isHTML(true);
     $mail->SetLanguage("ru","phpmailer/language");
-    $mail->setFrom('  i-project.by/@by119.activeby.net', 'i-project calculator ');
-    $mail->addAddress('neonchilkk@gmail.com', 'Alex');
+    $mail->setFrom('  i-project.by/@by119.activeby.net', 'Дизайн интерьера');
+    $mail->addAddress('iproject.aleksandr@gmail.com', 'iproject.aleksandr@gmail.com');
+    $mail->addAddress('info.yellowpine@gmail.com', 'info.yellowpine@gmail.com');
     $mail->msgHTML($msg);
         // Attach uploaded files
-     $mail->addAttachment($file['tmp_name'] , $file['name'] , 'base64' , $file['type'] );
+    $mail->addAttachment($file['tmp_name'] , $file['name'] , 'base64' , $file['type'] );
     $mail->Subject =  $sub;
 // Отправляем почтовое сообщение
     if(    $mail->send()){
