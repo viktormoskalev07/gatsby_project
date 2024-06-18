@@ -8,6 +8,9 @@ import { AnchorLink } from "gatsby-plugin-anchor-links"
 import { YouTobe } from "../../../subitems/youToobe"
 import  thumbnail  from  "../../../images/portfolio/baltic_house/exterior/01_baltic_home_exterior.jpg"
 import Seo from "../../../components/seo"
+import { CalculatorLink } from "../../../components/calculator/calculatorLink"
+import { Compliment } from "../../../subitems/compliment/compliment"
+import { PartnersBalticExt } from "../../../subitems/partners/partnersBalticExt"
 
 const exterierBalticHouse = () => {
   return (
@@ -39,12 +42,13 @@ const exterierBalticHouse = () => {
                 <li><AnchorLink to="/portfolio/architecture/exterier-baltic-house/#anchor_2" title="План дома" /></li>
                 <li><AnchorLink to="/portfolio/architecture/exterier-baltic-house/#anchor_3" title="Фасад" /></li>
                 <li><AnchorLink to="/portfolio/architecture/exterier-baltic-house/#anchor_4" title="Интерьер" /></li>
+                <li><AnchorLink to="/portfolio/architecture/exterier-baltic-house/#anchor_5" title="Бренды" /></li>
               </ul>
             </div>
           </div>
           <div class="wrapper">
             <div class="right_content">
-            <div class="project_info">
+              <div class="project_info">
                 <p class="project_info_p">Год: <span>2017</span></p>
                 <p class="project_info_p">Локация: <span>Беларусь</span></p>
                 <p class="project_info_p">Архитектор: <span>Александр Игнатьев</span></p>
@@ -113,7 +117,7 @@ const exterierBalticHouse = () => {
               </div>
               <h2 class="content_h2" id="anchor_3">Фасад</h2>
               <div class="content_text">
-                <p class="content_p">При реконструкции фасадов в&nbsp;необходимых местах были добавлены солнцезащитные элементы, перголы, которые выполняют практическую и&nbsp;эстетическую функции&nbsp;&mdash; защищают от&nbsp;попадания прямых солнечных лучей и&nbsp;делают экстерьер более сложным и&nbsp;выразительным, создавая графику из&nbsp;света и&nbsp;тени на&nbsp;стенах дома.</p>
+                <p class="content_p">При <Link to="/articles/reconstruction" className="link" target="_blank">реконструкции</Link> фасадов в&nbsp;необходимых местах были добавлены солнцезащитные элементы, перголы, которые выполняют практическую и&nbsp;эстетическую функции&nbsp;&mdash; защищают от&nbsp;попадания прямых солнечных лучей и&nbsp;делают экстерьер более сложным и&nbsp;выразительным, создавая графику из&nbsp;света и&nbsp;тени на&nbsp;стенах дома.</p>
               </div>
               <div class="content_images">
                 <div class="content_images_two">
@@ -149,7 +153,7 @@ const exterierBalticHouse = () => {
                 <div class="rewards">
                   <div class="reward_item">
                     <StaticImage src="../../../images//rewards/reward_3.jpg" alt="" class="reward_image"/>
-                    <p class="reward_text">Проект занял первое место на&nbsp;XX&nbsp;Республиканском конкурсе на&nbsp;лучший &laquo;Проект&raquo;, &laquo;Постройку&raquo;, &laquo;Публикацию&raquo;, в&nbsp;рамках XIV Национального фестиваля архитектуры, в&nbsp;разделе &laquo;Постройка&raquo;, в&nbsp;номинации &laquo;Интерьеры зданий и&nbsp;сооружений&raquo;. За&nbsp;реализацию проекта &laquo;<Link to="/portfolio/interier/interier-baltic-house" className="link">Дом с&nbsp;Балтийским характером</Link>&raquo;.</p>
+                    <p class="reward_text">Проект занял первое место на&nbsp;XX&nbsp;Республиканском конкурсе на&nbsp;лучший &laquo;Проект&raquo;, &laquo;Постройку&raquo;, &laquo;Публикацию&raquo;, в&nbsp;рамках XIV Национального фестиваля архитектуры, в&nbsp;разделе &laquo;Постройка&raquo;, в&nbsp;номинации &laquo;Интерьеры зданий и&nbsp;сооружений&raquo;. За&nbsp;реализацию проекта <Link to="/portfolio/interier/interier-baltic-house" className="link">&laquo;Дом с&nbsp;Балтийским характером&raquo;</Link>.</p>
                   </div>
                 </div>
               </div>
@@ -169,6 +173,7 @@ const exterierBalticHouse = () => {
                   </a>
                 </div>
               </div>
+              <CalculatorLink />
             </div>
           </div>
           <div class="content_images">
@@ -314,6 +319,8 @@ const exterierBalticHouse = () => {
                   </a>
                 </div>
               </div>
+              <Compliment />
+              <PartnersBalticExt />
             </div>
           </div>
         </div>

@@ -6,8 +6,12 @@ import Fancybox from "../../../components/fancybox.js";
 import BreadcrumbsInterier from "../../../components/breadcrumbs-interier.js";
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 import { YouTobe } from "../../../subitems/youToobe"
-import  thumbnail  from  "../../../images/portfolio/korolya/01_korolya.jpg"
+import thumbnail  from  "../../../images/portfolio/korolya/01_korolya.jpg"
 import Seo from "../../../components/seo"
+import { CalculatorLink } from "../../../components/calculator/calculatorLink"
+import { ProjectVideoTrigger } from "../../../subitems/project-video-trigger"
+import { Compliment } from "../../../subitems/compliment/compliment"
+import { PartnersKorolya } from "../../../subitems/partners/partnersKorolya"
 
 const korolya = () => {
   return (
@@ -41,6 +45,7 @@ const korolya = () => {
                 <li><AnchorLink to="/portfolio/interier/korolya/#anchor_4" title="Мастер-спальня" /></li>
                 <li><AnchorLink to="/portfolio/interier/korolya/#anchor_5" title="Санузлы" /></li>
                 <li><AnchorLink to="/portfolio/interier/korolya/#anchor_6" title="Другие помещения в&nbsp;квартире" /></li>
+                <li><AnchorLink to="/portfolio/interier/korolya/#anchor_7" title="Бренды" /></li>
               </ul>
             </div>
           </div>
@@ -72,7 +77,7 @@ const korolya = () => {
                 </a>
                 <div class="content_task">
                   <span class="content_task_span">Описание</span>
-                  <p class="content_task_p">Квартира в&nbsp;новостройке площадью 145&nbsp;м<sup>2</sup>, расположенная в&nbsp;тихом центре Минска с&nbsp;прекрасным видом за&nbsp;окнами.</p>
+                  <p class="content_task_p">Квартира в&nbsp;новостройке площадью 145&nbsp;м.&nbsp;кв., расположенная в&nbsp;тихом центре Минска с&nbsp;прекрасным видом за&nbsp;окнами.</p>
                   <p class="content_task_p">Заказчики, семейная пара&nbsp;&mdash; интеллигентные, состоявшиеся, любящие путешествовать зрелые люди с&nbsp;уже взрослыми и&nbsp;отдельно живущими детьми, пришли в&nbsp;студию по&nbsp;рекомендации.</p>
                 </div>
               </div>
@@ -94,7 +99,7 @@ const korolya = () => {
                 </div>
               </div>
               <div class="content_text">
-                <p class="content_p">Квартира в&nbsp;монолитно-каркасном доме, поэтому одним из&nbsp;атрибутов планировки явились несущие колонны. Они естественным образом дали точку отсчёта для зонирования. В&nbsp;гостиной, благодаря&nbsp;им, была придумана стеллажная <Link to="/articles/hranenie" className="link">система хранения</Link>, что позволило отделить зону коридора, закрыть вход в&nbsp;санузел, и&nbsp;в&nbsp;то&nbsp;же время оставить ощущение воздуха и&nbsp;света. В&nbsp;спальне&nbsp;&mdash; появился портал у&nbsp;окна с&nbsp;рабочим местом заказчицы; в&nbsp;прихожей&nbsp;&mdash; большая гардеробная и&nbsp;постирочная.</p>
+                <p class="content_p">Квартира в&nbsp;монолитно-каркасном доме, поэтому одним из&nbsp;атрибутов <Link to="/articles/plan-apart" className="link" target="_blank">планировки</Link> явились несущие колонны. Они естественным образом дали точку отсчёта для зонирования. В&nbsp;гостиной, благодаря&nbsp;им, была придумана стеллажная <Link to="/articles/hranenie" className="link" target="_blank">система хранения</Link>, что позволило отделить зону коридора, закрыть вход в&nbsp;санузел, и&nbsp;в&nbsp;то&nbsp;же время оставить ощущение воздуха и&nbsp;света. В&nbsp;спальне&nbsp;&mdash; появился портал у&nbsp;окна с&nbsp;рабочим местом заказчицы; в&nbsp;прихожей&nbsp;&mdash; большая гардеробная и&nbsp;постирочная.</p>
               </div>
               <h2 class="content_h2" id="anchor_3">Гостиная, совмещенная с&nbsp;кухней</h2>
             </div>
@@ -110,6 +115,9 @@ const korolya = () => {
           <div class="wrapper">
             <div class="right_content">
               <div class="content_images">
+                <ProjectVideoTrigger
+                  shortVideo='https://i-project.by/video_newsite/korolya/korolyaFilm_3.mp4'
+                />
                 <div class="content_images_two_left_narrow">
                   <a
                     href="https://i-project.by/portfolio_newsite/korolya/02_korolya.webp"
@@ -138,6 +146,9 @@ const korolya = () => {
                     <StaticImage src="../../../images/portfolio/korolya/06_korolya.jpg" alt="" />
                   </a>
                 </div>
+                <ProjectVideoTrigger
+                  shortVideo='https://i-project.by/video_newsite/korolya/korolyaFilm_4.mp4'
+                />
               </div>
               <div class="content_text">
                 <p class="content_p">Изначально заказчица сама собиралась заниматься интерьером, но&nbsp;поняла, что не&nbsp;может справится, и&nbsp;требуется профессиональная помощь. Ей&nbsp;хотелось идти в&nbsp;ногу со&nbsp;временем, но&nbsp;в&nbsp;тоже время она не&nbsp;могла отказаться от&nbsp;каких-то своих представлений о&nbsp;комфорте и&nbsp;уюте. Постоянно были метания от&nbsp;одного к&nbsp;другому.</p>
@@ -162,8 +173,12 @@ const korolya = () => {
                 <p class="content_p">Этот проект&nbsp;&mdash; результат компромисса, в&nbsp;результате которого удалось сохранить авторскую задумку и&nbsp;удовлетворить требования заказчицы, которая принимала активное участие в&nbsp;совместном выборе мебели и&nbsp;аксессуаров.</p>
                 <p class="content_p">Самое важное в&nbsp;этом проекте&nbsp;&mdash; удалось органично сочетать несколько жанров. С&nbsp;одной стороны это современный и&nbsp;технологичный интерьер, отвечающий духу времени, с&nbsp;другой&nbsp;&mdash; он&nbsp;пронизан уважением к&nbsp;пожеланиям заказчиков, юность которых пришлась на&nbsp;другую эпоху. Здесь есть и&nbsp;отсылка к&nbsp;60-м, и&nbsp;багет, и&nbsp;фацеты на&nbsp;кухне, и&nbsp;птички на&nbsp;шторах, и&nbsp;в&nbsp;то&nbsp;же время современные светильники, выверенная архитектура пространства.</p>
               </div>
+              <CalculatorLink />
               <div class="content_images">
                 <h2 class="content_h2" id="anchor_4">Мастер-спальня</h2>
+                <ProjectVideoTrigger
+                  shortVideo='https://i-project.by/video_newsite/korolya/korolyaFilm_1.mp4'
+                />
                 <div class="content_images_two">
                   <a
                     href="https://i-project.by/portfolio_newsite/korolya/14_korolya.webp"
@@ -203,6 +218,9 @@ const korolya = () => {
               </div>
               <div class="content_images">
                 <h2 class="content_h2" id="anchor_5">Санузлы</h2>
+                <ProjectVideoTrigger
+                  shortVideo='https://i-project.by/video_newsite/korolya/korolyaFilm_2.mp4'
+                />
                 <div class="content_images_two">
                   <a
                     href="https://i-project.by/portfolio_newsite/korolya/16_korolya.webp"
@@ -218,7 +236,7 @@ const korolya = () => {
                   </a>
                 </div>
                 <div class="pattern">
-                  <StaticImage src="../../../images/portfolio/korolya/pattern.jpg" alt="" />
+                  <StaticImage src="../../../images/portfolio/korolya/pattern1.jpg" alt="" />
                 </div>
                 <div class="content_images_two">
                   <a
@@ -240,10 +258,9 @@ const korolya = () => {
                 <div class="content_text">
                   <p class="content_p">Удобно, когда рядом с&nbsp;вешалкой есть зеркало во&nbsp;весь рост, в&nbsp;котором можно взглянуть на&nbsp;себя перед выходом, и&nbsp;комфортная оттоманка, на&nbsp;которую можно присесть и&nbsp;обуть обувь. Идеально, когда при прихожей имеется гардеробная.</p>
                   <p class="content_p">И&nbsp;конечно удобно, когда гостиная начинается не&nbsp;сразу с&nbsp;порога, как сейчас модно, а&nbsp;через прихожую.</p>
-                  <p class="content_p">Мы&nbsp;хотели поменять входную дверь, но&nbsp;поскольку снаружи вид всех дверей требовалось сохранить неизменным, пришлось ее&nbsp;разобрать, и&nbsp;заменить внутреннюю панель на&nbsp;панель из&nbsp;крашенного МДФ.</p>
+                  <p class="content_p">Мы&nbsp;хотели поменять входную дверь, но&nbsp;поскольку снаружи вид всех <Link to="/articles/dveri" className="link" target="_blank">дверей</Link> требовалось сохранить неизменным, пришлось ее&nbsp;разобрать, и&nbsp;заменить внутреннюю панель на&nbsp;панель из&nbsp;крашенного МДФ.</p>
                   <p class="content_p">Панелями из&nbsp;этого&nbsp;же материала, в&nbsp;том&nbsp;же цвете, отделали откосы и&nbsp;прилегающие стены. Одна из&nbsp;панелей, правая, открывается от&nbsp;нажатия и&nbsp;за&nbsp;ней прячутся все распределительные электрощиты.</p>
                   <p class="content_p">Заказчики сперва не&nbsp;могли понять, почему стены в&nbsp;прихожей обязательно зашивать панелями&nbsp;&mdash; ведь можно их&nbsp;покрасить или поклеить обои. Пришлось обстоятельно и&nbsp;настойчиво убеждать, чтобы получить чистое и&nbsp;практичное решение, которым все остались довольны.</p>
-
                 </div>
                 <div class="content_images_three">
                   <a
@@ -266,9 +283,11 @@ const korolya = () => {
                   </a>
                 </div>
               </div>
+              <Compliment />
+              <PartnersKorolya />
             </div>     
           </div>
-          </div>
+        </div>
       </Fancybox>
     </Layout>
   )

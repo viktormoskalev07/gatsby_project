@@ -96,7 +96,7 @@ const reconstruction = ({location }) => {
                         >
                           <StaticImage src="../../images/portfolio/baltic_house/exterior/01_baltic_home_exterior.jpg" alt="Современный дом после реконструкции" />
                         </a>
-                        <StaticImage src="../../images//portfolio/baltic_house/exterior/before/1.jpg" alt="Недостроенный кирпичный дом" />
+                        <StaticImage src="../../images/portfolio/baltic_house/exterior/before/1.jpg" alt="Недостроенный кирпичный дом" />
                       </div>
                     </div>
                     <li>3. Обновление фасада с&nbsp;добавлением пристройки</li>
@@ -121,6 +121,30 @@ const reconstruction = ({location }) => {
                             <figcaption>Было</figcaption>
                           </figure>
                         </ImgComparisonSlider>
+                      </div>
+                    </div>
+                    <div class="content_text">
+                      <p class="content_p">В&nbsp;процессе <Link to="/portfolio/architecture/tarasovo-rekonstrukciya" className="link">реконструкции дома в&nbsp;Тарасово</Link> кардинально изменили внешний облик дома: поработали с&nbsp;формой, геометрией, цветом, фактурой.</p>
+                    </div>
+                    <div class="content_images">
+                      <div class="content_images_two">
+                        <StaticImage src="../../images/portfolio/tarasovo_rekonstrukciya/before/01_tarasovo_before.jpg" alt="Недостроенный кирпичный дом" />
+                        <StaticImage src="../../images/portfolio/tarasovo_rekonstrukciya/before/03_tarasovo_before.jpg" alt="Недостроенный кирпичный дом" />
+                        
+                      </div>
+                      <div class="content_images_two">
+                        <a
+                          href="https://i-project.by/portfolio_newsite/tarasovo_rekonstrukciya/01_tarasovo.webp"
+                          data-fancybox="gallery"
+                        >
+                          <StaticImage src="../../images/portfolio/tarasovo_rekonstrukciya/01_tarasovo.jpg" alt="Современный дом после реконструкции" />
+                        </a>
+                        <a
+                          href="https://i-project.by/portfolio_newsite/tarasovo_rekonstrukciya/02_tarasovo.webp"
+                          data-fancybox="gallery"
+                        >
+                          <StaticImage src="../../images/portfolio/tarasovo_rekonstrukciya/02_tarasovo.jpg" alt="Современный дом после реконструкции" />
+                        </a>
                       </div>
                     </div>
                   </ul>
@@ -171,7 +195,7 @@ const reconstruction = ({location }) => {
                       </a>
                     </div>
                     <div class="pattern">
-                      <StaticImage src="../../images/portfolio/protos_reconstraction/pattern.jpg" alt="Керамогранит с уникальным рисунком" />
+                      <StaticImage src="../../images/portfolio/protos_reconstraction/pattern1.jpg" alt="Керамогранит с уникальным рисунком" />
                     </div>
                   </div>
                   <div class="content_text">
@@ -180,20 +204,20 @@ const reconstruction = ({location }) => {
                   <div class="content_images">
                     <div class="content_images_two">
                       <a
-                        href="https://i-project.by/portfolio_newsite/luban/03_luban.webp"
+                        href="https://i-project.by/portfolio_newsite/garmony_dom_arch/09_garmony_dom.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/luban/03_luban.jpg" alt="Современный фасад частного дома" />
+                        <StaticImage src="../../images/portfolio/garmony_dom_arch/09_garmony_dom.jpg" alt="Современный фасад частного дома" />
                       </a>
                       <a
-                        href="https://i-project.by/portfolio_newsite/luban/05_luban.webp"
+                        href="https://i-project.by/portfolio_newsite/garmony_dom_arch/06_garmony_dom.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/luban/05_luban.jpg" alt="Терраса в современном частном доме" />
+                        <StaticImage src="../../images/portfolio/garmony_dom_arch/06_garmony_dom.jpg" alt="Терраса в современном частном доме" />
                       </a>
                     </div>
                     <div class="pattern">
-                      <StaticImage src="../../images/portfolio/luban/pattern.jpg" alt="Светлый клинкерный кирпич" />
+                      <StaticImage src="../../images/portfolio/garmony_dom_arch/pattern.jpg" alt="Светлый клинкерный кирпич" />
                     </div>
                   </div>
                   <h2 class="content_h2" id="reconstruction_6">Перепланировка при реконструкции</h2>

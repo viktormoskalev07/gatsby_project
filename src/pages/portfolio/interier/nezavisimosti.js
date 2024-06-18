@@ -5,6 +5,8 @@ import Fancybox from "../../../components/fancybox.js";
 import BreadcrumbsInterier from "../../../components/breadcrumbs-interier.js";
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 import Seo from "../../../components/seo"
+import { CalculatorLink } from "../../../components/calculator/calculatorLink"
+import { Compliment } from "../../../subitems/compliment/compliment"
 
 const nezavisimosti = () => {
   return (
@@ -135,6 +137,7 @@ const nezavisimosti = () => {
                   </a>
                 </div>
               </div>
+              <CalculatorLink />
               <div class="content_text">
                 <h2 class="content_h2" id="anchor_5">Спальня</h2>
                 <p class="content_p">При оформлении интерьера в&nbsp;спальне хозяев полностью ушли от&nbsp;симметрии. С&nbsp;одной стороны от&nbsp;кровати установлены подвесные светильники, с&nbsp;другой стороны светильник стоит на&nbsp;тумбе. Такое решение усложняет пространство, делает интерьер более интересным.</p>
@@ -267,6 +270,7 @@ const nezavisimosti = () => {
                   </a>
                 </div>
               </div>
+              <Compliment />
             </div>     
           </div>
         </div>

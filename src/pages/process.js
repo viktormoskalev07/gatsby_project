@@ -9,7 +9,7 @@ import 'simplebar/dist/simplebar.min.css';
 
 import { Video } from "../subitems/hompage/video"
 import ProcessVideo from "../video/design_interiera.mp4"
-import ProcessVideoMobile from "../video/design_interiera_mob.mp4"
+import ProcessVideoMobile from "../video/index_mob.mp4"
 import Seo from "../components/seo"
 
 const process = () => {
@@ -50,7 +50,7 @@ const process = () => {
                   <div class="content_text">
                     <p class="content_p">Архитектор, дизайнер выезжает на&nbsp;объект, производит фотофиксацию, осуществляет визуальную оценку и&nbsp;первичный анализ исходных планировочных и&nbsp;технических данных, видовых точек. На&nbsp;этом этапе становится понятно, понадобится&nbsp;ли замена всех окон, радиаторов, инженерных коммуникаций и&nbsp;т.п. При необходимости, если объект имеет высокую степень физического износа, заказывается техническое обследование.</p>
                   </div>
-                  <StaticImage src="../images/process/process_img_1.png" alt="Как строится работа в i-project" />
+                  <StaticImage src="../images/process/process_img_1.jpg" alt="Как строится работа в i-project" />
                 </div>
                 <div class="content_images">
                   <h2 class="content_h2" id="process_2">Делаем обмерочные чертежи</h2>
@@ -237,26 +237,26 @@ const process = () => {
                     <p class="content_p">Салоны, с&nbsp;которыми мы&nbsp;работаем, являются первыми поставщиками или производителями продукции. С&nbsp;нами гарантированно будут работать самые опытные специалисты, совместно с&nbsp;которыми мы&nbsp;проработаем все детали. Для вас будут предложены лучшие условия. Наши основные партнеры:</p>
                   </div>
                   <SimpleBar class="process_gallery" forceVisible="y" autoHide={false}>
-                    <StaticImage src="../images/process/process_gallery_1.png" alt="Кухни Porto-porto. Партнер дизайн-студии i-project" class="process_gallery_img" />
-                    <StaticImage src="../images/process/process_gallery_2.png" alt="Центр интерьерных решений Domani. Партнер дизайн-студии i-project" class="process_gallery_img" />
-                    <StaticImage src="../images/process/process_gallery_3.png" alt="Салон межкомнатных дверей 2 бобра. Партнер дизайн-студии i-project" class="process_gallery_img" />
-                    <StaticImage src="../images/process/process_gallery_4.png" alt="Мебель Megafort. Партнер дизайн-студии i-project" class="process_gallery_img" />
-                    <StaticImage src="../images/process/process_gallery_5.png" alt="Салон Центрсвет. Партнер дизайн-студии i-project" class="process_gallery_img" />
-                    <StaticImage src="../images/process/process_gallery_6.png" alt="Остекление Archiglass. Партнер дизайн-студии i-project" class="process_gallery_img" />
-                    <StaticImage src="../images/process/process_gallery_7.png" alt="Плитка и сантехника Домино. Партнер дизайн-студии i-project" class="process_gallery_img" />
-                    <StaticImage src="../images/process/process_gallery_8.png" alt="Салон керамической плитки FSN Gallery. Партнер дизайн-студии i-project" class="process_gallery_img" />
-                    <StaticImage src="../images/process/process_gallery_9.png" alt="Мебель Furman. Партнер дизайн-студии i-project" class="process_gallery_img" />
-                    <StaticImage src="../images/process/process_gallery_10.png" alt="Розетки Gira. Партнер дизайн-студии i-project" class="process_gallery_img" />
-                    <StaticImage src="../images/process/process_gallery_11.png" alt="Обои Krea. Партнер дизайн-студии i-project" class="process_gallery_img" />
-                    <StaticImage src="../images/process/process_gallery_12.png" alt="Салон межкомнатных дверей Lazio. Партнер дизайн-студии i-project" class="process_gallery_img" />
-                    <StaticImage src="../images/process/process_gallery_13.png" alt="Салон декоративной штукатурки и акриловых красок Oikos. Партнер дизайн-студии i-project" class="process_gallery_img" />
-                    <StaticImage src="../images/process/process_gallery_14.png" alt="Салон напольных покрытий и дверей Openini. Партнер дизайн-студии i-project" class="process_gallery_img" />
-                    <StaticImage src="../images/process/process_gallery_15.png" alt="Салон дизайнерской мебели, светильников и аксессуаров Rooms. Партнер дизайн-студии i-project" class="process_gallery_img" />
-                    <StaticImage src="../images/process/process_gallery_16.png" alt="Салон-студия Viridian. Партнер дизайн-студии i-project" class="process_gallery_img" />
-                    <StaticImage src="../images/process/process_gallery_17.png" alt="Деревянные окна Vithouse. Партнер дизайн-студии i-project" class="process_gallery_img" />
-                    <StaticImage src="../images/process/process_gallery_18.png" alt="Мультибрендовый салон светильников и декора Luminoso. Партнер дизайн-студии i-project" class="process_gallery_img" />
-                    <StaticImage src="../images/process/process_gallery_19.png" alt="Салон натурального камня Kameya. Партнер дизайн-студии i-project" class="process_gallery_img" />
-                    <StaticImage src="../images/process/process_gallery_20.png" alt="Мультибрендовый салон керамической плитки, сантехники, мебели, посуды и подарков Skvirel. Партнер дизайн-студии i-project" class="process_gallery_img" />
+                    <StaticImage src="../images/process/process_gallery_1.jpg" alt="Кухни Porto-porto. Партнер дизайн-студии i-project" class="process_gallery_img" />
+                    <StaticImage src="../images/process/process_gallery_2.jpg" alt="Центр интерьерных решений Domani. Партнер дизайн-студии i-project" class="process_gallery_img" />
+                    <StaticImage src="../images/process/process_gallery_3.jpg" alt="Салон межкомнатных дверей 2 бобра. Партнер дизайн-студии i-project" class="process_gallery_img" />
+                    <StaticImage src="../images/process/process_gallery_4.jpg" alt="Мебель Megafort. Партнер дизайн-студии i-project" class="process_gallery_img" />
+                    <StaticImage src="../images/process/process_gallery_5.jpg" alt="Салон Центрсвет. Партнер дизайн-студии i-project" class="process_gallery_img" />
+                    <StaticImage src="../images/process/process_gallery_6.jpg" alt="Остекление Archiglass. Партнер дизайн-студии i-project" class="process_gallery_img" />
+                    <StaticImage src="../images/process/process_gallery_7.jpg" alt="Плитка и сантехника Домино. Партнер дизайн-студии i-project" class="process_gallery_img" />
+                    <StaticImage src="../images/process/process_gallery_8.jpg" alt="Салон керамической плитки FSN Gallery. Партнер дизайн-студии i-project" class="process_gallery_img" />
+                    <StaticImage src="../images/process/process_gallery_9.jpg" alt="Мебель Furman. Партнер дизайн-студии i-project" class="process_gallery_img" />
+                    <StaticImage src="../images/process/process_gallery_10.jpg" alt="Розетки Gira. Партнер дизайн-студии i-project" class="process_gallery_img" />
+                    <StaticImage src="../images/process/process_gallery_11.jpg" alt="Обои Krea. Партнер дизайн-студии i-project" class="process_gallery_img" />
+                    <StaticImage src="../images/process/process_gallery_12.jpg" alt="Салон межкомнатных дверей Lazio. Партнер дизайн-студии i-project" class="process_gallery_img" />
+                    <StaticImage src="../images/process/process_gallery_13.jpg" alt="Салон декоративной штукатурки и акриловых красок Oikos. Партнер дизайн-студии i-project" class="process_gallery_img" />
+                    <StaticImage src="../images/process/process_gallery_14.jpg" alt="Салон напольных покрытий и дверей Openini. Партнер дизайн-студии i-project" class="process_gallery_img" />
+                    <StaticImage src="../images/process/process_gallery_15.jpg" alt="Салон дизайнерской мебели, светильников и аксессуаров Rooms. Партнер дизайн-студии i-project" class="process_gallery_img" />
+                    <StaticImage src="../images/process/process_gallery_16.jpg" alt="Салон-студия Viridian. Партнер дизайн-студии i-project" class="process_gallery_img" />
+                    <StaticImage src="../images/process/process_gallery_17.jpg" alt="Деревянные окна Vithouse. Партнер дизайн-студии i-project" class="process_gallery_img" />
+                    <StaticImage src="../images/process/process_gallery_18.jpg" alt="Мультибрендовый салон светильников и декора Luminoso. Партнер дизайн-студии i-project" class="process_gallery_img" />
+                    <StaticImage src="../images/process/process_gallery_19.jpg" alt="Салон натурального камня Kameya. Партнер дизайн-студии i-project" class="process_gallery_img" />
+                    <StaticImage src="../images/process/process_gallery_20.jpg" alt="Мультибрендовый салон керамической плитки, сантехники, мебели, посуды и подарков Skvirel. Партнер дизайн-студии i-project" class="process_gallery_img" />
                   </SimpleBar>
                 </div>
                 <div class="content_images">
@@ -282,10 +282,10 @@ const process = () => {
                   </div>
                   <div class="content_images_three">
                     <a
-                      href="https://i-project.by/portfolio_newsite/d3/15_d3.webp"
+                      href="https://i-project.by/portfolio_newsite/d3/23_d3.webp"
                       data-fancybox="gallery"
                     >
-                      <StaticImage src="../images/portfolio/d3/15_d3.jpg" alt="Дизайн квартиры в жилом комплексе «D3», Минск" />
+                      <StaticImage src="../images/portfolio/d3/23_d3.jpg" alt="Дизайн квартиры в жилом комплексе «D3», Минск" />
                     </a>
                     <a
                       href="https://i-project.by/portfolio_newsite/d3/03_d3.webp"
@@ -300,18 +300,12 @@ const process = () => {
                       <StaticImage src="../images/portfolio/d3/12_d3.jpg" alt="Дизайн квартиры в жилом комплексе «D3», Минск" />
                     </a>
                   </div>
-                  <div class="content_images_four">
+                  <div class="content_images_three">
                     <a
                       href="https://i-project.by/portfolio_newsite/d3/11_d3.webp"
                       data-fancybox="gallery"
                     >
                       <StaticImage src="../images/portfolio/d3/11_d3.jpg" alt="Дизайн квартиры в жилом комплексе «D3», Минск" />
-                    </a>
-                    <a
-                      href="https://i-project.by/portfolio_newsite/d3/23_d3.webp"
-                      data-fancybox="gallery"
-                    >
-                      <StaticImage src="../images/portfolio/d3/23_d3.jpg" alt="Дизайн квартиры в жилом комплексе «D3», Минск" />
                     </a>
                     <a
                       href="https://i-project.by/portfolio_newsite/d3/09_d3.webp"

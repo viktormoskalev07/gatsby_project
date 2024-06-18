@@ -5,6 +5,8 @@ import Fancybox from "../../../components/fancybox.js";
 import BreadcrumbsArch from "../../../components/breadcrumbs-arch.js";
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 import Seo from "../../../components/seo"
+import { CalculatorLink } from "../../../components/calculator/calculatorLink"
+import { Compliment } from "../../../subitems/compliment/compliment"
 
 const sosni = () => {
   return (
@@ -72,24 +74,10 @@ const sosni = () => {
                 </div>
                 <div class="content_images_two">
                   <a
-                    href="https://i-project.by/portfolio_newsite/sosni/03_sosni.webp"
-                    data-fancybox="gallery"
-                  >
-                    <StaticImage src="../../../images/portfolio/sosni/03_sosni.jpg" alt="" />
-                  </a>
-                  <a
                     href="https://i-project.by/portfolio_newsite/sosni/04_sosni.webp"
                     data-fancybox="gallery"
                   >
                     <StaticImage src="../../../images/portfolio/sosni/04_sosni.jpg" alt="" />
-                  </a>
-                </div>
-                <div class="content_images_two">
-                  <a
-                    href="https://i-project.by/portfolio_newsite/sosni/05_sosni.webp"
-                    data-fancybox="gallery"
-                  >
-                    <StaticImage src="../../../images/portfolio/sosni/05_sosni.jpg" alt="" />
                   </a>
                   <a
                     href="https://i-project.by/portfolio_newsite/sosni/06_sosni.webp"
@@ -98,6 +86,9 @@ const sosni = () => {
                     <StaticImage src="../../../images/portfolio/sosni/06_sosni.jpg" alt="" />
                   </a>
                 </div>
+              </div>
+              <CalculatorLink />
+              <div class="content_images">
                 <div class="content_images_one">
                   <a
                     href="https://i-project.by/portfolio_newsite/sosni/07_sosni.webp"
@@ -107,6 +98,7 @@ const sosni = () => {
                   </a>
                 </div>
               </div>
+              <Compliment />
             </div>     
           </div>
         </div>

@@ -49,10 +49,10 @@ const architectura = ({location }) => {
                   <div class="content_images">
                     <div class="content_images_one">
                       <a
-                        href="https://i-project.by/portfolio_newsite/luban/01_luban.webp"
+                        href="https://i-project.by/portfolio_newsite/garmony_dom_arch/01_garmony_dom.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/luban/01_luban.jpg" alt="Современная архитектура частного дома" />
+                        <StaticImage src="../../images/portfolio/garmony_dom_arch/01_garmony_dom.jpg" alt="Современная архитектура частного дома" />
                       </a>
                     </div>
                     <div class="content_images_two">
@@ -121,10 +121,10 @@ const architectura = ({location }) => {
                         <StaticImage src="../../images/portfolio/baltic_house/exterior/03_baltic_home_exterior.jpg" alt="Терраса в частном доме" />
                       </a>
                       <a
-                        href="https://i-project.by/portfolio_newsite/luban/02_luban.webp"
+                        href="https://i-project.by/portfolio_newsite/garmony_dom_arch/12_garmony_dom.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/luban/02_luban.jpg" alt="Архитектура современного частного дома" />
+                        <StaticImage src="../../images/portfolio/garmony_dom_arch/12_garmony_dom.jpg" alt="Архитектура современного частного дома" />
                       </a>
                     </div>
                   </div>
@@ -152,10 +152,10 @@ const architectura = ({location }) => {
                   <div class="content_images">
                     <div class="content_images_two">
                       <a
-                        href="https://i-project.by/portfolio_newsite/luban/06_luban.webp"
+                        href="https://i-project.by/portfolio_newsite/garmony_dom_arch/16_garmony_dom.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/luban/06_luban.jpg" alt="Ландшафтный дизайн на частной территории" />
+                        <StaticImage src="../../images/portfolio/garmony_dom_arch/16_garmony_dom.jpg" alt="Ландшафтный дизайн на частной территории" />
                       </a>
                       <a
                         href="https://i-project.by/portfolio_newsite/baltic_house/exterior/14_baltic_home_exterior.webp"
@@ -190,10 +190,10 @@ const architectura = ({location }) => {
                   <div class="content_images">
                     <div class="content_images_three_left_narrow">
                       <a
-                        href="https://i-project.by/portfolio_newsite/luban/03_luban.webp"
+                        href="https://i-project.by/portfolio_newsite/garmony_dom_arch/09_garmony_dom.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/luban/03_luban.jpg" alt="Современная архитектура частного дома" />
+                        <StaticImage src="../../images/portfolio/garmony_dom_arch/09_garmony_dom.jpg" alt="Современная архитектура частного дома" />
                       </a>
                       <a
                         href="https://i-project.by/portfolio_newsite/dom_u_more/14_dom_u_more.webp"
@@ -202,10 +202,10 @@ const architectura = ({location }) => {
                         <StaticImage src="../../images/portfolio/dom_u_more/14_dom_u_more.jpg" alt="Современная архитектура частного дома" />
                       </a>
                       <a
-                        href="https://i-project.by/portfolio_newsite/luban/04_luban.webp"
+                        href="https://i-project.by/portfolio_newsite/garmony_dom_arch/13_garmony_dom.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/luban/04_luban.jpg" alt="Современная архитектура частного дома" />
+                        <StaticImage src="../../images/portfolio/garmony_dom_arch/13_garmony_dom.jpg" alt="Современная архитектура частного дома" />
                       </a>
                     </div>
                   </div>

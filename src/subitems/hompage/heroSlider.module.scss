@@ -1,11 +1,11 @@
 .beforeAnimation{
-  transform: translateX(20vw);
+  // transform: translateX(20vw);
   opacity: 0;
   transition: transform 0s;
   :global {
     .subText{
       display: block;
-      transform: translateX(10vw);
+      // transform: translateX(10vw);
     }
   }
 }

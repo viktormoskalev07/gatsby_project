@@ -27,8 +27,7 @@ export const Advantages = () => {
           </div>
           <div className="advantage_item_text">
             <h3 className="advantage_item_title">Индивидуальный подход</h3>
-            <p className="advantage_item_p">Всегда находим компромисс между вашими потребностями и&nbsp;нашими
-              творческими амбициями. Умеем слушать, говорить и&nbsp;делать.</p>
+            <p className="advantage_item_p">Всегда находим компромисс между вашими потребностями и&nbsp;нашими творческими амбициями. Умеем слушать, говорить и&nbsp;делать.</p>
           </div>
         </div>
         <div className="advantage_item">
@@ -38,8 +37,7 @@ export const Advantages = () => {
           </div>
           <div className="advantage_item_text">
             <h3 className="advantage_item_title">Реализованные проекты</h3>
-            <p className="advantage_item_p">В&nbsp;нашем портфолио более 100 реализованных проектов, от&nbsp;интерьеров
-              квартир и&nbsp;домов до&nbsp;архитектуры зданий и&nbsp;объектов реконструкции.</p>
+            <p className="advantage_item_p">В&nbsp;нашем портфолио более 100 реализованных проектов, от&nbsp;интерьеров квартир и&nbsp;домов до&nbsp;архитектуры зданий и&nbsp;объектов реконструкции.</p>
           </div>
         </div>
       </div>
@@ -51,9 +49,7 @@ export const Advantages = () => {
           </div>
           <div className="advantage_item_text">
             <h3 className="advantage_item_title">15&nbsp;лет практики и&nbsp;опыта</h3>
-            <p className="advantage_item_p">Мы&nbsp;не&nbsp;будем ставить эксперименты на&nbsp;ваших объектах
-              и&nbsp;проверять как работает&nbsp;то, что в&nbsp;теории должно работать. Предложим вам такие решения,
-              за&nbsp;которые не&nbsp;придется краснеть.</p>
+            <p className="advantage_item_p">Мы&nbsp;не&nbsp;будем ставить эксперименты на&nbsp;ваших объектах и&nbsp;проверять как работает&nbsp;то, что в&nbsp;теории должно работать. Предложим вам такие решения, за&nbsp;которые не&nbsp;придется краснеть.</p>
           </div>
         </div>
         <div className="advantage_item">
@@ -63,8 +59,7 @@ export const Advantages = () => {
           </div>
           <div className="advantage_item_text">
             <h3 className="advantage_item_title">Удобная документация</h3>
-            <p className="advantage_item_p">Наши чертежи&nbsp;— подробные и&nbsp;понятные. На&nbsp;них отображена вся
-              информация, необходимая для строительства, эстетично и&nbsp;доходчиво.</p>
+            <p className="advantage_item_p">Наши чертежи&nbsp;— подробные и&nbsp;понятные. На&nbsp;них отображена вся информация, необходимая для строительства, эстетично и&nbsp;доходчиво.</p>
           </div>
         </div>
         <div className="advantage_item">
@@ -74,8 +69,7 @@ export const Advantages = () => {
           </div>
           <div className="advantage_item_text">
             <h3 className="advantage_item_title">Авторский надзор</h3>
-            <p className="advantage_item_p">Позволяет реализовать все задуманное под нашим контролем качественно
-              и&nbsp;в&nbsp;срок. Мы&nbsp;привыкли доводить свои проекты до&nbsp;конца.</p>
+            <p className="advantage_item_p">Позволяет реализовать все задуманное под нашим контролем качественно и&nbsp;в&nbsp;срок. Мы&nbsp;привыкли доводить свои проекты до&nbsp;конца.</p>
           </div>
         </div>
         <div className="advantage_item">
@@ -85,9 +79,7 @@ export const Advantages = () => {
           </div>
           <div className="advantage_item_text">
             <h3 className="advantage_item_title">Реалистичная визуализация</h3>
-            <p className="advantage_item_p">Делаем фото-реалистичную 3D-визуализацию для каждого проекта. Даем
-              возможность детально рассмотреть свой будущий дом или квартиру прежде, чем приступим
-              к&nbsp;реализации.</p>
+            <p className="advantage_item_p">Делаем фото-реалистичную 3D-визуализацию для каждого проекта. Даем возможность детально рассмотреть свой будущий дом или квартиру прежде, чем приступим к&nbsp;реализации.</p>
           </div>
         </div>
       </div>

@@ -1,5 +1,5 @@
 import * as React from "react"
- 
+
 import { useEffect, useRef, useState } from "react"
 import { useInView } from 'react-intersection-observer';
 
@@ -29,7 +29,7 @@ export const Presentation = ({stopImg , youTubeSrc , shortVideo }) => {
   const showAllVideo=()=>{
     setYouTubeStart(true)
   }
- const hide = youTubeStart? {display:"none"}:{};
+  const hide = youTubeStart? {display:"none"}:{};
   useEffect(()=>{
     if(inView){
       videoRef.current.defaultMuted = true;
@@ -41,12 +41,12 @@ export const Presentation = ({stopImg , youTubeSrc , shortVideo }) => {
   },[inView])
   return (
     <>
-      <div  className="presentation">
+      <div className="presentation">
         <div style={ videoEnd?{backgroundImage:` url("${stopImg}")` ,...hide}:hide} className="video_block_presentation">
           <button ref={scrollTargetRef} style={videoEnd?{display:"none"}:{}} onClick={toggleVideo} className="video_block_presentation_button"  >
             <span style={{display:"block"}}   className={"video_block_presentation_button_"+( isPlaying?"pause":"play")}/>
           </button>
-          <button  style={ videoEnd?{opacity:1 , display:'flex'}:{}}  className="video_block_presentation_button_next" onClick={showAllVideo}>
+          <button style={ videoEnd?{opacity:1 , display:'flex'}:{}}  className="video_block_presentation_button_next" onClick={showAllVideo}>
             <div className="video_block_presentation_button_show_all">
               <p className="video_block_presentation_button_show_all_text">Посмотреть <span>все видео</span></p>
               <div className="video_block_presentation_button_show_all_symbol"/>

@@ -5,6 +5,8 @@ import Fancybox from "../../../components/fancybox.js";
 import BreadcrumbsInterier from "../../../components/breadcrumbs-interier.js";
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 import Seo from "../../../components/seo"
+import { CalculatorLink } from "../../../components/calculator/calculatorLink"
+import { Compliment } from "../../../subitems/compliment/compliment"
 
 const zhodino = () => {
   return (
@@ -147,6 +149,7 @@ const zhodino = () => {
                 <p class="content_p">В&nbsp;гостиной также находится lounge-зона с&nbsp;камином, которую от&nbsp;лестницы отделяет стеллаж с&nbsp;просветами. Он&nbsp;разграничивает пространство, но&nbsp;пропускает свет.</p>
                 <p class="content_p">Лестницу заменили на&nbsp;более стильную с&nbsp;просветами, которая дополняет интерьер.</p>
               </div>
+              <CalculatorLink />
               <div class="content_images">
                 <h2 class="content_h2" id="anchor_4">Кухня</h2>
                 <div class="content_images_one">
@@ -231,6 +234,7 @@ const zhodino = () => {
                   </a>
                 </div>
               </div>
+              <Compliment />
             </div>     
           </div>
         </div>

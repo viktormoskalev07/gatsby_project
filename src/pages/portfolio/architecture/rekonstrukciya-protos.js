@@ -7,8 +7,13 @@ import { ImgComparisonSlider } from '@img-comparison-slider/react';
 import BreadcrumbsArch from "../../../components/breadcrumbs-arch.js";
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 import { YouTobe } from "../../../subitems/youToobe"
+import { IncontentReviewProtos } from "../../../subitems/review-inproject/reviewProtos"
 import  thumbnail  from  "../../../images/portfolio/protos_reconstraction/01_protos_reconstraction.jpg"
 import Seo from "../../../components/seo"
+import { CalculatorLink } from "../../../components/calculator/calculatorLink"
+import { ProjectVideoTrigger } from "../../../subitems/project-video-trigger"
+import { Compliment } from "../../../subitems/compliment/compliment"
+import { PartnersProtosRec } from "../../../subitems/partners/partnersProtosRec"
 
 const rekonstrukciyaProtos = () => {
   return (
@@ -43,6 +48,7 @@ const rekonstrukciyaProtos = () => {
                 <li><AnchorLink to="/portfolio/architecture/rekonstrukciya-protos/#anchor_5" title="Вид на&nbsp;вековой дуб" /></li>
                 <li><AnchorLink to="/portfolio/architecture/rekonstrukciya-protos/#anchor_6" title="Отделка фасада" /></li>
                 <li><AnchorLink to="/portfolio/architecture/rekonstrukciya-protos/#anchor_7" title="Благоустройство территории" /></li>
+                <li><AnchorLink to="/portfolio/architecture/rekonstrukciya-protos/#anchor_8" title="Бренды" /></li>
               </ul>
             </div>
           </div>
@@ -96,7 +102,7 @@ const rekonstrukciyaProtos = () => {
                 </div>
               </div>
               <div class="content_text">
-                <p class="content_p">Произвели объемную реконструкцию: &laquo;одели&raquo; на&nbsp;здание новый фасад, добавили эффектную входную группу с&nbsp;тамбуром и&nbsp;пристраиваемую часть со&nbsp;сплошным остеклением и&nbsp;террасой, благоустроили территорию, изменили планировку и&nbsp;реализовали дизайн-проект офиса, где на&nbsp;200&nbsp;м&sup2; разместили две переговорных, кабинет директора, ресепшн, зоны для работы и&nbsp;общения, лаунж зону с&nbsp;террасой.</p>
+                <p class="content_p">Произвели объемную <Link to="/articles/reconstruction" className="link" target="_blank">реконструкцию</Link>: &laquo;одели&raquo; на&nbsp;здание новый фасад, добавили эффектную входную группу с&nbsp;тамбуром и&nbsp;пристраиваемую часть со&nbsp;сплошным остеклением и&nbsp;террасой, благоустроили территорию, изменили планировку и&nbsp;реализовали <Link to="/uslugi/dizajn-interera-ofisov" className="link">дизайн-проект офиса</Link>, где на&nbsp;200&nbsp;м&sup2; разместили две переговорных, кабинет директора, ресепшн, зоны для работы и&nbsp;общения, лаунж зону с&nbsp;террасой.</p>
                 <p class="content_p">Реализация проекта офиса&nbsp;&mdash; не&nbsp;первый наш кейс в&nbsp;рамках сотрудничества с&nbsp;заказчиком. До&nbsp;этого у&nbsp;нас уже был положительный опыт сотрудничества над жилым пространством.</p>
               </div>
               <div class="content_images">
@@ -126,11 +132,14 @@ const rekonstrukciyaProtos = () => {
                 </div>
               </div>
               <div class="content_text">
-                <p class="content_p">В&nbsp;архитектурном решении мы&nbsp;решили отразить специфику деятельности компании. Эта идея стала одной из&nbsp;определяющей в&nbsp;выборе композиционных приемов и&nbsp;материалов.</p>
+                <p class="content_p">В&nbsp;<Link to="/articles/architectura" className="link" target="_blank">архитектурном решении</Link> мы&nbsp;решили отразить специфику деятельности компании. Эта идея стала одной из&nbsp;определяющей в&nbsp;выборе композиционных приемов и&nbsp;материалов.</p>
                 <p class="content_p">Входная группа выполнена с&nbsp;использованием металлоконструкций, которые являются одним из&nbsp;производственных направлений компании. Нами был разработан эскиз портала для входа, а&nbsp;предприятие успешно реализовало его, задействовав свои мощности.</p>
                 <p class="content_p">Нетривиальное решение входной группы добавило зданию индивидуальности и&nbsp;выразительности, а&nbsp;заодно позволило организовать тамбур.</p>
               </div>
               <div class="content_images">
+                <ProjectVideoTrigger
+                  shortVideo='https://i-project.by/video_newsite/protos_exterior/protosFilm_1.mp4'
+                />
                 <div class="content_images_two_left_narrow">
                   <figure class="before before_white">
                     <StaticImage src="../../../images/portfolio/protos_reconstraction/before/09_protos_before.jpg" alt="" />
@@ -210,7 +219,11 @@ const rekonstrukciyaProtos = () => {
                     <StaticImage src="../../../images/portfolio/protos_reconstraction/08_protos_reconstraction.jpg" alt="" />
                   </a>
                 </div>
+                <ProjectVideoTrigger
+                  shortVideo='https://i-project.by/video_newsite/protos_exterior/protosFilm_2.mp4'
+                />
               </div>
+              <CalculatorLink />
               <ul class="content_list">
                 <p class="content_p">Наличие дерева предполагает ряд нюансов:</p>
                 <li>— необходима защитная зона, чтобы не&nbsp;повредить корневую систему и&nbsp;чтобы корневая система, в&nbsp;свою очередь, не&nbsp;нарушила целостность строения;</li>
@@ -230,8 +243,11 @@ const rekonstrukciyaProtos = () => {
           </div>
           <div class="wrapper">
             <div class="right_content">
+              <div class="content_images">
+                <IncontentReviewProtos />
+              </div>
               <div class="content_text">
-                <p class="content_p">Нам удалось сохранить вид на&nbsp;дерево из&nbsp;всех существующих окон, которые выходят на&nbsp;соответствующую сторону. Благодаря тому, что мы&nbsp;использовали много стекла, свет хорошо проникает на&nbsp;ресепшн, в&nbsp;кабинет и&nbsp;лаунж зону, откуда открывается восхитительный вид на&nbsp;дерево.</p>
+                <p class="content_p">Нам удалось сохранить вид на&nbsp;дерево из&nbsp;всех существующих окон, которые выходят на&nbsp;соответствующую сторону. Благодаря тому, что мы&nbsp;использовали много стекла, свет хорошо проникает на&nbsp;ресепшн, в&nbsp;кабинет и&nbsp;лаунж-зону, откуда открывается восхитительный вид на&nbsp;дерево.</p>
               </div>
               <div class="content_images">
                 <div class="content_images_one">
@@ -242,6 +258,9 @@ const rekonstrukciyaProtos = () => {
                     <StaticImage src="../../../images/portfolio/protos_reconstraction/10_protos_reconstraction.jpg" alt="" />
                   </a>
                 </div>
+                <ProjectVideoTrigger
+                  shortVideo='https://i-project.by/video_newsite/protos_exterior/protosFilm_3.mp4'
+                />
               </div>
               <div class="content_images">
                 <h2 class="content_h2" id="anchor_6">Отделка фасада (крупноформатные керамические плиты)</h2>
@@ -270,7 +289,7 @@ const rekonstrukciyaProtos = () => {
                   </a>
                 </div>
                 <div class="pattern">
-                  <StaticImage src="../../../images/portfolio/protos_reconstraction/pattern.jpg" alt="" />
+                  <StaticImage src="../../../images/portfolio/protos_reconstraction/pattern1.jpg" alt="" />
                 </div>
                 <div class="content_images_two">
                   <a
@@ -312,7 +331,7 @@ const rekonstrukciyaProtos = () => {
                   </div>
                   <div class="reward_item">
                     <StaticImage src="../../../images/rewards/reward_1.jpg" alt="" class="reward_image"/>
-                    <p class="reward_text">Второе место на&nbsp;XX&nbsp;Республиканском конкурсе на&nbsp;лучший &laquo;Проект&raquo;, &laquo;Постройку&raquo;, &laquo;Публикацию&raquo;, в&nbsp;рамках XIV Национального фестиваля архитектуры, в&nbsp;разделе &laquo;Постройка&raquo;, в&nbsp;номинации &laquo;Интерьеры зданий и&nbsp;сооружений&raquo;. За&nbsp;реализацию проекта &laquo;<Link to="/portfolio/interier/interier-protos" className="link">Интерьер офиса группы компаний ПРОТОС</Link>&raquo;.</p>
+                    <p class="reward_text">Второе место на&nbsp;XX&nbsp;Республиканском конкурсе на&nbsp;лучший &laquo;Проект&raquo;, &laquo;Постройку&raquo;, &laquo;Публикацию&raquo;, в&nbsp;рамках XIV Национального фестиваля архитектуры, в&nbsp;разделе &laquo;Постройка&raquo;, в&nbsp;номинации &laquo;Интерьеры зданий и&nbsp;сооружений&raquo;. За&nbsp;реализацию проекта <Link to="/portfolio/interier/interier-protos" className="link">&laquo;Интерьер офиса группы компаний ПРОТОС&raquo;</Link>.</p>
                   </div>
                 </div>
               </div>
@@ -353,9 +372,11 @@ const rekonstrukciyaProtos = () => {
                   </a>
                 </div>
               </div>
+              <Compliment />
+              <PartnersProtosRec />
             </div>     
           </div>
-          </div>
+        </div>
       </Fancybox>
     </Layout>
   )

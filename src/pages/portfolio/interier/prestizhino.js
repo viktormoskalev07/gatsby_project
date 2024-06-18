@@ -4,6 +4,8 @@ import { StaticImage } from "gatsby-plugin-image"
 import Fancybox from "../../../components/fancybox.js";
 import BreadcrumbsInterier from "../../../components/breadcrumbs-interier.js";
 import Seo from "../../../components/seo"
+import { CalculatorLink } from "../../../components/calculator/calculatorLink"
+import { Compliment } from "../../../subitems/compliment/compliment"
 
 const prestizhino = () => {
   return (
@@ -147,6 +149,7 @@ const prestizhino = () => {
                   </a>
                 </div>
               </div>
+              <CalculatorLink />
               <div class="content_images">
                 <div class="content_images_one">
                   <a
@@ -231,6 +234,7 @@ const prestizhino = () => {
                   </a>
                 </div>
               </div>
+              <Compliment />
             </div>     
           </div>
         </div>

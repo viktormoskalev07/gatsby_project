@@ -6,6 +6,8 @@ import Fancybox from "../../../components/fancybox.js";
 import BreadcrumbsInterier from "../../../components/breadcrumbs-interier.js";
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 import Seo from "../../../components/seo"
+import { CalculatorLink } from "../../../components/calculator/calculatorLink"
+import { Compliment } from "../../../subitems/compliment/compliment"
 
 const simpleHouse = () => {
   return (
@@ -102,7 +104,7 @@ const simpleHouse = () => {
                 <p class="content_p">Все пространство в&nbsp;доме организовано рационально и&nbsp;функционально. Для каждого предусмотрено личное пространство.</p>
                 <p class="content_p"><b>Цветовая гамма:</b> сочетание сдержанных нейтральных оттенков с&nbsp;умеренными яркими акцентами на&nbsp;первом этаже и&nbsp;смелых насыщенных цветовых решений на&nbsp;втором этаже.</p>
                 <h2 class="content_h2" id="anchor_3">Гостиная, совмещенная с&nbsp;кухней</h2>
-                <p class="content_p">На&nbsp;первом этаже традиционно разместилась совмещенная зона кухни, столовой и&nbsp;гостинной, а&nbsp;также гостевая спальня. Барная стойка кухни&nbsp;&mdash; полуостровная, большой обеденный стол. Рабочее пространство расположено у&nbsp;окна, что позволяет готовить при естественном освещении.</p>
+                <p class="content_p">На&nbsp;первом этаже традиционно разместилась совмещенная зона кухни, столовой и&nbsp;гостинной, а&nbsp;также гостевая спальня. Барная стойка кухни&nbsp;&mdash; полуостровная, большой обеденный стол. Рабочее пространство расположено у&nbsp;окна, что позволяет готовить при естественном <Link to="/articles/lighting" className="link" target="_blank">освещении</Link>.</p>
               </div>
               <div class="content_images">
                 <div class="content_images_two">
@@ -150,6 +152,7 @@ const simpleHouse = () => {
                   </a>
                 </div>
               </div>
+              <CalculatorLink />
               <div class="content_text">
                 <h2 class="content_h2" id="anchor_4">Лестница на&nbsp;второй этаж</h2>
                 <p class="content_p">На&nbsp;первом этаже также есть еще одна спальная комната, гостевая, что очень удобно, а&nbsp;также гардеробная, санузел и&nbsp;душевая. Входная зона смежная с&nbsp;хозяйственными помещениями&nbsp;&mdash; топочной.</p>
@@ -166,7 +169,7 @@ const simpleHouse = () => {
               </div>
               <div class="content_text">
                 <p class="content_p">Для пола второго этажа выбрали дубовую паркетную доску. Тип укладки&nbsp;&mdash; французская ель. На&nbsp;полу первого этажа&nbsp;&mdash; плитка, которая выглядит точно так&nbsp;же как и&nbsp;доска на&nbsp;втором. Под ней, как и&nbsp;в&nbsp;большинстве современных домов, проведен водный обогрев.</p>
-                <p class="content_p">Цветовая гамма двух этажей отличается. Первый&nbsp;&mdash; выполнен в&nbsp;сдержанных светлых оттенках. Есть акценты в&nbsp;виде облицовки камина, картин, мелких предметов интерьера. Второй&nbsp;&mdash; кардинально другой. Здесь использованы смелые цветовые сочетания. Объединены оба этажа плотно-бирюзовой стеной вдоль лестницы.</p>
+                <p class="content_p">Цветовая гамма двух этажей отличается. Первый&nbsp;&mdash; выполнен в&nbsp;сдержанных <Link to="/articles/beliy-interier" className="link" target="_blank">светлых оттенках</Link>. Есть акценты в&nbsp;виде облицовки камина, картин, мелких предметов интерьера. Второй&nbsp;&mdash; кардинально другой. Здесь использованы смелые цветовые сочетания. Объединены оба этажа плотно-бирюзовой стеной вдоль лестницы.</p>
               </div>
               <div class="content_images">
                 <div class="content_images_one">
@@ -264,6 +267,7 @@ const simpleHouse = () => {
                   </a>
                 </div>
               </div>
+              <Compliment />
             </div>     
           </div>
         </div>

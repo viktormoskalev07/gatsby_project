@@ -4,6 +4,8 @@ import { StaticImage } from "gatsby-plugin-image"
 import Fancybox from "../../../components/fancybox.js";
 import BreadcrumbsInterier from "../../../components/breadcrumbs-interier.js";
 import Seo from "../../../components/seo"
+import { CalculatorLink } from "../../../components/calculator/calculatorLink"
+import { Compliment } from "../../../subitems/compliment/compliment"
 
 const kaskad = () => {
   return (
@@ -115,7 +117,7 @@ const kaskad = () => {
               </div>
               <div class="content_images">
                 <div class="content_images_one">
-                <a
+                  <a
                     href="https://i-project.by/portfolio_newsite/kaskad/04_kaskad.webp"
                     data-fancybox="gallery"
                   >
@@ -123,7 +125,7 @@ const kaskad = () => {
                   </a>
                 </div>
                 <div class="content_images_two">
-                <a
+                  <a
                     href="https://i-project.by/portfolio_newsite/kaskad/05_kaskad.webp"
                     data-fancybox="gallery"
                   >
@@ -137,7 +139,7 @@ const kaskad = () => {
                   </a>
                 </div>
                 <div class="content_images_two">
-                <a
+                  <a
                     href="https://i-project.by/portfolio_newsite/kaskad/07_kaskad.webp"
                     data-fancybox="gallery"
                   >
@@ -151,11 +153,12 @@ const kaskad = () => {
                   </a>
                 </div>
               </div>
+              <CalculatorLink />
             </div>
           </div>
           <div class="content_images">
             <div class="content_images_one_big">
-             <a
+              <a
                 href="https://i-project.by/portfolio_newsite/kaskad/09_kaskad.webp"
                 data-fancybox="gallery"
               >
@@ -167,7 +170,7 @@ const kaskad = () => {
             <div class="right_content">
               <div class="content_images">
                 <div class="content_images_one">
-                 <a
+                  <a
                     href="https://i-project.by/portfolio_newsite/kaskad/10_kaskad.webp"
                     data-fancybox="gallery"
                   >
@@ -203,6 +206,7 @@ const kaskad = () => {
                   </a>
                 </div>
               </div>
+              <Compliment />
             </div>     
           </div>
         </div>

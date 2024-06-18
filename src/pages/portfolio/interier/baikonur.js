@@ -5,6 +5,8 @@ import Fancybox from "../../../components/fancybox.js";
 import BreadcrumbsInterier from "../../../components/breadcrumbs-interier.js";
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 import Seo from "../../../components/seo"
+import { CalculatorLink } from "../../../components/calculator/calculatorLink"
+import { Compliment } from "../../../subitems/compliment/compliment"
 
 const baikonur = () => {
   return (
@@ -113,6 +115,7 @@ const baikonur = () => {
                   </a>
                 </div>
               </div>
+              <CalculatorLink />
               <div class="content_images">
                 <h2 class="content_h2" id="anchor_4">Совмещенная зона с&nbsp;рабочими местами и&nbsp;мини-кухней</h2>
                 <div class="content_images_one">
@@ -172,6 +175,7 @@ const baikonur = () => {
                   </a>
                 </div>
               </div>
+              <Compliment />
             </div>     
           </div>
         </div>

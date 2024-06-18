@@ -1,10 +1,13 @@
 import React from 'react'
 import Layout from "../../../components/layout-black"
 import { StaticImage } from "gatsby-plugin-image"
+import { Link } from "gatsby"
 import Fancybox from "../../../components/fancybox.js";
 import BreadcrumbsInterier from "../../../components/breadcrumbs-interier.js";
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 import Seo from "../../../components/seo"
+import { CalculatorLink } from "../../../components/calculator/calculatorLink"
+import { Compliment } from "../../../subitems/compliment/compliment"
 
 const moskvina = () => {
   return (
@@ -72,7 +75,7 @@ const moskvina = () => {
                 <div class="content_task">
                   <span class="content_task_span">Описание</span>
                   <p class="content_task_p">Квартира находится на&nbsp;мансардном этаже, что потребовало нестандартных решений в&nbsp;процессе создания интерьера.</p>
-                  <p class="content_task_p">Например, скошенный потолок позволил разместить над санузлами дополнительное помещение, попасть в&nbsp;которое можно попасть по&nbsp;лестнице. Чтобы добавить ему естественного освещения, в&nbsp;крыше пришлось проделать дополнительно окно. Притом все эти изменения мы&nbsp;согласовали и&nbsp;внесли в&nbsp;техпаспорт. Таким образом получилась дополнительная небольшая комната: полноценный кабинет.</p>
+                  <p class="content_task_p">Например, скошенный потолок позволил разместить над санузлами дополнительное помещение, попасть в&nbsp;которое можно попасть по&nbsp;лестнице. Чтобы добавить ему естественного освещения, в&nbsp;крыше пришлось проделать дополнительно окно. Притом все эти изменения мы&nbsp; <Link to="/uslugi/soglasovanie" className="link">согласовали</Link>и&nbsp;внесли в&nbsp;техпаспорт. Таким образом получилась дополнительная небольшая комната: полноценный кабинет.</p>
                 </div>
               </div>
               <div class="content_images">
@@ -155,6 +158,7 @@ const moskvina = () => {
                   </a>
                 </div>
               </div>
+              <CalculatorLink />
               <div class="content_text">
                 <h2 class="content_h2" id="anchor_5">Спальня</h2>
                 <p class="content_p">Все спальни отделены от&nbsp;общей зоны с&nbsp;помощью холла, чтобы создать дополнительную шумоизоляцию. Это тоже было одним из&nbsp;пожеланий заказчика.</p>
@@ -237,6 +241,7 @@ const moskvina = () => {
                   </a>
                 </div>
               </div>
+              <Compliment />
             </div>     
           </div>
         </div>

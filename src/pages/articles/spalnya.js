@@ -157,6 +157,21 @@ const spalnya = ({location }) => {
                   </div>
                   <div class="content_text">
                     <p class="content_p">Что касается источников света, зачастую для спальни достаточно торшера, пары прикроватных бра и&nbsp;небольшой подсветки по&nbsp;периметру. Если кажется, что иногда света не&nbsp;хватает, на&nbsp;потолке можно разместить локальные точечные светильники, которые пригодятся, например, во&nbsp;время уборки.</p>
+                  </div>
+                  <div class="content_text">
+                    <p class="content_p">Подвесные прозрачные светильники в&nbsp;сочетании с&nbsp;зеркальной поверхностью дают дополнительное освещение в&nbsp;вечернее время суток. В&nbsp;дневное время прозрачные светильники не&nbsp;привлекают на&nbsp;себя избыточное внимание, тем самым оставляют пространство легким и&nbsp;воздушным.</p>
+                  </div>
+                  <div class="content_images">
+                    <div class="content_images_one">
+                      <a
+                        href="https://i-project.by/portfolio_newsite/garmony_dom_interier/24_garmony_dom.webp"
+                        data-fancybox="gallery"
+                      >
+                        <StaticImage src="../../images/portfolio/garmony_dom_interier/24_garmony_dom.jpg" alt="Кровать с подвесными прозрачными светильниками" />
+                      </a>
+                    </div>
+                  </div>
+                  <div class="content_text">
                     <p class="content_p">Если в&nbsp;комнате находится макияжный столик или шкаф, их&nbsp;тоже желательно подсветить. Возле зеркала также желательно предусмотреть источник света, для шкафа лучше использовать встроенную подсветку, включающуюся от&nbsp;датчика.</p>
                   </div>
                   <div class="content_images">

@@ -5,6 +5,8 @@ import Fancybox from "../../../components/fancybox.js";
 import BreadcrumbsInterier from "../../../components/breadcrumbs-interier.js";
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 import Seo from "../../../components/seo"
+import { CalculatorLink } from "../../../components/calculator/calculatorLink"
+import { Compliment } from "../../../subitems/compliment/compliment"
 
 const bedy = () => {
   return (
@@ -141,6 +143,7 @@ const bedy = () => {
                   </a>
                 </div>
               </div>
+              <CalculatorLink />
               <div class="content_text">
                 <h2 class="content_h2" id="anchor_4">Прихожая</h2>
                 <p class="content_p">В&nbsp;прихожей для визуального увеличения пространства используется зеркало от&nbsp;пола до&nbsp;потолка.</p>
@@ -169,6 +172,7 @@ const bedy = () => {
                   </a>
                 </div>
               </div>
+              <Compliment />
             </div>     
           </div>
         </div>

@@ -6,6 +6,8 @@ import Fancybox from "../../../components/fancybox.js";
 import BreadcrumbsInterier from "../../../components/breadcrumbs-interier.js";
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 import Seo from "../../../components/seo"
+import { CalculatorLink } from "../../../components/calculator/calculatorLink"
+import { Compliment } from "../../../subitems/compliment/compliment"
 
 const luxury = () => {
   return (
@@ -71,17 +73,31 @@ const luxury = () => {
                 </a>
                 <div class="content_task">
                   <span class="content_task_span">Описание</span>
-                  <p class="content_task_p">Дизайн интерьера дома, архитектуру которого тоже придумывали&nbsp;мы. Также мы&nbsp;разработали <Link to="/portfolio/architecture/luban" className="link">архитектурное решение.</Link></p>
+                  <p class="content_task_p">Дизайн интерьера дома, архитектуру которого тоже придумывали&nbsp;мы. Также мы&nbsp;разработали <Link to="/portfolio/architecture/garmony-dom-arch" className="link">архитектурное решение.</Link></p>
                 </div>
               </div>
               <div class="content_images">
                 <h2 class="content_h2">Первый этаж</h2>
                 <div class="content_images_one">
                   <a
-                    href="https://i-project.by/portfolio_newsite/luban/13_luban.webp"
+                    href="https://i-project.by/portfolio_newsite/luxury/49_luxury.webp"
                     data-fancybox="gallery"
                   >
-                    <StaticImage src="../../../images/portfolio/luban/13_luban.jpg" alt="" />
+                    <StaticImage src="../../../images/portfolio/luxury/49_luxury.jpg" alt="" />
+                  </a>
+                </div>
+                <div class="content_images_two">
+                  <a
+                    href="https://i-project.by/portfolio_newsite/luxury/50_luxury.webp"
+                    data-fancybox="gallery"
+                  >
+                    <StaticImage src="../../../images/portfolio/luxury/50_luxury.jpg" alt="" />
+                  </a>
+                  <a
+                    href="https://i-project.by/portfolio_newsite/luxury/51_luxury.webp"
+                    data-fancybox="gallery"
+                  >
+                    <StaticImage src="../../../images/portfolio/luxury/51_luxury.jpg" alt="" />
                   </a>
                 </div>
               </div>
@@ -118,22 +134,23 @@ const luxury = () => {
                 <div class="right_content">
                   <div class="partner_project_flex">
                     <div class="partner_project_images">
-                      <StaticImage src="../../../images/portfolio/luban/03_luban.jpg" alt="" />
-                      <StaticImage src="../../../images/portfolio/luban/04_luban.jpg" alt="" />
+                      <StaticImage src="../../../images/portfolio/garmony_dom_arch/03_garmony_dom.jpg" alt="" />
+                      <StaticImage src="../../../images/portfolio/garmony_dom_arch/04_garmony_dom.jpg" alt="" />
                     </div>
                     <div class="partner_project_line"></div>
                     <div class="partner_project_text">
                       <p>Экстерьер дома</p>
-                      <Link to="/portfolio/architecture/luban" className="partner_project_link">Подробнее</Link>
+                      <Link to="/portfolio/architecture/garmony-dom-arch" className="partner_project_link">Подробнее</Link>
                     </div>
                   </div>
-                  <Link to="/portfolio/architecture/luban" className="partner_project_link_mob">Подробнее</Link>
+                  <Link to="/portfolio/architecture/garmony-dom-arch" className="partner_project_link_mob">Подробнее</Link>
                 </div>
               </div>
             </div>
           </div>
           <div class="wrapper">
             <div class="right_content">
+              <CalculatorLink />
               <div class="content_images">
                 <h2 class="content_h2" id="anchor_4">Кухня-столовая</h2>
                 <div class="content_images_one">
@@ -175,12 +192,18 @@ const luxury = () => {
               </div>
               <div class="content_images">
                 <h2 class="content_h2">Второй этаж</h2>
-                <div class="content_images_one">
+                <div class="content_images_two">
                   <a
-                    href="https://i-project.by/portfolio_newsite/luban/14_luban.webp"
+                    href="https://i-project.by/portfolio_newsite/luxury/52_luxury.webp"
                     data-fancybox="gallery"
                   >
-                    <StaticImage src="../../../images/portfolio/luban/14_luban.jpg" alt="" />
+                    <StaticImage src="../../../images/portfolio/luxury/52_luxury.jpg" alt="" />
+                  </a>
+                  <a
+                    href="https://i-project.by/portfolio_newsite/luxury/53_luxury.webp"
+                    data-fancybox="gallery"
+                  >
+                    <StaticImage src="../../../images/portfolio/luxury/53_luxury.jpg" alt="" />
                   </a>
                 </div>
               </div>
@@ -485,6 +508,7 @@ const luxury = () => {
                   </a>
                 </div>
               </div>
+              <Compliment />
             </div>     
           </div>
         </div>

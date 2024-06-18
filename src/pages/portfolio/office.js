@@ -37,6 +37,9 @@ const PortfolioOffice = () => {
           <li class="portfolio_category_li">
             <Link to="/portfolio/office" className="portfolio_category_link portfolio_category_link_active"><h1>Офисы</h1></Link>
           </li>
+          <li class="portfolio_category_li">
+            <Link to="/portfolio/public-objects" className="portfolio_category_link">Общественные</Link>
+          </li>
         </ul>
         <ul class="portfolio_category_mob">
           <li class="portfolio_category_mob_li">
@@ -60,15 +63,31 @@ const PortfolioOffice = () => {
           <li class="portfolio_category_mob_li">
             <Link to="/portfolio/house" className="portfolio_category_mob_link">Дома</Link>
           </li>
+          <li class="portfolio_category_mob_li">
+            <Link to="/portfolio/public-objects" className="portfolio_category_mob_link">Общественные</Link>
+          </li>
         </ul>
         <Masonry
           breakpointCols={breakpointColumnsObj}
           className="portfolio_grid"
           columnClassName="my-masonry-grid_column">
+          <Link to="/portfolio/architecture/libknehta" className="portfolio_grid_link">
+            <StaticImage src="../../images/portfolio/libknehta/00_libknehta.jpg" alt="" />
+            <div class="portfolio_grid_block">
+              <h2 className="portfolio_grid_block_title">Либкнехта 68А. Реконструкция. 3000м<sup>2</sup></h2>
+            </div>
+          </Link>
           <Link to="/portfolio/architecture/rekonstrukciya-protos" className="portfolio_grid_link">
             <StaticImage src="../../images/portfolio/protos_reconstraction/00_protos_reconstraction.jpg" alt="" />
             <div class="portfolio_grid_block">
               <h2 className="portfolio_grid_block_title">Реконструкция офисов группы компаний &laquo;Протос&raquo;, 200м<sup>2</sup></h2>
+              <p className="portfolio_grid_block_realize">Реализовано</p>
+            </div>
+          </Link>
+          <Link to="/portfolio/interier/compact" className="portfolio_grid_link">
+            <StaticImage src="../../images/portfolio/compact/00_compact.jpg" alt="" />
+            <div class="portfolio_grid_block">
+              <h2 className="portfolio_grid_block_title">Дизайн интерьера офиса ООО&nbsp;&laquo;Александров&raquo;, 50м<sup>2</sup></h2>
               <p className="portfolio_grid_block_realize">Реализовано</p>
             </div>
           </Link>
@@ -83,12 +102,6 @@ const PortfolioOffice = () => {
             <StaticImage src="../../images/portfolio/baikonur/00_baikonur.jpg" alt="" />
             <div class="portfolio_grid_block">
               <h2 className="portfolio_grid_block_title">Дизайн офисов в&nbsp;составе ЖК&nbsp;Байконур в&nbsp;г.Москва, 120м<sup>2</sup></h2>
-            </div>
-          </Link>
-          <Link to="/portfolio/interier/compact" className="portfolio_grid_link">
-            <StaticImage src="../../images/portfolio/compact/00_compact.jpg" alt="" />
-            <div class="portfolio_grid_block">
-              <h2 className="portfolio_grid_block_title">Дизайн интерьера офиса Compact, 50м<sup>2</sup></h2>
             </div>
           </Link>
         </Masonry>

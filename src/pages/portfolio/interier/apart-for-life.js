@@ -5,6 +5,8 @@ import Fancybox from "../../../components/fancybox.js";
 import BreadcrumbsInterier from "../../../components/breadcrumbs-interier.js";
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 import Seo from "../../../components/seo"
+import { CalculatorLink } from "../../../components/calculator/calculatorLink"
+import { Compliment } from "../../../subitems/compliment/compliment"
 
 const apartForLife = () => {
   return (
@@ -87,6 +89,7 @@ const apartForLife = () => {
                   </a>
                 </div>
               </div>
+              <CalculatorLink />
               <div class="content_images">
                 <h2 class="content_h2" id="anchor_3">Гостиная, совмещенная с&nbsp;кухней-столовой</h2>
                 <div class="content_images_one">
@@ -154,6 +157,7 @@ const apartForLife = () => {
                   </a>
                 </div>
               </div>
+              <Compliment />
             </div>     
           </div>
         </div>

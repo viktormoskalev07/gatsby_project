@@ -5,6 +5,8 @@ import Fancybox from "../../../components/fancybox.js";
 import BreadcrumbsInterier from "../../../components/breadcrumbs-interier.js";
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 import Seo from "../../../components/seo"
+import { CalculatorLink } from "../../../components/calculator/calculatorLink"
+import { Compliment } from "../../../subitems/compliment/compliment"
 
 const domSovremeniy = () => {
   return (
@@ -160,6 +162,7 @@ const domSovremeniy = () => {
                   </a>
                 </div>
               </div>
+              <CalculatorLink />
               <div class="content_text">
                 <h2 class="content_h2" id="anchor_4">Кухня</h2>
                 <p class="content_p">Кухня частично отделена от&nbsp;обеденной зоны и&nbsp;гостиной с&nbsp;помощью перегородок Rimadesio. Здесь размещается барная стойка, бытовая техника и&nbsp;вместительный кухонный гарнитур.</p>
@@ -275,6 +278,7 @@ const domSovremeniy = () => {
                   </a>
                 </div>
               </div>
+              <Compliment />
             </div>     
           </div>
         </div>

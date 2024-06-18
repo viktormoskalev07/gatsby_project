@@ -5,6 +5,8 @@ import Fancybox from "../../../components/fancybox.js";
 import BreadcrumbsInterier from "../../../components/breadcrumbs-interier.js";
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 import Seo from "../../../components/seo"
+import { CalculatorLink } from "../../../components/calculator/calculatorLink"
+import { Compliment } from "../../../subitems/compliment/compliment"
 
 const akvamarin = () => {
   return (
@@ -139,6 +141,7 @@ const akvamarin = () => {
                   </a>
                 </div>
               </div>
+              <CalculatorLink />
               <div class="content_text">
                 <h2 class="content_h2" id="anchor_4">Кухня</h2>
                 <p class="content_p">Кухня совмещена с&nbsp;гостиной и&nbsp;столовой. Здесь уместились барная стойка, обеденный стол и&nbsp;угловой диван с&nbsp;ТВ зоной.</p>
@@ -237,6 +240,7 @@ const akvamarin = () => {
                   </a>
                 </div>
               </div>
+              <Compliment />
             </div>     
           </div>
         </div>

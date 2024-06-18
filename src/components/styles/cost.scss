@@ -1,0 +1,573 @@
+
+.cost_title {
+  font-size: 3.5vw;
+  line-height: 4.4vw;
+  margin-top: 3.6vw;
+  margin-bottom: 2.1vw;
+}
+.cost_text {
+  margin-top: 4.1vw;
+  margin-bottom: 6.7vw;
+  max-width: 62.6vw;
+}
+.cost_text_p {
+  font-size: 1.6vw;
+  line-height: 2.6vw;
+  margin-bottom: 1vw;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+.cost_schema {
+  display: flex;
+  margin-bottom: 6.1vw;
+}
+.cost_schema_block1 {
+  display: flex;
+  flex-direction: column;
+  margin-right: 6.7vw;
+  position: relative;
+}
+.cost_schema__client {
+  border: 1px solid #D6D6D6;
+  width: 14.2vw;
+  padding: 3vw 0 10vw;
+  margin-bottom: 13vw;
+  background-image: url(../../images/cost/corone.svg);
+  background-repeat: no-repeat;
+  background-position: center bottom 4.5vw;
+  background-size: 4.7vw;
+  position: relative;
+  &::after {
+    content: "";
+    position: absolute;
+    width: 4.2vw;
+    height: 2.77vw;
+    top: 7.7vw;
+    right: -5.4vw;
+    background-image: url(../../images/cost/arrows1.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+@keyframes costHouseMove {
+  0% {
+    top: 27.5vw;
+  }
+  100% {
+    top: 17vw;
+  }
+}
+.cost_schema__realize {
+  border: 1px solid #F5F5F5;
+  width: 14.2vw;
+  padding: 10.8vw 1.4vw 2.2vw;
+  background-color: #F5F5F5;
+  background-image: url(../../images/cost/house.svg);
+  background-repeat: no-repeat;
+  background-position: center top 3.5vw;
+  background-size: 5.3vw;
+  position: absolute;
+  top: 27.5vw;
+  &.active {
+    top: 17vw;
+    animation: costHouseMove 1s ease;
+  }
+}
+.cost_schema__realize_lines_block {
+  position: relative;
+  height: 16.5vw;
+  &::before {
+    content: "";
+    position: absolute;
+    width: 1.04vw;
+    height: 1.94vw;
+    bottom: -4vw;
+    right: 6.1vw;
+    background-image: url(../../images/cost/arrow2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    width: 1.04vw;
+    height: 15.3vw;
+    bottom: -17.4vw;
+    left: 4.9vw;
+    background-image: url(../../images/cost/arrow1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+.cost_schema__realize_line_bottom {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  &::before {
+    content: "";
+    position: absolute;
+    background-color: #C3C3C3;
+    width: 11.9vw;
+    height: 1px;
+    right: -5.3vw;
+    top: 3.9vw;
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    background-color: #C3C3C3;
+    width: 39.3vw;
+    height: 1px;
+    left: -8.6vw;
+    bottom: -17.4vw;
+  }
+}
+.cost_schema__client_p,
+.cost_schema__realize_p,
+.cost_schema__iproject_p {
+  font-size: 1.25vw;
+  line-height: 1.67vw;
+  text-align: center;
+}
+.cost_schema__iproject {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 14.2vw;
+  height: 54.4vw;
+  padding: 3.1vw 1.4vw 2.7vw;
+  margin-right: 11.1vw;
+  margin-bottom: 12.2vw;
+  background-color: #232323;
+  background-image: url(../../images/iproject_logo.svg);
+  background-size: 8.3vw;
+  background-repeat: no-repeat;
+  background-position: center top 8vw;
+  position: relative;
+  &::after {
+    content: "";
+    position: absolute;
+    width: 4.2vw;
+    height: 2.77vw;
+    top: 7.7vw;
+    right: -5.6vw;
+    background-image: url(../../images/cost/arrows1.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  &::before {
+    content: "";
+    position: absolute;
+    width: 4.8vw;
+    height: 5.2vw;
+    right: -6vw;
+    bottom: 3.5vw;
+    background-image:  url(../../images/cost/arrows2.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+.cost_schema__iproject_p {
+  color: #FFFFFF;
+}
+.cost_schema__iproject_item {
+  display: flex;
+  align-items: center;
+  background-color: #383838;
+  padding: 1vw 1.4vw;
+  width: 11.3vw;
+  height: 8.5vw;
+}
+.cost_schema__iproject_item1 {
+  margin-top: 12.2vw;
+}
+.cost_schema__iproject_item2 {
+  padding: 1vw 0;
+  position: relative;
+  margin-top: auto;
+  justify-content: center;
+  &::before {
+    content: "";
+    position: absolute;
+    width: 1.04vw;
+    height: 12.36vw;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 0);
+    top: -14.3vw;
+    background-image:  url(../../images/cost/arrow3.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .cost_schema__iproject_item_p {
+    max-width: 5vw;
+  }
+}
+.cost_schema__iproject_item_p {
+  font-size: 1.1vw;
+  line-height: 1.5vw;
+  color: #FFFFFF;
+}
+.cost_schema__iproject_line_bottom {
+  position: absolute;
+}
+.cost_schema_contractors {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5vw;
+  width: 46.8vw;
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    background-color: #C3C3C3;
+    width: 1px;
+    height: 47.7vw;
+    left: -3.75vw;
+    top: 2.76vw;
+  }
+}
+.cost_schema_contractor {
+  display: flex;
+  gap: 2.6vw;
+  padding: 3.2vw 2.5vw;
+  border: 1px solid #CBCBCB;
+  background-color: #FFFFFF;
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    background-color: #C3C3C3;
+    width: 2.6vw;
+    height: 1px;
+    left: -3.75vw;
+    top: 2.7vw;
+  }
+}
+.cost_schema_contractor3,
+.cost_schema_contractor4 {
+  padding: 2.6vw 2.5vw;
+}
+.cost_schema_contractor4 {
+  &::before {
+    content: "";
+    position: absolute;
+    background-color: #C3C3C3;
+    width: 1px;
+    height: 4.6vw;
+    left: -18.3vw;
+    bottom: 5vw;
+    top: auto;
+  }
+}
+.cost_schema_contractor4_line_bottom {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  &::before {
+    content: "";
+    position: absolute;
+    background-color: #C3C3C3;
+    width: 16.9vw;
+    height: 1px;
+    left: -18.3vw;
+    bottom: 5vw;
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    top: -5.43vw;
+    left: -2.3vw;
+    border: solid #C3C3C3;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 0.36vw;
+    padding: 0.335vw;
+    transform: rotate(-45deg);
+  }
+}
+.cost_schema_contractor_title {
+  font-size: 1.25vw;
+  line-height: 1.8vw;
+  font-weight: 600;
+  width: 14.4vw;
+}
+.cost_schema_contractor_title_div {
+  width: 14.4vw;
+  .cost_schema_contractor_title {
+    max-width: 11.1vw;
+  }
+}
+.cost_schema_contractor_items {
+  width: 24.6vw;
+}
+.cost_schema_contractor_list {
+  list-style: none;
+  margin-bottom: 1.3vw;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+.cost_schema_contractor_list3 {
+  column-count: 2;
+  .cost_schema_contractor_li {
+    margin-bottom: 0.7vw;
+  }
+}
+.cost_schema_contractor_li {
+  font-size: 1.1vw;
+  line-height: 1.5vw;
+  margin-bottom: 0.3vw;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+.cost_schema_contractor_p {
+  font-size: 1.1vw;
+  line-height: 1.67vw;
+}
+.gatsby-image-wrapper.cost_schema_mobile,
+.cost_schema_mobile {
+  display: none;
+}
+@media screen and (min-width: 1800px) {
+  .cost_title {
+    font-size: 63px;
+    line-height: 79px;
+    margin-top: 65px;
+    margin-bottom: 38px;
+  }
+  .cost_text {
+    margin-top: 74px;
+    margin-bottom: 121px;
+    max-width: 1130px;
+  }
+  .cost_text_p {
+    font-size: 29px;
+    line-height: 47px;
+    margin-bottom: 18px;
+  }
+  .cost_schema {
+    margin-bottom: 110px;
+  }
+  .cost_schema__client {
+    padding: 54px 0 180px;
+    margin-bottom: 234px;
+    background-position: center bottom 81px;
+    background-size: 85px;
+    &::after {
+      width: 75.6px;
+      height: 50px;
+      top: 139px;
+      right: -38%;
+    }
+  }
+  @keyframes costHouseMove {
+    0% {
+      top: 495px;
+    }
+    100% {
+      top: 306px;
+    }
+  }
+  .cost_schema__realize {
+    padding: 194px 1.4vw 40px;
+    background-position: center top 63px;
+    background-size: 95px;
+    top: 495px;
+    &.active {
+      top: 306px;
+    }
+  }
+  .cost_schema__realize_lines_block {
+    height: 297px;
+    &::before {
+      width: 19px;
+      height: 35px;
+      bottom: -72px;
+    }
+    &::after {
+      width: 19px;
+      height: 275px;
+      bottom: -313px;
+    }
+  }
+  .cost_schema__realize_line_bottom {
+    &::before {
+      top: 70px;
+    }
+    &::after {
+      bottom: -313px;
+    }
+  }
+  .cost_schema__client_p,
+  .cost_schema__realize_p,
+  .cost_schema__iproject_p {
+    font-size: 22.5px;
+    line-height: 30px;
+  }
+  .cost_schema__realize_p {
+    max-width: 200px;
+    margin: 0 auto;
+  }
+  .cost_schema__iproject {
+    height: 979px;
+    padding: 56px 1.4vw 49px;
+    margin-bottom: 220px;
+    background-position: center top 144px;
+    background-size: 149px;
+    &::after {
+      width: 75.6px;
+      height: 50px;
+      top: 139px;
+      right: -41%;
+    }
+    &::before {
+      width: 86px;
+      height: 86px;
+      right: -108px;
+      right: -44%;
+      bottom: 63px;
+    }
+  }
+  .cost_schema__iproject_item {
+    padding: 18px 25px;
+    width: 203px;
+    height: 153px;
+  }
+  .cost_schema__iproject_item1 {
+    margin-top: 220px;
+  }
+  .cost_schema__iproject_item2 {
+    padding: 18px 0;
+    &::before {
+      width: 19px;
+      height: 222px;
+      top: -257px;
+    }
+    .cost_schema__iproject_item_p {
+      max-width: 90px;
+    }
+  }
+  .cost_schema__iproject_item_p {
+    font-size: 20px;
+    line-height: 27px;
+  }
+  .cost_schema_contractors {
+    gap: 27px;
+    &::before {
+      width: 1px;
+      height: 859px;
+      left: -67.5px;
+      top: 50px;
+    }
+  }
+  .cost_schema_contractor {
+    gap: 47px;
+    padding: 58px 45px;
+    &::before {
+      width: 47px;
+      height: 1px;
+      left: -67.5px;
+      top: 49px;
+    }
+  }
+  .cost_schema_contractor3,
+  .cost_schema_contractor4 {
+    padding: 47px 45px;
+  }
+  .cost_schema_contractor4 {
+    position: relative;
+    &::before {
+      width: 1px;
+      height: 83px;
+      left: -18.3vw;
+      bottom: 90px;
+      top: auto;
+    }
+  }
+  .cost_schema_contractor4_line_bottom {
+    &::before {
+      bottom: 90px;
+      top: auto;
+    }
+    &::after {
+      top: -96.8px;
+      left: -41px;
+      padding: 6.03px;
+    }
+  }
+  .cost_schema_contractor_title {
+    font-size: 22.5px;
+    line-height: 32px;
+    width: 259px;
+  }
+  .cost_schema_contractor_title_div {
+    width: 259px;
+    .cost_schema_contractor_title {
+      max-width: 200px;
+    }
+  }
+  .cost_schema_contractor_items {
+    width: 443px;
+  }
+  .cost_schema_contractor_list {
+    margin-bottom: 23px;
+  }
+  .cost_schema_contractor_list3 {
+    .cost_schema_contractor_li {
+      margin-bottom: 13px;
+    }
+  }
+  .cost_schema_contractor_li {
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 5px;
+  }
+  .cost_schema_contractor_p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+@media screen and (min-width: 2000px) {
+  .cost_schema__client {
+    &::after {
+      right: -36%;
+    }
+  }
+  .cost_schema__realize_line_bottom {
+    &::before {
+      right: -5.4vw;
+    }
+    &::after {
+      left: -8.7vw;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .cost_title {
+    font-size: 9.6vw;
+    line-height: 12.7vw;
+    margin-top: 5.8vw;
+    margin-bottom: 4.8vw;
+  }
+  .cost_text {
+    margin-top: 8vw;
+    margin-bottom: 10vw;
+    max-width: 100%;
+  }
+  .cost_text_p {
+    font-size: 4.2vw;
+    line-height: 6.2vw;
+    margin-bottom: 4.5vw;
+  }
+  .cost_schema {
+    display: none;
+  }
+  .gatsby-image-wrapper.cost_schema_mobile,
+  .cost_schema_mobile {
+    display: block;
+    margin-bottom: 10vw;
+  }
+}

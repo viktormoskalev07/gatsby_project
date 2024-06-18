@@ -166,10 +166,11 @@ const DesignInterieraDomov = () => {
                 breakpointCols={breakpointColumnsPortfolio}
                 className="portfolio_grid"
                 columnClassName="my-masonry-grid_column">
-                <Link to="/portfolio/architecture/dom-u-more" className="portfolio_grid_link">
-                  <StaticImage src="../../images/portfolio/dom_u_more/00_dom_u_more.jpg" alt="" />
+                <Link to="/portfolio/interier/garmony-dom-interier" className="portfolio_grid_link">
+                  <StaticImage src="../../images/portfolio/garmony_dom_interier/00_garmony_dom.jpg" alt="" />
                   <div class="portfolio_grid_block">
-                    <h3 className="portfolio_grid_block_title">Дом у&nbsp;моря. Архитектурное решение + Интерьер, 1000м<sup>2</sup></h3>
+                    <h3 className="portfolio_grid_block_title">Гармоничный дом. Интерьер, 400м<sup>2</sup></h3>
+                    <p className="portfolio_grid_block_realize">Реализовано</p>
                   </div>
                 </Link>
                 <Link to="/portfolio/interier/interier-baltic-house" className="portfolio_grid_link">
@@ -179,22 +180,16 @@ const DesignInterieraDomov = () => {
                     <p className="portfolio_grid_block_realize">Реализовано</p>
                   </div>
                 </Link>
-                <Link to="/portfolio/interier/luxury" className="portfolio_grid_link">
-                  <StaticImage src="../../images/portfolio/luxury/00_luxury.jpg" alt="" />
+                <Link to="/portfolio/interier/tarasovo-interier" className="portfolio_grid_link">
+                  <StaticImage src="../../images/portfolio/tarasovo_interier/00_tarasovo.jpg" alt="" />
                   <div class="portfolio_grid_block">
-                    <h3 className="portfolio_grid_block_title">Luxury house. Интерьер дома под Минском, 400м<sup>2</sup></h3>
+                    <h3 className="portfolio_grid_block_title">Дом в&nbsp;Тарасово. Интерьер, 800м<sup>2</sup></h3>
                   </div>
                 </Link>
-                <Link to="/portfolio/interier/house-minsk" className="portfolio_grid_link">
-                  <StaticImage src="../../images/portfolio/house_minsk/00_house_minsk.jpg" alt="" />
+                <Link to="/portfolio/architecture/dom-u-more" className="portfolio_grid_link">
+                  <StaticImage src="../../images/portfolio/dom_u_more/00_dom_u_more.jpg" alt="" />
                   <div class="portfolio_grid_block">
-                    <h3 className="portfolio_grid_block_title">Дизайн интерьера дома под Минском, 250м<sup>2</sup></h3>
-                  </div>
-                </Link>
-                <Link to="/portfolio/interier/design-interier-1" className="portfolio_grid_link portfolio_grid_link_hide">
-                  <StaticImage src="../../images/portfolio/design_interier_1/00_design_interier_1.jpg" alt="" />
-                  <div class="portfolio_grid_block">
-                    <h3 className="portfolio_grid_block_title">Дизайн интерьера дома в&nbsp;Минске, 1000м<sup>2</sup></h3>
+                    <h3 className="portfolio_grid_block_title">Дом у&nbsp;моря. Архитектурное решение + Интерьер, 1000м<sup>2</sup></h3>
                   </div>
                 </Link>
                 <Link to="/portfolio/interier/zelenyi" className="portfolio_grid_link portfolio_grid_link_hide">
@@ -209,12 +204,7 @@ const DesignInterieraDomov = () => {
                     <h3 className="portfolio_grid_block_title">Дизайн интерьера обычного дома, 250м<sup>2</sup></h3>
                   </div>
                 </Link>
-                <Link to="/portfolio/interier/sunny" className="portfolio_grid_link portfolio_grid_link_hide">
-                  <StaticImage src="../../images/portfolio/sunny/00_sunny.jpg" alt="" />
-                  <div class="portfolio_grid_block">
-                    <h3 className="portfolio_grid_block_title">Таунхаус в&nbsp;Солнечном. Дизайн интерьера, 300м<sup>2</sup></h3>
-                  </div>
-                </Link>
+                <></>
                 <Link to="/portfolio" className="portfolio_grid_link_all">
                   <p className="portfolio_grid_link_all_p">Все проекты</p>
                 </Link>

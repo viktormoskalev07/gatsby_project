@@ -5,6 +5,8 @@ import Fancybox from "../../../components/fancybox.js";
 import BreadcrumbsArch from "../../../components/breadcrumbs-arch.js";
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 import Seo from "../../../components/seo"
+import { CalculatorLink } from "../../../components/calculator/calculatorLink"
+import { Compliment } from "../../../subitems/compliment/compliment"
 
 const podmoskovyeArch = () => {
   return (
@@ -85,8 +87,9 @@ const podmoskovyeArch = () => {
                   </a>
                 </div>
               </div>
+              <CalculatorLink />
               <div class="content_images">
-              <h2 class="content_h2" id="anchor_3">Фасад</h2>
+                <h2 class="content_h2" id="anchor_3">Фасад</h2>
                 <div class="content_images_one">
                   <a
                     href="https://i-project.by/portfolio_newsite/podmoskovye_architecture/01_podmoskovye_architecture.webp"
@@ -118,6 +121,7 @@ const podmoskovyeArch = () => {
                   </a>
                 </div>
               </div>
+              <Compliment />
             </div>
           </div>
         </div>

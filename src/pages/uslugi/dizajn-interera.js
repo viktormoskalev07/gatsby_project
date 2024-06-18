@@ -22,17 +22,17 @@ const DesignInteriera = () => {
   const [openDiffList , setopenDiffList] = useState(false);
   const [openProcessList , setOpenProcessList] = useState(false);
   const toggleTop =()=>{
-    setOpenTop(!openTop)
-  }
+    setOpenTop(!openTop);
+  };
   const toggleBottom =()=>{
-    setOpenBottom(!openBottom)
-  }
+    setOpenBottom(!openBottom);
+  };
   const toggleDiffList =()=>{
-    setopenDiffList(!openDiffList)
-  }
+    setopenDiffList(!openDiffList);
+  };
   const toggleProcessList =()=>{
-    setOpenProcessList(!openProcessList)
-  }
+    setOpenProcessList(!openProcessList);
+  };
   return (
     <Layout>
       <Seo  title={"Дизайн проект квартиры в Минске | I-PROJECT"} description={"Проектируем дизайн интерьера, подготавливаем документы для строителей, контроль за подрядчиками и строителями ✦ Реализованные объекты ✦ Более 200 работ"}
@@ -169,7 +169,7 @@ const DesignInteriera = () => {
             </div> 
           </div> 
         </section> */}
-        <Presentation shortVideo={secondVideo} stopImg={'../../images/services/preview_flat_end.jpg'} youTubeSrc={'https://www.youtube.com/embed/LffJJGN9ong?start=13&autoplay=1'}/>
+        {/* <Presentation shortVideo={secondVideo} stopImg={'../../images/services/preview_flat_end.jpg'} youTubeSrc={'https://www.youtube.com/embed/LffJJGN9ong?start=13&autoplay=1'}/> */}
         <div class="wrapper">
           <div class="right_content">
             <section>
@@ -185,17 +185,24 @@ const DesignInteriera = () => {
                     <p className="portfolio_grid_block_realize">Реализовано</p>
                   </div>
                 </Link>
+                <Link to="/portfolio/interier/depo" className="portfolio_grid_link">
+                  <StaticImage src="../../images/portfolio/depo/00_depo.jpg" alt="" />
+                  <div class="portfolio_grid_block">
+                    <h2 className="portfolio_grid_block_title">Дизайн квартиры в&nbsp;жилом квартале Depo, 130&nbsp;м<sup>2</sup></h2>
+                  </div>
+                </Link>
+                <Link to="/portfolio/interier/apart-family" className="portfolio_grid_link portfolio_grid_link_hide">
+                  <StaticImage src="../../images/portfolio/dzerzhinskogo/00_dzerzhinskogo.jpg" alt="" />
+                  <div class="portfolio_grid_block">
+                    <h3 className="portfolio_grid_block_title">Интерьер квартиры в&nbsp;Минске для семьи с&nbsp;двумя детьми, 90м<sup>2</sup></h3>
+                    <p className="portfolio_grid_block_realize">Реализовано</p>
+                  </div>
+                </Link>
                 <Link to="/portfolio/interier/d3" className="portfolio_grid_link">
                   <StaticImage src="../../images/portfolio/d3/00_d3.jpg" alt="" />
                   <div class="portfolio_grid_block">
                     <h3 className="portfolio_grid_block_title">Дизайн квартиры в&nbsp;жилом комплексе &laquo;D3&raquo;, 120м<sup>2</sup></h3>
                     <p className="portfolio_grid_block_realize">Реализовано</p>
-                  </div>
-                </Link>
-                <Link to="/portfolio/interier/sochi" className="portfolio_grid_link portfolio_grid_link_hide">
-                  <StaticImage src="../../images/portfolio/sochi/00_sochi.jpg" alt="" />
-                  <div class="portfolio_grid_block">
-                    <h3 className="portfolio_grid_block_title">Дизайн интерьера в&nbsp;апарт-комплексе &laquo;Матисс&raquo; в&nbsp;г.Сочи, 45м<sup>2</sup></h3>
                   </div>
                 </Link>
                 <Link to="/portfolio/interier/apart-for-life" className="portfolio_grid_link">
@@ -205,18 +212,10 @@ const DesignInteriera = () => {
                     <p className="portfolio_grid_block_realize">Реализовано</p>
                   </div>
                 </Link>
-                <Link to="/portfolio/interier/color" className="portfolio_grid_link">
-                  <StaticImage src="../../images/portfolio/color/00_color.jpg" alt="" />
+                <Link to="/portfolio/interier/sochi" className="portfolio_grid_link portfolio_grid_link_hide">
+                  <StaticImage src="../../images/portfolio/sochi/00_sochi.jpg" alt="" />
                   <div class="portfolio_grid_block">
-                    <h3 className="portfolio_grid_block_title">Энергия цвета. Интерьер квартиры в&nbsp;Минске, 120м<sup>2</sup></h3>
-                  </div>
-                </Link>
-                
-                <Link to="/portfolio/interier/panfilova" className="portfolio_grid_link portfolio_grid_link_hide">
-                  <StaticImage src="../../images/portfolio/panfilova/00_panfilova.jpg" alt="" />
-                  <div class="portfolio_grid_block">
-                    <h3 className="portfolio_grid_block_title">Двушка на&nbsp;Панфилова. Дизайн квартиры в&nbsp;Минске, 85м<sup>2</sup></h3>
-                    <p className="portfolio_grid_block_realize">Реализовано</p>
+                    <h3 className="portfolio_grid_block_title">Дизайн интерьера в&nbsp;апарт-комплексе &laquo;Матисс&raquo; в&nbsp;г.Сочи, 45м<sup>2</sup></h3>
                   </div>
                 </Link>
                 <></>

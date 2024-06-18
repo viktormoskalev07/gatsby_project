@@ -7,6 +7,8 @@ import { AnchorLink } from "gatsby-plugin-anchor-links"
 import { YouTobe } from "../../../subitems/youToobe"
 import  thumbnail  from  "../../../images/portfolio/fine/01_fine.jpg"
 import Seo from "../../../components/seo"
+import { CalculatorLink } from "../../../components/calculator/calculatorLink"
+import { Compliment } from "../../../subitems/compliment/compliment"
 
 const fine = () => {
   return (
@@ -128,6 +130,7 @@ const fine = () => {
                   </a>
                 </div>
               </div>
+              <CalculatorLink />
               <div class="content_images">
                 <h2 class="content_h2" id="anchor_5">Спальня</h2>
                 <div class="content_images_one">
@@ -192,6 +195,7 @@ const fine = () => {
                   </a>
                 </div>
               </div>
+              <Compliment />
             </div>     
           </div>
         </div>

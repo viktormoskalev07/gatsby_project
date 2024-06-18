@@ -45,10 +45,10 @@ const krovlya = ({location }) => {
                   <div class="content_images">
                     <div class="content_images_one">
                       <a
-                        href="https://i-project.by/portfolio_newsite/luban/01_luban.webp"
+                        href="https://i-project.by/portfolio_newsite/garmony_dom_arch/01_garmony_dom.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/luban/01_luban.jpg" alt="Пример скатной, фальцевой кровли" />
+                        <StaticImage src="../../images/portfolio/garmony_dom_arch/01_garmony_dom.jpg" alt="Пример скатной, фальцевой кровли" />
                       </a>
                     </div>
                     <div class="content_images_two">
@@ -76,10 +76,10 @@ const krovlya = ({location }) => {
                   <div class="content_images">
                     <div class="content_images_two">
                       <a
-                        href="https://i-project.by/portfolio_newsite/luban/12_luban.webp"
+                        href="https://i-project.by/portfolio_newsite/garmony_dom_arch/18_garmony_dom.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/luban/12_luban.jpg" alt="Дом с вальмовой кровлей" />
+                        <StaticImage src="../../images/portfolio/garmony_dom_arch/18_garmony_dom.jpg" alt="Дом с вальмовой кровлей" />
                       </a>
                       <a
                         href="https://i-project.by/portfolio_newsite/shale/02_shale.webp"
@@ -135,18 +135,18 @@ const krovlya = ({location }) => {
                   <div class="content_images">
                     <div class="content_images_one">
                       <a
-                        href="https://i-project.by/portfolio_newsite/luban/3d/06_luban.webp"
+                        href="https://i-project.by/portfolio_newsite/garmony_dom_arch/3d/06_garmony_dom.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/luban/3d/06_luban.jpg" alt="Пример дома с фальцевой кровлей" />
+                        <StaticImage src="../../images/portfolio/garmony_dom_arch/3d/06_garmony_dom.jpg" alt="Пример дома с фальцевой кровлей" />
                       </a>
                     </div>
                     <div class="content_images_two_left_narrow">
                       <a
-                        href="https://i-project.by/portfolio_newsite/luban/08_luban.webp"
+                        href="https://i-project.by/portfolio_newsite/garmony_dom_arch/08_garmony_dom.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/luban/08_luban.jpg" alt="Пример дома с фальцевой кровлей" />
+                        <StaticImage src="../../images/portfolio/garmony_dom_arch/08_garmony_dom.jpg" alt="Пример дома с фальцевой кровлей" />
                       </a>
                       <a
                         href="https://i-project.by/portfolio_newsite/protos_reconstraction/07_protos_reconstraction.webp"
@@ -213,10 +213,10 @@ const krovlya = ({location }) => {
                   <div class="content_images">
                     <div class="content_images_three_left_narrow">
                       <a
-                        href="https://i-project.by/portfolio_newsite/luban/03_luban.webp"
+                        href="https://i-project.by/portfolio_newsite/garmony_dom_arch/09_garmony_dom.webp"
                         data-fancybox="gallery"
                       >
-                        <StaticImage src="../../images/portfolio/luban/03_luban.jpg" alt="Дом с плоской и эксплуатируемой кровлей" />
+                        <StaticImage src="../../images/portfolio/garmony_dom_arch/09_garmony_dom.jpg" alt="Дом с плоской и эксплуатируемой кровлей" />
                       </a>
                       <a
                         href="https://i-project.by/portfolio_newsite/baltic_house/exterior/12_baltic_home_exterior.webp"

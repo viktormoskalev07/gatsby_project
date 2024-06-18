@@ -4,502 +4,522 @@ export const pureJs = ({dollarRate,backFunc})=>{
 
 
 
-        let area;
-     function getParameterByName(name, url = window.location.href) {
-       name = name.replace(/[\[\]]/g, '\\$&');
-       var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
-         results = regex.exec(url);
-       if (!results) return null;
-       if (!results[2]) return '';
-       return decodeURIComponent(results[2].replace(/\+/g, ' '));
-     }
+    let area;
+    function getParameterByName(name, url = window.location.href) {
+      name = name.replace(/[\[\]]/g, '\\$&');
+      var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+      results = regex.exec(url);
+      if (!results) return null;
+      if (!results[2]) return '';
+      return decodeURIComponent(results[2].replace(/\+/g, ' '));
+    }
 
-     function prettify (num) {
-       const n = num.toString();
-       const separator = '&thinsp;';
-       return n.replace(/(\d{1,3}(?=(?:\d\d\d)+(?!\d)))/g, "$1" + separator);
-     }
+    function prettify (num) {
+      const n = num.toString();
+      const separator = '&thinsp;';
+      return n.replace(/(\d{1,3}(?=(?:\d\d\d)+(?!\d)))/g, "$1" + separator);
+    }
 
-      const loader = document.querySelector('.loader');
-     loader.style.display='none'
-     const modalBlock = document.querySelector('#modal');
-     const htmlHidden = document.getElementsByTagName('html')[0];
+    const loader = document.querySelector('.loader');
+    loader.style.display='none'
+    const modalBlock = document.querySelector('#modal');
+    const htmlHidden = document.getElementsByTagName('html')[0];
 
-     const stepOne = document.querySelectorAll('.modal_step1_item');
-     const questionTitle = document.querySelector('#question');
-     const formAnswers = document.querySelector('#formAnswers');
-     const nextButton = document.querySelector('#nextButton');
-     const sendButton = document.querySelector('#sendButton');
-     const backButton = document.querySelector('.js-modal-back');
-     const stepNumbers = document.querySelector('#stepNumbers');
-     const modalSidebarLine = document.querySelector('.modal_sidebar_line');
-     const emailRegexp = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+    const stepOne = document.querySelectorAll('.modal_step1_item');
+    const questionTitle = document.querySelector('#question');
+    const formAnswers = document.querySelector('#formAnswers');
+    const nextButton = document.querySelector('#nextButton');
+    const sendButton = document.querySelector('#sendButton');
+    const backButton = document.querySelector('.js-modal-back');
+    const stepNumbers = document.querySelector('#stepNumbers');
+    const modalSidebarLine = document.querySelector('.modal_sidebar_line');
+    const emailRegexp = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
 
-     //калькулятор
-     const calc = (type, isAllPremises ) => {
-       const resultBYN = document.querySelector('.modal_step5_result_rub');
-       const resultUSD = document.querySelector('.modal_step5_result_usd');
-       const list = document.querySelector('.modal_step5_list');
-       const isInterior = document.querySelector('#interior')?.checked;
-       const isSketch = document.querySelector('#sketch')?.checked;
-       const isArcSolutions = document.querySelector('#arc_solutions')?.checked;
-       const isRelatedSections = document.querySelector('#related_sections')?.checked;
-       const isArchitecture = document.querySelector('#architecture')?.checked;
-       const isSupport = document.querySelector('#support')?.checked;
-       const isAgreement = document.querySelector('#agreement')?.checked;
+    //калькулятор
+    const calc = (type, isAllPremises ) => {
+      const resultBYN = document.querySelector('.modal_step5_result_rub');
+      const resultUSD = document.querySelector('.modal_step5_result_usd');
+      const list = document.querySelector('.modal_step5_list');
+      const isInterior = document.querySelector('#interior')?.checked;
+      const isSketch = document.querySelector('#sketch')?.checked;
+      const isArcSolutions = document.querySelector('#arc_solutions')?.checked;
+      const isRelatedSections = document.querySelector('#related_sections')?.checked;
+      const isArchitecture = document.querySelector('#architecture')?.checked;
+      const isSupport = document.querySelector('#support')?.checked;
+      const isAgreement = document.querySelector('#agreement')?.checked;
 
-       let DOC;
-       let DI;
-       let threeD;
-       let AK;
-       let AP;
-       let sumDI;
-       area = document.querySelector('#area');
-       //квартиры
-       if (type === 'flat') {
-         if (isAllPremises) {
-           //все помещения
-           if (area.value < 85) {
-             DOC = 0;
-             threeD = 0;
-             AK = 0;
-           }
-           if (area.value >= 85) {
-             DOC = 100 * 25 * dollarRate;
-             threeD = DOC * 0.8;
-             AK = (DOC + threeD) * 0.5;
-           }
-           if (area.value > 100) {
-             DOC = area.value * 25 * dollarRate;
-             threeD = DOC * 0.8;
-             AK = (DOC + threeD) * 0.5;
-           }
-           if (area.value >= 200) {
-             DOC = area.value * 20 * dollarRate;
-             threeD = DOC * 0.8;
-             AK = (DOC + threeD) * 0.4;
-           }
-           if (area.value >= 400) {
-             DOC = area.value * 15 * dollarRate;
-             threeD = DOC * 0.8;
-             AK = (DOC + threeD) * 0.3;
-           }
-           if (area.value >= 600) {
-             DOC = area.value * 10 * dollarRate;
-             threeD = DOC * 0.8;
-             AK = (DOC + threeD) * 0.2;
-           }
-         } else {
-           //основные помещения
-           if (area.value < 85) {
-             DOC = 0;
-             threeD = 0;
-             AK = 0;
-           }
-           if (area.value >= 85) {
-             DOC = 100 * 25 * dollarRate;
-             threeD = DOC * 0.5;
-             AK = (DOC + threeD) * 0.5;
-           }
-           if (area.value > 100) {
-             DOC = area.value * 25 * dollarRate;
-             threeD = DOC * 0.5;
-             AK = (DOC + threeD) * 0.5;
-           }
-           if (area.value >= 200) {
-             DOC = area.value * 20 * dollarRate;
-             threeD = DOC * 0.4;
-             AK = (DOC + threeD) * 0.4;
-           }
-           if (area.value >= 400) {
-             DOC = area.value * 15 * dollarRate;
-             threeD = DOC * 0.3;
-             AK = (DOC + threeD) * 0.3;
-           }
-           if (area.value >= 600) {
-             DOC = area.value * 10 * dollarRate;
-             threeD = DOC * 0.2;
-             AK = (DOC + threeD) * 0.2;
-           }
-         }
-         AP = 1000 * dollarRate;
-         DI = DOC + threeD;
-         sumDI = DI;
+      let DOC;
+      let DI;
+      let threeD;
+      let AK;
+      let AP;
+      let sumDI;
+      let DOCDoll;
+      let threeDDoll;
+      let APDoll;
+      let AKDoll;
+      let EPDoll;
+      let ARDoll;
+      let RSDoll;
+      const AAA = 1.4;
+      area = document.querySelector('#area');
+      //квартиры
+      if (type === 'flat') {
+        if (isAllPremises) {
+          //все помещения
+          if (area.value < 85) {
+            DOC = 0;
+            threeD = 0;
+            AK = 0;
+          }
+          if (area.value >= 85) {
+            DOC = 100 * 25 * AAA * dollarRate;
+            threeD = DOC * 0.8;
+            AK = (DOC + threeD) * 0.5;
+          }
+          if (area.value > 100) {
+            DOC = area.value * 25 * AAA * dollarRate;
+            threeD = DOC * 0.8;
+            AK = (DOC + threeD) * 0.5;
+          }
+          if (area.value >= 200) {
+            DOC = area.value * 20 * AAA * dollarRate;
+            threeD = DOC * 0.8;
+            AK = (DOC + threeD) * 0.4;
+          }
+          if (area.value >= 400) {
+            DOC = ((400 * 20 * AAA) + (area.value - 400) * 10) * dollarRate;
+            threeD = DOC * 0.8;
+            AK = (DOC + threeD) * 0.3;
+          }
+          if (area.value >= 600) {
+            //DOC = area.value * 10 * dollarRate;
+            threeD = DOC * 0.8;
+            AK = (DOC + threeD) * 0.2;
+          }
+        } else {
+          //основные помещения
+          if (area.value < 85) {
+            DOC = 0;
+            threeD = 0;
+            AK = 0;
+          }
+          if (area.value >= 85) {
+            DOC = 100 * 25 * AAA * dollarRate;
+            threeD = DOC * 0.5;
+            AK = (DOC + threeD) * 0.5;
+          }
+          if (area.value > 100) {
+            DOC = area.value * 25 * AAA * dollarRate;
+            threeD = DOC * 0.5;
+            AK = (DOC + threeD) * 0.5;
+          }
+          if (area.value >= 200) {
+            DOC = area.value * 20 * AAA * dollarRate;
+            threeD = DOC * 0.4;
+            AK = (DOC + threeD) * 0.4;
+          }
+          if (area.value >= 400) {
+            DOC = ((400 * 20 * AAA) + (area.value - 400) * 10) * dollarRate;
+            threeD = DOC * 0.4;
+            AK = (DOC + threeD) * 0.3;
+          }
+          if (area.value >= 600) {
+            //  DOC = area.value * 10 * dollarRate;
+            threeD = DOC * 0.4;
+            AK = (DOC + threeD) * 0.2;
+          }
+        }
+        AP = 1000 * AAA * dollarRate;
+        DI = DOC + threeD;
+        sumDI = DI;
+        DOCDoll = Math.round((DOC / dollarRate) / 100) * 100;
+        threeDDoll = Math.round((threeD / dollarRate) / 100) * 100;
+        APDoll = Math.round((AP / dollarRate) / 100) * 100;
+        AKDoll = Math.round((AK / dollarRate) / 100) * 100;
 
-         let html = '';
-         html += '<li class="modal_step5_li">Дизайн проект ' + Math.round(DOC) + ' р.</li>';
-         html += '<li class="modal_step5_li">3D–визуализация интерьера ' + Math.round(threeD) + ' р.</li>';
-         html += '<li class="modal_step5_li">Контроль за подрядчиками</li>';
-         if (isAgreement) {
-           html += '<li class="modal_step5_li">Согласование проекта ' + Math.round(AP) + ' р.</li>';
-           sumDI += AP;
-         }
-         if (isSupport) {
-           html += '<li class="modal_step5_li">Авторское сопровождение/Комплектация объекта ' + Math.round(AK) + ' р.</li>';
-           sumDI += AK;
-         }
+        let html = '';
+        html += '<li class="modal_step5_li">Дизайн проект ' + Math.round(DOC) + ' р. ($' + Math.round(DOCDoll) +')</li>';
+        html += '<li class="modal_step5_li">3D–визуализация интерьера ' + Math.round(threeD) + ' р. ($' + Math.round(threeDDoll) +')</li>';
+        html += '<li class="modal_step5_li">Контроль за подрядчиками</li>';
+        if (isAgreement) {
+          html += '<li class="modal_step5_li">Согласование проекта ' + Math.round(AP) + ' р. ($' + Math.round(APDoll) +')</li>';
+          sumDI += AP;
+        }
+        if (isSupport) {
+          html += '<li class="modal_step5_li">Авторское сопровождение/Комплектация объекта ' + Math.round(AK) + ' р. ($' + Math.round(AKDoll) +')</li>';
+          sumDI += AK;
+        }
 
-         list.innerHTML = html;
+        list.innerHTML = html;
 
-         const sumBYN = Math.round(sumDI / 100) * 100
-         resultBYN.innerHTML = prettify(sumBYN) + " р.";
-         resultUSD.innerHTML = '$' + prettify(Math.round((sumDI / dollarRate) / 100) * 100)
-       }
+        const sumBYN = Math.round(sumDI / 100) * 100;
+        resultBYN.innerHTML = prettify(sumBYN) + " р.";
+        resultUSD.innerHTML = '$' + prettify(Math.round((sumDI / dollarRate) / 100) * 100);
+      }
 
 
-       let RF;
-       let EP;
-       let AR;
-       let SUM;
-       let AKd;
-       let AKp;
-       let RS = Math.round(2500 * dollarRate);
+      let RF;
+      let EP;
+      let AR;
+      let SUM;
+      let AKd;
+      let AKp;
+      let RS = Math.round(2500 * AAA * dollarRate);
 
-       // дома и офисы
-       if (type === 'house' || type === 'office') {
+      // дома и офисы
+      if (type === 'house' || type === 'office') {
 
-         if (isAllPremises) {
-           //все помещения
-           if (area.value < 150) {
-             DOC = 0;
-             threeD = 0;
-             EP = 0;
-             AR = 0;
-           }
-           if (area.value >= 150) {
-             DOC = 200 * 20 * dollarRate;
-             threeD = DOC * 0.8;
-             EP = 3000 * dollarRate;
-             AR = 3000 * dollarRate;
-             AKp = (EP + AR) * 0.5;
-             AKd = (DOC + threeD) * 0.5;
-           }
-           if (area.value > 200) {
-             DOC = area.value * 20 * dollarRate;
-             threeD = DOC * 0.8;
-             EP = 3500 * dollarRate;
-             AR = 3500 * dollarRate;
-             AKp = (EP + AR) * 0.4;
-             AKd = (DOC + threeD) * 0.4;
-           }
-           if (area.value >= 400) {
-             DOC = area.value * 15 * dollarRate;
-             threeD = DOC * 0.8;
-             EP = 4000 * dollarRate;
-             AR = 4000 * dollarRate;
-             AKp = (EP + AR) * 0.3;
-             AKd = (DOC + threeD) * 0.3;
-           }
-           if (area.value >= 600) {
-             DOC = area.value * 10 * dollarRate;
-             threeD = DOC * 0.8;
-             EP = 4500 * dollarRate;
-             AR = 4500 * dollarRate;
-             AKp = (EP + AR) * 0.2;
-             AKd = (DOC + threeD) * 0.2;
-           }
-         } else {
-           //основные помещения
-           if (area.value < 150) {
-             DOC = 0;
-             threeD = 0;
-             EP = 0;
-             AR = 0;
-           }
-           if (area.value >= 150) {
-             DOC = 200 * 20 * dollarRate;
-             threeD = DOC * 0.5;
-             EP = 3000 * dollarRate;
-             AR = 3000 * dollarRate;
-             AKp = (EP + AR) * 0.5;
-             AKd = (DOC + threeD) * 0.5;
-           }
-           if (area.value > 200) {
-             DOC = area.value * 20 * dollarRate;
-             threeD = DOC * 0.4;
-             EP = 3500 * dollarRate;
-             AR = 3500 * dollarRate;
-             AKp = (EP + AR) * 0.4;
-             AKd = (DOC + threeD) * 0.4;
-           }
-           if (area.value >= 400) {
-             DOC = area.value * 15 * dollarRate;
-             threeD = DOC * 0.3;
-             EP = 4000 * dollarRate;
-             AR = 4000 * dollarRate;
-             AKp = (EP + AR) * 0.3;
-             AKd = (DOC + threeD) * 0.3;
-           }
-           if (area.value >= 600) {
-             DOC = area.value * 10 * dollarRate;
-             threeD = DOC * 0.2;
-             EP = 4500 * dollarRate;
-             AR = 4500 * dollarRate;
-             AKp = (EP + AR) * 0.2;
-             AKd = (DOC + threeD) * 0.2;
-           }
-         }
-         AP = 1000 * dollarRate;
-         RF = EP * 0.66;
-         DI = DOC + threeD;
-         if (isInterior && isSupport) {
-           AK = AKd;
-         }
-         if (isArchitecture && isSupport) {
-           AK = 0;
-         }
-         if (isInterior && isArchitecture && isSupport) {
-           AK = AKd;
-         }
-         if (isArchitecture && isArcSolutions && isSupport) {
-           AK = AKp;
-         }
-         if (isInterior && isArchitecture && isArcSolutions && isSupport) {
-           AK = AKd + AKp;
-         }
+        if (isAllPremises) {
+          //все помещения
+          if (area.value < 150) {
+            DOC = 0;
+            threeD = 0;
+            EP = 0;
+            AR = 0;
+          }
+          if (area.value >= 150) {
+            DOC = 200 * 20 * AAA * dollarRate;
+            threeD = DOC * 0.8;
+            EP = 3000 * AAA * dollarRate;
+            AR = 3000 * AAA * dollarRate;
+            AKp = (EP + AR) * 0.5;
+            AKd = (DOC + threeD) * 0.5;
+          }
+          if (area.value > 200) {
+            DOC = area.value * 20 * AAA * dollarRate;
+            threeD = DOC * 0.8;
+            EP = 3500 * AAA * dollarRate;
+            AR = 3500 * AAA * dollarRate;
+            AKp = (EP + AR) * 0.4;
+            AKd = (DOC + threeD) * 0.4;
+          }
+          if (area.value >= 401) {
+            DOC = ((400 * 20 * AAA) + (area.value - 400) * 10) * dollarRate;
+            threeD = DOC * 0.8;
+            EP = 4000 * AAA * dollarRate;
+            AR = 4000 * AAA * dollarRate;
+            AKp = (EP + AR) * 0.3;
+            AKd = (DOC + threeD) * 0.3;
+          }
+          if (area.value >= 600) {
+            //  DOC = area.value * 10 * dollarRate;
+            threeD = DOC * 0.8;
+            EP = 4500 * AAA * dollarRate;
+            AR = 4500 * AAA * dollarRate;
+            AKp = (EP + AR) * 0.2;
+            AKd = (DOC + threeD) * 0.2;
+          }
+        } else {
+          //основные помещения
+          if (area.value < 150) {
+            DOC = 0;
+            threeD = 0;
+            EP = 0;
+            AR = 0;
+          }
+          if (area.value >= 150) {
+            DOC = 200 * 20 * AAA * dollarRate;
+            threeD = DOC * 0.5;
+            EP = 3000 * AAA * dollarRate;
+            AR = 3000 * AAA * dollarRate;
+            AKp = (EP + AR) * 0.5;
+            AKd = (DOC + threeD) * 0.5;
+          }
+          if (area.value > 200) {
+            DOC = area.value * 20 * AAA * dollarRate;
+            threeD = DOC * 0.4;
+            EP = 3500 * AAA * dollarRate;
+            AR = 3500 * AAA * dollarRate;
+            AKp = (EP + AR) * 0.4;
+            AKd = (DOC + threeD) * 0.4;
+          }
+          if (area.value >= 401) {
+            DOC = ((400 * 20 * AAA) + (area.value - 400) * 10) * dollarRate;
+            threeD = DOC * 0.4;
+            EP = 4000 * AAA * dollarRate;
+            AR = 4000 * AAA * dollarRate;
+            AKp = (EP + AR) * 0.3;
+            AKd = (DOC + threeD) * 0.3;
+          }
+          if (area.value >= 600) {
+            //DOC = area.value * 10 * dollarRate;
+            threeD = DOC * 0.4;
+            EP = 4500 * AAA * dollarRate;
+            AR = 4500 * AAA * dollarRate;
+            AKp = (EP + AR) * 0.2;
+            AKd = (DOC + threeD) * 0.2;
+          }
+        }
+        AP = 1000 * AAA * dollarRate;
+        RF = EP * AAA * 0.66;
+        DI = DOC + threeD;
+        DOCDoll = Math.round((DOC / dollarRate) / 100) * 100;
+        threeDDoll = Math.round((threeD / dollarRate) / 100) * 100;
+        APDoll = Math.round((AP / dollarRate) / 100) * 100;
 
-         SUM = 0;
+        EPDoll = Math.round((EP / dollarRate) / 100) * 100;
+        ARDoll = Math.round((AR / dollarRate) / 100) * 100;
+        RSDoll = Math.round((RS / dollarRate) / 100) * 100;
+        if (isInterior && isSupport) {
+          AK = AKd;
+        }
+        if (isArchitecture && isSupport) {
+          AK = 0;
+        }
+        if (isInterior && isArchitecture && isSupport) {
+          AK = AKd;
+        }
+        if (isArchitecture && isArcSolutions && isSupport) {
+          AK = AKp;
+        }
+        if (isInterior && isArchitecture && isArcSolutions && isSupport) {
+          AK = AKd + AKp;
+        }
+        AKDoll = Math.round((AK / dollarRate) / 100) * 100;
 
-         let html = '';
-         if (isInterior) {
-           html += '<li class="modal_step5_li">Дизайн проект ' + Math.round(DOC) + ' р.</li>';
-           html += '<li class="modal_step5_li">3D–визуализация интерьера ' + Math.round(threeD) + ' р.</li>';
-           SUM += DI;
-         }
-         if (isSketch) {
-           html += '<li class="modal_step5_li">Эскизный проект (архитектура) ' + Math.round(EP) + ' р.</li>';
-           SUM += EP;
-         }
-         if (isArcSolutions) {
-           html += '<li class="modal_step5_li">Архитектурные решения ' + Math.round(AR) + ' р.</li>';
-           SUM += AR;
-         }
-         if (isRelatedSections) {
-           html += '<li class="modal_step5_li">Смежные разделы ' + RS + ' р.</li>';
-           SUM += RS;
-         }
-         if (isArchitecture) {
-           // html += '<li class="modal_step5_li">Реконструкция фасада ' + Math.round(RF) + ' р.</li>';
-           // SUM += RF;
-         }
-         if (isAgreement) {
-           html += '<li class="modal_step5_li">Согласование проекта ' + Math.round(AP) + ' р.</li>';
-           SUM += AP;
-         }
-         if (isInterior) {
-           html += '<li class="modal_step5_li">Контроль за подрядчиками</li>';
-         }
+        SUM = 0;
 
-         if (isSupport) {
-           html += '<li class="modal_step5_li">Авторское сопровождение/Комплектация объекта ' + Math.round(AK) + ' р.</li>';
-           SUM += AK;
-         }
+        let html = '';
+        if (isInterior) {
+          html += '<li class="modal_step5_li">Дизайн проект ' + Math.round(DOC) + ' р. ($' + Math.round(DOCDoll) +')</li>';
+          html += '<li class="modal_step5_li">3D–визуализация интерьера ' + Math.round(threeD) + ' р. ($' + Math.round(threeDDoll) +')</li>';
+          SUM += DI;
+        }
+        if (isSketch) {
+          html += '<li class="modal_step5_li">Эскизный проект (архитектура) ' + Math.round(EP) + ' р. ($' + Math.round(EPDoll) +')</li>';
+          SUM += EP;
+        }
+        if (isArcSolutions) {
+          html += '<li class="modal_step5_li">Архитектурные решения ' + Math.round(AR) + ' р. ($' + Math.round(ARDoll) +')</li>';
+          SUM += AR;
+        }
+        if (isRelatedSections) {
+          html += '<li class="modal_step5_li">Смежные разделы ' + RS + ' р. ($' + Math.round(RSDoll) +')</li>';
+          SUM += RS;
+        }
+        if (isArchitecture) {
+          // html += '<li class="modal_step5_li">Реконструкция фасада ' + Math.round(RF) + ' р.</li>';
+          // SUM += RF;
+        }
+        if (isAgreement) {
+          html += '<li class="modal_step5_li">Согласование проекта ' + Math.round(AP) + ' р. ($' + Math.round(APDoll) +')</li>';
+          SUM += AP;
+        }
+        if (isInterior) {
+          html += '<li class="modal_step5_li">Контроль за подрядчиками</li>';
+        }
 
-         list.innerHTML =  html;
+        if (isSupport) {
+          html += '<li class="modal_step5_li">Авторское сопровождение/Комплектация объекта ' + Math.round(AK) + ' р. ($' + Math.round(AKDoll) +')</li>';
+          SUM += AK;
+        }
 
-         const sumBYN = Math.round(SUM / 100) * 100;
-         resultBYN.innerHTML = prettify(sumBYN) + " р.";
-         resultUSD.innerHTML = '$' + prettify(Math.round((SUM / dollarRate) / 100) * 100)
-       }
+        list.innerHTML =  html;
 
-       return {
-         DI: Math.round(DI),
-         DOC: Math.round(DOC),
-         threeD: Math.round(threeD),
-         AK: Math.round(AK),
-         SUM: Math.round((SUM / dollarRate) / 100) * 100,
-         sumDI: Math.round((sumDI / dollarRate) / 100) * 100,
-         EP: Math.round(EP),
-         AR: Math.round(AR),
-         RF: Math.round(RF),
-         AP: Math.round(AP),
-         RS,
-       }
-     };
+        const sumBYN = Math.round(SUM / 100) * 100;
+        resultBYN.innerHTML = prettify(sumBYN) + " р.";
+        resultUSD.innerHTML = '$' + prettify(Math.round((SUM / dollarRate) / 100) * 100)
+      }
 
-     // Объект, содержащий вопросы и ответы
-     const questions = [
-       {
-         question: "Какой у вас тип объекта?",
-         answers: [
-           {
-             title: 'Квартира и&nbsp;апартаменты',
-             svg: '<svg class="modal_step1_icon_apart" width="152" height="142" viewBox="0 0 152 142" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M23.1 18.4V0H17.4V18.4C6.5 20.2 0 31.8 0 41.6V50H2.5H5H35.4H38H40.5V41.5C40.5 31.8 34 20.2 23.1 18.4ZM35.5 45.1H5.1V41.5C5.1 33.3 10.5 23.3 20.3 23.3C30.1 23.3 35.5 33.3 35.5 41.5V45.1Z" fill="#D6D6D6"/><path d="M62.6999 86.1001C60.5999 86.1001 58.8999 87.8001 58.8999 89.9001C58.8999 92.0001 60.5999 93.7001 62.6999 93.7001C64.7999 93.7001 66.4999 92.0001 66.4999 89.9001C66.4999 87.7001 64.7999 86.1001 62.6999 86.1001Z" fill="#D6D6D6"/><path d="M80.5002 86.1001C78.4002 86.1001 76.7002 87.8001 76.7002 89.9001C76.7002 92.0001 78.4002 93.7001 80.5002 93.7001C82.6002 93.7001 84.3002 92.0001 84.3002 89.9001C84.2002 87.7001 82.6002 86.1001 80.5002 86.1001Z" fill="#D6D6D6"/><path d="M113.2 97.1001H103.1V78.0001C103.1 68.7001 95.4999 61.1001 86.1999 61.1001H55.9999C46.6999 61.1001 39.0999 68.7001 39.0999 78.0001V97.1001H28.9999C25.8999 97.1001 23.3999 99.6001 23.3999 102.7V119.6C23.3999 124.6 25.8999 129 29.5999 131.8V142H34.4999V134C35.7999 134.3 37.0999 134.5 38.3999 134.5H103.8C105.4 134.5 106.9 134.3 108.4 133.8V142H113.3V131.2C116.7 128.4 118.9 124.2 118.9 119.5V102.6C118.9 99.6001 116.3 97.1001 113.2 97.1001ZM44.6999 78.0001C44.6999 71.8001 49.6999 66.7001 55.9999 66.7001H86.2999C92.4999 66.7001 97.5999 71.7001 97.5999 78.0001V112.8H44.6999V78.0001ZM38.3999 128.9C33.1999 128.9 28.9999 124.7 28.9999 119.5V102.6H39.0999V116.5C39.0999 117.5 39.8999 118.4 40.9999 118.4H101.3C102.3 118.4 103.2 117.6 103.2 116.5V102.6H113.3V119.5C113.3 124.7 109.1 128.9 103.9 128.9H38.3999Z" fill="#D6D6D6"/><path d="M76.8998 27.8C73.2998 27.8 70.2998 30.7001 70.2998 34.4001V62.3H75.8998V34.4001C75.8998 33.9001 76.2998 33.5 76.7998 33.5H108.7V97.4001H114.3V27.8H76.8998Z" fill="#D6D6D6"/><path d="M145.4 33.5999C145.9 33.5999 146.3 33.9999 146.3 34.4999V140.2H151.9V34.4999C151.9 30.8999 149 27.8999 145.3 27.8999H108.7H108.6V33.4999H108.7L145.4 33.5999Z" fill="#D6D6D6"/><path d="M123.6 89.3C122.5 89.3 121.6 88.4 121.6 87.3V71.3C121.6 70.2 122.5 69.3 123.6 69.3C124.7 69.3 125.6 70.2 125.6 71.3V87.2C125.6 88.4 124.8 89.3 123.6 89.3Z" fill="#D6D6D6"/></svg>',
-             id: 'flat',
-             steps: [0, 1, 3, 4, 5, 6],
-           },
-           {
-             title: 'Частный дом',
-             svg: '<svg class="modal_step1_icon_house" width="131" height="119" viewBox="0 0 131 119" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M124.255 0H109.18C105.458 0 102.435 3.03593 102.435 6.77404V22.5939L20.6885 0.908712L19.1462 6.75338L35.7217 11.1524V47.4596L6.90989 56.2989C2.26217 57.6619 0 59.7685 0 63.5272V112.205C0 115.943 3.02308 118.979 6.74537 118.979H9.68619H35.7217H41.7473H124.008H124.255C127.977 118.979 131 115.943 131 112.205V6.77404C131 3.03593 127.977 0 124.255 0ZM109.18 6.77404H124.255V28.3973L109.18 24.3907V6.77404ZM6.74537 112.205V63.6305C7.05385 63.4446 7.6708 63.1555 8.86358 62.8044L34.9813 54.7912V112.226H9.68619H6.74537V112.205ZM88.3685 87.6081V88.4962V112.205H69.7364V88.9299V87.6081V85.357H72.2865H72.9035H84.4611H85.8389H88.389V87.6081H88.3685ZM124.255 112.205H124.008H109.18H102.435H94.4969V81.4743C94.4969 80.2352 93.3658 79.2232 91.9468 79.2232H66.1992C64.8008 79.2232 63.6491 80.2352 63.6491 81.4743V112.205H41.7473V54.4814V12.7633L124.255 34.6756V99.8551V112.205Z" fill="#D6D6D6"/></svg>',
-             id: 'house',
-             steps: [0, 1, 2, 3, 4, 5, 6],
-           },
-           {
-             title: 'Офис, салон',
-             svg: '<svg class="modal_step1_icon_office" width="133" height="112" viewBox="0 0 133 112" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0)"><path d="M127.808 38.9422H125.418L127.045 28.2991C127.045 25.5145 125.191 23.2663 122.925 23.2663H109.058C106.791 23.2663 104.937 25.5145 104.937 28.2991L106.544 38.9422H90.6584V16.5009C90.6584 7.38416 83.2821 0 74.1751 0H61.7919C52.6849 0 45.3086 7.38416 45.3086 16.5009V38.9422H10.5287L16.4421 24.1532H40.9199V17.4291C40.9199 10.3337 36.9845 2.12449 30.3912 0.660037C30.3912 0.660037 29.4228 0.453775 28.3101 0.453775C27.0327 0.453775 26.2291 0.660037 26.2291 0.660037C21.6756 1.67072 18.3789 5.91971 16.7924 10.8081L5.54253 38.9422H5.19225C2.24586 39.4166 0 41.9536 0 45.0475V56.1856C0 59.6096 2.76096 62.3735 6.18126 62.3735H11.1469V112H17.3281V105.812V95.1897V62.3529H45.288V64.8692C45.288 70.5621 49.9033 75.1823 55.5901 75.1823H64.7796V93.1271H59.237C51.6547 93.1271 45.7207 97.6648 45.7207 103.44C45.7207 105.152 47.1012 106.534 48.8113 106.534C50.5215 106.534 51.9019 105.152 51.9019 103.44C51.9019 101.501 55.0338 99.3149 59.237 99.3149H78.3783C81.7986 99.3149 83.9827 101.048 83.9827 102.223C83.9827 103.935 85.3631 105.317 87.0733 105.317C88.7834 105.317 90.1639 103.935 90.1639 102.223C90.1639 97.1079 84.9923 93.1271 78.3783 93.1271H71.0844V75.1823H78.2959C85.1159 75.1823 90.6584 69.6339 90.6584 62.8066V62.3529H115.363V95.1691V105.792V111.979H121.544V62.3529H126.839C130.26 62.3529 133.021 59.589 133.021 56.165V45.0269C133 41.9536 130.754 39.4166 127.808 38.9422ZM28.3308 5.03278C33.4612 5.03278 36.3046 12.3551 36.3046 17.4085V19.4917H20.3569V17.4291C20.3569 15.8615 20.6248 14.1083 21.1399 12.3963L21.3047 12.0044H21.2841C22.4998 8.31234 24.9105 5.03278 28.3308 5.03278ZM109.079 28.0722C109.12 27.7215 109.223 27.4947 109.305 27.3915H122.677C122.76 27.5153 122.883 27.7422 122.904 28.0722L121.235 38.9628H110.706L109.079 28.0722ZM51.4692 36.8177V33.5588V16.5009C51.4692 10.8081 56.0846 6.18785 61.7713 6.18785H74.1751C79.8618 6.18785 84.4771 10.8081 84.4771 16.5009V33.5588V36.8177V38.9628H51.4692V36.8177ZM84.2299 64.0236C84.2093 64.0855 84.1887 64.6424 84.1681 64.7042C83.3645 67.2 81.0363 69.0151 78.2753 69.0151H55.5901C53.3236 69.0151 51.4692 67.1587 51.4692 64.8899V64.5186V62.3735H84.2299V64.0236ZM126.819 56.165H6.18126V45.0269H107.471H124.49H126.839V56.165H126.819Z" fill="#D6D6D6"/></g><defs><clipPath id="clip0"><rect width="133" height="112" fill="white"/></clipPath></defs></svg>',
-             id: 'office',
-             steps: [0, 1, 2, 4, 5, 6],
-           },
-           {
-             title: 'Ретейл, HoReCa',
-             svg: '<svg class="modal_step1_icon_retail" width="131" height="114" viewBox="0 0 131 114" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0)"><path d="M65.5006 94.4708C84.9173 94.4708 100.73 78.6387 100.73 59.1513C100.709 39.7057 84.8965 23.8527 65.5006 23.8318C46.084 23.8318 30.2715 39.664 30.2715 59.1513C30.2715 78.6387 46.084 94.4708 65.5006 94.4708ZM35.8548 59.1722C35.8548 42.7761 49.1465 29.4503 65.5006 29.4503C81.8548 29.4503 95.1465 42.7761 95.1465 59.1722C95.1256 75.5474 81.834 88.8732 65.5006 88.8941C49.1465 88.8941 35.8548 75.5474 35.8548 59.1722Z" fill="#D6D6D6"/><path d="M128.208 0.00121933H123.875C112.812 0.0221061 103.791 9.04519 103.791 20.1361V23.1229C94.604 13.3061 82.2498 7.4578 68.7915 6.60144C54.8331 5.7242 41.3956 10.3193 30.8956 19.5304L29.8123 2.59118C29.7081 1.04556 28.3331 -0.103215 26.8331 0.00121933C25.3331 0.105653 24.1665 1.42152 24.2498 2.94625L25.6248 24.2299C24.6456 24.7729 22.2915 25.6293 18.5623 25.9217V2.80005C18.5415 1.25443 17.2915 0.00121933 15.7706 0.00121933C14.2498 0.00121933 12.979 1.25443 12.979 2.80005V25.9008C9.60396 25.6293 7.06229 24.8774 5.91646 24.209L7.24979 2.96714C7.29146 2.21522 7.04146 1.50507 6.54146 0.941124C6.04146 0.377181 5.37479 0.0638796 4.62479 0.0221061C3.12479 -0.0405542 1.79146 1.10822 1.68729 2.61207L0.0206225 28.9294C-0.291878 34.2764 3.45812 39.0595 8.64562 40.0829V60.7817C7.41646 61.0741 6.47896 62.1811 6.47896 63.497V104.686C6.47896 109.803 10.6456 113.98 15.7498 113.98C20.8748 113.98 25.0206 109.803 25.0206 104.686V92.7385C33.5415 103.077 45.4581 109.678 58.7915 111.39C72.7081 113.166 86.4998 109.427 97.604 100.822C103.812 96.0177 108.896 89.8143 112.437 82.7964V104.686C112.437 109.803 116.604 113.98 121.708 113.98C126.812 113.98 130.979 109.803 130.979 104.686V2.80005C131 1.25443 129.75 0.00121933 128.208 0.00121933ZM14.229 60.6982V40.2709H17.2915V60.6982H14.229ZM19.4581 66.2958V104.686C19.4581 106.733 17.7915 108.404 15.7498 108.404C13.7081 108.404 12.0415 106.733 12.0415 104.686V66.2958H19.4581ZM22.8748 60.7817V40.0829C28.0623 39.0595 31.8331 34.2555 31.4998 28.9085L31.3748 26.8407C39.9165 17.7759 51.4581 12.5542 63.8956 12.1155C76.3956 11.6978 88.3748 16.1676 97.5415 24.752C99.854 26.9243 101.979 29.3471 103.812 31.9371V63.497C103.812 65.0426 105.062 66.2958 106.604 66.2958H111.937C110.333 76.8228 105.166 86.556 97.354 93.7828C78.3123 111.369 48.5623 110.158 30.9998 91.0675C28.7498 88.6029 26.7498 85.9085 25.0623 83.047V63.497C25.0415 62.1811 24.104 61.0533 22.8748 60.7817ZM25.9165 30.1617C25.7915 31.2061 25.354 32.1877 24.6456 32.9814C23.729 34.0049 22.479 34.6106 21.1248 34.6733H10.7081C8.08312 34.6733 5.91646 32.689 5.62479 30.1408C8.35396 31.0807 11.8331 31.582 15.7706 31.582C19.6248 31.6029 23.1873 31.1016 25.9165 30.1617ZM125.416 5.59887V60.7191H109.375V20.1361C109.375 12.1155 115.896 5.59887 123.896 5.57799H125.416V5.59887ZM118.021 66.2958H125.416V104.686C125.416 106.733 123.75 108.404 121.708 108.404C119.666 108.404 118 106.733 118 104.686V66.2958H118.021Z" fill="#D6D6D6"/></g><defs><clipPath id="clip0"><rect width="131" height="114" fill="white"/></clipPath></defs></svg>',
-             id: 'retail',
-             steps: [0, 5, 6],
-           }
-         ],
-         type: 'radio'
-       },
-       {
-         question: "Какие услуги вас интересуют?",
-         answers: [
-           {
-             title: 'Дизайн интерьера',
-             label: 'interior',
-             flatChecked: true,
-             flatRequired: true,
-             houseChecked: true,
-             houseRequired: true,
-             officeChecked: true,
-             officeRequired: true,
-           },
-           {
-             title: 'Авторское сопровождение и&nbsp;комплектация',
-             label: 'support',
-             // flatChecked: true,
-             // houseChecked: true,
-             // officeChecked: true,
-           },
-           {
-             title: 'Согласование проекта',
-             label: 'agreement',
-             // flatChecked: true,
-             // houseChecked: true,
-             // officeChecked: true,
-           },
-           {
-             title: 'Архитектурное проектирование',
-             label: 'architecture',
-             flatDisabled: true,
-             officeRequired: true,
-             houseRequired: true,
-             // houseChecked: true,
-             // officeChecked: true,
-           },
-           {
-             title: 'Строительство и&nbsp;реконструкция',
-             label: 'reconst',
-           },
-           {
-             title: 'Ландшафтный дизайн',
-             label: 'landscape',
-             flatDisabled: true,
-           }
-         ],
-         type: 'checkbox'
-       },
-       {
-         question: "Какой объем документов вам нужен?",
-         answers: [
-           {
-             title: 'Эскизный проект',
-             text: 'Основной пакет документов с&nbsp;архитектурно планировочными концепциями помещений, фасада и&nbsp;участка.',
-             label: 'sketch',
-             hiddenText: '1. Ведомость чертежей<br>2. Архитектурно планировочная концепция: Планы этажей с&nbsp;расстановкой мебели и&nbsp;оборудования. 3D-визуализация фасада здания<br>3.Чертежи фасадов здания в&nbsp;массах с&nbsp;нанесением основных размеров<br>4. Цветовое решение фасада здания<br>5. Планировочная схема участка<br><span class="modal_step3_list_span">Общий объем: 15&ndash;20 листов&nbsp;А3</span>',
-             button: 'Обязательно',
-             buttonActive: 'Обязательно',
-             required: true
-           },
-           {
-             title: 'Архитектурные решения',
-             text: 'Фотореалистичная 3D-визуализации с&nbsp;детализацией материалов, цветов и&nbsp;фактур. План здания, кровли, схемы водосточной системы и&nbsp;облицовки фасада.',
-             label: 'arc_solutions',
-             hiddenText: '1. Общие данные<br>2. Ситуационный план<br>3. План здания<br>4. Укрупненные фрагменты необходимых участков плана здания<br>5. План кровли<br>6. Схема водосточной системы<br>7. Необходимые укрупненные фрагменты и&nbsp;узлы кровли<br>8. Чертежи фасада здания подробные<br>9. Укрупненные фрагменты и&nbsp;узлы необходимых участков фасада здания<br>10. Схема облицовки фасада<br>11. Спецификация заполнения оконных проемов, схемы окон<br>12. Спецификация заполнения дверных проемов, схемы дверей<br>13. Паспорт цветового решения фасада здания<br>14. Ведомость наружной отделки<br>15. Фотореалистичная 3D-визуализации с&nbsp;детализацией материалов, цветов и&nbsp;фактур.<br><span class="modal_step3_list_span">Общий объем: 50&ndash;100 листов А3, А2</span>',
-             button: 'Добавить',
-             buttonActive: 'Добавлено',
-             required: false
-           },
-           {
-             title: 'Смежные разделы',
-             text: 'Конструктивные решения, cхемы водопровода, канализации, отопления, вентиляции (контроль за&nbsp;подрядчиками)',
-             label: 'related_sections',
-             hiddenText: '1. Конструктивные решения (КР)<br><span class="modal_step3_list_span">Общий объем: 50-100 листов формата А2, А3, А4</span><br>2. Отопление и&nbsp;вентиляция (ОВ)<br>3. Водопровод и&nbsp;канализация (ВК)<br>4. Электричество и&nbsp;автоматизация (ЭО + &laquo;Умный Дом&raquo;)<br>5. Инженерная геодезия (топосъемка)<br>6. Инженерная геология (бурение скважин, анализ грунта)<br><span class="modal_step3_list_span">Общий объем: 50-100 листов формата А2, А3, А4</span>',
-             button: 'Добавить',
-             buttonActive: 'Добавлено',
-             required: false
-           }
-         ],
-         type: 'checkbox'
-       },
-       {
-         question: "Визуализация каких помещений нужна?",
-         answers: [
-           {
-             title: 'Основных помещений',
-             flatText: '3&ndash;5 ракурсов на&nbsp;одно помещение: прихожая, гостиная, кухня, столовая, спальня.',
-             houseText: '3&ndash;5 ракурсов на&nbsp;одно помещение: прихожая, гостиная, кухня, столовая, жилые комнаты (спальни хозяйские и&nbsp;детские).',
-             button: 'Выбрать',
-             buttonActive: 'Выбрано',
-             checked: true,
-             id: 'mainPremises',
-           },
-           {
-             title: 'Всех помещений',
-             flatText: '3&ndash;5 ракурсов на&nbsp;одно помещение: основные помещения, детские комнаты, гостевые, кабинеты, коридоры, лестницы, санузлы и&nbsp;т.п.',
-             houseText: '3&ndash;5 ракурсов на&nbsp;одно помещение: основные помещения, коридоры, лестницы, холлы, кабинеты, гостевые комнаты, лаундж зоны, спа зоны, бассейны, санузлы и&nbsp;т.п.',
-             button: 'Выбрать',
-             buttonActive: 'Выбрано',
-             checked: false,
-             id: 'allPremises',
-           }
-         ],
-         type: 'radio'
-       },
-       {
-         question: "Расчет стоимости",
-         answers: [],
-       },
-       {
-         question: "Особенности вашего объекта",
-         answers: [],
-       },
-       {
-         question: "Контактная информация",
-         answers: [],
-       },
-     ];
+      return {
+        DI: Math.round(DI),
+        DOC: Math.round(DOC),
+        threeD: Math.round(threeD),
+        AK: Math.round(AK),
+        SUM: Math.round((SUM / dollarRate) / 100) * 100,
+        sumDI: Math.round((sumDI / dollarRate) / 100) * 100,
+        EP: Math.round(EP),
+        AR: Math.round(AR),
+        RF: Math.round(RF),
+        AP: Math.round(AP),
+        RS,
+      }
+    };
+
+    // Объект, содержащий вопросы и ответы
+    const questions = [
+      {
+        question: "Какой у вас тип объекта?",
+        answers: [
+          {
+            title: 'Квартира и&nbsp;апартаменты',
+            svg: '<svg class="modal_step1_icon_apart" width="164" height="142" viewBox="0 0 164 142" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M95 18H164V125H95V18Z" fill="white"/><path fill-rule="evenodd" clip-rule="evenodd" d="M88 64H57C48.7157 64 42 70.7157 42 79V115C42 115.552 42.4477 116 43 116H101C101.552 116 102 115.552 102 115V78C102 70.268 95.732 64 88 64ZM57 63C48.1634 63 41 70.1634 41 79V115C41 116.105 41.8954 117 43 117H101C102.105 117 103 116.105 103 115V78C103 69.7157 96.2843 63 88 63H57Z" fill="#404040"/><path fill-rule="evenodd" clip-rule="evenodd" d="M59.5 92C60.8807 92 62 90.8807 62 89.5C62 88.1193 60.8807 87 59.5 87C58.1193 87 57 88.1193 57 89.5C57 90.8807 58.1193 92 59.5 92ZM59.5 93C61.433 93 63 91.433 63 89.5C63 87.567 61.433 86 59.5 86C57.567 86 56 87.567 56 89.5C56 91.433 57.567 93 59.5 93Z" fill="#404040"/><path fill-rule="evenodd" clip-rule="evenodd" d="M84.5 92C85.8807 92 87 90.8807 87 89.5C87 88.1193 85.8807 87 84.5 87C83.1193 87 82 88.1193 82 89.5C82 90.8807 83.1193 92 84.5 92ZM84.5 93C86.433 93 88 91.433 88 89.5C88 87.567 86.433 86 84.5 86C82.567 86 81 87.567 81 89.5C81 91.433 82.567 93 84.5 93Z" fill="#404040"/><path fill-rule="evenodd" clip-rule="evenodd" d="M30 99.5C29.1716 99.5 28.5 100.172 28.5 101V119C28.5 125.904 34.0964 131.5 41 131.5H103C110.456 131.5 116.5 125.456 116.5 118V101C116.5 100.172 115.828 99.5 115 99.5H102.5V98.5H115C116.381 98.5 117.5 99.6193 117.5 101V118C117.5 126.008 111.008 132.5 103 132.5H41C33.5442 132.5 27.5 126.456 27.5 119V101C27.5 99.6193 28.6193 98.5 30 98.5H41.5V99.5H30Z" fill="#404040"/><path fill-rule="evenodd" clip-rule="evenodd" d="M109 142L109 130L110 130L110 142L109 142Z" fill="#404040"/><path fill-rule="evenodd" clip-rule="evenodd" d="M111 95L111 32L112 32L112 95L111 95Z" fill="#404040"/><path fill-rule="evenodd" clip-rule="evenodd" d="M34 142L34 130L35 130L35 142L34 142Z" fill="#404040"/><path fill-rule="evenodd" clip-rule="evenodd" d="M122 87L122 71L123 71L123 87L122 87Z" fill="#404040"/><path fill-rule="evenodd" clip-rule="evenodd" d="M71.5 34C71.5 32.6193 72.6193 31.5 74 31.5H148C149.381 31.5 150.5 32.6193 150.5 34V138C150.5 139.381 149.381 140.5 148 140.5H114V139.5H148C148.828 139.5 149.5 138.828 149.5 138V34C149.5 33.1716 148.828 32.5 148 32.5H74C73.1716 32.5 72.5 33.1716 72.5 34V63.5H71.5V34Z" fill="#404040"/><path fill-rule="evenodd" clip-rule="evenodd" d="M21 -4.37114e-08L21 18L20 18L20 0L21 -4.37114e-08Z" fill="#404040"/><path fill-rule="evenodd" clip-rule="evenodd" d="M41 50C41 49.6654 40.9967 49.3321 40.9902 49C40.6517 31.7896 31.6075 18 20.5 18C9.39249 18 0.348259 31.7896 0.00981944 49C0.00328905 49.3321 0 49.6654 0 50H41ZM1.01001 49H39.99C39.8241 40.7265 37.607 33.3027 34.1537 27.912C30.5546 22.294 25.7036 19 20.5 19C15.2964 19 10.4454 22.294 6.84634 27.912C3.39296 33.3027 1.17593 40.7265 1.01001 49Z" fill="#404040"/></svg>',
+            id: 'flat',
+            steps: [0, 1, 3, 4, 5, 6],
+          },
+          {
+            title: 'Частный дом',
+            svg: '<svg class="modal_step1_icon_house" width="129" height="115" viewBox="0 0 129 115" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M56 36.0004H79V65.0004H56V36.0004Z" fill="white"/><path d="M94 45.0004H117V74.0004H94V45.0004Z" fill="white"/><path fill-rule="evenodd" clip-rule="evenodd" d="M67.5 94.0004C67.5 92.6197 68.6193 91.5004 70 91.5004H79C80.3807 91.5004 81.5 92.6197 81.5 94.0004V114H80.5V94.0004C80.5 93.172 79.8284 92.5004 79 92.5004H70C69.1716 92.5004 68.5 93.172 68.5 94.0004V114H67.5V94.0004Z" fill="#404040"/><path fill-rule="evenodd" clip-rule="evenodd" d="M126.384 29.4637L20.8711 1.48368L21.1274 0.51709L126.64 28.4971C127.736 28.7878 128.499 29.7797 128.499 30.9136V112C128.499 113.381 127.38 114.5 125.999 114.5H37.4993V11.5004H38.4993V113.5H125.999C126.828 113.5 127.499 112.829 127.499 112V30.9136C127.499 30.2332 127.041 29.6381 126.384 29.4637Z" fill="#404040"/><path fill-rule="evenodd" clip-rule="evenodd" d="M38.5 63.6217C38.5 61.9722 36.9306 60.7748 35.3397 61.2105L2.33969 70.2475C1.25328 70.545 0.5 71.5323 0.5 72.6587V112C0.5 113.381 1.61929 114.5 3 114.5H38.5V104H37.5V113.5H3C2.17157 113.5 1.5 112.829 1.5 112V72.6587C1.5 71.9828 1.95197 71.3905 2.60382 71.212L35.6038 62.175C36.5584 61.9136 37.5 62.632 37.5 63.6217V69.5004H38.5V63.6217Z" fill="#404040"/><path fill-rule="evenodd" clip-rule="evenodd" d="M73 32.0004H54C53.4477 32.0004 53 32.4481 53 33.0004V57.0004C53 57.5527 53.4477 58.0004 54 58.0004H73C73.5523 58.0004 74 57.5527 74 57.0004V33.0004C74 32.4481 73.5523 32.0004 73 32.0004ZM54 31.0004C52.8954 31.0004 52 31.8958 52 33.0004V57.0004C52 58.1049 52.8954 59.0004 54 59.0004H73C74.1046 59.0004 75 58.1049 75 57.0004V33.0004C75 31.8958 74.1046 31.0004 73 31.0004H54Z" fill="#404040"/><path fill-rule="evenodd" clip-rule="evenodd" d="M109 40.0004H90C89.4477 40.0004 89 40.4481 89 41.0004V65.0004C89 65.5527 89.4477 66.0004 90 66.0004H109C109.552 66.0004 110 65.5527 110 65.0004V41.0004C110 40.4481 109.552 40.0004 109 40.0004ZM90 39.0004C88.8954 39.0004 88 39.8958 88 41.0004V65.0004C88 66.1049 88.8954 67.0004 90 67.0004H109C110.105 67.0004 111 66.1049 111 65.0004V41.0004C111 39.8958 110.105 39.0004 109 39.0004H90Z" fill="#404040"/></svg>',
+            id: 'house',
+            steps: [0, 1, 2, 3, 4, 5, 6],
+          },
+          {
+            title: 'Офис, салон',
+            svg: '<svg class="modal_step1_icon_office" width="132" height="110" viewBox="0 0 132 110" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 87L-1.66103e-06 49L112 49L112 87L0 87Z" fill="white"/><path fill-rule="evenodd" clip-rule="evenodd" d="M43 22C43 21.6648 42.9957 21.3314 42.9872 21C42.7014 9.86637 37.6677 1 31.5 1C25.3323 1 20.2986 9.86637 20.0128 21C20.0043 21.3314 20 21.6648 20 22H43ZM21.0131 21H41.9869C41.8483 15.7395 40.623 11.0429 38.7546 7.63107C36.7484 3.96753 34.1402 2 31.5 2C28.8598 2 26.2516 3.96753 24.2454 7.63107C22.377 11.0429 21.1517 15.7395 21.0131 21Z" fill="#404040"/><path fill-rule="evenodd" clip-rule="evenodd" d="M7.99914 42L22.9991 7.99999L23.9141 8.40363L8.91406 42.4036L7.99914 42Z" fill="#404040"/><path fill-rule="evenodd" clip-rule="evenodd" d="M130 43H8C7.44772 43 7 43.4477 7 44V57C7 57.5523 7.44772 58 8 58H130C130.552 58 131 57.5523 131 57V44C131 43.4477 130.552 43 130 43ZM8 42C6.89543 42 6 42.8954 6 44V57C6 58.1046 6.89543 59 8 59H130C131.105 59 132 58.1046 132 57V44C132 42.8954 131.105 42 130 42H8Z" fill="#404040"/><path fill-rule="evenodd" clip-rule="evenodd" d="M121 110L121 63L122 63L122 110L121 110Z" fill="#404040"/><path fill-rule="evenodd" clip-rule="evenodd" d="M16 110L16 63L17 63L17 110L16 110Z" fill="#404040"/><path fill-rule="evenodd" clip-rule="evenodd" d="M126 31H113V37C113 39.2091 114.791 41 117 41H122C124.209 41 126 39.2091 126 37V31ZM112 30V37C112 39.7614 114.239 42 117 42H122C124.761 42 127 39.7614 127 37V30H112Z" fill="#404040"/><path fill-rule="evenodd" clip-rule="evenodd" d="M91 42V20.5C91 9.73045 82.2696 1 71.5 1C60.7304 1 52 9.73045 52 20.5V42H91ZM71.5 0C60.1782 0 51 9.17816 51 20.5V43H92V20.5C92 9.17816 82.8218 0 71.5 0Z" fill="#404040"/><path fill-rule="evenodd" clip-rule="evenodd" d="M85.5 72H57.5C54.4624 72 52 69.5376 52 66.5V59H91V66.5C91 69.5376 88.5376 72 85.5 72ZM57.5 73C53.9101 73 51 70.0899 51 66.5V58H92V66.5C92 70.0899 89.0899 73 85.5 73H57.5Z" fill="#404040"/><path fill-rule="evenodd" clip-rule="evenodd" d="M71 95L71 73L72 73L72 95L71 95Z" fill="#404040"/><path fill-rule="evenodd" clip-rule="evenodd" d="M52.5987 94.5H90.4009L92.4879 103.892L91.5117 104.108L89.5987 95.5H53.4009L51.4879 104.108L50.5117 103.892L52.5987 94.5Z" fill="#404040"/><path fill-rule="evenodd" clip-rule="evenodd" d="M114.001 17L118.001 30L117.045 30.2941L113.045 17.2941L114.001 17Z" fill="#404040"/><path fill-rule="evenodd" clip-rule="evenodd" d="M120 20V31H119V20H120Z" fill="#404040"/><path fill-rule="evenodd" clip-rule="evenodd" d="M124 19L122 31L121.014 30.8356L123.014 18.8356L124 19Z" fill="#404040"/></svg>',
+            id: 'office',
+            steps: [0, 1, 2, 4, 5, 6],
+          },
+          {
+            title: 'Ретейл, HoReCa',
+            svg: '<svg class="modal_step1_icon_retail" width="117" height="109" viewBox="0 0 117 109" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M95 64.5C95 80.2401 82.2401 93 66.5 93C50.7599 93 38 80.2401 38 64.5C38 48.7599 50.7599 36 66.5 36C82.2401 36 95 48.7599 95 64.5Z" fill="white"/><path fill-rule="evenodd" clip-rule="evenodd" d="M58.5 88C75.897 88 90 73.897 90 56.5C90 39.103 75.897 25 58.5 25C41.103 25 27 39.103 27 56.5C27 73.897 41.103 88 58.5 88ZM58.5 89C76.4493 89 91 74.4493 91 56.5C91 38.5507 76.4493 24 58.5 24C40.5507 24 26 38.5507 26 56.5C26 74.4493 40.5507 89 58.5 89Z" fill="#404040"/><path fill-rule="evenodd" clip-rule="evenodd" d="M59.6641 5.45329C44.181 4.9431 30.0969 11.4576 20.4759 22.129L19.7332 21.4594C29.543 10.5785 43.9071 3.93353 59.6971 4.45383C78.9847 5.08938 95.4443 16.2522 103.742 32.2412L102.854 32.7018C94.7164 17.0207 78.576 6.07645 59.6641 5.45329ZM56.3379 106.398C76.8124 107.073 94.8423 95.4628 103.336 78.2021L104.234 78.6436C95.5724 96.2439 77.1865 108.086 56.3049 107.398C38.7235 106.819 23.4916 97.4919 14.6501 83.7366L15.4913 83.1959C24.1627 96.6866 39.0987 105.83 56.3379 106.398Z" fill="#404040"/><path fill-rule="evenodd" clip-rule="evenodd" d="M116 59V1.83785C116 1.37544 115.72 1.11359 115.454 1.07597C114.306 0.914033 112.979 0.968135 112.137 1.66359C110.413 3.0871 109.1 5.91666 108.233 9.5577C107.377 13.1505 107 17.3407 107 21.2595V41.1292C107 41.1293 107 41.1298 106 41.1298V21.2595C106 13.3115 107.527 4.17386 111.5 0.892547C112.689 -0.0893895 114.397 -0.0830102 115.593 0.0857719C116.446 0.206072 117 0.976726 117 1.83785V59C117 60.1046 116.105 61 115 61H108C106.895 61 106 60.1046 106 59V41.1298L107 41.1292V59C107 59.5523 107.448 60 108 60H115C115.552 60 116 59.5523 116 59Z" fill="#404040"/><path fill-rule="evenodd" clip-rule="evenodd" d="M115 61V104.5C115 106.433 113.433 108 111.5 108C109.567 108 108 106.433 108 104.5V61H115ZM111.5 109C109.015 109 107 106.985 107 104.5V60H116V104.5C116 106.985 113.985 109 111.5 109Z" fill="#404040"/><path fill-rule="evenodd" clip-rule="evenodd" d="M11 37V105.5C11 106.881 9.88071 108 8.5 108C7.11929 108 6 106.881 6 105.5V37H11ZM8.5 109C6.567 109 5 107.433 5 105.5V36H12V105.5C12 107.433 10.433 109 8.5 109Z" fill="#404040"/><path fill-rule="evenodd" clip-rule="evenodd" d="M17 22C17 22 16.6202 22.0736 16 22.1809C14.3341 22.469 10.9338 23 8.5 23C6.06622 23 2.66587 22.469 0.999999 22.1809C0.379794 22.0736 -6.55671e-07 22 -6.55671e-07 22L-3.0598e-07 30C-1.36992e-07 33.866 3.13401 37 7 37L10 37C13.866 37 17 33.866 17 30L17 22ZM0.999999 23.1955L1 30C1 33.3137 3.68629 36 7 36L10 36C13.3137 36 16 33.3137 16 30L16 23.1955C15.4941 23.2819 14.8564 23.3856 14.1473 23.4895C12.4312 23.7407 10.2464 24 8.5 24C6.75361 24 4.56884 23.7407 2.85268 23.4895C2.14362 23.3856 1.5059 23.2819 0.999999 23.1955Z" fill="#404040"/><path fill-rule="evenodd" clip-rule="evenodd" d="M16 24L16 -4.88539e-08L17 0L17 24L16 24Z" fill="#404040"/><path fill-rule="evenodd" clip-rule="evenodd" d="M8 24L8 -4.88539e-08L9 0L9 24L8 24Z" fill="#404040"/><path fill-rule="evenodd" clip-rule="evenodd" d="M-1.04907e-06 24L0 -4.37114e-08L1 0L0.999999 24L-1.04907e-06 24Z" fill="#404040"/></svg>',
+            id: 'retail',
+            steps: [0, 5, 6],
+          }
+        ],
+        type: 'radio'
+      },
+      {
+        question: "Какие услуги вас интересуют?",
+        answers: [
+          {
+            title: 'Дизайн интерьера',
+            label: 'interior',
+            flatChecked: true,
+            flatRequired: true,
+            houseChecked: true,
+            houseRequired: true,
+            officeChecked: true,
+            officeRequired: true,
+          },
+          {
+            title: 'Авторское сопровождение и&nbsp;комплектация',
+            label: 'support',
+            // flatChecked: true,
+            // houseChecked: true,
+            // officeChecked: true,
+          },
+          {
+            title: 'Согласование проекта',
+            label: 'agreement',
+            // flatChecked: true,
+            // houseChecked: true,
+            // officeChecked: true,
+          },
+          {
+            title: 'Архитектурное проектирование',
+            label: 'architecture',
+            flatDisabled: true,
+            officeRequired: true,
+            houseRequired: true,
+            // houseChecked: true,
+            // officeChecked: true,
+          },
+          {
+            title: 'Строительство и&nbsp;реконструкция',
+            label: 'reconst',
+          },
+          {
+            title: 'Ландшафтный дизайн',
+            label: 'landscape',
+            flatDisabled: true,
+          }
+        ],
+        type: 'checkbox'
+      },
+      {
+        question: "Какой объем документов вам нужен?",
+        answers: [
+          {
+            title: 'Эскизный проект',
+            text: 'Основной пакет документов с&nbsp;архитектурно планировочными концепциями помещений, фасада и&nbsp;участка.',
+            label: 'sketch',
+            hiddenText: '1. Ведомость чертежей<br>2. Архитектурно планировочная концепция: Планы этажей с&nbsp;расстановкой мебели и&nbsp;оборудования. 3D-визуализация фасада здания<br>3.Чертежи фасадов здания в&nbsp;массах с&nbsp;нанесением основных размеров<br>4. Цветовое решение фасада здания<br>5. Планировочная схема участка<br><span class="modal_step3_list_span">Общий объем: 15&ndash;20 листов&nbsp;А3</span>',
+            button: 'Обязательно',
+            buttonActive: 'Обязательно',
+            required: true
+          },
+          {
+            title: 'Архитектурные решения',
+            text: 'Фотореалистичная 3D-визуализации с&nbsp;детализацией материалов, цветов и&nbsp;фактур. План здания, кровли, схемы водосточной системы и&nbsp;облицовки фасада.',
+            label: 'arc_solutions',
+            hiddenText: '1. Общие данные<br>2. Ситуационный план<br>3. План здания<br>4. Укрупненные фрагменты необходимых участков плана здания<br>5. План кровли<br>6. Схема водосточной системы<br>7. Необходимые укрупненные фрагменты и&nbsp;узлы кровли<br>8. Чертежи фасада здания подробные<br>9. Укрупненные фрагменты и&nbsp;узлы необходимых участков фасада здания<br>10. Схема облицовки фасада<br>11. Спецификация заполнения оконных проемов, схемы окон<br>12. Спецификация заполнения дверных проемов, схемы дверей<br>13. Паспорт цветового решения фасада здания<br>14. Ведомость наружной отделки<br>15. Фотореалистичная 3D-визуализации с&nbsp;детализацией материалов, цветов и&nbsp;фактур.<br><span class="modal_step3_list_span">Общий объем: 50&ndash;100 листов А3, А2</span>',
+            button: 'Добавить',
+            buttonActive: 'Добавлено',
+            required: false
+          },
+          {
+            title: 'Смежные разделы',
+            text: 'Конструктивные решения, cхемы водопровода, канализации, отопления, вентиляции (контроль за&nbsp;подрядчиками)',
+            label: 'related_sections',
+            hiddenText: '1. Конструктивные решения (КР)<br><span class="modal_step3_list_span">Общий объем: 50-100 листов формата А2, А3, А4</span><br>2. Отопление и&nbsp;вентиляция (ОВ)<br>3. Водопровод и&nbsp;канализация (ВК)<br>4. Электричество и&nbsp;автоматизация (ЭО + &laquo;Умный Дом&raquo;)<br>5. Инженерная геодезия (топосъемка)<br>6. Инженерная геология (бурение скважин, анализ грунта)<br><span class="modal_step3_list_span">Общий объем: 50-100 листов формата А2, А3, А4</span>',
+            button: 'Добавить',
+            buttonActive: 'Добавлено',
+            required: false
+          }
+        ],
+        type: 'checkbox'
+      },
+      {
+        question: "Визуализация каких помещений нужна?",
+        answers: [
+          {
+            title: 'Основных помещений',
+            flatText: '3&ndash;5 ракурсов на&nbsp;одно помещение: прихожая, гостиная, кухня, столовая, спальня.',
+            houseText: '3&ndash;5 ракурсов на&nbsp;одно помещение: прихожая, гостиная, кухня, столовая, жилые комнаты (спальни хозяйские и&nbsp;детские).',
+            button: 'Выбрать',
+            buttonActive: 'Выбрано',
+            checked: true,
+            id: 'mainPremises',
+          },
+          {
+            title: 'Всех помещений',
+            flatText: '3&ndash;5 ракурсов на&nbsp;одно помещение: основные помещения, детские комнаты, гостевые, кабинеты, коридоры, лестницы, санузлы и&nbsp;т.п.',
+            houseText: '3&ndash;5 ракурсов на&nbsp;одно помещение: основные помещения, коридоры, лестницы, холлы, кабинеты, гостевые комнаты, лаундж зоны, спа зоны, бассейны, санузлы и&nbsp;т.п.',
+            button: 'Выбрать',
+            buttonActive: 'Выбрано',
+            checked: false,
+            id: 'allPremises',
+          }
+        ],
+        type: 'radio'
+      },
+      {
+        question: "Расчет стоимости",
+        answers: [],
+      },
+      {
+        question: "Особенности вашего объекта",
+        answers: [],
+      },
+      {
+        question: "Контактная информация",
+        answers: [],
+      },
+    ];
 
 // Функция запуска тестирования
-     function playTest   ()   {
-       formAnswers.innerHTML = '';
+    function playTest   ()   {
+      formAnswers.innerHTML = '';
 
-       let numberQuestion = 0;
-       let backNumberQuestionArr = [];
-       // Массив шагов
-       let steps = [];
+      let numberQuestion = 0;
+      let backNumberQuestionArr = [];
+      // Массив шагов
+      let steps = [];
 
-       let objectType = '';
-       let isAllPremises = false;
+      let objectType = '';
+      let isAllPremises = false;
 
-       let minValue = 10;
-       let minObj = 75;
+      let minValue = 10;
+      let minObj = 75;
 
-       let calcDI = 0;
-       let calcDOC = 0;
-       let calcThreeD = 0;
-       let calcAK = 0;
-       let calcSUM = 0;
-       let calcSumDI = 0;
-       let calcEP = 0;
-       let calcAR = 0;
-       let calcRF = 0;
-       let calcAP = 0;
-       let calcRS = 0;
+      let calcDI = 0;
+      let calcDOC = 0;
+      let calcThreeD = 0;
+      let calcAK = 0;
+      let calcSUM = 0;
+      let calcSumDI = 0;
+      let calcEP = 0;
+      let calcAR = 0;
+      let calcRF = 0;
+      let calcAP = 0;
+      let calcRS = 0;
 
-       // Функция рендеринга ответов
-       const renderAnswers = (index) => {
-         const stepNumber = document.createElement('div');
-         stepNumber.classList.add('js-step-body');
-         formAnswers.append(stepNumber);
+      // Функция рендеринга ответов
+      const renderAnswers = (index) => {
+        const stepNumber = document.createElement('div');
+        stepNumber.classList.add('js-step-body');
+        formAnswers.append(stepNumber);
 
          // шаг 1
          if (numberQuestion === 0) {
@@ -711,12 +731,12 @@ export const pureJs = ({dollarRate,backFunc})=>{
          }
 
          // шаг 5
-         if (steps[numberQuestion] === 4) {
-           const answerItem = document.createElement('div');
-           stepNumber.classList.add('modal_body5', 'modal_step5');
-           answerItem.classList.add('modal_step5_item');
+        if (steps[numberQuestion] === 4) {
+          const answerItem = document.createElement('div');
+          stepNumber.classList.add('modal_body5', 'modal_step5');
+          answerItem.classList.add('modal_step5_item');
 
-           const main = `
+          const main = `
                     <div class="modal_step5_anim">
                         <div class="modal_step5_result_main">
                           <div class="modal_step5_result_rub">0 р.</div>
@@ -728,12 +748,12 @@ export const pureJs = ({dollarRate,backFunc})=>{
                           <li class="modal_step5_li">Контроль за&nbsp;подрядчиками</li>
                           <li class="modal_step5_li">Авторское сопровождение/Комплектация объекта 0&nbsp;р.</li>
                         </ul>
-                        <p class="modal_step5_result_text">Затраты на&nbsp;строительные работы и&nbsp;смету можно будет расчитать после согласования проекта.</p>
+                        <p class="modal_step5_result_text">Затраты на&nbsp;строительные работы и&nbsp;смету можно будет рассчитать после согласования проекта. Стоимость в&nbsp;долларах указана ориентировочно.</p>
                         <p class="modal_step5_calculate_text_mob">Чтобы узнать точную стоимость дизайн проекта заполните форму до&nbsp;конца. Мы&nbsp;пришлем вам письмо на&nbsp;почту с&nbsp;коммерческим предложением.</p>
                     </div>
                 `
 
-           stepNumber.innerHTML = `<div class="modal_step5">
+          stepNumber.innerHTML = `<div class="modal_step5">
                     <div class="modal_step5_calculate">
                       <h4 class="modal_step5_title">Метраж (м<sup>2</sup>)</h4>
                       <input type="number" class="modal_step5_input" id="area" name="answer_step_5" value="" onclick="ym(71004781,'reachGoal','input_calculater'); return true;">

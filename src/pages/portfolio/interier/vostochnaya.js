@@ -4,6 +4,8 @@ import { StaticImage } from "gatsby-plugin-image"
 import Fancybox from "../../../components/fancybox.js";
 import BreadcrumbsInterier from "../../../components/breadcrumbs-interier.js";
 import Seo from "../../../components/seo"
+import { CalculatorLink } from "../../../components/calculator/calculatorLink"
+import { Compliment } from "../../../subitems/compliment/compliment"
 
 const vostochnaya2 = () => {
   return (
@@ -109,9 +111,10 @@ const vostochnaya2 = () => {
                   </a>
                 </div>
               </div>
+              <CalculatorLink />
               <div class="content_images">
                 <div class="content_images_one">
-                <a
+                  <a
                     href="https://i-project.by/portfolio_newsite/vostochnaya/04_vostochnaya.webp"
                     data-fancybox="gallery"
                   >
@@ -119,7 +122,7 @@ const vostochnaya2 = () => {
                   </a>
                 </div>
                 <div class="content_images_two">
-                <a
+                  <a
                     href="https://i-project.by/portfolio_newsite/vostochnaya/06_vostochnaya.webp"
                     data-fancybox="gallery"
                   >
@@ -133,7 +136,7 @@ const vostochnaya2 = () => {
                   </a>
                 </div>
                 <div class="content_images_two">
-                <a
+                  <a
                     href="https://i-project.by/portfolio_newsite/vostochnaya/08_vostochnaya.webp"
                     data-fancybox="gallery"
                   >
@@ -147,6 +150,7 @@ const vostochnaya2 = () => {
                   </a>
                 </div>
               </div>
+              <Compliment />
             </div>
           </div>
         </div>

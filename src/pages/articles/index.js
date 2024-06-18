@@ -53,16 +53,27 @@ const Articles = () => {
             <h2 className="articles_page_item_title_small articles_page_item_title_white">Как выбрать межкомнатные двери: советы и&nbsp;рекомендации</h2>
             <p className="articles_page_item_view_number articles_page_item_view_number_white"> <GetPageView slug={'/articles/dveri'}/> </p>
           </Link>
-          <Link to="/articles/hranenie" className="articles_page_item articles_page_item6">
-            <h2 className="articles_page_item_title_medium articles_page_item_title_black">Как организовать хранение вещей в&nbsp;доме и&nbsp;квартире</h2>
-            <p className="articles_page_item_view_number articles_page_item_view_number_hblack"> <GetPageView slug={'/articles/hranenie'}/> </p>
+          
+          <Link to="/articles/krovlya" className="articles_page_item articles_page_item2">
+            <h2 className="articles_page_item_title_medium articles_page_item_title_white">Плоская и&nbsp;скатная кровля: за&nbsp;и&nbsp;против</h2>
+            <p className="articles_page_item_view_number articles_page_item_view_number_hwhite"> <GetPageView slug={'/articles/krovlya'}/> </p>
           </Link>
           <Link to="/process" className="articles_page_item articles_page_item1">
             <h2 className="articles_page_item_title_medium articles_page_item_title_white">Как строится работа в&nbsp;i‑project</h2>
           </Link>
-          <Link to="/articles/krovlya" className="articles_page_item articles_page_item2">
-            <h2 className="articles_page_item_title_medium articles_page_item_title_white">Плоская и&nbsp;скатная кровля: за&nbsp;и&nbsp;против</h2>
-            <p className="articles_page_item_view_number articles_page_item_view_number_hwhite"> <GetPageView slug={'/articles/krovlya'}/> </p>
+          <Link to="/articles/hranenie" className="articles_page_item articles_page_item6">
+            <h2 className="articles_page_item_title_medium articles_page_item_title_black">Как организовать хранение вещей в&nbsp;доме и&nbsp;квартире</h2>
+            <p className="articles_page_item_view_number articles_page_item_view_number_hblack"> <GetPageView slug={'/articles/hranenie'}/> </p>
+          </Link>
+          <></>
+          <Link to="/articles/trends" className="articles_page_item articles_page_item13">
+            <h2 className="articles_page_item_title_small articles_page_item_title_white">В&nbsp;погоне за&nbsp;трендом: как следовать за&nbsp;модой и&nbsp;при этом не&nbsp;навредить себе</h2>
+            <p className="articles_page_item_view_number articles_page_item_view_number_hwhite"> <GetPageView slug={'/articles/trends'}/> </p>
+          </Link>
+          <></>
+          <Link to="/articles/clients" className="articles_page_item articles_page_item14">
+            <h2 className="articles_page_item_title_small articles_page_item_title_white">Как понять, что клиент и&nbsp;дизайнер интерьера подходят друг другу?</h2>
+            <p className="articles_page_item_view_number articles_page_item_view_number_hwhite"> <GetPageView slug={'/articles/clients'}/> </p>
           </Link>
         </Masonry>
       </div>

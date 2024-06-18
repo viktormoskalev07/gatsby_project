@@ -37,6 +37,9 @@ const portfolioArchitecture = () => {
           <li class="portfolio_category_li">
             <Link to="/portfolio/office" className="portfolio_category_link">Офисы</Link>
           </li>
+          <li class="portfolio_category_li">
+            <Link to="/portfolio/public-objects" className="portfolio_category_link">Общественные</Link>
+          </li>
         </ul>
         <ul class="portfolio_category_mob">
           <li class="portfolio_category_mob_li">
@@ -60,21 +63,24 @@ const portfolioArchitecture = () => {
           <li class="portfolio_category_mob_li">
             <Link to="/portfolio/office" className="portfolio_category_mob_link">Офисы</Link>
           </li>
+          <li class="portfolio_category_mob_li">
+            <Link to="/portfolio/public-objects" className="portfolio_category_mob_link">Общественные</Link>
+          </li>
         </ul>
         <Masonry
           breakpointCols={breakpointColumnsObj}
           className="portfolio_grid"
           columnClassName="my-masonry-grid_column">
-          <Link to="/portfolio/architecture/dom-na-holme" className="portfolio_grid_link">
-            <StaticImage src="../../../images/portfolio/dom_na_holme/01_dom_na_holme.jpg" alt="" />
+          <Link to="/portfolio/interier/cyprus" className="portfolio_grid_link">
+            <StaticImage src="../../../images/portfolio/cyprus/00_cyprus.jpg" alt="" />
             <div class="portfolio_grid_block">
-              <h2 className="portfolio_grid_block_title">Дом на&nbsp;холме, 450м<sup>2</sup></h2>
+              <h2 className="portfolio_grid_block_title">Дом на&nbsp;Кипре. Интерьер + Экстерьер, 1000&nbsp;м<sup>2</sup></h2>
             </div>
           </Link>
-          <Link to="/portfolio/architecture/luban" className="portfolio_grid_link">
-            <StaticImage src="../../../images/portfolio/luban/00_luban.jpg" alt="" />
+          <Link to="/portfolio/architecture/garmony-dom-arch" className="portfolio_grid_link">
+            <StaticImage src="../../../images/portfolio/garmony_dom_arch/00_garmony_dom.jpg" alt="" />
             <div class="portfolio_grid_block">
-              <h2 className="portfolio_grid_block_title">Дом для жизни. Архитектура, 400м<sup>2</sup></h2>
+              <h2 className="portfolio_grid_block_title">Гармоничный дом. Архитектура, 400м<sup>2</sup></h2>
               <p className="portfolio_grid_block_realize">Реализовано</p>
             </div>
           </Link>
@@ -85,10 +91,22 @@ const portfolioArchitecture = () => {
               <p className="portfolio_grid_block_realize">Реализовано</p>
             </div>
           </Link>
-          <Link to="/portfolio/architecture/dom-u-more" className="portfolio_grid_link">
-            <StaticImage src="../../../images/portfolio/dom_u_more/00_dom_u_more.jpg" alt="" />
+          <Link to="/portfolio/architecture/dom-na-holme" className="portfolio_grid_link">
+            <StaticImage src="../../../images/portfolio/dom_na_holme/00_dom_na_holme.jpg" alt="" />
             <div class="portfolio_grid_block">
-              <h2 className="portfolio_grid_block_title">Дом у&nbsp;моря. Архитектурное решение + Интерьер, 1000м<sup>2</sup></h2>
+              <h2 className="portfolio_grid_block_title">Дом на&nbsp;холме, 450м<sup>2</sup></h2>
+            </div>
+          </Link>
+          <Link to="/portfolio/architecture/libknehta" className="portfolio_grid_link">
+            <StaticImage src="../../../images/portfolio/libknehta/00_libknehta.jpg" alt="" />
+            <div class="portfolio_grid_block">
+              <h2 className="portfolio_grid_block_title">Либкнехта 68А. Реконструкция. 3000м<sup>2</sup></h2>
+            </div>
+          </Link>
+          <Link to="/portfolio/architecture/tarasovo-rekonstrukciya" className="portfolio_grid_link">
+            <StaticImage src="../../../images/portfolio/tarasovo_rekonstrukciya/00_tarasovo.jpg" alt="" />
+            <div class="portfolio_grid_block">
+              <h2 className="portfolio_grid_block_title">Дом в&nbsp;Тарасово. Реконструкция, 800м<sup>2</sup></h2>
             </div>
           </Link>
           <Link to="/portfolio/architecture/exterier-baltic-house" className="portfolio_grid_link">
@@ -96,6 +114,12 @@ const portfolioArchitecture = () => {
             <div class="portfolio_grid_block">
               <h2 className="portfolio_grid_block_title">Дом с&nbsp;балтийским характером. Экстерьер, 500&nbsp;м<sup>2</sup></h2>
               <p className="portfolio_grid_block_realize">Реализовано</p>
+            </div>
+          </Link>
+          <Link to="/portfolio/architecture/dom-u-more" className="portfolio_grid_link">
+            <StaticImage src="../../../images/portfolio/dom_u_more/00_dom_u_more.jpg" alt="" />
+            <div class="portfolio_grid_block">
+              <h2 className="portfolio_grid_block_title">Дом у&nbsp;моря. Архитектурное решение + Интерьер, 1000м<sup>2</sup></h2>
             </div>
           </Link>
           <Link to="/portfolio/architecture/sosni" className="portfolio_grid_link">

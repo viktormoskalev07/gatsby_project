@@ -9,6 +9,8 @@ import { AnchorLink } from "gatsby-plugin-anchor-links"
 import { YouTobe } from "../../../subitems/youToobe"
 import  thumbnail  from  "../../../images/portfolio/baltic_house/interior/01_baltic_home_interior.jpg"
 import Seo from "../../../components/seo"
+import { CalculatorLink } from "../../../components/calculator/calculatorLink"
+import { Compliment } from "../../../subitems/compliment/compliment"
 
 const interierBalticHouse = () => {
   return (
@@ -80,8 +82,8 @@ const interierBalticHouse = () => {
               </div>
               <div class="content_images">
                 <div class="content_text">
-                  <p class="content_p">Инженерное обеспечение дома выполнено по&nbsp;самым современным стандартам энергосбережения и&nbsp;экологичности. Используется система &laquo;умный дом&raquo; с&nbsp;автоматизированным управлением климатом, вентиляцией и&nbsp;освещением. На&nbsp;крыше расположен комплект солнечных батарей, горячая вода для дома частично нагревается в&nbsp;солнечном коллекторе, что позволяет сберегать до&nbsp;70% энергии.</p>
-                  <p class="content_p">Планировочное решение почти не&nbsp;затронуло несущие стены. Ключевые преобразования заключались в&nbsp;грамотном функциональном зонировании, распределении и&nbsp;наполнении помещений.</p>
+                  <p class="content_p">Инженерное обеспечение дома выполнено по&nbsp;самым современным стандартам энергосбережения и&nbsp;экологичности. Используется система &laquo;умный дом&raquo; с&nbsp;автоматизированным управлением климатом, вентиляцией и&nbsp;<Link to="/articles/lighting" className="link" target="_blank">освещением</Link>. На&nbsp;крыше расположен комплект солнечных батарей, горячая вода для дома частично нагревается в&nbsp;солнечном коллекторе, что позволяет сберегать до&nbsp;70% энергии.</p>
+                  <p class="content_p"><Link to="/articles/plan-house" className="link" target="_blank">Планировочное решение</Link> почти не&nbsp;затронуло несущие стены. Ключевые преобразования заключались в&nbsp;грамотном функциональном зонировании, распределении и&nbsp;наполнении помещений.</p>
                   <p class="content_p">В&nbsp;интерьере используются те&nbsp;же цвета, что и&nbsp;на&nbsp;фасаде&nbsp;&mdash; оттенки серого, белого, различных пород дерева. Пол&nbsp;&mdash; доска из&nbsp;европейского ореха с&nbsp;ручной обработкой поверхности. Цвет проникает в&nbsp;интерьер через большие фасадные окна вместе с&nbsp;озелененным и&nbsp;благоустроенным пространством участка. Ощущение присутствия природы в&nbsp;интерьере усиливает окно светового колодца в&nbsp;крыше над лестницей, через которое в&nbsp;центр дома попадает дневной свет и&nbsp;небесная синева.</p>
                 </div>
                 <div class="rewards">
@@ -125,20 +127,6 @@ const interierBalticHouse = () => {
                   </a>
                 </div>
                 <div class="content_images_two">
-                  <a
-                    href="https://i-project.by/portfolio_newsite/baltic_house/interior/07_baltic_home_interior.webp"
-                    data-fancybox="gallery"
-                  >
-                    <StaticImage src="../../../images/portfolio/baltic_house/interior/07_baltic_home_interior.jpg" alt="" />
-                  </a>
-                  <a
-                    href="https://i-project.by/portfolio_newsite/baltic_house/interior/02_baltic_home_interior.webp"
-                    data-fancybox="gallery"
-                  >
-                    <StaticImage src="../../../images/portfolio/baltic_house/interior/02_baltic_home_interior.jpg" alt="" />
-                  </a>
-                </div>
-                <div class="content_images_two">
                   <figure class="before">
                     <StaticImage src="../../../images/portfolio/baltic_house/interior/3d/1.jpg" alt="" />
                     <figcaption>3D</figcaption>
@@ -153,7 +141,16 @@ const interierBalticHouse = () => {
                     </figure>
                   </a>
                 </div>
+                <div class="content_images_one">
+                  <a
+                    href="https://i-project.by/portfolio_newsite/baltic_house/interior/02_baltic_home_interior.webp"
+                    data-fancybox="gallery"
+                  >
+                    <StaticImage src="../../../images/portfolio/baltic_house/interior/02_baltic_home_interior.jpg" alt="" />
+                  </a>
+                </div>
               </div>
+              <CalculatorLink />
               <h2 class="content_h2" id="anchor_3">Обеденная зона</h2>
               <div class="content_text">
                 <p class="content_p">Обеденную зону от&nbsp;кухни отделяет ажурная перемещаемая перегородка, выполненная по&nbsp;специальному заказу. Она позволяет аккуратно зонировать пространство и&nbsp;оживляет интерьер.</p>
@@ -187,13 +184,8 @@ const interierBalticHouse = () => {
                   </a>
                 </div>
               </div>
-              <h2 class="content_h2" id="anchor_4">Кухня</h2>
-              <div class="content_text">
-                <p class="content_p">При оформлении кухни использована динамичная композиция: часть гарнитура парит в&nbsp;воздухе не&nbsp;соприкасаясь с&nbsp;полом. Основные фасады выполнены из&nbsp;керамики, устойчивой к&nbsp;разного рода повреждениям и&nbsp;царапинам.</p>
-                <p class="content_p">Отдельный блок&nbsp;&mdash; шкафы-колонны со&nbsp;встроенными в&nbsp;них холодильниками и&nbsp;большим духовым шкафом шириной в&nbsp;90&nbsp;см.</p>
-                <p class="content_p">Интерьер кухни дополняет барная стойка, на&nbsp;которой находится варочная поверхность.</p>
-              </div>
               <div class="content_images">
+                <h2 class="content_h2" id="anchor_4">Кухня</h2>
                 <div class="before_after">
                   <ImgComparisonSlider class="slider-opacity-and-size" value="50">
                     <figure slot="first" width="100%" class="before before_white">
@@ -206,14 +198,13 @@ const interierBalticHouse = () => {
                     </figure>
                   </ImgComparisonSlider>
                 </div>
-                <div class="content_images_one">
-                  <a
-                    href="https://i-project.by/portfolio_newsite/baltic_house/interior/09_baltic_home_interior.webp"
-                    data-fancybox="gallery"
-                  >
-                    <StaticImage src="../../../images/portfolio/baltic_house/interior/09_baltic_home_interior.jpg" alt="" />
-                  </a>
-                </div>
+              </div>
+              <div class="content_text">
+                <p class="content_p">При оформлении кухни использована динамичная композиция: часть гарнитура парит в&nbsp;воздухе не&nbsp;соприкасаясь с&nbsp;полом. Основные фасады выполнены из&nbsp;керамики, устойчивой к&nbsp;разного рода повреждениям и&nbsp;царапинам.</p>
+                <p class="content_p">Отдельный блок&nbsp;&mdash; шкафы-колонны со&nbsp;встроенными в&nbsp;них холодильниками и&nbsp;большим духовым шкафом шириной в&nbsp;90&nbsp;см.</p>
+                <p class="content_p">Интерьер кухни дополняет барная стойка, на&nbsp;которой находится варочная поверхность.</p>
+              </div>
+              <div class="content_images">
                 <div class="before_after">
                   <ImgComparisonSlider class="slider-opacity-and-size" value="50">
                     <figure slot="first" width="100%" class="before before_white">
@@ -221,7 +212,7 @@ const interierBalticHouse = () => {
                       <figcaption>3D</figcaption>
                     </figure>
                     <figure slot="second" width="100%" class="after after_white">
-                      <StaticImage src="../../../images/portfolio/baltic_house/interior/10_baltic_home_interior.jpg" alt="" />
+                      <StaticImage src="../../../images/portfolio/baltic_house/interior/09_baltic_home_interior.jpg" alt="" />
                       <figcaption>Фото</figcaption>
                     </figure>
                   </ImgComparisonSlider>
@@ -543,6 +534,7 @@ const interierBalticHouse = () => {
                   </a>
                 </div>
               </div>
+              <Compliment />
             </div>     
           </div>
         </div>

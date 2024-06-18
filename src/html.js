@@ -21,13 +21,13 @@ export default function HTML(props) {
           dangerouslySetInnerHTML={{ __html: props.body }}
         />
         {props.postBodyComponents}
-        <script
+        {/* <script
           dangerouslySetInnerHTML={{
             __html: `
               console.log('Plain JavaScript inside Gatsby!');
             `
           }}
-        />
+        /> */}
       </body>
     </html>
   )

@@ -9,9 +9,9 @@ import { useStaticCounter } from "../../hooks/useStaticCounter"
 
 export const PageViewCounter = ({    location}) => {
   let path = location.pathname
- if(path[path.length-1] ==="/"){
-   path=path.substring(0, path.length - 1)
- }
+  if(path[path.length-1] ==="/"){
+    path=path.substring(0, path.length - 1)
+  }
   const fieldName = path.replace(/\//g , '_')
 
     const [number , setNumber] = useState(useStaticCounter(fieldName));

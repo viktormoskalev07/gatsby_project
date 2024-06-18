@@ -4,6 +4,8 @@ import { StaticImage } from "gatsby-plugin-image"
 import Fancybox from "../../../components/fancybox.js";
 import BreadcrumbsInterier from "../../../components/breadcrumbs-interier.js";
 import Seo from "../../../components/seo"
+import { CalculatorLink } from "../../../components/calculator/calculatorLink"
+import { Compliment } from "../../../subitems/compliment/compliment"
 
 const filimonova = () => {
   return (
@@ -111,7 +113,7 @@ const filimonova = () => {
               </div>
               <div class="content_images">
                 <div class="content_images_one">
-                <a
+                  <a
                     href="https://i-project.by/portfolio_newsite/filimonova/04_filimonova.webp"
                     data-fancybox="gallery"
                   >
@@ -119,7 +121,7 @@ const filimonova = () => {
                   </a>
                 </div>
                 <div class="content_images_two">
-                <a
+                  <a
                     href="https://i-project.by/portfolio_newsite/filimonova/05_filimonova.webp"
                     data-fancybox="gallery"
                   >
@@ -133,7 +135,7 @@ const filimonova = () => {
                   </a>
                 </div>
                 <div class="content_images_two">
-                <a
+                  <a
                     href="https://i-project.by/portfolio_newsite/filimonova/07_filimonova.webp"
                     data-fancybox="gallery"
                   >
@@ -147,11 +149,12 @@ const filimonova = () => {
                   </a>
                 </div>
               </div>
+              <CalculatorLink />
             </div>
           </div>
           <div class="content_images">
             <div class="content_images_one_big">
-             <a
+              <a
                 href="https://i-project.by/portfolio_newsite/filimonova/09_filimonova.webp"
                 data-fancybox="gallery"
               >
@@ -163,7 +166,7 @@ const filimonova = () => {
             <div class="right_content">
               <div class="content_images">
                 <div class="content_images_one">
-                 <a
+                  <a
                     href="https://i-project.by/portfolio_newsite/filimonova/10_filimonova.webp"
                     data-fancybox="gallery"
                   >
@@ -199,6 +202,7 @@ const filimonova = () => {
                   </a>
                 </div>
               </div>
+              <Compliment />
             </div>     
           </div>
         </div>

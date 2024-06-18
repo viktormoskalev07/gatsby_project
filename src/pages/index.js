@@ -8,6 +8,7 @@ import SimpleBar from 'simplebar-react';
 import 'simplebar/dist/simplebar.min.css';
 import { GetPageView } from "../subitems/pageViewsCounter/getPageView"
 import { CalculatorLink } from "../components/calculator/calculatorLink"
+import { LongVideoGarm } from "../subitems/videoreviewYoutube/longvideoGarm.js"
 
 import { HeroSlider } from "../subitems/hompage/heroSlider"
 import { Faq } from "../subitems/faq"
@@ -19,10 +20,8 @@ import Seo from "../components/seo"
 import { ServiceBlock } from "../subitems/hompage/service-block"
 import secondVideo from "../video/preview_index.mp4"
 import { Presentation } from "../subitems/posts/presentation"
-
-
-
-
+import * as stylesPublication from "../subitems/publication/publication.module.scss"
+import { Publication } from "../subitems/publication/publication"
 
 
 export default function Home() {
@@ -45,7 +44,7 @@ export default function Home() {
         </div>
       </div>
       <div className="wrapper">
-        <div className="services_block" id="ancher_1">
+        <section className="services_block" id="ancher_1">
           <div className="services_block_grid">
             <Link to="/portfolio" className="services_block_int_mob">
               <p className="services_block_int_mob_title">Дизайн интерьера</p>
@@ -62,28 +61,28 @@ export default function Home() {
                   <Link to="/uslugi/dizajn-interera-ofisov" className="services_block_int_link">Офисы</Link>
                 </div>
               </div>
-              <StaticImage src="../images/services_interior.png" alt="" className="services_block_int_img" />
+              <StaticImage src="../images/services_interior.jpg" alt="" className="services_block_int_img" />
             </div>
             <Link to="/uslugi/arxitekturnoe-proektirovanie" className="services_block_item services_block_arc">
               <h2 className="services_block_arc_title">Архитектурное проектирование</h2>
             </Link>
             <Link to="/uslugi/stroitelstvo-i-rekonstrukciya" className="services_block_item services_block_rep">
-              <StaticImage className="services_block_rep_img" src="../images/services_repair.png" alt="" />
+              <StaticImage className="services_block_rep_img" src="../images/services_repair.jpg" alt="" />
               <h2 className="services_block_rep_title">Строительство и&nbsp;реконструкция</h2>
             </Link>
           </div>
           <ServiceBlock/>
-        </div>
+        </section>
       </div>
+      <LongVideoGarm />
       <div className="content_body">
         <div className="content_body_absolute">
           <div className="left_sidebar">
             <ul>
               <li><AnchorLink to="/#ancher_1" title="Наши компетенции" /></li>
               <li><AnchorLink to="/#advantage_title" title="Наши преимущества" /></li>
-              <li><AnchorLink to="/#portfolio_title" title="Новые работы" /></li>
+              <li><AnchorLink to="/#portfolio_title" title="Наши работы" /></li>
               <li><AnchorLink to="/#process_title" title="Как мы&nbsp;работаем" /></li>
-              {/* <li>Рассчитать стоимость</li> */}
               <li><AnchorLink to="/#articles_title" title="Последние статьи" /></li>
               <li><AnchorLink to="/#principle_title" title="Наши принципы" /></li>
               <li><AnchorLink to="/#faq_title" title="Вопрос / ответ" /></li>
@@ -94,7 +93,7 @@ export default function Home() {
           <div className="right_content">
             <Advantages />
             <section>
-              <h2 className="main_portfolio_title" id="portfolio_title">Новые работы</h2>
+              <h2 className="main_portfolio_title" id="portfolio_title">Наши работы</h2>
               <div className="content_text">
                 <p className="content_p">В&nbsp;нашем <Link to="/portfolio" className="link">портфолио</Link> большое количество реализованных объектов, которые получились именно благодаря комплексному подходу.</p>
               </div>
@@ -102,36 +101,37 @@ export default function Home() {
                 breakpointCols={breakpointColumnsPortfolio}
                 className="portfolio_grid main_portfolio"
                 columnClassName="my-masonry-grid_column">
-                <Link to="/portfolio/architecture/luban" className="portfolio_grid_link">
-                  <StaticImage src="../images/portfolio/luban/00_luban.jpg" alt="" />
+                <Link to="/portfolio/architecture/garmony-dom-arch" className="portfolio_grid_link">
+                  <StaticImage src="../images/portfolio/garmony_dom_arch/00_garmony_dom.jpg" alt="" />
                   <div className="portfolio_grid_block">
-                    <h3 className="portfolio_grid_block_title">Дом для жизни. Архитектура, 400м<sup>2</sup></h3>
+                    <h3 className="portfolio_grid_block_title">Гармоничный дом. Архитектура, 400м<sup>2</sup></h3>
                     <p className="portfolio_grid_block_realize">Реализовано</p>
                   </div>
                 </Link>
                 <Link to="/portfolio/architecture/dom-na-holme" className="portfolio_grid_link portfolio_grid_link_hide">
-                  <StaticImage src="../images/portfolio/dom_na_holme/01_dom_na_holme.jpg" alt="" />
+                  <StaticImage src="../images/portfolio/dom_na_holme/00_dom_na_holme.jpg" alt="" />
                   <div className="portfolio_grid_block">
                     <h3 className="portfolio_grid_block_title">Дом на&nbsp;холме, 450м<sup>2</sup></h3>
                   </div>
                 </Link>
-                <Link to="/portfolio/interier/simple-house" className="portfolio_grid_link">
-                  <StaticImage src="../images/portfolio/simple_house/00_simple_house.jpg" alt="" />
-                  <div className="portfolio_grid_block">
-                    <h3 className="portfolio_grid_block_title">Дизайн интерьера обычного дома, 250м<sup>2</sup></h3>
+                <Link to="/portfolio/interier/apart-family" className="portfolio_grid_link">
+                  <StaticImage src="../images/portfolio/dzerzhinskogo/00_dzerzhinskogo.jpg" alt=""></StaticImage>
+                  <div class="portfolio_grid_block">
+                    <h3 className="portfolio_grid_block_title">Интерьер квартиры в&nbsp;Минске для семьи с&nbsp;двумя детьми, 90м<sup>2</sup></h3>
+                    <p className="portfolio_grid_block_realize">Реализовано</p>
                   </div>
                 </Link>
-                <Link to="/portfolio/interier/interier-baltic-house" className="portfolio_grid_link">
-                  <StaticImage src="../images/portfolio/baltic_house/interior/00_baltic_home_interior.jpg" alt=""></StaticImage>
+                <Link to="/portfolio/interier/garmony-dom-interier" className="portfolio_grid_link">
+                  <StaticImage src="../images/portfolio/garmony_dom_interier/00_garmony_dom.jpg" alt=""></StaticImage>
                   <div class="portfolio_grid_block">
-                    <h2 className="portfolio_grid_block_title">Дом с&nbsp;балтийским характером. Интерьер, 500м<sup>2</sup></h2>
+                    <h3 className="portfolio_grid_block_title">Гармоничный дом. Интерьер, 400м<sup>2</sup></h3>
                     <p className="portfolio_grid_block_realize">Реализовано</p>
                   </div>
                 </Link>
                 <Link to="/portfolio/interier/interier-protos" className="portfolio_grid_link">
                   <StaticImage src="../images/portfolio/protos_interior/00_protos_interior.jpg" alt=""></StaticImage>
                   <div class="portfolio_grid_block">
-                    <h2 className="portfolio_grid_block_title">Дизайн интерьера офисов &laquo;Протос&raquo;, 200м<sup>2</sup></h2>
+                    <h3 className="portfolio_grid_block_title">Дизайн интерьера офисов &laquo;Протос&raquo;, 200м<sup>2</sup></h3>
                     <p className="portfolio_grid_block_realize">Реализовано</p>
                   </div>
                 </Link>
@@ -151,6 +151,14 @@ export default function Home() {
           </div>
         </div>
         <Presentation shortVideo={secondVideo} stopImg={'../../images/services/preview_index_end.jpg'} youTubeSrc={'https://www.youtube.com/embed/JYz64ADPdt4?start=15&rel=0&autoplay=1'}/>
+        <div className="wrapper">
+          <div className="right_content">
+            <section className={stylesPublication.publication}>
+              <h2 className={stylesPublication.publication_title}>Публикации</h2>
+              <Publication />
+            </section>
+          </div>
+        </div>
         <div className="process_bcg">
           <div className="wrapper">
             <div className="right_content">
@@ -188,29 +196,33 @@ export default function Home() {
                 breakpointCols={breakpointColumnsArticles}
                 className="articles_page"
                 columnClassName="my-masonry-grid_column">
-                <Link to="/articles/beliy-interier" className="articles_page_item articles_page_item7">
-                  <h3 className="articles_page_item_title_medium articles_page_item_title_white">Белый цвет в&nbsp;интерьере</h3>
-                  <p className="articles_page_item_view_number articles_page_item_view_number_hwhite"> <GetPageView slug={'/articles/beliy-interier'}/> </p>
-                </Link>
-                <Link to="/articles/hranenie" className="articles_page_item articles_page_item6">
-                  <h3 className="articles_page_item_title_medium articles_page_item_title_black">Как организовать хранение вещей в&nbsp;доме и&nbsp;квартире</h3>
-                  <p className="articles_page_item_view_number articles_page_item_view_number_hblack"> <GetPageView slug={'/articles/hranenie'}/> </p>
-                </Link>
                 <Link to="/articles/obschaya-zona" className="articles_page_item articles_page_item11">
                   <h3 className="articles_page_item_title_medium articles_page_item_title_white">Дизайн интерьера гостиной, кухни, столовой</h3>
                   <p className="articles_page_item_view_number articles_page_item_view_number_hwhite"> <GetPageView slug={'/articles/obschaya-zona'}/> </p>
+                </Link>
+                <Link to="/articles/reconstruction" className="articles_page_item articles_page_item9">
+                  <h3 className="articles_page_item_title_small articles_page_item_title_white">Современная реконструкция зданий. Основные моменты</h3>
+                  <p className="articles_page_item_view_number articles_page_item_view_number_hwhite"> <GetPageView slug={'/articles/reconstruction'}/> </p>
                 </Link>
                 <Link to="/articles/dveri" className="articles_page_item articles_page_item3">
                   <h3 className="articles_page_item_title_small articles_page_item_title_white">Как выбрать межкомнатные двери: советы и&nbsp;рекомендации</h3>
                   <p className="articles_page_item_view_number articles_page_item_view_number_white"> <GetPageView slug={'/articles/dveri'}/> </p>
                 </Link>
-                <Link to="/articles/krovlya" className="articles_page_item articles_page_item2">
-                  <h3 className="articles_page_item_title_medium articles_page_item_title_white">Плоская и&nbsp;скатная кровля: за&nbsp;и&nbsp;против</h3>
-                  <p className="articles_page_item_view_number articles_page_item_view_number_hwhite"> <GetPageView slug={'/articles/krovlya'}/> </p>
+                <Link to="/articles/hranenie" className="articles_page_item articles_page_item6">
+                  <h3 className="articles_page_item_title_medium articles_page_item_title_black">Как организовать хранение вещей в&nbsp;доме и&nbsp;квартире</h3>
+                  <p className="articles_page_item_view_number articles_page_item_view_number_hblack"> <GetPageView slug={'/articles/hranenie'}/> </p>
                 </Link>
-                <Link to="/articles/architectura" className="articles_page_item articles_page_item4">
-                  <h3 className="articles_page_item_title_small articles_page_item_title_white">Архитектура частного дома: на&nbsp;что важно обратить внимание</h3>
-                  <p className="articles_page_item_view_number articles_page_item_view_number_hwhite"> <GetPageView slug={'/articles/architectura'}/> </p>
+                <Link to="/articles/spalnya" className="articles_page_item articles_page_item5">
+                  <h3 className="articles_page_item_title_small articles_page_item_title_white">Спальня мечты: секреты идеального дизайна</h3>
+                  <p className="articles_page_item_view_number articles_page_item_view_number_hwhite"> <GetPageView slug={'/articles/spalnya'}/> </p>
+                </Link>
+                <Link to="/articles/lighting" className="articles_page_item articles_page_item10">
+                  <h3 className="articles_page_item_title_medium articles_page_item_title_white">Освещение в&nbsp;интерьере: рекомендации по&nbsp;подбору</h3>
+                  <p className="articles_page_item_view_number articles_page_item_view_number_hwhite"> <GetPageView slug={'/articles/lighting'}/> </p>
+                </Link>
+                <></>
+                <Link to="/articles" className="articles_link_all">
+                  <p className="articles_link_all_p">Все статьи</p>
                 </Link>
               </Masonry>
             </section>

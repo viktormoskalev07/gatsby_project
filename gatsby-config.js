@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: `Студия дизайна интерьера и архитектуры Александра Игнатьева`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `Разрабатываем индивидуальный дизайн интерьера ✦ более 15 лет опыта ✦ портфолио более 100 проектов ✦ под ключ.`,
     author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    siteUrl: `https://i-project.by/`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -23,8 +23,8 @@ module.exports = {
         defaults: {
           formats: [`auto`, `webp`],
           placeholder: `dominantColor`,
-          quality: 88,
-          breakpoints: [750, 1920, 2500],
+          quality: 83,
+          breakpoints: [500, 1920, 2500],
           backgroundColor: `transparent`,
           tracedSVGOptions: {},
           blurredOptions: {},
@@ -49,18 +49,27 @@ module.exports = {
         icon: `src/images/favicon.png`, // This path is relative to the root of the site.
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
     {
-      resolve: `gatsby-plugin-google-fonts`,
+      resolve: `gatsby-plugin-webfonts`,
       options: {
-        fonts: [
-          `Open Sans`,
-          `source sans pro\:300,400,700` // you can also specify font weights and styles
-        ],
-        display: 'swap'
-      }
+        fonts: {
+          google: [
+            {
+              family: "Open Sans",
+              variants: ["300", "400", "500", "600", "700"],
+              subsets: ['cyrillic'],
+              fontDisplay: 'swap'
+            },
+          ],
+        },
+      },
+    },
+    {
+      resolve: "gatsby-plugin-google-tagmanager",
+      options: {
+        id: "GTM-PQ5JLW7",
+        includeInDevelopment: false,
+      },
     },
     {
       resolve: "gatsby-plugin-anchor-links",
@@ -79,21 +88,11 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: 'gatsby-plugin-zopfli',
       options: {
-        // The property ID; the tracking code won't be generated without it
-        trackingId: "55646432",
-        // Defines where to place the tracking script - `true` in the head and `false` in the body
-        head: true,
-        // Avoids sending pageview hits from custom paths
-        exclude: ["/preview/**", "/do-not-track/me/too/"],
-        // Delays sending pageview hits on route update (in milliseconds)
-        pageTransitionDelay: 0,
-        // Defers execution of google analytics script after page load
-        defer: false,
-        // defaults to false
-        enableWebVitalsTracking: true,
-      },
+        extensions: ['css', 'html', 'js'],
+        verbose: true
+      }
     }
   ],
 }

@@ -19,7 +19,7 @@ export const Accordion = ({config}) => {
 }
 
 const Item = ({title , text  })=>{
-   const [ open , setOpen] =useState(false)
+  const [ open , setOpen] =useState(false)
 
   return   <div className="faq_item">
     <div onClick={ ()=> setOpen(!open)} className="faq_item_block">

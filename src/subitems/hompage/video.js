@@ -6,19 +6,19 @@ import { useEffect,   useState } from "react"
 
 export const Video = ( {mobileSrc , desktopSrc})=>{
 
-  let defaultVideo =  mobileSrc
+  let defaultVideo =  mobileSrc;
 
-  const [ videoSrc, setVideoSrc ] = useState(defaultVideo )
+  const [ videoSrc, setVideoSrc ] = useState(defaultVideo);
 
   const resize = ()=>{
     if(typeof window !="undefined"){
       if(window.matchMedia("(min-width: 768px)").matches  ){
-        setVideoSrc(desktopSrc)
+        setVideoSrc(desktopSrc);
       } else {
-        setVideoSrc(mobileSrc)
+        setVideoSrc(mobileSrc);
       }
     }
-  } 
+  };
   useEffect(()=>{
     setTimeout(()=>{
       resize()
@@ -27,7 +27,7 @@ export const Video = ( {mobileSrc , desktopSrc})=>{
     window.addEventListener('resize' ,resize)
     return ()=> window.removeEventListener('resize' ,resize)
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  },[])
+  },[]);
 
 
     const videoClass = videoSrc===mobileSrc? "main_video_mobile" :"main_video  ";

@@ -2,6 +2,7 @@ import React, { useEffect } from "react"
 import { UseNoScroll } from "../../hooks/useNoScroll"
 import { pureJs } from "./pureJs"
 import * as style from "./calculator.module.scss"
+import "./calculator.css"
 export const CalculatorScreen = ( {location}  ) => {
   UseNoScroll();
   const fromPage = location?.state?.fromPage || "/";
@@ -10,16 +11,16 @@ export const CalculatorScreen = ( {location}  ) => {
   }
 
   useEffect(()=>{
-  pureJs({
-    dollarRate:2.5705,backFunc:backBtn
-  });
-  return ()=>{
-    document.location.reload()
-  }
-},[])
+    pureJs({
+      dollarRate:3.2,backFunc:backBtn
+    });
+    return ()=>{
+      document.location.reload()
+    }
+  },[])
 
 
-  return <div id="modal" className={"modal_background "+ style.form} >
+  return <div id="modal" className={"modal_background " + style.form} >
     <div className="modal_core">
       <div className="modal_head">
         <div className="modal_header">
@@ -51,4 +52,3 @@ export const CalculatorScreen = ( {location}  ) => {
     <div className={ 'loader'}><img src="/loader.svg" alt="" />  </div>
   </div>
 }
- 

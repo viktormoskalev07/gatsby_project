@@ -87,6 +87,20 @@ const hranenie = ({location }) => {
                   <div class="content_images">
                     <div class="content_images_two">
                       <a
+                        href="https://i-project.by/portfolio_newsite/dzerzhinskogo/15_dzerzhinskogo.webp"
+                        data-fancybox="gallery"
+                      >
+                        <StaticImage src="../../images/portfolio/dzerzhinskogo/15_dzerzhinskogo.jpg" alt="Шкаф с подсветкой в гардеробной" />
+                      </a>
+                      <a
+                        href="https://i-project.by/portfolio_newsite/garmony_dom_interier/27_garmony_dom.webp"
+                        data-fancybox="gallery"
+                      >
+                        <StaticImage src="../../images/portfolio/garmony_dom_interier/27_garmony_dom.jpg" alt="Шкаф с подсветкой в мастер-спальне" />
+                      </a>
+                    </div>
+                    <div class="content_images_two">
+                      <a
                         href="https://i-project.by/portfolio_newsite/simple_house/13_simple_house.webp"
                         data-fancybox="gallery"
                       >
@@ -104,7 +118,6 @@ const hranenie = ({location }) => {
                     <p class="content_p">Качество и&nbsp;эксплуатационные характеристики шкафов во&nbsp;многом зависят от&nbsp;материалов, которые применялись для их&nbsp;производства. Каркас модуля чаще всего выполняют из&nbsp;массива дерева, МДФ либо ДСП плит.</p>
                     <p class="content_p">Для небольших помещений подойдут шкафы с&nbsp;одной или двумя дверьми. В&nbsp;более габаритные шкафы кроме стандартных элементов наполнения предлагается добавить секции для хранения постельного белья, дорожных сумок, домашней техники.</p>
                   </div>
-                  
                   <div class="content_images">
                     <div class="content_images_two">
                       <a
@@ -174,7 +187,7 @@ const hranenie = ({location }) => {
                   <h2 class="content_h2" id="hranenie_4">Комоды и&nbsp;стеллажи</h2>
                   <div class="content_text">
                     <p class="content_p">Стеллажи применяются не&nbsp;только для хранения, но&nbsp;и&nbsp;для зонирования пространства. Они занимают небольшую площадь, не&nbsp;загромождают собой пространство и&nbsp;могут стать настоящей изюминкой интерьера.</p>
-                    <p class="content_p">Стеллаж будет уместным в&nbsp;любой комнате не&nbsp;только в&nbsp;качестве системы хранения, но&nbsp;и&nbsp;в&nbsp;качестве функционального элемента, разграничивающего пространство. С&nbsp;его помощью можно разделить гостиную и&nbsp;столовую, столовую и&nbsp;кухню, прихожую и&nbsp;гостиную, отделить холл или лаунж зону. В&nbsp;детской комнате он&nbsp;может зонировать комнату на&nbsp;спальное и&nbsp;рабочее место.</p>
+                    <p class="content_p">Стеллаж будет уместным в&nbsp;любой комнате не&nbsp;только в&nbsp;качестве системы хранения, но&nbsp;и&nbsp;в&nbsp;качестве функционального элемента, разграничивающего пространство. С&nbsp;его помощью можно разделить гостиную и&nbsp;столовую, столовую и&nbsp;кухню, прихожую и&nbsp;гостиную, отделить холл или лаунж-зону. В&nbsp;детской комнате он&nbsp;может зонировать комнату на&nbsp;спальное и&nbsp;рабочее место.</p>
                   </div>
                   <div class="content_images">
                     <div class="content_images_one">

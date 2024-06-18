@@ -1,10 +1,13 @@
 import React from 'react'
 import Layout from "../../../components/layout-black"
+import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import Fancybox from "../../../components/fancybox.js";
 import BreadcrumbsArch from "../../../components/breadcrumbs-arch.js";
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 import Seo from "../../../components/seo"
+import { CalculatorLink } from "../../../components/calculator/calculatorLink"
+import { Compliment } from "../../../subitems/compliment/compliment"
 
 const domNaHolme = () => {
   return (
@@ -89,7 +92,7 @@ const domNaHolme = () => {
               </div>
               <div class="content_text">
                 <p class="content_p">Дом общей площадью 450 м.кв. находится в&nbsp;удалении от&nbsp;типовых построек в&nbsp;зеленой зоне с&nbsp;красивыми пейзажами. Окружающее пространство гармонично вписывается в&nbsp;интерьер и&nbsp;становится его неотъемлемой частью.</p>
-                <p class="content_p">Входная зона представлена тамбуром-прихожей. Совмещение двух функций в&nbsp;одном помещении позволяет сэкономить полезное пространство дома. Сюда жильцы могут попасть как из&nbsp;гаража, так и&nbsp;с&nbsp;крыльца под навесом. Тамбур ведет в&nbsp;гардеробную и&nbsp;общую зону.</p>
+                <p class="content_p">Входная зона представлена тамбуром-прихожей. Совмещение двух функций в&nbsp;одном помещении позволяет сэкономить полезное пространство дома. Сюда жильцы могут попасть как из&nbsp;гаража, так и&nbsp;с&nbsp;крыльца под навесом. Тамбур ведет в&nbsp;гардеробную и&nbsp;<Link to="/articles/obschaya-zona" className="link" target="_blank">общую зону</Link>.</p>
               </div>
               <h2 class="content_h2" id="anchor_3">Фасад с улицы</h2>
               <div class="content_text">
@@ -112,6 +115,7 @@ const domNaHolme = () => {
                   </a>
                 </div>
               </div>
+              <CalculatorLink />
               <h2 class="content_h2" id="anchor_4">Парковочное место</h2>
               <div class="content_images">
                 <div class="content_images_two">
@@ -180,6 +184,7 @@ const domNaHolme = () => {
                   </a>
                 </div>
               </div>
+              <Compliment />
             </div>     
           </div>
         </div>

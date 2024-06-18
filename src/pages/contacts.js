@@ -11,7 +11,7 @@ const Contacts = () => {
   return (
     <Layout>
       <Seo  title={"Контакты cтудии дизайна и архитектуры | I-PROJECT"} description={"Работаем в Минске по адресу ✦ Минск, пр-т Машерова 9 ✦ с понедельника по пятницу с 9 до 18 ✦ Встречи предварительно согласовываются"}
-            location={"https://i-project.by/about"}
+            location={"https://i-project.by/contacts"}
             image={"https://i-project.by/portfolio_newsite/korolya/01_korolya.webp"}/>
       <div class="wrapper">
         <h1 class="contacts_title">Контакты</h1>
@@ -59,9 +59,7 @@ const Contacts = () => {
           </div>
         </div>
         <iframe class="contacts_map" src="https://yandex.ru/map-widget/v1/?z=12&ol=biz&oid=1353560522" width="100%" height="100%" frameborder="0" title="Yandex map"></iframe>
-        
       </div>
-      
     </Layout>
   )
 }

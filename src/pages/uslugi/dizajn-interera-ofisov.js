@@ -14,23 +14,25 @@ import secondVideo from "../../video/preview_office.mp4"
 import { Presentation } from "../../subitems/posts/presentation"
 import Seo from "../../components/seo"
 
+import { ShortVideoOffice } from "../../subitems/videoreviewYoutube/shortvideoOffice.js"
+
 const DesignInterieraOfisov = () => {
   const [openTop , setOpenTop] = useState(false);
   const [openBottom , setOpenBottom] = useState(false);
   const [openDiffList , setopenDiffList] = useState(false);
   const [openProcessList , setOpenProcessList] = useState(false);
   const toggleTop =()=>{
-    setOpenTop(!openTop)
-  }
+    setOpenTop(!openTop);
+  };
   const toggleBottom =()=>{
-    setOpenBottom(!openBottom)
-  }
+    setOpenBottom(!openBottom);
+  };
   const toggleDiffList =()=>{
-    setopenDiffList(!openDiffList)
-  }
+    setopenDiffList(!openDiffList);
+  };
   const toggleProcessList =()=>{
-    setOpenProcessList(!openProcessList)
-  }
+    setOpenProcessList(!openProcessList);
+  };
   return (
     <Layout>
       <Seo  title={"Дизайн проект офиса в Минске | I-PROJECT"} description={"Проектируем дизайн интерьера офиса, подчеркиваем корпоративный стиль, соблюдаем требования пожарной безопасности и экологическим нормам ✦ Авторское сопровождение ✦ Опыт более 15 лет."}
@@ -68,17 +70,13 @@ const DesignInterieraOfisov = () => {
               <div class={"services_diff_office_block" + ( openDiffList?" open" : "")}>
                 <h2 class="services_diff_title" id="anchor_1">Современный офис</h2>
                 <div class="services_diff_text">
-                  <p class="services_diff_p">Первым этапом проектирования нового интерьера является создание планировочной концепции. Основная задача&nbsp;&mdash; проработать все возможные варианты планировок и&nbsp;выбрать из&nbsp;них наилучшее, учитывая пожелания клиента, конструктивные особенности и&nbsp;технические ограничения.</p>
+                  <p class="services_diff_p">Мы&nbsp;создаем индивидуальные дизайнерские пространства для работы и&nbsp;продумываем интерьер до&nbsp;мельчайших подробностей. К&nbsp;общественному пространству предъявляются повышенные требования по&nbsp;пожарной безопасности, санитарным и&nbsp;экологическим нормам.</p>
                 </div>
                 <div class="services_diff_text_hidden">
                   <StaticImage class="services_diff_office_img_mob" src="../../images/services/services_office.jpg" alt="" />
                   <div class="services_diff_text">
-                    <h3 class="services_diff_smalltitle">Необходимость перепланировки</h3>
-                    <p class="services_diff_p">Основная задача Застройщика, который продает вам квартиру,&nbsp;&mdash; извлечь из&nbsp;объекта максимальную прибыль, не&nbsp;нарушая существующих строительных норм. Типовые планировочные решения далеки от&nbsp;совершенства, пространство внутри квартиры распределено как минимум не&nbsp;оптимально, а&nbsp;иногда и&nbsp;попросту не&nbsp;рационально.</p>
-                  </div>
-                  <div class="services_diff_text">
-                    <h3 class="services_diff_smalltitle">Количество планировочных концепций</h3>
-                    <p class="services_diff_p">Мы&nbsp;знаем как нивелировать недостатки помещений, грамотно распределить пространство для работы и&nbsp;отдыха, выделив при этом достаточно места для хранения, хозяйственных и&nbsp;бытовых нужд. Сколько планировочных концепций мы&nbsp;делаем? &mdash;&nbsp;столько, сколько потребуется, пока не&nbsp;найдем идеальное решение. Разумная и&nbsp;креативная планировочная концепция&nbsp;&mdash; залог удобного и&nbsp;красивого интерьера.</p>
+                    <h3 class="services_diff_smalltitle">Проектирование общественных пространств</h3>
+                    <p class="services_diff_p">В&nbsp;офисе обязательно должен быть предусмотрена возможность обслуживания всех систем: отопления, водоснабжения, вентиляции, электрооборудования и&nbsp;обеспечен удобный доступ ко&nbsp;всем техническим коммуникациям, что в&nbsp;свою очередь накладывает некоторые ограничения на&nbsp;дизайнерские решения. Сами поверхности подвергаются усиленному износу, что склоняет нас к&nbsp;использованию более практичных и&nbsp;надежных решений. При проектировании, мы&nbsp;учитываем не&nbsp;только законы эргономики, но&nbsp;все возможные требования, предъявляемые к&nbsp;инсоляции помещений и&nbsp;правильной организации рабочих мест.</p>
                   </div>
                 </div>
                 <button onClick={toggleDiffList}  class="services_diff_button">{openDiffList? 'Свернуть все' : 'Показать все'}</button>
@@ -139,6 +137,13 @@ const DesignInterieraOfisov = () => {
                   <li>&mdash;&nbsp;Схемы раскладки плитки, спецификация элементов</li>
                 </ul>
               </div>
+            </div> 
+          </div> 
+        </div>
+        <ShortVideoOffice />
+        <div class="wrapper">
+          <div class="right_content">
+            <div class="services_include">
               <div class="services_include_item">
                 <h3 class="services_include_item_smtitle">Фотореалистичная 3D-визуализация</h3>
                 <div class="services_include_text">
@@ -169,10 +174,10 @@ const DesignInterieraOfisov = () => {
                 breakpointCols={breakpointColumnsPortfolio}
                 className="portfolio_grid"
                 columnClassName="my-masonry-grid_column">
-                <Link to="/portfolio/interier/baikonur" className="portfolio_grid_link">
-                  <StaticImage src="../../images/portfolio/baikonur/00_baikonur.jpg" alt="" />
+                <Link to="/portfolio/architecture/libknehta" className="portfolio_grid_link">
+                  <StaticImage src="../../images/portfolio/libknehta/00_libknehta.jpg" alt="" />
                   <div class="portfolio_grid_block">
-                    <h3 className="portfolio_grid_block_title">Дизайн офисов в&nbsp;составе ЖК&nbsp;Байконур в&nbsp;г.Москва, 120м<sup>2</sup></h3>
+                    <h2 className="portfolio_grid_block_title">Либкнехта 68А. Реконструкция. 3000м<sup>2</sup></h2>
                   </div>
                 </Link>
                 <Link to="/portfolio/interier/interier-protos" className="portfolio_grid_link">

@@ -30,16 +30,16 @@ $name =   $_REQUEST['name'] ;
     ";
 
 
-    $isSupport = false;
-    $isArchitecture = false;
-    $isAgreement = false;
-    $isInterior = false;
+    $isSupport = true;
+    $isArchitecture = true;
+    $isAgreement = true;
+    $isInterior = true;
     $servicesMag = '';
 
 
-    $isSketch = false;
-    $isArcSolutions = false;
-    $isRelatedSections = false;
+    $isSketch = true;
+    $isArcSolutions = true;
+    $isRelatedSections = true;
 
 
     if ($typeObject == 'flat') {

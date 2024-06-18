@@ -88,30 +88,41 @@ const beliyInterier = ({location }) => {
                     <div class="content_images">
                       <div class="content_images_one">
                         <a
-                          href="https://i-project.by/portfolio_newsite/storojevskaya/19_storojevskaya.webp"
+                          href="https://i-project.by/portfolio_newsite/storojevskaya/24_storojevskaya.webp"
                           data-fancybox="gallery"
                         >
-                          <StaticImage src="../../images/portfolio/storojevskaya/19_storojevskaya.jpg" alt="Мастер-спальня в светлых тонах" />
+                          <StaticImage src="../../images/portfolio/storojevskaya/24_storojevskaya.jpg" alt="Мастер-спальня в светлых тонах" />
                         </a>
                       </div>
                     </div>
                     <li>3. Легко сочетается с&nbsp;другими цветами из&nbsp;палитры</li>
                     <div class="content_text">
-                      <p class="content_p">Если дополнять белый другими светлыми цветами, интерьер получится спокойным и&nbsp;невесомым, при использовании ярких сочетаний станет более насыщенным и&nbsp;выразительным. В&nbsp;качестве цветовых акцентов можно использовать картины, дизайнерские предметы, текстиль и&nbsp;др.</p>
+                      <p class="content_p">Если дополнять белый другими светлыми цветами, интерьер получится спокойным и&nbsp;невесомым, при использовании ярких сочетаний станет более насыщенным и&nbsp;выразительным. В&nbsp;качестве цветовых акцентов можно использовать картины, дизайнерские предметы, мебель, текстиль и&nbsp;др.</p>
                     </div>
                     <div class="content_images">
-                      <div class="content_images_two">
-                        <a
-                          href="https://i-project.by/portfolio_newsite/griboedova/09_griboedova.webp"
-                          data-fancybox="gallery"
-                        >
-                          <StaticImage src="../../images/portfolio/griboedova/09_griboedova.jpg" alt="Светлая кухня с коричневым шкафом" />
-                        </a>
+                      <div class="content_images_one">
                         <a
                           href="https://i-project.by/portfolio_newsite/simple_house/03_simple_house.webp"
                           data-fancybox="gallery"
                         >
                           <StaticImage src="../../images/portfolio/simple_house/03_simple_house.jpg" alt="Светлая спальня с изумрудным камином" />
+                        </a>
+                      </div>
+                    </div>
+                    <li>4. Цвет универсально работает как с&nbsp;мягкими текстурами такими как кожа, текстиль, так и&nbsp;с&nbsp;грубыми, как камень, бетон или дерево. Мы&nbsp;свободно можем экспериментировать с&nbsp;разными текстурами.</li>
+                    <div class="content_images">
+                      <div class="content_images_two">
+                        <a
+                          href="https://i-project.by/portfolio_newsite/dzerzhinskogo/03_dzerzhinskogo.webp"
+                          data-fancybox="gallery"
+                        >
+                          <StaticImage src="../../images/portfolio/dzerzhinskogo/03_dzerzhinskogo.jpg" alt="Современная гостиная совмещенная со кухней" />
+                        </a>
+                        <a
+                          href="https://i-project.by/portfolio_newsite/dzerzhinskogo/05_dzerzhinskogo.webp"
+                          data-fancybox="gallery"
+                        >
+                          <StaticImage src="../../images/portfolio/dzerzhinskogo/05_dzerzhinskogo.jpg" alt="Белая гостиная в современном стиле" />
                         </a>
                       </div>
                     </div>

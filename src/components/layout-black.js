@@ -11,7 +11,6 @@ const LayoutBlack = ( { children   }) => {
       <Header  />
       <main>{children}</main>
       <Footer />
-
     </>
   )
 }

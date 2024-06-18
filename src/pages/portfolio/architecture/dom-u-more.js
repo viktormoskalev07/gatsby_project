@@ -1,10 +1,13 @@
 import React from 'react'
 import Layout from "../../../components/layout-black"
+import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import Fancybox from "../../../components/fancybox.js";
 import BreadcrumbsArch from "../../../components/breadcrumbs-arch.js";
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 import Seo from "../../../components/seo"
+import { CalculatorLink } from "../../../components/calculator/calculatorLink"
+import { Compliment } from "../../../subitems/compliment/compliment"
 
 const domMore = () => {
   return (
@@ -100,7 +103,7 @@ const domMore = () => {
               </div>
               <h2 class="content_h2">Цветовая гамма</h2>
               <div class="content_text">
-                <p class="content_p">В&nbsp;качестве основной цветовой гаммы выступают естественные цвета окружающего природного ландшафта, неба, моря, скал. Для отделки стен выбраны белый, серый и&nbsp;древесный цвета, а&nbsp;также их&nbsp;оттенки. Они используются в&nbsp;качестве нейтрального фона, который не&nbsp;мешает любоваться природой. В&nbsp;качестве цветовых акцентов в&nbsp;интерьере используются пейзажи за&nbsp;окном и&nbsp;современная живопись.</p>
+                <p class="content_p">В&nbsp;качестве основной цветовой гаммы выступают естественные цвета окружающего природного ландшафта, неба, моря, скал. Для отделки стен выбраны <Link to="/articles/beliy-interier" className="link">белый</Link>, серый и&nbsp;древесный цвета, а&nbsp;также их&nbsp;оттенки. Они используются в&nbsp;качестве нейтрального фона, который не&nbsp;мешает любоваться природой. В&nbsp;качестве цветовых акцентов в&nbsp;интерьере используются пейзажи за&nbsp;окном и&nbsp;современная живопись.</p>
                 <p class="content_p"></p>
               </div>
               <div class="content_images">
@@ -146,6 +149,7 @@ const domMore = () => {
                   </a>
                 </div>
               </div>
+              <CalculatorLink />
               <h2 class="content_h2" id="anchor_5">Кухня-столовая</h2>
               <div class="content_text">
                 <p class="content_p">Кроме стола и&nbsp;кухонного гарнитура со&nbsp;встроенной бытовой техникой тут находится длинная барная стойка. Над одной из&nbsp;рабочих поверхностей&nbsp;&mdash; окно по&nbsp;всей длине. Этот прием не&nbsp;только увеличивает количество естественного света, который поступает в&nbsp;комнату, но&nbsp;и&nbsp;позволяет хозяевам наслаждаться шикарными видами из&nbsp;любой точки дома. Их&nbsp;кухни открывается свободный доступ в&nbsp;столовую с&nbsp;обеденной группой.</p>
@@ -222,6 +226,7 @@ const domMore = () => {
                   </a>
                 </div>
               </div>
+              <Compliment />
             </div>     
           </div>
         </div>

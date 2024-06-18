@@ -5,14 +5,13 @@ import { useInView } from "react-intersection-observer"
 export const ServiceBlock = ( ) => {
   const { ref, inView  } = useInView({
     triggerOnce: true,
- 
   });
 
   return (
     <div  className={"services_block_flex" + (inView? " active " : " ")}>
       <Link to="/uslugi/avtorskoe-soprovozhdenie" className="services_block_item services_block_sup">
-        <h2  className="services_block_sup_title">Авторское сопровождение</h2>
-        <p ref={ref}  className="services_block_sup_text">Осуществляем контроль за&nbsp;строительством, соблюдением сроков и&nbsp;полному соответствию дизайн проекту.</p>
+        <h2 className="services_block_sup_title">Авторское сопровождение</h2>
+        <p ref={ref} className="services_block_sup_text">Осуществляем контроль за&nbsp;строительством, соблюдением сроков и&nbsp;полному соответствию дизайн проекту.</p>
       </Link>
       <Link to="/uslugi/komplektaciya-obekta" className="services_block_item services_block_com">
         <h2 className="services_block_com_title">Комплектация объектов</h2>

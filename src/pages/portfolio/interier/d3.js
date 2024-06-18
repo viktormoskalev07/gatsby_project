@@ -1,5 +1,6 @@
 import React from 'react'
 import Layout from "../../../components/layout-black"
+import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import Fancybox from "../../../components/fancybox.js";
 import { ImgComparisonSlider } from '@img-comparison-slider/react';
@@ -8,7 +9,9 @@ import { AnchorLink } from "gatsby-plugin-anchor-links"
 import { YouTobe } from "../../../subitems/youToobe"
 import  thumbnail  from  "../../../images/portfolio/d3/01_d3.jpg"
 import Seo from "../../../components/seo"
+import { CalculatorLink } from "../../../components/calculator/calculatorLink"
 import { Compliment } from "../../../subitems/compliment/compliment"
+import { PartnersD3 } from "../../../subitems/partners/partnersD3"
 
 const d3 = () => {
   return (
@@ -43,6 +46,7 @@ const d3 = () => {
                 <li><AnchorLink to="/portfolio/interier/d3/#anchor_5" title="Гардеробная" /></li>
                 <li><AnchorLink to="/portfolio/interier/d3/#anchor_6" title="Кабинет-спальня" /></li>
                 <li><AnchorLink to="/portfolio/interier/d3/#anchor_7" title="Санузел" /></li>
+                <li><AnchorLink to="/portfolio/interier/d3/#anchor_8" title="Бренды" /></li>
               </ul>
             </div>
           </div>
@@ -118,7 +122,7 @@ const d3 = () => {
                 </div>
               </div>
               <div class="content_text">
-                <p class="content_p">Общая зона&nbsp;&mdash; умеренная, все элементы интерьера достаточно компактно, но&nbsp;при этом удобно разместились: нашлось место и&nbsp;длинному фронту шкафов колонн на&nbsp;кухне, и&nbsp;барной стойке, и&nbsp;большому столу, и&nbsp;угловому дивану. За&nbsp;счет демонтированных глухих стен между кухней и&nbsp;балконом, и&nbsp;возведением на&nbsp;их&nbsp;месте стеклянного витража&nbsp;&mdash; получили больше света и&nbsp;пространства.</p>
+                <p class="content_p"><Link to="/articles/obschaya-zona" className="link" target="_blank">Общая зона</Link>&nbsp;&mdash; умеренная, все элементы интерьера достаточно компактно, но&nbsp;при этом удобно разместились: нашлось место и&nbsp;длинному фронту шкафов колонн на&nbsp;кухне, и&nbsp;барной стойке, и&nbsp;большому столу, и&nbsp;угловому дивану. За&nbsp;счет демонтированных глухих стен между кухней и&nbsp;балконом, и&nbsp;возведением на&nbsp;их&nbsp;месте стеклянного витража&nbsp;&mdash; получили больше света и&nbsp;пространства.</p>
               </div>
               <div class="content_images">
                 <div class="content_images_two">
@@ -157,6 +161,16 @@ const d3 = () => {
                     <StaticImage src="../../../images/portfolio/d3/08_d3.jpg" alt="" />
                   </a>
                 </div>
+              </div>
+              <div class="content_images">
+                <div class="rewards">
+                  <div class="reward_item">
+                    <StaticImage src="../../../images/rewards/reward_13.jpg" alt="" class="reward_image"/>
+                    <p class="reward_text">Студия дизайна интерьера I-PROJECT стала одним из&nbsp;победителей международного конкурса Global Kitchen Design Award &laquo;Международный дизайн кухни&raquo;, в&nbsp;номинации за&nbsp;лучшую архитектуру и&nbsp;дизайн кухни 2021.<br />В&nbsp;2015 году Leicht учредил премию и&nbsp;создал уникальную международную онлайн-платформу в&nbsp;кухонной индустрии, представляющая в&nbsp;этом году более 226 кухонных проектов из&nbsp;19&nbsp;стран мира.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="content_images">
                 <div class="before_after">
                   <ImgComparisonSlider class="slider-opacity-and-size" value="40">
                     <figure slot="first" width="100%" class="before">
@@ -184,10 +198,11 @@ const d3 = () => {
                   </a>
                 </div>
               </div>
+              <CalculatorLink />
               <div class="content_images">
                 <h2 class="content_h2" id="anchor_4">Мастер-спальня</h2>
                 <div class="content_text">
-                  <p class="content_p">Лучший вид из&nbsp;окна, по&nbsp;желанию заказчицы, отдан хозяйской спальне, из&nbsp;которой через просторную и&nbsp;&laquo;прозрачную&raquo; гардеробную можно попасть в&nbsp;закрепленный за&nbsp;ней санузел. Из&nbsp;спальни и&nbsp;кухни открывается вид на&nbsp;водохранилище &laquo;Дрозды&raquo;.</p>
+                  <p class="content_p">Лучший вид из&nbsp;окна, по&nbsp;желанию заказчицы, отдан <Link to="/articles/spalnya" className="link" target="_blank">хозяйской спальне</Link>, из&nbsp;которой через просторную и&nbsp;&laquo;прозрачную&raquo; гардеробную можно попасть в&nbsp;закрепленный за&nbsp;ней санузел. Из&nbsp;спальни и&nbsp;кухни открывается вид на&nbsp;водохранилище &laquo;Дрозды&raquo;.</p>
                 </div>
                 <div class="before_after">
                   <ImgComparisonSlider class="slider-opacity-and-size" value="50">
@@ -216,7 +231,7 @@ const d3 = () => {
                   </a>
                 </div>
                 <div class="pattern">
-                  <StaticImage src="../../../images/portfolio/d3/pattern.jpg" alt="" />
+                  <StaticImage src="../../../images/portfolio/d3/pattern1.jpg" alt="" />
                 </div>
                 <div class="content_images_two">
                   <a
@@ -330,6 +345,7 @@ const d3 = () => {
                 </div>
               </div>
               <Compliment />
+              <PartnersD3 />
             </div>     
           </div>
         </div>
