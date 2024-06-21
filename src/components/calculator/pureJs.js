@@ -1,9 +1,16 @@
 import { API_PROD } from "../../../API"
 
+let isSupport
+
+let  isArchitecture
+let  isAgreement
+let  isInterior
+let   isSketch
+let   isArcSolutions
+let   isRelatedSections
+
+
 export const pureJs = ({dollarRate,backFunc})=>{
-
-
-
     let area;
     function getParameterByName(name, url = window.location.href) {
       name = name.replace(/[\[\]]/g, '\\$&');
@@ -40,13 +47,13 @@ export const pureJs = ({dollarRate,backFunc})=>{
       const resultBYN = document.querySelector('.modal_step5_result_rub');
       const resultUSD = document.querySelector('.modal_step5_result_usd');
       const list = document.querySelector('.modal_step5_list');
-      const isInterior = document.querySelector('#interior')?.checked;
-      const isSketch = document.querySelector('#sketch')?.checked;
-      const isArcSolutions = document.querySelector('#arc_solutions')?.checked;
-      const isRelatedSections = document.querySelector('#related_sections')?.checked;
-      const isArchitecture = document.querySelector('#architecture')?.checked;
-      const isSupport = document.querySelector('#support')?.checked;
-      const isAgreement = document.querySelector('#agreement')?.checked;
+        isInterior = document.querySelector('#interior')?.checked;
+        isSketch = document.querySelector('#sketch')?.checked;
+        isArcSolutions = document.querySelector('#arc_solutions')?.checked;
+        isRelatedSections = document.querySelector('#related_sections')?.checked;
+        isArchitecture = document.querySelector('#architecture')?.checked;
+        isSupport = document.querySelector('#support')?.checked;
+        isAgreement = document.querySelector('#agreement')?.checked;
 
       let DOC;
       let DI;
@@ -999,6 +1006,16 @@ export const pureJs = ({dollarRate,backFunc})=>{
          formData.append("RF", calcRF);
          formData.append("AP", calcAP);
          formData.append("RS", calcRS);
+         formData.append("isSupport", isSupport);
+         formData.append("isArchitecture", isArchitecture);
+         formData.append("isAgreement", isAgreement);
+         formData.append("isInterior", isInterior);
+
+
+         formData.append("isSketch", isSketch);
+         formData.append("isArcSolutions", isArcSolutions);
+         formData.append("isRelatedSections", isRelatedSections);
+
           loader.style.display='flex';
          fetch(API_PROD.calculator, {
            method: 'POST',
