@@ -122,14 +122,14 @@ $name =   $_REQUEST['name'] ;
     $mail->isHTML(true);
     $mail->SetLanguage("ru","phpmailer/language");
     $mail->setFrom('  i-project.by/@by119.activeby.net', 'Дизайн интерьера');
-    // $mail->addAddress('iproject.aleksandr@gmail.com', 'iproject.aleksandr@gmail.com');
+    $mail->addAddress('iproject.aleksandr@gmail.com', 'iproject.aleksandr@gmail.com');
     $mail->addAddress('info.yellowpine@gmail.com', 'info.yellowpine@gmail.com');
-    $mail->addAddress('viktormoskalev07@gmail.com', 'viktormoskalev07@gmail.com');
+    //$mail->addAddress('viktormoskalev07@gmail.com', 'viktormoskalev07@gmail.com');
     $mail->msgHTML($msg);
         // Attach uploaded files
     $mail->addAttachment($file['tmp_name'] , $file['name'] , 'base64' , $file['type'] );
     $mail->Subject =  $sub;
-// Отправляем почтовое сообщение
+        // Отправляем почтовое сообщение
     if(    $mail->send()){
                 echo $mail->Subject;
     } else {
