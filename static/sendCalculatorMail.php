@@ -1,6 +1,6 @@
 <?php
 
-    $name = $_REQUEST['name'];
+$name =   $_REQUEST['name'] ;
     $email = $_REQUEST['email'];
     $phone = $_REQUEST['phone'];
     $typeObject = $_REQUEST['answer_step_1'];
@@ -9,7 +9,7 @@
     $visualizationPremises = $_REQUEST['answer_step_4'];
     $squareMeters = $_REQUEST['answer_step_5'];
     $desc = $_REQUEST['modal_desc'];
-    $file = $_FILES['modal_file'];
+    $file = & $_FILES['modal_file'];
     $DI = $_REQUEST['DI'];
     $DOC = $_REQUEST['DOC'];
     $threeD = $_REQUEST['threeD'];
@@ -23,90 +23,83 @@
     $RS = $_REQUEST['RS'];
     $response = '';
 
+
     $msg = "
         <div>Здравствуйте, Александр!</div>
         <div>Меня зовут {$name}.</div>
     ";
 
-    $isSupport = $_REQUEST['isSupport'];
-    $isArchitecture = $_REQUEST['isArchitecture'];
-    $isAgreement = $_REQUEST['isAgreement'];
-    $isInterior = $_REQUEST['isInterior'];
-    $servicesMag = $_REQUEST['servicesMag'];
+ $isSupport = $_REQUEST['isSupport'];
+ $isArchitecture = $_REQUEST['isArchitecture'];
+ $isAgreement = $_REQUEST['isAgreement'];
+ $isInterior = $_REQUEST['isInterior'];
+ $servicesMag = $_REQUEST['servicesMag'];
 
-    $isSketch = $_REQUEST['isSketch'];
-    $isArcSolutions = $_REQUEST['isArcSolutions'];
-    $isRelatedSections = $_REQUEST['isRelatedSections'];
 
-    $isReconstruction = $_REQUEST['isReconstruction'];
-    $isLandscape = $_REQUEST['isLandscape'];
+ $isSketch = $_REQUEST['isSketch'];
+ $isArcSolutions = $_REQUEST['isArcSolutions'];
+ $isRelatedSections = $_REQUEST['isRelatedSections'];
+
+
+
 
     if ($typeObject == 'flat') {
         $msg .= "
             <div>Мне нужно разработать дизайн квартиры.</div>
             <div>Мне потребуется:</div>";
 
-            if ($isInterior === 'true' || $isInterior === true) {
-                $msg .= "
+            if ($isInterior) {
+                $msg .="
                     <div>Дизайн интерьера общей стоимостью {$DI}р.:</div>
                     <div>— Документация {$DOC}р.</div>
                     <div>— 3D визуализация с визуализацией " . ($visualizationPremises === 'mainPremises' ? 'основных' : 'всех') . " помещений {$threeD}р.</div>
                 ";
             }
 
-            if ($isAgreement === 'true' || $isAgreement === true) {
+            if ($isAgreement) {
                 $msg .= "<div>Согласование проекта {$AP}р.</div>";
             }
-            if ($isSupport === 'true' || $isSupport === true) {
+            if ($isSupport) {
                 $msg .= "<div>Авторское сопровождение/Комплектация объекта {$AK}р.</div>";
             }
-            if ($isReconstruction === 'true' || $isReconstruction === true) {
-                $msg .= "<div>Строительные работы</div>";
-            }
             $msg .= "<div>" . $servicesMag . "</div>
-                <div>Суммарно {$sumDI} ($$)</div>
-                <br>
-                <div>Метраж объекта: {$squareMeters} м2</div>
-            ";
+            <div>Суммарно {$sumDI} ($$)</div>
+            <br>
+            <div>Метраж объекта: {$squareMeters} м2</div>
+        ";
     } elseif ($typeObject == 'house' || $typeObject == 'office') {
         $msg .= "
             <div>Мне нужно разработать дизайн " . ($typeObject === 'house' ? 'частного дом' : 'офиса') . ".</div>
             <div>Мне потребуется:</div>";
-            if ($isInterior === 'true' || $isInterior === true) {
+            if ($isInterior) {
                 $msg .= "
                     <div>Дизайн интерьера общей стоимостью {$DI}р.:</div>
                     <div>— Документация {$DOC}р.</div>
                     <div>— 3D визуализация с визуализацией " . ($visualizationPremises === 'mainPremises' ? 'основных' : 'всех') . " помещений {$threeD}р.</div>
                 ";
             }
-            if ($isArchitecture === 'true' || $isArchitecture === true) {
+            if ($isArchitecture) {
                 $msg .= "<div>Архитектурное проектирование:</div>
                     <div>— Эскизный проект {$EP}р.</div>";
-                if ($isArcSolutions === 'true' || $isArcSolutions === true) {
+                if ($isArcSolutions) {
                     $msg .= "<div>— Архитектурные решения {$AR}р.</div>";
                 }
-                if ($isRelatedSections === 'true' || $isRelatedSections === true) {
+                if ($isRelatedSections) {
                     $msg .= "<div>— Смежные разделы {$RS}р.</div>";
                 }
              //   $msg .="<div>— Реконструкция фасада {$RF}р.</div>";
             }
-            if ($isAgreement === 'true' || $isAgreement === true) {
+            if ($isAgreement) {
                 $msg .= "<div>Согласование проекта {$AP}р.</div>";
             }
-            if ($isSupport === 'true' || $isSupport === true) {
+            if ($isSupport) {
                 $msg .= "<div>Авторское сопровождение/Комплектация объекта {$AK}р.</div>";
             }
-            if ($isReconstruction === 'true' || $isReconstruction === true) {
-                $msg .= "<div>Строительные работы</div>";
-            }
-            if ($isReconstruction === 'true' || $isReconstruction === true) {
-                $msg .= "<div>Ландшафтный дизайн</div>";
-            }
             $msg .= "<div>" . $servicesMag . "</div>
-                <div>Суммарно {$SUM} ($$)</div>
-                <br>
-                <div>Метраж объекта: {$squareMeters} м2</div>
-            ";
+            <div>Суммарно {$SUM} ($$)</div>
+            <br>
+            <div>Метраж объекта: {$squareMeters} м2</div>
+        ";
     } else {
         $msg .= "
             <div>Я ищу специалиста для своего проекта в сфере Horeca.</div>
@@ -121,48 +114,39 @@
         <div>Буду ждать Вашего звонка. С уважением, {$name}!</div>
     ";
 
-    $sub = "Расчет стоимости объекта: ".$name;
+    $sub = " Расчет стоимости объекта: ".$name ;
 
-    $requestData = [
-        'chat_id' => $chatId,
-        'text' => $message
-    ];
-    
-    $url = "https://api.telegram.org/bot{$botToken}/sendMessage";
-    
-    $ch = curl_init($url);
-    curl_setopt($ch, CURLOPT_POST, 1);
-    curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($requestData));
-    curl_setopt($ch, CURLOPT_HTTPHEADER, ['Content-Type: application/json']);
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-    
-    $response = curl_exec($ch);
-    if ($response === FALSE) {
-        error_log("Failed to send stats to Telegram: " . curl_error($ch));
-    } else {
-        echo "Message sent successfully";
-    }
-    
-    curl_close($ch);
-    
     require 'PHPMailer/PHPMailerAutoload.php';
     $mail = new PHPMailer;
     $mail->CharSet = 'UTF-8';
     $mail->isHTML(true);
     $mail->SetLanguage("ru","phpmailer/language");
-    $mail->setFrom('i-project.by/@by119.activeby.net', 'Дизайн интерьера');
-    //$mail->addAddress('iproject.aleksandr@gmail.com', 'iproject.aleksandr@gmail.com');
+    $mail->setFrom('  i-project.by/@by119.activeby.net', 'Дизайн интерьера');
+    // $mail->addAddress('iproject.aleksandr@gmail.com', 'iproject.aleksandr@gmail.com');
     $mail->addAddress('info.yellowpine@gmail.com', 'info.yellowpine@gmail.com');
-    //$mail->addAddress('viktormoskalev07@gmail.com', 'viktormoskalev07@gmail.com');
+    $mail->addAddress('viktormoskalev07@gmail.com', 'viktormoskalev07@gmail.com');
     $mail->msgHTML($msg);
-    // Attach uploaded files
-    $mail->addAttachment($file['tmp_name'], $file['name'], 'base64', $file['type']);
-    $mail->Subject = $sub;
-    // Отправляем почтовое сообщение
-    if($mail->send()) {
-        echo $mail->Subject;
+        // Attach uploaded files
+    $mail->addAttachment($file['tmp_name'] , $file['name'] , 'base64' , $file['type'] );
+    $mail->Subject =  $sub;
+// Отправляем почтовое сообщение
+    if(    $mail->send()){
+                echo $mail->Subject;
     } else {
         $response = 'Ошибка при отправке';
     }
-    
+
 ?>
+
+
+
+
+
+
+
+
+
+
+
+
+

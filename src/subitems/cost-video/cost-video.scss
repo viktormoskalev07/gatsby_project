@@ -1,0 +1,17 @@
+.cost_video {
+  height: 52.2vw;
+  margin-bottom: 4vw;
+}
+@media screen and (min-width: 1800px) {
+  .cost_video {
+    // height: 940px;
+    height: 51.1vw;
+    margin-bottom: 72px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .cost_video {
+    height: 119vw;
+    margin-bottom: 10vw;
+  }
+}

@@ -1,14 +1,13 @@
 import { API_PROD } from "../../../API"
 
-let  isSupport
+let isSupport
+
 let  isArchitecture
 let  isAgreement
 let  isInterior
-let  isSketch
-let  isArcSolutions
-let  isRelatedSections
-let  isReconstruction
-let  isLandscape
+let   isSketch
+let   isArcSolutions
+let   isRelatedSections
 
 
 export const pureJs = ({dollarRate,backFunc})=>{
@@ -55,9 +54,6 @@ export const pureJs = ({dollarRate,backFunc})=>{
         isArchitecture = document.querySelector('#architecture')?.checked;
         isSupport = document.querySelector('#support')?.checked;
         isAgreement = document.querySelector('#agreement')?.checked;
-        isReconstruction = document.querySelector('#reconst')?.checked;
-        isLandscape = document.querySelector('#landscape')?.checked;
-
 
       let DOC;
       let DI;
@@ -1019,9 +1015,6 @@ export const pureJs = ({dollarRate,backFunc})=>{
          formData.append("isSketch", isSketch);
          formData.append("isArcSolutions", isArcSolutions);
          formData.append("isRelatedSections", isRelatedSections);
-
-         formData.append("isReconstruction", isReconstruction);
-         formData.append("isLandscape", isLandscape);
 
           loader.style.display='flex';
          fetch(API_PROD.calculator, {

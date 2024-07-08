@@ -8,6 +8,10 @@ import Seo from "../components/seo"
 import { CalculatorLink } from "../components/calculator/calculatorLink"
 import { useInView } from "react-intersection-observer"
 
+import { Video } from "../subitems/cost-video/video"
+import CostVideo from "../video/cost_video.mp4"
+import CostVideoMobile from "../video/cost_video_mob.mp4"
+
 
 const Cost = () => {
   const { ref, inView  } = useInView({
@@ -105,6 +109,7 @@ const Cost = () => {
             </div>
           </div>
         </div>
+        <Video mobileSrc={CostVideoMobile} desktopSrc={CostVideo} />
         <CalculatorLink />
       </div>
     </Layout>
